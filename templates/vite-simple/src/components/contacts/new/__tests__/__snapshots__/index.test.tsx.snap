@@ -1,0 +1,514 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactsNew should match a snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="el-snack-holder"
+      />
+      <div
+        class="el-page-header-wrap"
+      >
+        <div
+          class="el-page-header-max-width el-page-header-wrap-inner"
+        >
+          <div
+            class="el-page-header-container"
+          >
+            <div
+              class="el-page-header-container"
+            >
+              <div
+                class="el-flex-column el-flex-container"
+              >
+                <div
+                  class="el-page-header-title-container"
+                >
+                  <div
+                    class="el-mr3 el-has-bold-text el-text2xl el-text-base"
+                  >
+                    New Contact
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="el-button-group"
+            >
+              <div
+                class="el-button-group-inner"
+              >
+                <button
+                  class="el-mb5 el-button-size-small el-intent-neutral el-button"
+                >
+                  <div
+                    class="el-button-loader"
+                  />
+                  Back To List
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="el-flex-column el-has-max-width el-flex-container"
+      >
+        <div
+          class="el-tile"
+        >
+          <form>
+            <div
+              class="el-steps-vertical"
+            >
+              <div
+                class="el-step-vertical"
+              >
+                <div
+                  class="el-step-vertical-item"
+                >
+                  <div
+                    class="el-is-active el-step"
+                    data-testid="step-0"
+                  >
+                    1
+                  </div>
+                </div>
+                <div
+                  class="el-step-vertical-content"
+                >
+                  <p
+                    class="el-has-bold-text el-has-section-margin el-body-text"
+                  >
+                    Provide us with some basic personal information about your contact.
+                  </p>
+                  <div
+                    class="el-fade-in el-form-layout"
+                  >
+                    <div
+                      class="el-input-wrap"
+                    >
+                      <div
+                        class="el-input-group"
+                      >
+                        <select
+                          class="el-select"
+                          name="title"
+                        >
+                          <option
+                            value=""
+                          >
+                            None selected
+                          </option>
+                          <option
+                            value="Mr"
+                          >
+                            Mr
+                          </option>
+                          <option
+                            value="Mrs"
+                          >
+                            Mrs
+                          </option>
+                          <option
+                            value="Ms"
+                          >
+                            Ms
+                          </option>
+                          <option
+                            value="Miss"
+                          >
+                            Miss
+                          </option>
+                          <option
+                            value="Mx"
+                          >
+                            Mx
+                          </option>
+                          <option
+                            value="Dr"
+                          >
+                            Dr
+                          </option>
+                          <option
+                            value="Prof"
+                          >
+                            Prof
+                          </option>
+                        </select>
+                        <label
+                          class="el-label"
+                        >
+                          Please select a title
+                        </label>
+                      </div>
+                    </div>
+                    <div
+                      class="el-input-wrap"
+                    >
+                      <div
+                        class="el-input-group"
+                      >
+                        <input
+                          class="el-input"
+                          id="test-static-id"
+                          name="forename"
+                          placeholder="Please enter a first name"
+                        />
+                        <label
+                          class="el-label"
+                          for="test-static-id"
+                        >
+                          First Name
+                        </label>
+                      </div>
+                    </div>
+                    <div
+                      class="el-input-wrap"
+                    >
+                      <div
+                        class="el-input-group"
+                      >
+                        <input
+                          class="el-input"
+                          id="test-static-id"
+                          name="surname"
+                          placeholder="Please enter a surname"
+                        />
+                        <label
+                          class="el-label"
+                          for="test-static-id"
+                        >
+                          Surname
+                        </label>
+                      </div>
+                    </div>
+                    <div
+                      class="el-input-wrap"
+                    >
+                      <div
+                        class="el-input-group"
+                      >
+                        <input
+                          class="el-input"
+                          id="test-static-id"
+                          max="2023-01-01"
+                          name="dateOfBirth"
+                          type="date"
+                        />
+                        <label
+                          class="el-label"
+                          for="test-static-id"
+                        >
+                          Date of birth
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="el-mb8 el-ml8 el-button-group"
+            >
+              <div
+                class="el-button-group-align-left el-button-group-inner"
+              >
+                <button
+                  class="el-intent-primary el-button"
+                  type="button"
+                >
+                  <div
+                    class="el-button-loader"
+                  />
+                  Next
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="el-snack-holder"
+    />
+    <div
+      class="el-page-header-wrap"
+    >
+      <div
+        class="el-page-header-max-width el-page-header-wrap-inner"
+      >
+        <div
+          class="el-page-header-container"
+        >
+          <div
+            class="el-page-header-container"
+          >
+            <div
+              class="el-flex-column el-flex-container"
+            >
+              <div
+                class="el-page-header-title-container"
+              >
+                <div
+                  class="el-mr3 el-has-bold-text el-text2xl el-text-base"
+                >
+                  New Contact
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="el-button-group"
+          >
+            <div
+              class="el-button-group-inner"
+            >
+              <button
+                class="el-mb5 el-button-size-small el-intent-neutral el-button"
+              >
+                <div
+                  class="el-button-loader"
+                />
+                Back To List
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="el-flex-column el-has-max-width el-flex-container"
+    >
+      <div
+        class="el-tile"
+      >
+        <form>
+          <div
+            class="el-steps-vertical"
+          >
+            <div
+              class="el-step-vertical"
+            >
+              <div
+                class="el-step-vertical-item"
+              >
+                <div
+                  class="el-is-active el-step"
+                  data-testid="step-0"
+                >
+                  1
+                </div>
+              </div>
+              <div
+                class="el-step-vertical-content"
+              >
+                <p
+                  class="el-has-bold-text el-has-section-margin el-body-text"
+                >
+                  Provide us with some basic personal information about your contact.
+                </p>
+                <div
+                  class="el-fade-in el-form-layout"
+                >
+                  <div
+                    class="el-input-wrap"
+                  >
+                    <div
+                      class="el-input-group"
+                    >
+                      <select
+                        class="el-select"
+                        name="title"
+                      >
+                        <option
+                          value=""
+                        >
+                          None selected
+                        </option>
+                        <option
+                          value="Mr"
+                        >
+                          Mr
+                        </option>
+                        <option
+                          value="Mrs"
+                        >
+                          Mrs
+                        </option>
+                        <option
+                          value="Ms"
+                        >
+                          Ms
+                        </option>
+                        <option
+                          value="Miss"
+                        >
+                          Miss
+                        </option>
+                        <option
+                          value="Mx"
+                        >
+                          Mx
+                        </option>
+                        <option
+                          value="Dr"
+                        >
+                          Dr
+                        </option>
+                        <option
+                          value="Prof"
+                        >
+                          Prof
+                        </option>
+                      </select>
+                      <label
+                        class="el-label"
+                      >
+                        Please select a title
+                      </label>
+                    </div>
+                  </div>
+                  <div
+                    class="el-input-wrap"
+                  >
+                    <div
+                      class="el-input-group"
+                    >
+                      <input
+                        class="el-input"
+                        id="test-static-id"
+                        name="forename"
+                        placeholder="Please enter a first name"
+                      />
+                      <label
+                        class="el-label"
+                        for="test-static-id"
+                      >
+                        First Name
+                      </label>
+                    </div>
+                  </div>
+                  <div
+                    class="el-input-wrap"
+                  >
+                    <div
+                      class="el-input-group"
+                    >
+                      <input
+                        class="el-input"
+                        id="test-static-id"
+                        name="surname"
+                        placeholder="Please enter a surname"
+                      />
+                      <label
+                        class="el-label"
+                        for="test-static-id"
+                      >
+                        Surname
+                      </label>
+                    </div>
+                  </div>
+                  <div
+                    class="el-input-wrap"
+                  >
+                    <div
+                      class="el-input-group"
+                    >
+                      <input
+                        class="el-input"
+                        id="test-static-id"
+                        max="2023-01-01"
+                        name="dateOfBirth"
+                        type="date"
+                      />
+                      <label
+                        class="el-label"
+                        for="test-static-id"
+                      >
+                        Date of birth
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="el-mb8 el-ml8 el-button-group"
+          >
+            <div
+              class="el-button-group-align-left el-button-group-inner"
+            >
+              <button
+                class="el-intent-primary el-button"
+                type="button"
+              >
+                <div
+                  class="el-button-loader"
+                />
+                Next
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

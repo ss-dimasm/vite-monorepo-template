@@ -1,0 +1,1438 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactsEdit should match a snapshot when loading 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="el-snack-holder"
+      />
+      <div
+        class="el-page-header-wrap"
+      >
+        <div
+          class="el-page-header-max-width el-page-header-wrap-inner"
+        >
+          <div
+            class="el-page-header-container"
+          >
+            <div
+              class="el-page-header-container"
+            >
+              <div
+                class="el-flex-column el-flex-container"
+              >
+                <div
+                  class="el-page-header-title-container"
+                >
+                  <div
+                    class="el-mr3 el-has-bold-text el-text2xl el-text-base"
+                  >
+                    Contact 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="el-button-group"
+            >
+              <div
+                class="el-button-group-inner"
+              >
+                <button
+                  class="el-button-size-small el-intent-neutral el-button"
+                >
+                  <div
+                    class="el-button-loader"
+                  />
+                  Back To List
+                </button>
+                <button
+                  class="el-button-size-small el-intent-primary el-button"
+                >
+                  <div
+                    class="el-button-loader"
+                  />
+                  New Contact
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="el-tabs-wrap"
+          >
+            <div
+              class="el-tabs-options-wrap"
+            >
+              <input
+                class="el-tabs"
+                id="view"
+                name="app-edit-tabs"
+                type="radio"
+                value="view"
+              />
+              <label
+                class="el-tabs-label"
+                for="view"
+              >
+                <span
+                  class="el-tabs-item"
+                >
+                  Overview
+                </span>
+              </label>
+              <input
+                class="el-tabs"
+                id="personal"
+                name="app-edit-tabs"
+                type="radio"
+                value="personal"
+              />
+              <label
+                class="el-tabs-label"
+                for="personal"
+              >
+                <span
+                  class="el-tabs-item"
+                >
+                  Personal
+                </span>
+              </label>
+              <input
+                class="el-tabs"
+                id="communications"
+                name="app-edit-tabs"
+                type="radio"
+                value="communications"
+              />
+              <label
+                class="el-tabs-label"
+                for="communications"
+              >
+                <span
+                  class="el-tabs-item"
+                >
+                  Communications
+                </span>
+              </label>
+              <input
+                class="el-tabs"
+                id="addresses"
+                name="app-edit-tabs"
+                type="radio"
+                value="addresses"
+              />
+              <label
+                class="el-tabs-label"
+                for="addresses"
+              >
+                <span
+                  class="el-tabs-item"
+                >
+                  Addresses
+                </span>
+              </label>
+              <input
+                class="el-tabs"
+                id="office"
+                name="app-edit-tabs"
+                type="radio"
+                value="office"
+              />
+              <label
+                class="el-tabs-label"
+                for="office"
+              >
+                <span
+                  class="el-tabs-item"
+                >
+                  Office Details
+                </span>
+              </label>
+            </div>
+            <div
+              class="el-tabs-has-no-border el-tabs-footer"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="el-flex-column el-has-max-width el-flex-container"
+      >
+        <div
+          class="el-tile"
+        >
+          <div
+            class="el-loader-container"
+          >
+            <div
+              class="el-loader"
+            >
+              <div
+                class="el-loader-moving-bar"
+              />
+            </div>
+          </div>
+          <form>
+            <div
+              class="el-mb7"
+            />
+            <div
+              class="el-button-group"
+            >
+              <div
+                class="el-button-group-align-left el-button-group-inner"
+              >
+                <button
+                  class="el-intent-primary el-button"
+                  disabled=""
+                  type="button"
+                >
+                  <div
+                    class="el-button-loader"
+                  />
+                  Update
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="el-snack-holder"
+    />
+    <div
+      class="el-page-header-wrap"
+    >
+      <div
+        class="el-page-header-max-width el-page-header-wrap-inner"
+      >
+        <div
+          class="el-page-header-container"
+        >
+          <div
+            class="el-page-header-container"
+          >
+            <div
+              class="el-flex-column el-flex-container"
+            >
+              <div
+                class="el-page-header-title-container"
+              >
+                <div
+                  class="el-mr3 el-has-bold-text el-text2xl el-text-base"
+                >
+                  Contact 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="el-button-group"
+          >
+            <div
+              class="el-button-group-inner"
+            >
+              <button
+                class="el-button-size-small el-intent-neutral el-button"
+              >
+                <div
+                  class="el-button-loader"
+                />
+                Back To List
+              </button>
+              <button
+                class="el-button-size-small el-intent-primary el-button"
+              >
+                <div
+                  class="el-button-loader"
+                />
+                New Contact
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="el-tabs-wrap"
+        >
+          <div
+            class="el-tabs-options-wrap"
+          >
+            <input
+              class="el-tabs"
+              id="view"
+              name="app-edit-tabs"
+              type="radio"
+              value="view"
+            />
+            <label
+              class="el-tabs-label"
+              for="view"
+            >
+              <span
+                class="el-tabs-item"
+              >
+                Overview
+              </span>
+            </label>
+            <input
+              class="el-tabs"
+              id="personal"
+              name="app-edit-tabs"
+              type="radio"
+              value="personal"
+            />
+            <label
+              class="el-tabs-label"
+              for="personal"
+            >
+              <span
+                class="el-tabs-item"
+              >
+                Personal
+              </span>
+            </label>
+            <input
+              class="el-tabs"
+              id="communications"
+              name="app-edit-tabs"
+              type="radio"
+              value="communications"
+            />
+            <label
+              class="el-tabs-label"
+              for="communications"
+            >
+              <span
+                class="el-tabs-item"
+              >
+                Communications
+              </span>
+            </label>
+            <input
+              class="el-tabs"
+              id="addresses"
+              name="app-edit-tabs"
+              type="radio"
+              value="addresses"
+            />
+            <label
+              class="el-tabs-label"
+              for="addresses"
+            >
+              <span
+                class="el-tabs-item"
+              >
+                Addresses
+              </span>
+            </label>
+            <input
+              class="el-tabs"
+              id="office"
+              name="app-edit-tabs"
+              type="radio"
+              value="office"
+            />
+            <label
+              class="el-tabs-label"
+              for="office"
+            >
+              <span
+                class="el-tabs-item"
+              >
+                Office Details
+              </span>
+            </label>
+          </div>
+          <div
+            class="el-tabs-has-no-border el-tabs-footer"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="el-flex-column el-has-max-width el-flex-container"
+    >
+      <div
+        class="el-tile"
+      >
+        <div
+          class="el-loader-container"
+        >
+          <div
+            class="el-loader"
+          >
+            <div
+              class="el-loader-moving-bar"
+            />
+          </div>
+        </div>
+        <form>
+          <div
+            class="el-mb7"
+          />
+          <div
+            class="el-button-group"
+          >
+            <div
+              class="el-button-group-align-left el-button-group-inner"
+            >
+              <button
+                class="el-intent-primary el-button"
+                disabled=""
+                type="button"
+              >
+                <div
+                  class="el-button-loader"
+                />
+                Update
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`ContactsEdit should match a snapshot when not loading but no contact 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="el-snack-holder"
+      />
+      <div
+        class="el-page-header-wrap"
+      >
+        <div
+          class="el-page-header-max-width el-page-header-wrap-inner"
+        >
+          <div
+            class="el-page-header-container"
+          >
+            <div
+              class="el-page-header-container"
+            >
+              <div
+                class="el-flex-column el-flex-container"
+              >
+                <div
+                  class="el-page-header-title-container"
+                >
+                  <div
+                    class="el-mr3 el-has-bold-text el-text2xl el-text-base"
+                  >
+                    Contact 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="el-button-group"
+            >
+              <div
+                class="el-button-group-inner"
+              >
+                <button
+                  class="el-button-size-small el-intent-neutral el-button"
+                >
+                  <div
+                    class="el-button-loader"
+                  />
+                  Back To List
+                </button>
+                <button
+                  class="el-button-size-small el-intent-primary el-button"
+                >
+                  <div
+                    class="el-button-loader"
+                  />
+                  New Contact
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="el-tabs-wrap"
+          >
+            <div
+              class="el-tabs-options-wrap"
+            >
+              <input
+                class="el-tabs"
+                id="view"
+                name="app-edit-tabs"
+                type="radio"
+                value="view"
+              />
+              <label
+                class="el-tabs-label"
+                for="view"
+              >
+                <span
+                  class="el-tabs-item"
+                >
+                  Overview
+                </span>
+              </label>
+              <input
+                class="el-tabs"
+                id="personal"
+                name="app-edit-tabs"
+                type="radio"
+                value="personal"
+              />
+              <label
+                class="el-tabs-label"
+                for="personal"
+              >
+                <span
+                  class="el-tabs-item"
+                >
+                  Personal
+                </span>
+              </label>
+              <input
+                class="el-tabs"
+                id="communications"
+                name="app-edit-tabs"
+                type="radio"
+                value="communications"
+              />
+              <label
+                class="el-tabs-label"
+                for="communications"
+              >
+                <span
+                  class="el-tabs-item"
+                >
+                  Communications
+                </span>
+              </label>
+              <input
+                class="el-tabs"
+                id="addresses"
+                name="app-edit-tabs"
+                type="radio"
+                value="addresses"
+              />
+              <label
+                class="el-tabs-label"
+                for="addresses"
+              >
+                <span
+                  class="el-tabs-item"
+                >
+                  Addresses
+                </span>
+              </label>
+              <input
+                class="el-tabs"
+                id="office"
+                name="app-edit-tabs"
+                type="radio"
+                value="office"
+              />
+              <label
+                class="el-tabs-label"
+                for="office"
+              >
+                <span
+                  class="el-tabs-item"
+                >
+                  Office Details
+                </span>
+              </label>
+            </div>
+            <div
+              class="el-tabs-has-no-border el-tabs-footer"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="el-flex-column el-has-max-width el-flex-container"
+      >
+        <div
+          class="el-tile"
+        >
+          <form>
+            <div
+              class="el-mb7"
+            />
+            <div
+              class="el-button-group"
+            >
+              <div
+                class="el-button-group-align-left el-button-group-inner"
+              >
+                <button
+                  class="el-intent-primary el-button"
+                  disabled=""
+                  type="button"
+                >
+                  <div
+                    class="el-button-loader"
+                  />
+                  Update
+                </button>
+              </div>
+            </div>
+          </form>
+          <div
+            class="el-intent-primary el-is-active el-pn-is-full-width el-pn-is-inline el-persistent-notification"
+          >
+            <div
+              class="el-pn-icon"
+              data-testid="close-icon"
+            >
+              <span
+                class="el-icon"
+              >
+                <svg
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 20 20"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M10 0C4.477 0 0 4.477 0 10c0 5.522 4.477 10 10 10 5.522 0 10-4.478 10-10 0-5.523-4.478-10-10-10Zm2.275 3.727a1.906 1.906 0 0 0-1.348-.527c-.519 0-.976.175-1.353.526-.373.35-.573.787-.573 1.292s.198.941.574 1.29c.376.346.834.52 1.352.52a1.92 1.92 0 0 0 1.347-.521c.375-.349.57-.784.57-1.29 0-.502-.195-.939-.569-1.29Zm.206 12.184a.3.3 0 0 1-.181.207l-.09.036c-.565.223-1.274.504-1.983.614-.752.116-1.558.049-2.21-.526-.477-.42-.67-.958-.7-1.53-.03-.56.098-1.164.266-1.747.105-.364.234-.741.357-1.101.071-.21.14-.412.202-.604.175-.542.294-1.006.294-1.373 0-.208-.06-.31-.118-.368-.064-.062-.17-.11-.33-.127-.33-.036-.76.068-1.08.191a.3.3 0 0 1-.4-.35l.18-.743a.3.3 0 0 1 .179-.207c.68-.277 1.847-.65 2.865-.627.51.012 1.022.124 1.411.439.402.325.625.827.625 1.512 0 .805-.195 1.559-.414 2.277l-.15.483c-.174.552-.342 1.084-.442 1.636-.11.617.068.872.26.971.235.121.662.111 1.224-.149a.3.3 0 0 1 .417.344l-.182.742Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </span>
+            </div>
+            <div
+              class="el-pn-content"
+            >
+              Contact not found
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="el-snack-holder"
+    />
+    <div
+      class="el-page-header-wrap"
+    >
+      <div
+        class="el-page-header-max-width el-page-header-wrap-inner"
+      >
+        <div
+          class="el-page-header-container"
+        >
+          <div
+            class="el-page-header-container"
+          >
+            <div
+              class="el-flex-column el-flex-container"
+            >
+              <div
+                class="el-page-header-title-container"
+              >
+                <div
+                  class="el-mr3 el-has-bold-text el-text2xl el-text-base"
+                >
+                  Contact 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="el-button-group"
+          >
+            <div
+              class="el-button-group-inner"
+            >
+              <button
+                class="el-button-size-small el-intent-neutral el-button"
+              >
+                <div
+                  class="el-button-loader"
+                />
+                Back To List
+              </button>
+              <button
+                class="el-button-size-small el-intent-primary el-button"
+              >
+                <div
+                  class="el-button-loader"
+                />
+                New Contact
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="el-tabs-wrap"
+        >
+          <div
+            class="el-tabs-options-wrap"
+          >
+            <input
+              class="el-tabs"
+              id="view"
+              name="app-edit-tabs"
+              type="radio"
+              value="view"
+            />
+            <label
+              class="el-tabs-label"
+              for="view"
+            >
+              <span
+                class="el-tabs-item"
+              >
+                Overview
+              </span>
+            </label>
+            <input
+              class="el-tabs"
+              id="personal"
+              name="app-edit-tabs"
+              type="radio"
+              value="personal"
+            />
+            <label
+              class="el-tabs-label"
+              for="personal"
+            >
+              <span
+                class="el-tabs-item"
+              >
+                Personal
+              </span>
+            </label>
+            <input
+              class="el-tabs"
+              id="communications"
+              name="app-edit-tabs"
+              type="radio"
+              value="communications"
+            />
+            <label
+              class="el-tabs-label"
+              for="communications"
+            >
+              <span
+                class="el-tabs-item"
+              >
+                Communications
+              </span>
+            </label>
+            <input
+              class="el-tabs"
+              id="addresses"
+              name="app-edit-tabs"
+              type="radio"
+              value="addresses"
+            />
+            <label
+              class="el-tabs-label"
+              for="addresses"
+            >
+              <span
+                class="el-tabs-item"
+              >
+                Addresses
+              </span>
+            </label>
+            <input
+              class="el-tabs"
+              id="office"
+              name="app-edit-tabs"
+              type="radio"
+              value="office"
+            />
+            <label
+              class="el-tabs-label"
+              for="office"
+            >
+              <span
+                class="el-tabs-item"
+              >
+                Office Details
+              </span>
+            </label>
+          </div>
+          <div
+            class="el-tabs-has-no-border el-tabs-footer"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="el-flex-column el-has-max-width el-flex-container"
+    >
+      <div
+        class="el-tile"
+      >
+        <form>
+          <div
+            class="el-mb7"
+          />
+          <div
+            class="el-button-group"
+          >
+            <div
+              class="el-button-group-align-left el-button-group-inner"
+            >
+              <button
+                class="el-intent-primary el-button"
+                disabled=""
+                type="button"
+              >
+                <div
+                  class="el-button-loader"
+                />
+                Update
+              </button>
+            </div>
+          </div>
+        </form>
+        <div
+          class="el-intent-primary el-is-active el-pn-is-full-width el-pn-is-inline el-persistent-notification"
+        >
+          <div
+            class="el-pn-icon"
+            data-testid="close-icon"
+          >
+            <span
+              class="el-icon"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                viewBox="0 0 20 20"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M10 0C4.477 0 0 4.477 0 10c0 5.522 4.477 10 10 10 5.522 0 10-4.478 10-10 0-5.523-4.478-10-10-10Zm2.275 3.727a1.906 1.906 0 0 0-1.348-.527c-.519 0-.976.175-1.353.526-.373.35-.573.787-.573 1.292s.198.941.574 1.29c.376.346.834.52 1.352.52a1.92 1.92 0 0 0 1.347-.521c.375-.349.57-.784.57-1.29 0-.502-.195-.939-.569-1.29Zm.206 12.184a.3.3 0 0 1-.181.207l-.09.036c-.565.223-1.274.504-1.983.614-.752.116-1.558.049-2.21-.526-.477-.42-.67-.958-.7-1.53-.03-.56.098-1.164.266-1.747.105-.364.234-.741.357-1.101.071-.21.14-.412.202-.604.175-.542.294-1.006.294-1.373 0-.208-.06-.31-.118-.368-.064-.062-.17-.11-.33-.127-.33-.036-.76.068-1.08.191a.3.3 0 0 1-.4-.35l.18-.743a.3.3 0 0 1 .179-.207c.68-.277 1.847-.65 2.865-.627.51.012 1.022.124 1.411.439.402.325.625.827.625 1.512 0 .805-.195 1.559-.414 2.277l-.15.483c-.174.552-.342 1.084-.442 1.636-.11.617.068.872.26.971.235.121.662.111 1.224-.149a.3.3 0 0 1 .417.344l-.182.742Z"
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </span>
+          </div>
+          <div
+            class="el-pn-content"
+          >
+            Contact not found
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`ContactsEdit should match a snapshot with data 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="el-snack-holder"
+      />
+      <div
+        class="el-page-header-wrap"
+      >
+        <div
+          class="el-page-header-max-width el-page-header-wrap-inner"
+        >
+          <div
+            class="el-page-header-container"
+          >
+            <div
+              class="el-page-header-container"
+            >
+              <div
+                class="el-flex-column el-flex-container"
+              >
+                <div
+                  class="el-page-header-title-container"
+                >
+                  <div
+                    class="el-mr3 el-has-bold-text el-text2xl el-text-base"
+                  >
+                    Contact Mr Foo Bar
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="el-button-group"
+            >
+              <div
+                class="el-button-group-inner"
+              >
+                <button
+                  class="el-button-size-small el-intent-neutral el-button"
+                >
+                  <div
+                    class="el-button-loader"
+                  />
+                  Back To List
+                </button>
+                <button
+                  class="el-button-size-small el-intent-primary el-button"
+                >
+                  <div
+                    class="el-button-loader"
+                  />
+                  New Contact
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="el-tabs-wrap"
+          >
+            <div
+              class="el-tabs-options-wrap"
+            >
+              <input
+                class="el-tabs"
+                id="view"
+                name="app-edit-tabs"
+                type="radio"
+                value="view"
+              />
+              <label
+                class="el-tabs-label"
+                for="view"
+              >
+                <span
+                  class="el-tabs-item"
+                >
+                  Overview
+                </span>
+              </label>
+              <input
+                class="el-tabs"
+                id="personal"
+                name="app-edit-tabs"
+                type="radio"
+                value="personal"
+              />
+              <label
+                class="el-tabs-label"
+                for="personal"
+              >
+                <span
+                  class="el-tabs-item"
+                >
+                  Personal
+                </span>
+              </label>
+              <input
+                class="el-tabs"
+                id="communications"
+                name="app-edit-tabs"
+                type="radio"
+                value="communications"
+              />
+              <label
+                class="el-tabs-label"
+                for="communications"
+              >
+                <span
+                  class="el-tabs-item"
+                >
+                  Communications
+                </span>
+              </label>
+              <input
+                class="el-tabs"
+                id="addresses"
+                name="app-edit-tabs"
+                type="radio"
+                value="addresses"
+              />
+              <label
+                class="el-tabs-label"
+                for="addresses"
+              >
+                <span
+                  class="el-tabs-item"
+                >
+                  Addresses
+                </span>
+              </label>
+              <input
+                class="el-tabs"
+                id="office"
+                name="app-edit-tabs"
+                type="radio"
+                value="office"
+              />
+              <label
+                class="el-tabs-label"
+                for="office"
+              >
+                <span
+                  class="el-tabs-item"
+                >
+                  Office Details
+                </span>
+              </label>
+            </div>
+            <div
+              class="el-tabs-has-no-border el-tabs-footer"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="el-flex-column el-has-max-width el-flex-container"
+      >
+        <div
+          class="el-tile"
+        >
+          <form>
+            <div
+              class="el-mb7"
+            />
+            <div
+              class="el-mb7 el-intent-danger el-is-active el-pn-is-full-width el-pn-is-inline el-persistent-notification"
+            >
+              <div
+                class="el-pn-icon"
+                data-testid="close-icon"
+              >
+                <span
+                  class="el-icon"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 20 20"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M10 0C4.477 0 0 4.477 0 10c0 5.522 4.477 10 10 10 5.522 0 10-4.478 10-10 0-5.523-4.478-10-10-10Zm2.275 3.727a1.906 1.906 0 0 0-1.348-.527c-.519 0-.976.175-1.353.526-.373.35-.573.787-.573 1.292s.198.941.574 1.29c.376.346.834.52 1.352.52a1.92 1.92 0 0 0 1.347-.521c.375-.349.57-.784.57-1.29 0-.502-.195-.939-.569-1.29Zm.206 12.184a.3.3 0 0 1-.181.207l-.09.036c-.565.223-1.274.504-1.983.614-.752.116-1.558.049-2.21-.526-.477-.42-.67-.958-.7-1.53-.03-.56.098-1.164.266-1.747.105-.364.234-.741.357-1.101.071-.21.14-.412.202-.604.175-.542.294-1.006.294-1.373 0-.208-.06-.31-.118-.368-.064-.062-.17-.11-.33-.127-.33-.036-.76.068-1.08.191a.3.3 0 0 1-.4-.35l.18-.743a.3.3 0 0 1 .179-.207c.68-.277 1.847-.65 2.865-.627.51.012 1.022.124 1.411.439.402.325.625.827.625 1.512 0 .805-.195 1.559-.414 2.277l-.15.483c-.174.552-.342 1.084-.442 1.636-.11.617.068.872.26.971.235.121.662.111 1.224-.149a.3.3 0 0 1 .417.344l-.182.742Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <div
+                class="el-pn-content"
+              >
+                There are one or more errors in the form that are preventing you from saving the contact. Please check each section to proceeed.
+              </div>
+            </div>
+            <div
+              class="el-button-group"
+            >
+              <div
+                class="el-button-group-align-left el-button-group-inner"
+              >
+                <button
+                  class="el-intent-primary el-button"
+                  disabled=""
+                  type="button"
+                >
+                  <div
+                    class="el-button-loader"
+                  />
+                  Update
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="el-snack-holder"
+    />
+    <div
+      class="el-page-header-wrap"
+    >
+      <div
+        class="el-page-header-max-width el-page-header-wrap-inner"
+      >
+        <div
+          class="el-page-header-container"
+        >
+          <div
+            class="el-page-header-container"
+          >
+            <div
+              class="el-flex-column el-flex-container"
+            >
+              <div
+                class="el-page-header-title-container"
+              >
+                <div
+                  class="el-mr3 el-has-bold-text el-text2xl el-text-base"
+                >
+                  Contact Mr Foo Bar
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="el-button-group"
+          >
+            <div
+              class="el-button-group-inner"
+            >
+              <button
+                class="el-button-size-small el-intent-neutral el-button"
+              >
+                <div
+                  class="el-button-loader"
+                />
+                Back To List
+              </button>
+              <button
+                class="el-button-size-small el-intent-primary el-button"
+              >
+                <div
+                  class="el-button-loader"
+                />
+                New Contact
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="el-tabs-wrap"
+        >
+          <div
+            class="el-tabs-options-wrap"
+          >
+            <input
+              class="el-tabs"
+              id="view"
+              name="app-edit-tabs"
+              type="radio"
+              value="view"
+            />
+            <label
+              class="el-tabs-label"
+              for="view"
+            >
+              <span
+                class="el-tabs-item"
+              >
+                Overview
+              </span>
+            </label>
+            <input
+              class="el-tabs"
+              id="personal"
+              name="app-edit-tabs"
+              type="radio"
+              value="personal"
+            />
+            <label
+              class="el-tabs-label"
+              for="personal"
+            >
+              <span
+                class="el-tabs-item"
+              >
+                Personal
+              </span>
+            </label>
+            <input
+              class="el-tabs"
+              id="communications"
+              name="app-edit-tabs"
+              type="radio"
+              value="communications"
+            />
+            <label
+              class="el-tabs-label"
+              for="communications"
+            >
+              <span
+                class="el-tabs-item"
+              >
+                Communications
+              </span>
+            </label>
+            <input
+              class="el-tabs"
+              id="addresses"
+              name="app-edit-tabs"
+              type="radio"
+              value="addresses"
+            />
+            <label
+              class="el-tabs-label"
+              for="addresses"
+            >
+              <span
+                class="el-tabs-item"
+              >
+                Addresses
+              </span>
+            </label>
+            <input
+              class="el-tabs"
+              id="office"
+              name="app-edit-tabs"
+              type="radio"
+              value="office"
+            />
+            <label
+              class="el-tabs-label"
+              for="office"
+            >
+              <span
+                class="el-tabs-item"
+              >
+                Office Details
+              </span>
+            </label>
+          </div>
+          <div
+            class="el-tabs-has-no-border el-tabs-footer"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="el-flex-column el-has-max-width el-flex-container"
+    >
+      <div
+        class="el-tile"
+      >
+        <form>
+          <div
+            class="el-mb7"
+          />
+          <div
+            class="el-mb7 el-intent-danger el-is-active el-pn-is-full-width el-pn-is-inline el-persistent-notification"
+          >
+            <div
+              class="el-pn-icon"
+              data-testid="close-icon"
+            >
+              <span
+                class="el-icon"
+              >
+                <svg
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 20 20"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M10 0C4.477 0 0 4.477 0 10c0 5.522 4.477 10 10 10 5.522 0 10-4.478 10-10 0-5.523-4.478-10-10-10Zm2.275 3.727a1.906 1.906 0 0 0-1.348-.527c-.519 0-.976.175-1.353.526-.373.35-.573.787-.573 1.292s.198.941.574 1.29c.376.346.834.52 1.352.52a1.92 1.92 0 0 0 1.347-.521c.375-.349.57-.784.57-1.29 0-.502-.195-.939-.569-1.29Zm.206 12.184a.3.3 0 0 1-.181.207l-.09.036c-.565.223-1.274.504-1.983.614-.752.116-1.558.049-2.21-.526-.477-.42-.67-.958-.7-1.53-.03-.56.098-1.164.266-1.747.105-.364.234-.741.357-1.101.071-.21.14-.412.202-.604.175-.542.294-1.006.294-1.373 0-.208-.06-.31-.118-.368-.064-.062-.17-.11-.33-.127-.33-.036-.76.068-1.08.191a.3.3 0 0 1-.4-.35l.18-.743a.3.3 0 0 1 .179-.207c.68-.277 1.847-.65 2.865-.627.51.012 1.022.124 1.411.439.402.325.625.827.625 1.512 0 .805-.195 1.559-.414 2.277l-.15.483c-.174.552-.342 1.084-.442 1.636-.11.617.068.872.26.971.235.121.662.111 1.224-.149a.3.3 0 0 1 .417.344l-.182.742Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </span>
+            </div>
+            <div
+              class="el-pn-content"
+            >
+              There are one or more errors in the form that are preventing you from saving the contact. Please check each section to proceeed.
+            </div>
+          </div>
+          <div
+            class="el-button-group"
+          >
+            <div
+              class="el-button-group-align-left el-button-group-inner"
+            >
+              <button
+                class="el-intent-primary el-button"
+                disabled=""
+                type="button"
+              >
+                <div
+                  class="el-button-loader"
+                />
+                Update
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

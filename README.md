@@ -19,7 +19,7 @@ The output app will create a simple CRUD contacts app to demonstrate the feature
 Then with `NodeJS ~18` installed, run;
 
 ```
-npx degit reapit/foundations-react-vite-template#templates/vite-simple <<Your App Name>> --mode=git
+npx degit reapit/foundations-react-vite-template/#main/templates/vite-simple <<Your App Name>> --mode=git
 ```
 
 Then;

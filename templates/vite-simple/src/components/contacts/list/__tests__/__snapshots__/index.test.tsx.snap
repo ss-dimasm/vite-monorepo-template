@@ -1,0 +1,3044 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactsList should match a snapshot when loading 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="el-snack-holder"
+      />
+      <div
+        class="el-page-header-wrap"
+      >
+        <div
+          class="el-page-header-max-width el-page-header-wrap-inner"
+        >
+          <div
+            class="el-page-header-container"
+          >
+            <div
+              class="el-page-header-container"
+            >
+              <div
+                class="el-flex-column el-flex-container"
+              >
+                <div
+                  class="el-page-header-title-container"
+                >
+                  <div
+                    class="el-mr3 el-has-bold-text el-text2xl el-text-base"
+                  >
+                    Contacts
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="el-button-group"
+            >
+              <div
+                class="el-button-group-inner"
+              >
+                <button
+                  class="el-mb5 el-button-size-small el-intent-primary el-button"
+                >
+                  <div
+                    class="el-button-loader"
+                  />
+                  New Contact
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="el-flex-column el-has-max-width el-flex-container"
+      >
+        <div
+          class="el-tile"
+        >
+          <form>
+            <div
+              class="el-mb8 el-form-layout"
+            >
+              <div
+                class="el-input-wrap"
+              >
+                <div
+                  class="el-input-group"
+                >
+                  <input
+                    class="el-input"
+                    id="test-static-id"
+                    name="name"
+                    placeholder="Search name"
+                    type="search"
+                  />
+                  <span
+                    class="el-icon"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 20 20"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m19.756 18.578-5.688-5.687a7.878 7.878 0 0 0 1.765-4.973C15.833 3.553 12.281 0 7.917 0 3.552.001 0 3.553 0 7.918s3.552 7.916 7.917 7.916a7.879 7.879 0 0 0 4.973-1.765l5.687 5.688a.831.831 0 0 0 1.179 0 .832.832 0 0 0 0-1.179Zm-11.84-4.41a6.256 6.256 0 0 1-6.25-6.25 6.256 6.256 0 0 1 6.25-6.25 6.256 6.256 0 0 1 6.25 6.25 6.256 6.256 0 0 1-6.25 6.25Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </span>
+                  <label
+                    class="el-label"
+                    for="test-static-id"
+                  >
+                    Contact Name
+                  </label>
+                </div>
+              </div>
+              <div
+                class="el-input-wrap"
+              >
+                <div
+                  class="el-input-group"
+                >
+                  <input
+                    class="el-input"
+                    id="test-static-id"
+                    name="address"
+                    placeholder="Search address"
+                    type="search"
+                  />
+                  <span
+                    class="el-icon"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 20 20"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m19.756 18.578-5.688-5.687a7.878 7.878 0 0 0 1.765-4.973C15.833 3.553 12.281 0 7.917 0 3.552.001 0 3.553 0 7.918s3.552 7.916 7.917 7.916a7.879 7.879 0 0 0 4.973-1.765l5.687 5.688a.831.831 0 0 0 1.179 0 .832.832 0 0 0 0-1.179Zm-11.84-4.41a6.256 6.256 0 0 1-6.25-6.25 6.256 6.256 0 0 1 6.25-6.25 6.256 6.256 0 0 1 6.25 6.25 6.256 6.256 0 0 1-6.25 6.25Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </span>
+                  <label
+                    class="el-label"
+                    for="test-static-id"
+                  >
+                    Contact Address
+                  </label>
+                </div>
+              </div>
+              <div
+                class="el-input-wrap"
+              >
+                <div
+                  class="el-input-group"
+                >
+                  <input
+                    class="el-input"
+                    id="test-static-id"
+                    name="email"
+                    placeholder="Search email"
+                    type="search"
+                  />
+                  <span
+                    class="el-icon"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 20 20"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m19.756 18.578-5.688-5.687a7.878 7.878 0 0 0 1.765-4.973C15.833 3.553 12.281 0 7.917 0 3.552.001 0 3.553 0 7.918s3.552 7.916 7.917 7.916a7.879 7.879 0 0 0 4.973-1.765l5.687 5.688a.831.831 0 0 0 1.179 0 .832.832 0 0 0 0-1.179Zm-11.84-4.41a6.256 6.256 0 0 1-6.25-6.25 6.256 6.256 0 0 1 6.25-6.25 6.256 6.256 0 0 1 6.25 6.25 6.256 6.256 0 0 1-6.25 6.25Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </span>
+                  <label
+                    class="el-label"
+                    for="test-static-id"
+                  >
+                    Contact Email
+                  </label>
+                </div>
+              </div>
+              <div
+                class="el-input-wrap"
+              >
+                <div
+                  class="el-input-group"
+                >
+                  <label
+                    class="el-label"
+                  >
+                    Active Contacts
+                  </label>
+                  <div
+                    class="el-has-grey-bg el-toggle-radio-wrap"
+                  >
+                    <input
+                      checked=""
+                      class="el-toggle-radio"
+                      id="option-active-all"
+                      name="active"
+                      type="radio"
+                      value=""
+                    />
+                    <label
+                      class="el-has-grey-bg el-toggle-radio-label"
+                      for="option-active-all"
+                    >
+                      <span
+                        class="el-toggle-radio-item"
+                      >
+                        All
+                      </span>
+                    </label>
+                    <input
+                      class="el-toggle-radio"
+                      id="option-active-true"
+                      name="active"
+                      type="radio"
+                      value="true"
+                    />
+                    <label
+                      class="el-has-grey-bg el-toggle-radio-label"
+                      for="option-active-true"
+                    >
+                      <span
+                        class="el-toggle-radio-item"
+                      >
+                        Active
+                      </span>
+                    </label>
+                    <input
+                      class="el-toggle-radio"
+                      id="option-active-false"
+                      name="active"
+                      type="radio"
+                      value="false"
+                    />
+                    <label
+                      class="el-has-grey-bg el-toggle-radio-label"
+                      for="option-active-false"
+                    >
+                      <span
+                        class="el-toggle-radio-item"
+                      >
+                        Inactive
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+          <div
+            class="el-loader-container"
+          >
+            <div
+              class="el-loader"
+            >
+              <div
+                class="el-loader-moving-bar"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="el-snack-holder"
+    />
+    <div
+      class="el-page-header-wrap"
+    >
+      <div
+        class="el-page-header-max-width el-page-header-wrap-inner"
+      >
+        <div
+          class="el-page-header-container"
+        >
+          <div
+            class="el-page-header-container"
+          >
+            <div
+              class="el-flex-column el-flex-container"
+            >
+              <div
+                class="el-page-header-title-container"
+              >
+                <div
+                  class="el-mr3 el-has-bold-text el-text2xl el-text-base"
+                >
+                  Contacts
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="el-button-group"
+          >
+            <div
+              class="el-button-group-inner"
+            >
+              <button
+                class="el-mb5 el-button-size-small el-intent-primary el-button"
+              >
+                <div
+                  class="el-button-loader"
+                />
+                New Contact
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="el-flex-column el-has-max-width el-flex-container"
+    >
+      <div
+        class="el-tile"
+      >
+        <form>
+          <div
+            class="el-mb8 el-form-layout"
+          >
+            <div
+              class="el-input-wrap"
+            >
+              <div
+                class="el-input-group"
+              >
+                <input
+                  class="el-input"
+                  id="test-static-id"
+                  name="name"
+                  placeholder="Search name"
+                  type="search"
+                />
+                <span
+                  class="el-icon"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 20 20"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m19.756 18.578-5.688-5.687a7.878 7.878 0 0 0 1.765-4.973C15.833 3.553 12.281 0 7.917 0 3.552.001 0 3.553 0 7.918s3.552 7.916 7.917 7.916a7.879 7.879 0 0 0 4.973-1.765l5.687 5.688a.831.831 0 0 0 1.179 0 .832.832 0 0 0 0-1.179Zm-11.84-4.41a6.256 6.256 0 0 1-6.25-6.25 6.256 6.256 0 0 1 6.25-6.25 6.256 6.256 0 0 1 6.25 6.25 6.256 6.256 0 0 1-6.25 6.25Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+                <label
+                  class="el-label"
+                  for="test-static-id"
+                >
+                  Contact Name
+                </label>
+              </div>
+            </div>
+            <div
+              class="el-input-wrap"
+            >
+              <div
+                class="el-input-group"
+              >
+                <input
+                  class="el-input"
+                  id="test-static-id"
+                  name="address"
+                  placeholder="Search address"
+                  type="search"
+                />
+                <span
+                  class="el-icon"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 20 20"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m19.756 18.578-5.688-5.687a7.878 7.878 0 0 0 1.765-4.973C15.833 3.553 12.281 0 7.917 0 3.552.001 0 3.553 0 7.918s3.552 7.916 7.917 7.916a7.879 7.879 0 0 0 4.973-1.765l5.687 5.688a.831.831 0 0 0 1.179 0 .832.832 0 0 0 0-1.179Zm-11.84-4.41a6.256 6.256 0 0 1-6.25-6.25 6.256 6.256 0 0 1 6.25-6.25 6.256 6.256 0 0 1 6.25 6.25 6.256 6.256 0 0 1-6.25 6.25Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+                <label
+                  class="el-label"
+                  for="test-static-id"
+                >
+                  Contact Address
+                </label>
+              </div>
+            </div>
+            <div
+              class="el-input-wrap"
+            >
+              <div
+                class="el-input-group"
+              >
+                <input
+                  class="el-input"
+                  id="test-static-id"
+                  name="email"
+                  placeholder="Search email"
+                  type="search"
+                />
+                <span
+                  class="el-icon"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 20 20"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m19.756 18.578-5.688-5.687a7.878 7.878 0 0 0 1.765-4.973C15.833 3.553 12.281 0 7.917 0 3.552.001 0 3.553 0 7.918s3.552 7.916 7.917 7.916a7.879 7.879 0 0 0 4.973-1.765l5.687 5.688a.831.831 0 0 0 1.179 0 .832.832 0 0 0 0-1.179Zm-11.84-4.41a6.256 6.256 0 0 1-6.25-6.25 6.256 6.256 0 0 1 6.25-6.25 6.256 6.256 0 0 1 6.25 6.25 6.256 6.256 0 0 1-6.25 6.25Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+                <label
+                  class="el-label"
+                  for="test-static-id"
+                >
+                  Contact Email
+                </label>
+              </div>
+            </div>
+            <div
+              class="el-input-wrap"
+            >
+              <div
+                class="el-input-group"
+              >
+                <label
+                  class="el-label"
+                >
+                  Active Contacts
+                </label>
+                <div
+                  class="el-has-grey-bg el-toggle-radio-wrap"
+                >
+                  <input
+                    checked=""
+                    class="el-toggle-radio"
+                    id="option-active-all"
+                    name="active"
+                    type="radio"
+                    value=""
+                  />
+                  <label
+                    class="el-has-grey-bg el-toggle-radio-label"
+                    for="option-active-all"
+                  >
+                    <span
+                      class="el-toggle-radio-item"
+                    >
+                      All
+                    </span>
+                  </label>
+                  <input
+                    class="el-toggle-radio"
+                    id="option-active-true"
+                    name="active"
+                    type="radio"
+                    value="true"
+                  />
+                  <label
+                    class="el-has-grey-bg el-toggle-radio-label"
+                    for="option-active-true"
+                  >
+                    <span
+                      class="el-toggle-radio-item"
+                    >
+                      Active
+                    </span>
+                  </label>
+                  <input
+                    class="el-toggle-radio"
+                    id="option-active-false"
+                    name="active"
+                    type="radio"
+                    value="false"
+                  />
+                  <label
+                    class="el-has-grey-bg el-toggle-radio-label"
+                    for="option-active-false"
+                  >
+                    <span
+                      class="el-toggle-radio-item"
+                    >
+                      Inactive
+                    </span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div
+          class="el-loader-container"
+        >
+          <div
+            class="el-loader"
+          >
+            <div
+              class="el-loader-moving-bar"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`ContactsList should match a snapshot when not loading but no contact 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="el-snack-holder"
+      />
+      <div
+        class="el-page-header-wrap"
+      >
+        <div
+          class="el-page-header-max-width el-page-header-wrap-inner"
+        >
+          <div
+            class="el-page-header-container"
+          >
+            <div
+              class="el-page-header-container"
+            >
+              <div
+                class="el-flex-column el-flex-container"
+              >
+                <div
+                  class="el-page-header-title-container"
+                >
+                  <div
+                    class="el-mr3 el-has-bold-text el-text2xl el-text-base"
+                  >
+                    Contacts
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="el-button-group"
+            >
+              <div
+                class="el-button-group-inner"
+              >
+                <button
+                  class="el-mb5 el-button-size-small el-intent-primary el-button"
+                >
+                  <div
+                    class="el-button-loader"
+                  />
+                  New Contact
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="el-flex-column el-has-max-width el-flex-container"
+      >
+        <div
+          class="el-tile"
+        >
+          <form>
+            <div
+              class="el-mb8 el-form-layout"
+            >
+              <div
+                class="el-input-wrap"
+              >
+                <div
+                  class="el-input-group"
+                >
+                  <input
+                    class="el-input"
+                    id="test-static-id"
+                    name="name"
+                    placeholder="Search name"
+                    type="search"
+                  />
+                  <span
+                    class="el-icon"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 20 20"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m19.756 18.578-5.688-5.687a7.878 7.878 0 0 0 1.765-4.973C15.833 3.553 12.281 0 7.917 0 3.552.001 0 3.553 0 7.918s3.552 7.916 7.917 7.916a7.879 7.879 0 0 0 4.973-1.765l5.687 5.688a.831.831 0 0 0 1.179 0 .832.832 0 0 0 0-1.179Zm-11.84-4.41a6.256 6.256 0 0 1-6.25-6.25 6.256 6.256 0 0 1 6.25-6.25 6.256 6.256 0 0 1 6.25 6.25 6.256 6.256 0 0 1-6.25 6.25Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </span>
+                  <label
+                    class="el-label"
+                    for="test-static-id"
+                  >
+                    Contact Name
+                  </label>
+                </div>
+              </div>
+              <div
+                class="el-input-wrap"
+              >
+                <div
+                  class="el-input-group"
+                >
+                  <input
+                    class="el-input"
+                    id="test-static-id"
+                    name="address"
+                    placeholder="Search address"
+                    type="search"
+                  />
+                  <span
+                    class="el-icon"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 20 20"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m19.756 18.578-5.688-5.687a7.878 7.878 0 0 0 1.765-4.973C15.833 3.553 12.281 0 7.917 0 3.552.001 0 3.553 0 7.918s3.552 7.916 7.917 7.916a7.879 7.879 0 0 0 4.973-1.765l5.687 5.688a.831.831 0 0 0 1.179 0 .832.832 0 0 0 0-1.179Zm-11.84-4.41a6.256 6.256 0 0 1-6.25-6.25 6.256 6.256 0 0 1 6.25-6.25 6.256 6.256 0 0 1 6.25 6.25 6.256 6.256 0 0 1-6.25 6.25Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </span>
+                  <label
+                    class="el-label"
+                    for="test-static-id"
+                  >
+                    Contact Address
+                  </label>
+                </div>
+              </div>
+              <div
+                class="el-input-wrap"
+              >
+                <div
+                  class="el-input-group"
+                >
+                  <input
+                    class="el-input"
+                    id="test-static-id"
+                    name="email"
+                    placeholder="Search email"
+                    type="search"
+                  />
+                  <span
+                    class="el-icon"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 20 20"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m19.756 18.578-5.688-5.687a7.878 7.878 0 0 0 1.765-4.973C15.833 3.553 12.281 0 7.917 0 3.552.001 0 3.553 0 7.918s3.552 7.916 7.917 7.916a7.879 7.879 0 0 0 4.973-1.765l5.687 5.688a.831.831 0 0 0 1.179 0 .832.832 0 0 0 0-1.179Zm-11.84-4.41a6.256 6.256 0 0 1-6.25-6.25 6.256 6.256 0 0 1 6.25-6.25 6.256 6.256 0 0 1 6.25 6.25 6.256 6.256 0 0 1-6.25 6.25Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </span>
+                  <label
+                    class="el-label"
+                    for="test-static-id"
+                  >
+                    Contact Email
+                  </label>
+                </div>
+              </div>
+              <div
+                class="el-input-wrap"
+              >
+                <div
+                  class="el-input-group"
+                >
+                  <label
+                    class="el-label"
+                  >
+                    Active Contacts
+                  </label>
+                  <div
+                    class="el-has-grey-bg el-toggle-radio-wrap"
+                  >
+                    <input
+                      checked=""
+                      class="el-toggle-radio"
+                      id="option-active-all"
+                      name="active"
+                      type="radio"
+                      value=""
+                    />
+                    <label
+                      class="el-has-grey-bg el-toggle-radio-label"
+                      for="option-active-all"
+                    >
+                      <span
+                        class="el-toggle-radio-item"
+                      >
+                        All
+                      </span>
+                    </label>
+                    <input
+                      class="el-toggle-radio"
+                      id="option-active-true"
+                      name="active"
+                      type="radio"
+                      value="true"
+                    />
+                    <label
+                      class="el-has-grey-bg el-toggle-radio-label"
+                      for="option-active-true"
+                    >
+                      <span
+                        class="el-toggle-radio-item"
+                      >
+                        Active
+                      </span>
+                    </label>
+                    <input
+                      class="el-toggle-radio"
+                      id="option-active-false"
+                      name="active"
+                      type="radio"
+                      value="false"
+                    />
+                    <label
+                      class="el-has-grey-bg el-toggle-radio-label"
+                      for="option-active-false"
+                    >
+                      <span
+                        class="el-toggle-radio-item"
+                      >
+                        Inactive
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="el-snack-holder"
+    />
+    <div
+      class="el-page-header-wrap"
+    >
+      <div
+        class="el-page-header-max-width el-page-header-wrap-inner"
+      >
+        <div
+          class="el-page-header-container"
+        >
+          <div
+            class="el-page-header-container"
+          >
+            <div
+              class="el-flex-column el-flex-container"
+            >
+              <div
+                class="el-page-header-title-container"
+              >
+                <div
+                  class="el-mr3 el-has-bold-text el-text2xl el-text-base"
+                >
+                  Contacts
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="el-button-group"
+          >
+            <div
+              class="el-button-group-inner"
+            >
+              <button
+                class="el-mb5 el-button-size-small el-intent-primary el-button"
+              >
+                <div
+                  class="el-button-loader"
+                />
+                New Contact
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="el-flex-column el-has-max-width el-flex-container"
+    >
+      <div
+        class="el-tile"
+      >
+        <form>
+          <div
+            class="el-mb8 el-form-layout"
+          >
+            <div
+              class="el-input-wrap"
+            >
+              <div
+                class="el-input-group"
+              >
+                <input
+                  class="el-input"
+                  id="test-static-id"
+                  name="name"
+                  placeholder="Search name"
+                  type="search"
+                />
+                <span
+                  class="el-icon"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 20 20"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m19.756 18.578-5.688-5.687a7.878 7.878 0 0 0 1.765-4.973C15.833 3.553 12.281 0 7.917 0 3.552.001 0 3.553 0 7.918s3.552 7.916 7.917 7.916a7.879 7.879 0 0 0 4.973-1.765l5.687 5.688a.831.831 0 0 0 1.179 0 .832.832 0 0 0 0-1.179Zm-11.84-4.41a6.256 6.256 0 0 1-6.25-6.25 6.256 6.256 0 0 1 6.25-6.25 6.256 6.256 0 0 1 6.25 6.25 6.256 6.256 0 0 1-6.25 6.25Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+                <label
+                  class="el-label"
+                  for="test-static-id"
+                >
+                  Contact Name
+                </label>
+              </div>
+            </div>
+            <div
+              class="el-input-wrap"
+            >
+              <div
+                class="el-input-group"
+              >
+                <input
+                  class="el-input"
+                  id="test-static-id"
+                  name="address"
+                  placeholder="Search address"
+                  type="search"
+                />
+                <span
+                  class="el-icon"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 20 20"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m19.756 18.578-5.688-5.687a7.878 7.878 0 0 0 1.765-4.973C15.833 3.553 12.281 0 7.917 0 3.552.001 0 3.553 0 7.918s3.552 7.916 7.917 7.916a7.879 7.879 0 0 0 4.973-1.765l5.687 5.688a.831.831 0 0 0 1.179 0 .832.832 0 0 0 0-1.179Zm-11.84-4.41a6.256 6.256 0 0 1-6.25-6.25 6.256 6.256 0 0 1 6.25-6.25 6.256 6.256 0 0 1 6.25 6.25 6.256 6.256 0 0 1-6.25 6.25Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+                <label
+                  class="el-label"
+                  for="test-static-id"
+                >
+                  Contact Address
+                </label>
+              </div>
+            </div>
+            <div
+              class="el-input-wrap"
+            >
+              <div
+                class="el-input-group"
+              >
+                <input
+                  class="el-input"
+                  id="test-static-id"
+                  name="email"
+                  placeholder="Search email"
+                  type="search"
+                />
+                <span
+                  class="el-icon"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 20 20"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m19.756 18.578-5.688-5.687a7.878 7.878 0 0 0 1.765-4.973C15.833 3.553 12.281 0 7.917 0 3.552.001 0 3.553 0 7.918s3.552 7.916 7.917 7.916a7.879 7.879 0 0 0 4.973-1.765l5.687 5.688a.831.831 0 0 0 1.179 0 .832.832 0 0 0 0-1.179Zm-11.84-4.41a6.256 6.256 0 0 1-6.25-6.25 6.256 6.256 0 0 1 6.25-6.25 6.256 6.256 0 0 1 6.25 6.25 6.256 6.256 0 0 1-6.25 6.25Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+                <label
+                  class="el-label"
+                  for="test-static-id"
+                >
+                  Contact Email
+                </label>
+              </div>
+            </div>
+            <div
+              class="el-input-wrap"
+            >
+              <div
+                class="el-input-group"
+              >
+                <label
+                  class="el-label"
+                >
+                  Active Contacts
+                </label>
+                <div
+                  class="el-has-grey-bg el-toggle-radio-wrap"
+                >
+                  <input
+                    checked=""
+                    class="el-toggle-radio"
+                    id="option-active-all"
+                    name="active"
+                    type="radio"
+                    value=""
+                  />
+                  <label
+                    class="el-has-grey-bg el-toggle-radio-label"
+                    for="option-active-all"
+                  >
+                    <span
+                      class="el-toggle-radio-item"
+                    >
+                      All
+                    </span>
+                  </label>
+                  <input
+                    class="el-toggle-radio"
+                    id="option-active-true"
+                    name="active"
+                    type="radio"
+                    value="true"
+                  />
+                  <label
+                    class="el-has-grey-bg el-toggle-radio-label"
+                    for="option-active-true"
+                  >
+                    <span
+                      class="el-toggle-radio-item"
+                    >
+                      Active
+                    </span>
+                  </label>
+                  <input
+                    class="el-toggle-radio"
+                    id="option-active-false"
+                    name="active"
+                    type="radio"
+                    value="false"
+                  />
+                  <label
+                    class="el-has-grey-bg el-toggle-radio-label"
+                    for="option-active-false"
+                  >
+                    <span
+                      class="el-toggle-radio-item"
+                    >
+                      Inactive
+                    </span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`ContactsList should match a snapshot with data 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="el-snack-holder"
+      />
+      <div
+        class="el-page-header-wrap"
+      >
+        <div
+          class="el-page-header-max-width el-page-header-wrap-inner"
+        >
+          <div
+            class="el-page-header-container"
+          >
+            <div
+              class="el-page-header-container"
+            >
+              <div
+                class="el-flex-column el-flex-container"
+              >
+                <div
+                  class="el-page-header-title-container"
+                >
+                  <div
+                    class="el-mr3 el-has-bold-text el-text2xl el-text-base"
+                  >
+                    Contacts
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="el-button-group"
+            >
+              <div
+                class="el-button-group-inner"
+              >
+                <button
+                  class="el-mb5 el-button-size-small el-intent-primary el-button"
+                >
+                  <div
+                    class="el-button-loader"
+                  />
+                  New Contact
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="el-flex-column el-has-max-width el-flex-container"
+      >
+        <div
+          class="el-tile"
+        >
+          <form>
+            <div
+              class="el-mb8 el-form-layout"
+            >
+              <div
+                class="el-input-wrap"
+              >
+                <div
+                  class="el-input-group"
+                >
+                  <input
+                    class="el-input"
+                    id="test-static-id"
+                    name="name"
+                    placeholder="Search name"
+                    type="search"
+                  />
+                  <span
+                    class="el-icon"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 20 20"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m19.756 18.578-5.688-5.687a7.878 7.878 0 0 0 1.765-4.973C15.833 3.553 12.281 0 7.917 0 3.552.001 0 3.553 0 7.918s3.552 7.916 7.917 7.916a7.879 7.879 0 0 0 4.973-1.765l5.687 5.688a.831.831 0 0 0 1.179 0 .832.832 0 0 0 0-1.179Zm-11.84-4.41a6.256 6.256 0 0 1-6.25-6.25 6.256 6.256 0 0 1 6.25-6.25 6.256 6.256 0 0 1 6.25 6.25 6.256 6.256 0 0 1-6.25 6.25Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </span>
+                  <label
+                    class="el-label"
+                    for="test-static-id"
+                  >
+                    Contact Name
+                  </label>
+                </div>
+              </div>
+              <div
+                class="el-input-wrap"
+              >
+                <div
+                  class="el-input-group"
+                >
+                  <input
+                    class="el-input"
+                    id="test-static-id"
+                    name="address"
+                    placeholder="Search address"
+                    type="search"
+                  />
+                  <span
+                    class="el-icon"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 20 20"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m19.756 18.578-5.688-5.687a7.878 7.878 0 0 0 1.765-4.973C15.833 3.553 12.281 0 7.917 0 3.552.001 0 3.553 0 7.918s3.552 7.916 7.917 7.916a7.879 7.879 0 0 0 4.973-1.765l5.687 5.688a.831.831 0 0 0 1.179 0 .832.832 0 0 0 0-1.179Zm-11.84-4.41a6.256 6.256 0 0 1-6.25-6.25 6.256 6.256 0 0 1 6.25-6.25 6.256 6.256 0 0 1 6.25 6.25 6.256 6.256 0 0 1-6.25 6.25Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </span>
+                  <label
+                    class="el-label"
+                    for="test-static-id"
+                  >
+                    Contact Address
+                  </label>
+                </div>
+              </div>
+              <div
+                class="el-input-wrap"
+              >
+                <div
+                  class="el-input-group"
+                >
+                  <input
+                    class="el-input"
+                    id="test-static-id"
+                    name="email"
+                    placeholder="Search email"
+                    type="search"
+                  />
+                  <span
+                    class="el-icon"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 20 20"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m19.756 18.578-5.688-5.687a7.878 7.878 0 0 0 1.765-4.973C15.833 3.553 12.281 0 7.917 0 3.552.001 0 3.553 0 7.918s3.552 7.916 7.917 7.916a7.879 7.879 0 0 0 4.973-1.765l5.687 5.688a.831.831 0 0 0 1.179 0 .832.832 0 0 0 0-1.179Zm-11.84-4.41a6.256 6.256 0 0 1-6.25-6.25 6.256 6.256 0 0 1 6.25-6.25 6.256 6.256 0 0 1 6.25 6.25 6.256 6.256 0 0 1-6.25 6.25Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </span>
+                  <label
+                    class="el-label"
+                    for="test-static-id"
+                  >
+                    Contact Email
+                  </label>
+                </div>
+              </div>
+              <div
+                class="el-input-wrap"
+              >
+                <div
+                  class="el-input-group"
+                >
+                  <label
+                    class="el-label"
+                  >
+                    Active Contacts
+                  </label>
+                  <div
+                    class="el-has-grey-bg el-toggle-radio-wrap"
+                  >
+                    <input
+                      checked=""
+                      class="el-toggle-radio"
+                      id="option-active-all"
+                      name="active"
+                      type="radio"
+                      value=""
+                    />
+                    <label
+                      class="el-has-grey-bg el-toggle-radio-label"
+                      for="option-active-all"
+                    >
+                      <span
+                        class="el-toggle-radio-item"
+                      >
+                        All
+                      </span>
+                    </label>
+                    <input
+                      class="el-toggle-radio"
+                      id="option-active-true"
+                      name="active"
+                      type="radio"
+                      value="true"
+                    />
+                    <label
+                      class="el-has-grey-bg el-toggle-radio-label"
+                      for="option-active-true"
+                    >
+                      <span
+                        class="el-toggle-radio-item"
+                      >
+                        Active
+                      </span>
+                    </label>
+                    <input
+                      class="el-toggle-radio"
+                      id="option-active-false"
+                      name="active"
+                      type="radio"
+                      value="false"
+                    />
+                    <label
+                      class="el-has-grey-bg el-toggle-radio-label"
+                      for="option-active-false"
+                    >
+                      <span
+                        class="el-toggle-radio-item"
+                      >
+                        Inactive
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+          <div
+            class="el-mb8 el-table"
+            data-has-call-to-action="false"
+            data-has-expandable-action="true"
+            data-num-columns-excl-action-col="5"
+          >
+            <div
+              class="el-table-headers-row"
+            >
+              <div
+                class="el-table-header"
+              >
+                Contact Name
+              </div>
+              <div
+                class="el-table-header"
+              >
+                Contact Email
+              </div>
+              <div
+                class="el-table-header"
+              >
+                Contact Mobile Phone
+              </div>
+              <div
+                class="el-table-header"
+              >
+                Contact Address
+              </div>
+              <div
+                class="el-table-header"
+              >
+                Contact Active
+              </div>
+              <div
+                class="el-table-header"
+              >
+                <span
+                  class="el-intent-default el-icon"
+                  style="font-size: 1.2rem;"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    style="font-size: 1.2rem;"
+                    viewBox="0 0 20 20"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="m19.53 7.723-1.538-.334c-.133-.41-.299-.809-.494-1.193l.85-1.324a.598.598 0 0 0-.08-.746l-2.394-2.394a.598.598 0 0 0-.746-.08l-1.324.85a8.367 8.367 0 0 0-1.193-.494L12.277.47A.598.598 0 0 0 11.693 0H8.307a.598.598 0 0 0-.584.47l-.334 1.538c-.41.133-.809.299-1.193.494l-1.324-.85a.598.598 0 0 0-.746.08L1.732 4.126a.598.598 0 0 0-.08.746l.85 1.324a8.367 8.367 0 0 0-.494 1.193L.47 7.723A.598.598 0 0 0 0 8.307v3.386c0 .281.196.524.47.584l1.538.334c.133.41.299.809.494 1.193l-.85 1.324a.598.598 0 0 0 .08.746l2.394 2.394c.199.2.51.232.746.08l1.324-.85c.384.195.783.36 1.193.494l.334 1.537c.06.275.303.471.584.471h3.386a.598.598 0 0 0 .584-.47l.334-1.538c.41-.133.809-.299 1.193-.494l1.324.85a.597.597 0 0 0 .746-.08l2.394-2.394a.598.598 0 0 0 .08-.746l-.85-1.324c.195-.384.36-.783.494-1.193l1.537-.334a.598.598 0 0 0 .471-.584V8.307a.598.598 0 0 0-.47-.584ZM10 14a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+            <div
+              class="el-table-row-container"
+            >
+              <div
+                class="el-table-row"
+              >
+                <div
+                  class="el-table-cell-has-dark-text el-table-cell"
+                >
+                  <span
+                    class="el-intent-default el-icon"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 20 20"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g
+                        clip-path="url(#applicantInfographic_svg__a)"
+                      >
+                        <circle
+                          cx="10"
+                          cy="10"
+                          fill="#798da1"
+                          r="10"
+                        />
+                        <path
+                          d="M15.43 15.606v1.385a.282.282 0 0 1-.282.282H4.852a.282.282 0 0 1-.282-.282v-1.385a2.63 2.63 0 0 1 2.63-2.63 1.46 1.46 0 0 0 1.226-.664c.261-.402.234-.752.234-1.034l.005-.013A3.491 3.491 0 0 1 6.51 8.04v-.11a.87.87 0 0 1-.881-.866V5.597c-.012-.51.012-2.31 1.311-3.562C8.451.578 10.846.697 12.581 1.477a.07.07 0 0 1-.003.13l-.452.186c-.068.027-.054.127.02.135l.219.024A3.56 3.56 0 0 1 15 3.586a.076.076 0 0 1-.01.087c-.373.395-.582.92-.582 1.466v1.924a.866.866 0 0 1-.865.865h-.052v.11c0 1.456-.89 2.703-2.156 3.227l.005.013c0 .274-.03.628.235 1.034.26.4.712.664 1.225.665a2.63 2.63 0 0 1 2.63 2.63Z"
+                          fill="#fff"
+                        />
+                        <path
+                          d="M15 3.586a.075.075 0 0 1-.01.087c-.373.396-.582.92-.582 1.466v1.924c0 .437-.33.865-.917.865V5.75c0-.935-.758-1.692-1.693-1.692H8.202c-.935 0-1.693.757-1.693 1.692v2.178a.87.87 0 0 1-.882-.865V5.597c-.01-.51.012-2.31 1.312-3.562C8.45.578 10.846.697 12.58 1.477a.07.07 0 0 1-.002.13l-.452.186c-.068.028-.054.127.019.135l.22.024a3.558 3.558 0 0 1 2.634 1.634ZM4.57 18.399v-2.793a2.63 2.63 0 0 1 2.63-2.63 1.46 1.46 0 0 0 1.226-.664 2.42 2.42 0 0 0 3.149 0c.26.4.712.665 1.225.665a2.63 2.63 0 0 1 2.63 2.63v2.791A9.953 9.953 0 0 1 10 20a9.954 9.954 0 0 1-5.43-1.601Z"
+                          fill="#d8dee4"
+                        />
+                        <path
+                          d="M13.49 8.039a3.491 3.491 0 0 1-3.49 3.49c-1.816 0-3.491-1.411-3.491-3.6V5.75c0-.935.758-1.692 1.693-1.692h3.596c.935 0 1.693.757 1.693 1.692V8.04Z"
+                          fill="#fff"
+                        />
+                        <path
+                          d="M8.62 13.829c-.13.04-.27.063-.42.065-1.456.012-2.643 1.164-2.643 2.62v.265a.494.494 0 0 1-.494.494h-.211a.282.282 0 0 1-.282-.282v-1.385a2.63 2.63 0 0 1 2.63-2.63 1.46 1.46 0 0 0 1.226-.664c.104.09.217.17.335.24.52.31.437 1.095-.14 1.277ZM12.578 1.606c-.415.171-.474.209-.617.186-2.316-.359-4.348.6-5.038 2.85a1.685 1.685 0 0 0-.414 1.108v1.323c0 .571-.882.61-.882-.01V5.597c-.01-.51.012-2.31 1.312-3.562C8.45.578 10.845.697 12.58 1.477a.07.07 0 0 1-.002.13Z"
+                          fill="#d8dee4"
+                        />
+                        <path
+                          d="M10 16a1 1 0 0 1 1-1h2a1 1 0 1 1 0 2h-2a1 1 0 0 1-1-1Z"
+                          fill="#fff"
+                        />
+                      </g>
+                      <defs>
+                        <clippath
+                          id="applicantInfographic_svg__a"
+                        >
+                          <path
+                            d="M0 0h20v20H0z"
+                            fill="#fff"
+                            transform="matrix(-1 0 0 1 20 0)"
+                          />
+                        </clippath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <div
+                    class="el-table-cell-content"
+                    data-narrow-label="Contact Name"
+                  >
+                    Mr Foo Bar
+                  </div>
+                </div>
+                <div
+                  class="el-table-cell"
+                >
+                  <span
+                    class="el-intent-default el-icon"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 20 20"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.466 11.791a.794.794 0 0 0 .533.209.795.795 0 0 0 .534-.209L20 4c0-.5-.636-1-.969-1H.97C.636 3 0 3.5 0 4l9.466 7.791Z"
+                        fill="#798da1"
+                      />
+                      <path
+                        d="M11.394 10.792a2.057 2.057 0 0 1-1.393.552 2.057 2.057 0 0 1-1.393-.552L1 3c-.5 0-1 .5-1 1v10.871c0 .607.226 1.188.628 1.616.402.429.946.67 1.515.67h15.714c.569 0 1.114-.241 1.515-.67.402-.428.628-1.01.628-1.615V4c0-.5-.5-1-1-1l-7.606 7.792Z"
+                        fill="#d8dee4"
+                      />
+                    </svg>
+                  </span>
+                  <div
+                    class="el-table-cell-content"
+                    data-narrow-label="Contact Email"
+                  >
+                    foo@bar.com
+                  </div>
+                </div>
+                <div
+                  class="el-table-cell"
+                >
+                  <span
+                    class="el-intent-default el-icon"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 20 20"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g
+                        clip-path="url(#phoneInfographic_svg__a)"
+                      >
+                        <path
+                          d="M15.75 19.147c.413-.464.875-.885 1.312-1.328.647-.656.652-1.451.009-2.102a391.66 391.66 0 0 0-2.311-2.32c-.633-.63-1.424-.628-2.054 0-.482.479-.964.957-1.435 1.446a.536.536 0 0 1-.095.08l-.33.331c-.091.059-.183.058-.302-.007-.311-.17-.641-.306-.94-.495-1.394-.879-2.563-2.011-3.597-3.288-.514-.635-.971-1.31-1.287-2.073-.053-.127-.054-.218.016-.315l.33-.33a.486.486 0 0 1 .056-.066c.145-.14.288-.28.43-.423.334-.33.663-.666.994-1 .658-.664.657-1.446-.004-2.115-.375-.38-.753-.757-1.13-1.135-.387-.39-.772-.782-1.163-1.168-.634-.625-1.426-.626-2.059-.001-.482.477-.95.97-1.44 1.44-.457.436-.69.966-.736 1.588-.076 1.01.17 1.963.515 2.894.712 1.925 1.795 3.63 3.105 5.197a19.216 19.216 0 0 0 6.37 5.004c1.114.544 2.271.963 3.526 1.032.863.048 1.618-.17 2.22-.846Z"
+                          fill="#798da1"
+                        />
+                        <path
+                          d="M10.025 3.774a1.265 1.265 0 0 0-.536.108c-.417.195-.613.686-.501 1.177.098.432.478.73.956.736 1.117.014 2.105.369 2.926 1.137.902.845 1.324 1.903 1.368 3.135.007.22.09.469.218.644.267.366.743.458 1.18.29.386-.147.613-.494.61-.954-.013-1.717-.635-3.183-1.836-4.446-1.206-1.166-2.67-1.803-4.385-1.827Z"
+                          fill="#d8dee4"
+                        />
+                        <path
+                          d="M16.855 2.72c2.072 2.15 3.062 4.456 3.143 7.15.018.619-.356 1.028-.95 1.06-.625.033-1.05-.355-1.065-.987-.033-1.326-.332-2.586-.988-3.74-1.492-2.626-3.769-3.995-6.765-4.167-.332-.02-.644-.054-.878-.321-.3-.342-.325-.736-.164-1.136.162-.404.492-.586.92-.578 1.95.033 3.75.578 5.374 1.662.561.374 1.073.823 1.373 1.056Z"
+                          fill="#d8dee4"
+                        />
+                      </g>
+                      <defs>
+                        <clippath
+                          id="phoneInfographic_svg__a"
+                        >
+                          <path
+                            d="M0 0h20v20H0z"
+                            fill="#fff"
+                            transform="matrix(-1 0 0 1 20 0)"
+                          />
+                        </clippath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <div
+                    class="el-table-cell-content"
+                    data-narrow-label="Contact Mobile Phone"
+                  >
+                    242423424
+                  </div>
+                </div>
+                <div
+                  class="el-table-cell"
+                >
+                  <span
+                    class="el-intent-default el-icon"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 20 20"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g
+                        clip-path="url(#houseInfographic_svg__a)"
+                      >
+                        <path
+                          d="M2 20h16V7.882L10 2 2 7.882V20Z"
+                          fill="#d8dee4"
+                        />
+                        <path
+                          d="M1.221 10 10 2.657 18.779 10 20 8.365 10 0 0 8.365 1.221 10Z"
+                          fill="#798da1"
+                        />
+                        <path
+                          d="M6 12h8v8H6v-8Z"
+                          fill="#fff"
+                        />
+                        <path
+                          d="M8 14h4v6H8v-6Z"
+                          fill="#798da1"
+                        />
+                      </g>
+                      <defs>
+                        <clippath
+                          id="houseInfographic_svg__a"
+                        >
+                          <path
+                            d="M0 0h20v20H0z"
+                            fill="#fff"
+                          />
+                        </clippath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <div
+                    class="el-table-cell-content"
+                    data-narrow-label="Contact Address"
+                  >
+                    Bar Foo Foo Bar Foo Bar Foo
+                  </div>
+                </div>
+                <div
+                  class="el-table-cell"
+                >
+                  <div
+                    class="el-table-cell-content"
+                    data-narrow-label="Contact Active"
+                  >
+                    <span
+                      class="el-intent-success el-status-indicator"
+                    />
+                     
+                    Active
+                  </div>
+                </div>
+                <div
+                  class="el-table-expandable-row-trigger-cell"
+                >
+                  <span
+                    class="el-intent-default el-icon"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 4 16"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M2 4a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM2 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM2 16a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+              <div
+                class="el-table-expandable-row"
+              >
+                <div
+                  class="el-table-expandable-container"
+                >
+                  <div
+                    class="el-button-group"
+                  >
+                    <div
+                      class="el-button-group-align-center el-button-group-inner"
+                    >
+                      <button
+                        class="el-intent-neutral el-button"
+                      >
+                        <div
+                          class="el-button-loader"
+                        />
+                        Quick View Contact
+                      </button>
+                      <button
+                        class="el-intent-neutral el-button"
+                      >
+                        <div
+                          class="el-button-loader"
+                        />
+                        Full Contact
+                      </button>
+                      <button
+                        class="el-intent-primary el-button"
+                      >
+                        <div
+                          class="el-button-loader"
+                        />
+                        Edit Contact
+                      </button>
+                      <button
+                        class="el-intent-danger el-button"
+                      >
+                        <div
+                          class="el-button-loader"
+                        />
+                        Deactivate
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="el-table-row-container"
+            >
+              <div
+                class="el-table-row"
+              >
+                <div
+                  class="el-table-cell-has-dark-text el-table-cell"
+                >
+                  <span
+                    class="el-intent-default el-icon"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 20 20"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g
+                        clip-path="url(#applicantInfographic_svg__a)"
+                      >
+                        <circle
+                          cx="10"
+                          cy="10"
+                          fill="#798da1"
+                          r="10"
+                        />
+                        <path
+                          d="M15.43 15.606v1.385a.282.282 0 0 1-.282.282H4.852a.282.282 0 0 1-.282-.282v-1.385a2.63 2.63 0 0 1 2.63-2.63 1.46 1.46 0 0 0 1.226-.664c.261-.402.234-.752.234-1.034l.005-.013A3.491 3.491 0 0 1 6.51 8.04v-.11a.87.87 0 0 1-.881-.866V5.597c-.012-.51.012-2.31 1.311-3.562C8.451.578 10.846.697 12.581 1.477a.07.07 0 0 1-.003.13l-.452.186c-.068.027-.054.127.02.135l.219.024A3.56 3.56 0 0 1 15 3.586a.076.076 0 0 1-.01.087c-.373.395-.582.92-.582 1.466v1.924a.866.866 0 0 1-.865.865h-.052v.11c0 1.456-.89 2.703-2.156 3.227l.005.013c0 .274-.03.628.235 1.034.26.4.712.664 1.225.665a2.63 2.63 0 0 1 2.63 2.63Z"
+                          fill="#fff"
+                        />
+                        <path
+                          d="M15 3.586a.075.075 0 0 1-.01.087c-.373.396-.582.92-.582 1.466v1.924c0 .437-.33.865-.917.865V5.75c0-.935-.758-1.692-1.693-1.692H8.202c-.935 0-1.693.757-1.693 1.692v2.178a.87.87 0 0 1-.882-.865V5.597c-.01-.51.012-2.31 1.312-3.562C8.45.578 10.846.697 12.58 1.477a.07.07 0 0 1-.002.13l-.452.186c-.068.028-.054.127.019.135l.22.024a3.558 3.558 0 0 1 2.634 1.634ZM4.57 18.399v-2.793a2.63 2.63 0 0 1 2.63-2.63 1.46 1.46 0 0 0 1.226-.664 2.42 2.42 0 0 0 3.149 0c.26.4.712.665 1.225.665a2.63 2.63 0 0 1 2.63 2.63v2.791A9.953 9.953 0 0 1 10 20a9.954 9.954 0 0 1-5.43-1.601Z"
+                          fill="#d8dee4"
+                        />
+                        <path
+                          d="M13.49 8.039a3.491 3.491 0 0 1-3.49 3.49c-1.816 0-3.491-1.411-3.491-3.6V5.75c0-.935.758-1.692 1.693-1.692h3.596c.935 0 1.693.757 1.693 1.692V8.04Z"
+                          fill="#fff"
+                        />
+                        <path
+                          d="M8.62 13.829c-.13.04-.27.063-.42.065-1.456.012-2.643 1.164-2.643 2.62v.265a.494.494 0 0 1-.494.494h-.211a.282.282 0 0 1-.282-.282v-1.385a2.63 2.63 0 0 1 2.63-2.63 1.46 1.46 0 0 0 1.226-.664c.104.09.217.17.335.24.52.31.437 1.095-.14 1.277ZM12.578 1.606c-.415.171-.474.209-.617.186-2.316-.359-4.348.6-5.038 2.85a1.685 1.685 0 0 0-.414 1.108v1.323c0 .571-.882.61-.882-.01V5.597c-.01-.51.012-2.31 1.312-3.562C8.45.578 10.845.697 12.58 1.477a.07.07 0 0 1-.002.13Z"
+                          fill="#d8dee4"
+                        />
+                        <path
+                          d="M10 16a1 1 0 0 1 1-1h2a1 1 0 1 1 0 2h-2a1 1 0 0 1-1-1Z"
+                          fill="#fff"
+                        />
+                      </g>
+                      <defs>
+                        <clippath
+                          id="applicantInfographic_svg__a"
+                        >
+                          <path
+                            d="M0 0h20v20H0z"
+                            fill="#fff"
+                            transform="matrix(-1 0 0 1 20 0)"
+                          />
+                        </clippath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <div
+                    class="el-table-cell-content"
+                    data-narrow-label="Contact Name"
+                  >
+                    Mr Foo Bar
+                  </div>
+                </div>
+                <div
+                  class="el-table-cell"
+                >
+                  <span
+                    class="el-intent-default el-icon"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 20 20"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.466 11.791a.794.794 0 0 0 .533.209.795.795 0 0 0 .534-.209L20 4c0-.5-.636-1-.969-1H.97C.636 3 0 3.5 0 4l9.466 7.791Z"
+                        fill="#798da1"
+                      />
+                      <path
+                        d="M11.394 10.792a2.057 2.057 0 0 1-1.393.552 2.057 2.057 0 0 1-1.393-.552L1 3c-.5 0-1 .5-1 1v10.871c0 .607.226 1.188.628 1.616.402.429.946.67 1.515.67h15.714c.569 0 1.114-.241 1.515-.67.402-.428.628-1.01.628-1.615V4c0-.5-.5-1-1-1l-7.606 7.792Z"
+                        fill="#d8dee4"
+                      />
+                    </svg>
+                  </span>
+                  <div
+                    class="el-table-cell-content"
+                    data-narrow-label="Contact Email"
+                  >
+                    foo@bar.com
+                  </div>
+                </div>
+                <div
+                  class="el-table-cell"
+                >
+                  <span
+                    class="el-intent-default el-icon"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 20 20"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g
+                        clip-path="url(#phoneInfographic_svg__a)"
+                      >
+                        <path
+                          d="M15.75 19.147c.413-.464.875-.885 1.312-1.328.647-.656.652-1.451.009-2.102a391.66 391.66 0 0 0-2.311-2.32c-.633-.63-1.424-.628-2.054 0-.482.479-.964.957-1.435 1.446a.536.536 0 0 1-.095.08l-.33.331c-.091.059-.183.058-.302-.007-.311-.17-.641-.306-.94-.495-1.394-.879-2.563-2.011-3.597-3.288-.514-.635-.971-1.31-1.287-2.073-.053-.127-.054-.218.016-.315l.33-.33a.486.486 0 0 1 .056-.066c.145-.14.288-.28.43-.423.334-.33.663-.666.994-1 .658-.664.657-1.446-.004-2.115-.375-.38-.753-.757-1.13-1.135-.387-.39-.772-.782-1.163-1.168-.634-.625-1.426-.626-2.059-.001-.482.477-.95.97-1.44 1.44-.457.436-.69.966-.736 1.588-.076 1.01.17 1.963.515 2.894.712 1.925 1.795 3.63 3.105 5.197a19.216 19.216 0 0 0 6.37 5.004c1.114.544 2.271.963 3.526 1.032.863.048 1.618-.17 2.22-.846Z"
+                          fill="#798da1"
+                        />
+                        <path
+                          d="M10.025 3.774a1.265 1.265 0 0 0-.536.108c-.417.195-.613.686-.501 1.177.098.432.478.73.956.736 1.117.014 2.105.369 2.926 1.137.902.845 1.324 1.903 1.368 3.135.007.22.09.469.218.644.267.366.743.458 1.18.29.386-.147.613-.494.61-.954-.013-1.717-.635-3.183-1.836-4.446-1.206-1.166-2.67-1.803-4.385-1.827Z"
+                          fill="#d8dee4"
+                        />
+                        <path
+                          d="M16.855 2.72c2.072 2.15 3.062 4.456 3.143 7.15.018.619-.356 1.028-.95 1.06-.625.033-1.05-.355-1.065-.987-.033-1.326-.332-2.586-.988-3.74-1.492-2.626-3.769-3.995-6.765-4.167-.332-.02-.644-.054-.878-.321-.3-.342-.325-.736-.164-1.136.162-.404.492-.586.92-.578 1.95.033 3.75.578 5.374 1.662.561.374 1.073.823 1.373 1.056Z"
+                          fill="#d8dee4"
+                        />
+                      </g>
+                      <defs>
+                        <clippath
+                          id="phoneInfographic_svg__a"
+                        >
+                          <path
+                            d="M0 0h20v20H0z"
+                            fill="#fff"
+                            transform="matrix(-1 0 0 1 20 0)"
+                          />
+                        </clippath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <div
+                    class="el-table-cell-content"
+                    data-narrow-label="Contact Mobile Phone"
+                  >
+                    242423424
+                  </div>
+                </div>
+                <div
+                  class="el-table-cell"
+                >
+                  <span
+                    class="el-intent-default el-icon"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 20 20"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g
+                        clip-path="url(#houseInfographic_svg__a)"
+                      >
+                        <path
+                          d="M2 20h16V7.882L10 2 2 7.882V20Z"
+                          fill="#d8dee4"
+                        />
+                        <path
+                          d="M1.221 10 10 2.657 18.779 10 20 8.365 10 0 0 8.365 1.221 10Z"
+                          fill="#798da1"
+                        />
+                        <path
+                          d="M6 12h8v8H6v-8Z"
+                          fill="#fff"
+                        />
+                        <path
+                          d="M8 14h4v6H8v-6Z"
+                          fill="#798da1"
+                        />
+                      </g>
+                      <defs>
+                        <clippath
+                          id="houseInfographic_svg__a"
+                        >
+                          <path
+                            d="M0 0h20v20H0z"
+                            fill="#fff"
+                          />
+                        </clippath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <div
+                    class="el-table-cell-content"
+                    data-narrow-label="Contact Address"
+                  >
+                    Bar Foo Foo Bar Foo Bar Foo
+                  </div>
+                </div>
+                <div
+                  class="el-table-cell"
+                >
+                  <div
+                    class="el-table-cell-content"
+                    data-narrow-label="Contact Active"
+                  >
+                    <span
+                      class="el-intent-danger el-status-indicator"
+                    />
+                     
+                    Inactive
+                  </div>
+                </div>
+                <div
+                  class="el-table-expandable-row-trigger-cell"
+                >
+                  <span
+                    class="el-intent-default el-icon"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 4 16"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M2 4a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM2 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM2 16a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+              <div
+                class="el-table-expandable-row"
+              >
+                <div
+                  class="el-table-expandable-container"
+                >
+                  <div
+                    class="el-button-group"
+                  >
+                    <div
+                      class="el-button-group-align-center el-button-group-inner"
+                    >
+                      <button
+                        class="el-intent-neutral el-button"
+                      >
+                        <div
+                          class="el-button-loader"
+                        />
+                        Quick View Contact
+                      </button>
+                      <button
+                        class="el-intent-neutral el-button"
+                      >
+                        <div
+                          class="el-button-loader"
+                        />
+                        Full Contact
+                      </button>
+                      <button
+                        class="el-intent-primary el-button"
+                      >
+                        <div
+                          class="el-button-loader"
+                        />
+                        Edit Contact
+                      </button>
+                      <button
+                        class="el-intent-primary el-button"
+                      >
+                        <div
+                          class="el-button-loader"
+                        />
+                        Activate
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="el-mb8"
+          >
+            <div
+              class="el-pagination-wrap"
+            >
+              <div
+                class="el-pagination-text"
+              >
+                <input
+                  class="el-pagination-input"
+                  value="1"
+                />
+                 of 
+                1
+              </div>
+              <button
+                class="el-pagination-button"
+                data-testid="back-button"
+                type="button"
+              >
+                <span
+                  class="el-icon"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 12 20"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m2.47 10.005 8.692-8.691A.77.77 0 1 0 10.073.225L.838 9.461c-.3.3-.3.787 0 1.088l9.236 9.235a.77.77 0 0 0 1.088-1.088L2.47 10.005Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+              </button>
+              <button
+                class="el-pagination-button"
+                data-testid="forward-button"
+                type="button"
+              >
+                <span
+                  class="el-icon"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 12 20"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.53 10.005.837 1.314A.77.77 0 0 1 1.927.225l9.235 9.236c.3.3.3.787 0 1.088l-9.235 9.235a.77.77 0 0 1-1.089-1.088l8.691-8.691Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="el-snack-holder"
+    />
+    <div
+      class="el-page-header-wrap"
+    >
+      <div
+        class="el-page-header-max-width el-page-header-wrap-inner"
+      >
+        <div
+          class="el-page-header-container"
+        >
+          <div
+            class="el-page-header-container"
+          >
+            <div
+              class="el-flex-column el-flex-container"
+            >
+              <div
+                class="el-page-header-title-container"
+              >
+                <div
+                  class="el-mr3 el-has-bold-text el-text2xl el-text-base"
+                >
+                  Contacts
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="el-button-group"
+          >
+            <div
+              class="el-button-group-inner"
+            >
+              <button
+                class="el-mb5 el-button-size-small el-intent-primary el-button"
+              >
+                <div
+                  class="el-button-loader"
+                />
+                New Contact
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="el-flex-column el-has-max-width el-flex-container"
+    >
+      <div
+        class="el-tile"
+      >
+        <form>
+          <div
+            class="el-mb8 el-form-layout"
+          >
+            <div
+              class="el-input-wrap"
+            >
+              <div
+                class="el-input-group"
+              >
+                <input
+                  class="el-input"
+                  id="test-static-id"
+                  name="name"
+                  placeholder="Search name"
+                  type="search"
+                />
+                <span
+                  class="el-icon"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 20 20"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m19.756 18.578-5.688-5.687a7.878 7.878 0 0 0 1.765-4.973C15.833 3.553 12.281 0 7.917 0 3.552.001 0 3.553 0 7.918s3.552 7.916 7.917 7.916a7.879 7.879 0 0 0 4.973-1.765l5.687 5.688a.831.831 0 0 0 1.179 0 .832.832 0 0 0 0-1.179Zm-11.84-4.41a6.256 6.256 0 0 1-6.25-6.25 6.256 6.256 0 0 1 6.25-6.25 6.256 6.256 0 0 1 6.25 6.25 6.256 6.256 0 0 1-6.25 6.25Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+                <label
+                  class="el-label"
+                  for="test-static-id"
+                >
+                  Contact Name
+                </label>
+              </div>
+            </div>
+            <div
+              class="el-input-wrap"
+            >
+              <div
+                class="el-input-group"
+              >
+                <input
+                  class="el-input"
+                  id="test-static-id"
+                  name="address"
+                  placeholder="Search address"
+                  type="search"
+                />
+                <span
+                  class="el-icon"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 20 20"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m19.756 18.578-5.688-5.687a7.878 7.878 0 0 0 1.765-4.973C15.833 3.553 12.281 0 7.917 0 3.552.001 0 3.553 0 7.918s3.552 7.916 7.917 7.916a7.879 7.879 0 0 0 4.973-1.765l5.687 5.688a.831.831 0 0 0 1.179 0 .832.832 0 0 0 0-1.179Zm-11.84-4.41a6.256 6.256 0 0 1-6.25-6.25 6.256 6.256 0 0 1 6.25-6.25 6.256 6.256 0 0 1 6.25 6.25 6.256 6.256 0 0 1-6.25 6.25Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+                <label
+                  class="el-label"
+                  for="test-static-id"
+                >
+                  Contact Address
+                </label>
+              </div>
+            </div>
+            <div
+              class="el-input-wrap"
+            >
+              <div
+                class="el-input-group"
+              >
+                <input
+                  class="el-input"
+                  id="test-static-id"
+                  name="email"
+                  placeholder="Search email"
+                  type="search"
+                />
+                <span
+                  class="el-icon"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 20 20"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m19.756 18.578-5.688-5.687a7.878 7.878 0 0 0 1.765-4.973C15.833 3.553 12.281 0 7.917 0 3.552.001 0 3.553 0 7.918s3.552 7.916 7.917 7.916a7.879 7.879 0 0 0 4.973-1.765l5.687 5.688a.831.831 0 0 0 1.179 0 .832.832 0 0 0 0-1.179Zm-11.84-4.41a6.256 6.256 0 0 1-6.25-6.25 6.256 6.256 0 0 1 6.25-6.25 6.256 6.256 0 0 1 6.25 6.25 6.256 6.256 0 0 1-6.25 6.25Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+                <label
+                  class="el-label"
+                  for="test-static-id"
+                >
+                  Contact Email
+                </label>
+              </div>
+            </div>
+            <div
+              class="el-input-wrap"
+            >
+              <div
+                class="el-input-group"
+              >
+                <label
+                  class="el-label"
+                >
+                  Active Contacts
+                </label>
+                <div
+                  class="el-has-grey-bg el-toggle-radio-wrap"
+                >
+                  <input
+                    checked=""
+                    class="el-toggle-radio"
+                    id="option-active-all"
+                    name="active"
+                    type="radio"
+                    value=""
+                  />
+                  <label
+                    class="el-has-grey-bg el-toggle-radio-label"
+                    for="option-active-all"
+                  >
+                    <span
+                      class="el-toggle-radio-item"
+                    >
+                      All
+                    </span>
+                  </label>
+                  <input
+                    class="el-toggle-radio"
+                    id="option-active-true"
+                    name="active"
+                    type="radio"
+                    value="true"
+                  />
+                  <label
+                    class="el-has-grey-bg el-toggle-radio-label"
+                    for="option-active-true"
+                  >
+                    <span
+                      class="el-toggle-radio-item"
+                    >
+                      Active
+                    </span>
+                  </label>
+                  <input
+                    class="el-toggle-radio"
+                    id="option-active-false"
+                    name="active"
+                    type="radio"
+                    value="false"
+                  />
+                  <label
+                    class="el-has-grey-bg el-toggle-radio-label"
+                    for="option-active-false"
+                  >
+                    <span
+                      class="el-toggle-radio-item"
+                    >
+                      Inactive
+                    </span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div
+          class="el-mb8 el-table"
+          data-has-call-to-action="false"
+          data-has-expandable-action="true"
+          data-num-columns-excl-action-col="5"
+        >
+          <div
+            class="el-table-headers-row"
+          >
+            <div
+              class="el-table-header"
+            >
+              Contact Name
+            </div>
+            <div
+              class="el-table-header"
+            >
+              Contact Email
+            </div>
+            <div
+              class="el-table-header"
+            >
+              Contact Mobile Phone
+            </div>
+            <div
+              class="el-table-header"
+            >
+              Contact Address
+            </div>
+            <div
+              class="el-table-header"
+            >
+              Contact Active
+            </div>
+            <div
+              class="el-table-header"
+            >
+              <span
+                class="el-intent-default el-icon"
+                style="font-size: 1.2rem;"
+              >
+                <svg
+                  fill="none"
+                  height="1em"
+                  style="font-size: 1.2rem;"
+                  viewBox="0 0 20 20"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="m19.53 7.723-1.538-.334c-.133-.41-.299-.809-.494-1.193l.85-1.324a.598.598 0 0 0-.08-.746l-2.394-2.394a.598.598 0 0 0-.746-.08l-1.324.85a8.367 8.367 0 0 0-1.193-.494L12.277.47A.598.598 0 0 0 11.693 0H8.307a.598.598 0 0 0-.584.47l-.334 1.538c-.41.133-.809.299-1.193.494l-1.324-.85a.598.598 0 0 0-.746.08L1.732 4.126a.598.598 0 0 0-.08.746l.85 1.324a8.367 8.367 0 0 0-.494 1.193L.47 7.723A.598.598 0 0 0 0 8.307v3.386c0 .281.196.524.47.584l1.538.334c.133.41.299.809.494 1.193l-.85 1.324a.598.598 0 0 0 .08.746l2.394 2.394c.199.2.51.232.746.08l1.324-.85c.384.195.783.36 1.193.494l.334 1.537c.06.275.303.471.584.471h3.386a.598.598 0 0 0 .584-.47l.334-1.538c.41-.133.809-.299 1.193-.494l1.324.85a.597.597 0 0 0 .746-.08l2.394-2.394a.598.598 0 0 0 .08-.746l-.85-1.324c.195-.384.36-.783.494-1.193l1.537-.334a.598.598 0 0 0 .471-.584V8.307a.598.598 0 0 0-.47-.584ZM10 14a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div
+            class="el-table-row-container"
+          >
+            <div
+              class="el-table-row"
+            >
+              <div
+                class="el-table-cell-has-dark-text el-table-cell"
+              >
+                <span
+                  class="el-intent-default el-icon"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 20 20"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g
+                      clip-path="url(#applicantInfographic_svg__a)"
+                    >
+                      <circle
+                        cx="10"
+                        cy="10"
+                        fill="#798da1"
+                        r="10"
+                      />
+                      <path
+                        d="M15.43 15.606v1.385a.282.282 0 0 1-.282.282H4.852a.282.282 0 0 1-.282-.282v-1.385a2.63 2.63 0 0 1 2.63-2.63 1.46 1.46 0 0 0 1.226-.664c.261-.402.234-.752.234-1.034l.005-.013A3.491 3.491 0 0 1 6.51 8.04v-.11a.87.87 0 0 1-.881-.866V5.597c-.012-.51.012-2.31 1.311-3.562C8.451.578 10.846.697 12.581 1.477a.07.07 0 0 1-.003.13l-.452.186c-.068.027-.054.127.02.135l.219.024A3.56 3.56 0 0 1 15 3.586a.076.076 0 0 1-.01.087c-.373.395-.582.92-.582 1.466v1.924a.866.866 0 0 1-.865.865h-.052v.11c0 1.456-.89 2.703-2.156 3.227l.005.013c0 .274-.03.628.235 1.034.26.4.712.664 1.225.665a2.63 2.63 0 0 1 2.63 2.63Z"
+                        fill="#fff"
+                      />
+                      <path
+                        d="M15 3.586a.075.075 0 0 1-.01.087c-.373.396-.582.92-.582 1.466v1.924c0 .437-.33.865-.917.865V5.75c0-.935-.758-1.692-1.693-1.692H8.202c-.935 0-1.693.757-1.693 1.692v2.178a.87.87 0 0 1-.882-.865V5.597c-.01-.51.012-2.31 1.312-3.562C8.45.578 10.846.697 12.58 1.477a.07.07 0 0 1-.002.13l-.452.186c-.068.028-.054.127.019.135l.22.024a3.558 3.558 0 0 1 2.634 1.634ZM4.57 18.399v-2.793a2.63 2.63 0 0 1 2.63-2.63 1.46 1.46 0 0 0 1.226-.664 2.42 2.42 0 0 0 3.149 0c.26.4.712.665 1.225.665a2.63 2.63 0 0 1 2.63 2.63v2.791A9.953 9.953 0 0 1 10 20a9.954 9.954 0 0 1-5.43-1.601Z"
+                        fill="#d8dee4"
+                      />
+                      <path
+                        d="M13.49 8.039a3.491 3.491 0 0 1-3.49 3.49c-1.816 0-3.491-1.411-3.491-3.6V5.75c0-.935.758-1.692 1.693-1.692h3.596c.935 0 1.693.757 1.693 1.692V8.04Z"
+                        fill="#fff"
+                      />
+                      <path
+                        d="M8.62 13.829c-.13.04-.27.063-.42.065-1.456.012-2.643 1.164-2.643 2.62v.265a.494.494 0 0 1-.494.494h-.211a.282.282 0 0 1-.282-.282v-1.385a2.63 2.63 0 0 1 2.63-2.63 1.46 1.46 0 0 0 1.226-.664c.104.09.217.17.335.24.52.31.437 1.095-.14 1.277ZM12.578 1.606c-.415.171-.474.209-.617.186-2.316-.359-4.348.6-5.038 2.85a1.685 1.685 0 0 0-.414 1.108v1.323c0 .571-.882.61-.882-.01V5.597c-.01-.51.012-2.31 1.312-3.562C8.45.578 10.845.697 12.58 1.477a.07.07 0 0 1-.002.13Z"
+                        fill="#d8dee4"
+                      />
+                      <path
+                        d="M10 16a1 1 0 0 1 1-1h2a1 1 0 1 1 0 2h-2a1 1 0 0 1-1-1Z"
+                        fill="#fff"
+                      />
+                    </g>
+                    <defs>
+                      <clippath
+                        id="applicantInfographic_svg__a"
+                      >
+                        <path
+                          d="M0 0h20v20H0z"
+                          fill="#fff"
+                          transform="matrix(-1 0 0 1 20 0)"
+                        />
+                      </clippath>
+                    </defs>
+                  </svg>
+                </span>
+                <div
+                  class="el-table-cell-content"
+                  data-narrow-label="Contact Name"
+                >
+                  Mr Foo Bar
+                </div>
+              </div>
+              <div
+                class="el-table-cell"
+              >
+                <span
+                  class="el-intent-default el-icon"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 20 20"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.466 11.791a.794.794 0 0 0 .533.209.795.795 0 0 0 .534-.209L20 4c0-.5-.636-1-.969-1H.97C.636 3 0 3.5 0 4l9.466 7.791Z"
+                      fill="#798da1"
+                    />
+                    <path
+                      d="M11.394 10.792a2.057 2.057 0 0 1-1.393.552 2.057 2.057 0 0 1-1.393-.552L1 3c-.5 0-1 .5-1 1v10.871c0 .607.226 1.188.628 1.616.402.429.946.67 1.515.67h15.714c.569 0 1.114-.241 1.515-.67.402-.428.628-1.01.628-1.615V4c0-.5-.5-1-1-1l-7.606 7.792Z"
+                      fill="#d8dee4"
+                    />
+                  </svg>
+                </span>
+                <div
+                  class="el-table-cell-content"
+                  data-narrow-label="Contact Email"
+                >
+                  foo@bar.com
+                </div>
+              </div>
+              <div
+                class="el-table-cell"
+              >
+                <span
+                  class="el-intent-default el-icon"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 20 20"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g
+                      clip-path="url(#phoneInfographic_svg__a)"
+                    >
+                      <path
+                        d="M15.75 19.147c.413-.464.875-.885 1.312-1.328.647-.656.652-1.451.009-2.102a391.66 391.66 0 0 0-2.311-2.32c-.633-.63-1.424-.628-2.054 0-.482.479-.964.957-1.435 1.446a.536.536 0 0 1-.095.08l-.33.331c-.091.059-.183.058-.302-.007-.311-.17-.641-.306-.94-.495-1.394-.879-2.563-2.011-3.597-3.288-.514-.635-.971-1.31-1.287-2.073-.053-.127-.054-.218.016-.315l.33-.33a.486.486 0 0 1 .056-.066c.145-.14.288-.28.43-.423.334-.33.663-.666.994-1 .658-.664.657-1.446-.004-2.115-.375-.38-.753-.757-1.13-1.135-.387-.39-.772-.782-1.163-1.168-.634-.625-1.426-.626-2.059-.001-.482.477-.95.97-1.44 1.44-.457.436-.69.966-.736 1.588-.076 1.01.17 1.963.515 2.894.712 1.925 1.795 3.63 3.105 5.197a19.216 19.216 0 0 0 6.37 5.004c1.114.544 2.271.963 3.526 1.032.863.048 1.618-.17 2.22-.846Z"
+                        fill="#798da1"
+                      />
+                      <path
+                        d="M10.025 3.774a1.265 1.265 0 0 0-.536.108c-.417.195-.613.686-.501 1.177.098.432.478.73.956.736 1.117.014 2.105.369 2.926 1.137.902.845 1.324 1.903 1.368 3.135.007.22.09.469.218.644.267.366.743.458 1.18.29.386-.147.613-.494.61-.954-.013-1.717-.635-3.183-1.836-4.446-1.206-1.166-2.67-1.803-4.385-1.827Z"
+                        fill="#d8dee4"
+                      />
+                      <path
+                        d="M16.855 2.72c2.072 2.15 3.062 4.456 3.143 7.15.018.619-.356 1.028-.95 1.06-.625.033-1.05-.355-1.065-.987-.033-1.326-.332-2.586-.988-3.74-1.492-2.626-3.769-3.995-6.765-4.167-.332-.02-.644-.054-.878-.321-.3-.342-.325-.736-.164-1.136.162-.404.492-.586.92-.578 1.95.033 3.75.578 5.374 1.662.561.374 1.073.823 1.373 1.056Z"
+                        fill="#d8dee4"
+                      />
+                    </g>
+                    <defs>
+                      <clippath
+                        id="phoneInfographic_svg__a"
+                      >
+                        <path
+                          d="M0 0h20v20H0z"
+                          fill="#fff"
+                          transform="matrix(-1 0 0 1 20 0)"
+                        />
+                      </clippath>
+                    </defs>
+                  </svg>
+                </span>
+                <div
+                  class="el-table-cell-content"
+                  data-narrow-label="Contact Mobile Phone"
+                >
+                  242423424
+                </div>
+              </div>
+              <div
+                class="el-table-cell"
+              >
+                <span
+                  class="el-intent-default el-icon"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 20 20"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g
+                      clip-path="url(#houseInfographic_svg__a)"
+                    >
+                      <path
+                        d="M2 20h16V7.882L10 2 2 7.882V20Z"
+                        fill="#d8dee4"
+                      />
+                      <path
+                        d="M1.221 10 10 2.657 18.779 10 20 8.365 10 0 0 8.365 1.221 10Z"
+                        fill="#798da1"
+                      />
+                      <path
+                        d="M6 12h8v8H6v-8Z"
+                        fill="#fff"
+                      />
+                      <path
+                        d="M8 14h4v6H8v-6Z"
+                        fill="#798da1"
+                      />
+                    </g>
+                    <defs>
+                      <clippath
+                        id="houseInfographic_svg__a"
+                      >
+                        <path
+                          d="M0 0h20v20H0z"
+                          fill="#fff"
+                        />
+                      </clippath>
+                    </defs>
+                  </svg>
+                </span>
+                <div
+                  class="el-table-cell-content"
+                  data-narrow-label="Contact Address"
+                >
+                  Bar Foo Foo Bar Foo Bar Foo
+                </div>
+              </div>
+              <div
+                class="el-table-cell"
+              >
+                <div
+                  class="el-table-cell-content"
+                  data-narrow-label="Contact Active"
+                >
+                  <span
+                    class="el-intent-success el-status-indicator"
+                  />
+                   
+                  Active
+                </div>
+              </div>
+              <div
+                class="el-table-expandable-row-trigger-cell"
+              >
+                <span
+                  class="el-intent-default el-icon"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 4 16"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M2 4a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM2 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM2 16a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+            <div
+              class="el-table-expandable-row"
+            >
+              <div
+                class="el-table-expandable-container"
+              >
+                <div
+                  class="el-button-group"
+                >
+                  <div
+                    class="el-button-group-align-center el-button-group-inner"
+                  >
+                    <button
+                      class="el-intent-neutral el-button"
+                    >
+                      <div
+                        class="el-button-loader"
+                      />
+                      Quick View Contact
+                    </button>
+                    <button
+                      class="el-intent-neutral el-button"
+                    >
+                      <div
+                        class="el-button-loader"
+                      />
+                      Full Contact
+                    </button>
+                    <button
+                      class="el-intent-primary el-button"
+                    >
+                      <div
+                        class="el-button-loader"
+                      />
+                      Edit Contact
+                    </button>
+                    <button
+                      class="el-intent-danger el-button"
+                    >
+                      <div
+                        class="el-button-loader"
+                      />
+                      Deactivate
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="el-table-row-container"
+          >
+            <div
+              class="el-table-row"
+            >
+              <div
+                class="el-table-cell-has-dark-text el-table-cell"
+              >
+                <span
+                  class="el-intent-default el-icon"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 20 20"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g
+                      clip-path="url(#applicantInfographic_svg__a)"
+                    >
+                      <circle
+                        cx="10"
+                        cy="10"
+                        fill="#798da1"
+                        r="10"
+                      />
+                      <path
+                        d="M15.43 15.606v1.385a.282.282 0 0 1-.282.282H4.852a.282.282 0 0 1-.282-.282v-1.385a2.63 2.63 0 0 1 2.63-2.63 1.46 1.46 0 0 0 1.226-.664c.261-.402.234-.752.234-1.034l.005-.013A3.491 3.491 0 0 1 6.51 8.04v-.11a.87.87 0 0 1-.881-.866V5.597c-.012-.51.012-2.31 1.311-3.562C8.451.578 10.846.697 12.581 1.477a.07.07 0 0 1-.003.13l-.452.186c-.068.027-.054.127.02.135l.219.024A3.56 3.56 0 0 1 15 3.586a.076.076 0 0 1-.01.087c-.373.395-.582.92-.582 1.466v1.924a.866.866 0 0 1-.865.865h-.052v.11c0 1.456-.89 2.703-2.156 3.227l.005.013c0 .274-.03.628.235 1.034.26.4.712.664 1.225.665a2.63 2.63 0 0 1 2.63 2.63Z"
+                        fill="#fff"
+                      />
+                      <path
+                        d="M15 3.586a.075.075 0 0 1-.01.087c-.373.396-.582.92-.582 1.466v1.924c0 .437-.33.865-.917.865V5.75c0-.935-.758-1.692-1.693-1.692H8.202c-.935 0-1.693.757-1.693 1.692v2.178a.87.87 0 0 1-.882-.865V5.597c-.01-.51.012-2.31 1.312-3.562C8.45.578 10.846.697 12.58 1.477a.07.07 0 0 1-.002.13l-.452.186c-.068.028-.054.127.019.135l.22.024a3.558 3.558 0 0 1 2.634 1.634ZM4.57 18.399v-2.793a2.63 2.63 0 0 1 2.63-2.63 1.46 1.46 0 0 0 1.226-.664 2.42 2.42 0 0 0 3.149 0c.26.4.712.665 1.225.665a2.63 2.63 0 0 1 2.63 2.63v2.791A9.953 9.953 0 0 1 10 20a9.954 9.954 0 0 1-5.43-1.601Z"
+                        fill="#d8dee4"
+                      />
+                      <path
+                        d="M13.49 8.039a3.491 3.491 0 0 1-3.49 3.49c-1.816 0-3.491-1.411-3.491-3.6V5.75c0-.935.758-1.692 1.693-1.692h3.596c.935 0 1.693.757 1.693 1.692V8.04Z"
+                        fill="#fff"
+                      />
+                      <path
+                        d="M8.62 13.829c-.13.04-.27.063-.42.065-1.456.012-2.643 1.164-2.643 2.62v.265a.494.494 0 0 1-.494.494h-.211a.282.282 0 0 1-.282-.282v-1.385a2.63 2.63 0 0 1 2.63-2.63 1.46 1.46 0 0 0 1.226-.664c.104.09.217.17.335.24.52.31.437 1.095-.14 1.277ZM12.578 1.606c-.415.171-.474.209-.617.186-2.316-.359-4.348.6-5.038 2.85a1.685 1.685 0 0 0-.414 1.108v1.323c0 .571-.882.61-.882-.01V5.597c-.01-.51.012-2.31 1.312-3.562C8.45.578 10.845.697 12.58 1.477a.07.07 0 0 1-.002.13Z"
+                        fill="#d8dee4"
+                      />
+                      <path
+                        d="M10 16a1 1 0 0 1 1-1h2a1 1 0 1 1 0 2h-2a1 1 0 0 1-1-1Z"
+                        fill="#fff"
+                      />
+                    </g>
+                    <defs>
+                      <clippath
+                        id="applicantInfographic_svg__a"
+                      >
+                        <path
+                          d="M0 0h20v20H0z"
+                          fill="#fff"
+                          transform="matrix(-1 0 0 1 20 0)"
+                        />
+                      </clippath>
+                    </defs>
+                  </svg>
+                </span>
+                <div
+                  class="el-table-cell-content"
+                  data-narrow-label="Contact Name"
+                >
+                  Mr Foo Bar
+                </div>
+              </div>
+              <div
+                class="el-table-cell"
+              >
+                <span
+                  class="el-intent-default el-icon"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 20 20"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.466 11.791a.794.794 0 0 0 .533.209.795.795 0 0 0 .534-.209L20 4c0-.5-.636-1-.969-1H.97C.636 3 0 3.5 0 4l9.466 7.791Z"
+                      fill="#798da1"
+                    />
+                    <path
+                      d="M11.394 10.792a2.057 2.057 0 0 1-1.393.552 2.057 2.057 0 0 1-1.393-.552L1 3c-.5 0-1 .5-1 1v10.871c0 .607.226 1.188.628 1.616.402.429.946.67 1.515.67h15.714c.569 0 1.114-.241 1.515-.67.402-.428.628-1.01.628-1.615V4c0-.5-.5-1-1-1l-7.606 7.792Z"
+                      fill="#d8dee4"
+                    />
+                  </svg>
+                </span>
+                <div
+                  class="el-table-cell-content"
+                  data-narrow-label="Contact Email"
+                >
+                  foo@bar.com
+                </div>
+              </div>
+              <div
+                class="el-table-cell"
+              >
+                <span
+                  class="el-intent-default el-icon"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 20 20"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g
+                      clip-path="url(#phoneInfographic_svg__a)"
+                    >
+                      <path
+                        d="M15.75 19.147c.413-.464.875-.885 1.312-1.328.647-.656.652-1.451.009-2.102a391.66 391.66 0 0 0-2.311-2.32c-.633-.63-1.424-.628-2.054 0-.482.479-.964.957-1.435 1.446a.536.536 0 0 1-.095.08l-.33.331c-.091.059-.183.058-.302-.007-.311-.17-.641-.306-.94-.495-1.394-.879-2.563-2.011-3.597-3.288-.514-.635-.971-1.31-1.287-2.073-.053-.127-.054-.218.016-.315l.33-.33a.486.486 0 0 1 .056-.066c.145-.14.288-.28.43-.423.334-.33.663-.666.994-1 .658-.664.657-1.446-.004-2.115-.375-.38-.753-.757-1.13-1.135-.387-.39-.772-.782-1.163-1.168-.634-.625-1.426-.626-2.059-.001-.482.477-.95.97-1.44 1.44-.457.436-.69.966-.736 1.588-.076 1.01.17 1.963.515 2.894.712 1.925 1.795 3.63 3.105 5.197a19.216 19.216 0 0 0 6.37 5.004c1.114.544 2.271.963 3.526 1.032.863.048 1.618-.17 2.22-.846Z"
+                        fill="#798da1"
+                      />
+                      <path
+                        d="M10.025 3.774a1.265 1.265 0 0 0-.536.108c-.417.195-.613.686-.501 1.177.098.432.478.73.956.736 1.117.014 2.105.369 2.926 1.137.902.845 1.324 1.903 1.368 3.135.007.22.09.469.218.644.267.366.743.458 1.18.29.386-.147.613-.494.61-.954-.013-1.717-.635-3.183-1.836-4.446-1.206-1.166-2.67-1.803-4.385-1.827Z"
+                        fill="#d8dee4"
+                      />
+                      <path
+                        d="M16.855 2.72c2.072 2.15 3.062 4.456 3.143 7.15.018.619-.356 1.028-.95 1.06-.625.033-1.05-.355-1.065-.987-.033-1.326-.332-2.586-.988-3.74-1.492-2.626-3.769-3.995-6.765-4.167-.332-.02-.644-.054-.878-.321-.3-.342-.325-.736-.164-1.136.162-.404.492-.586.92-.578 1.95.033 3.75.578 5.374 1.662.561.374 1.073.823 1.373 1.056Z"
+                        fill="#d8dee4"
+                      />
+                    </g>
+                    <defs>
+                      <clippath
+                        id="phoneInfographic_svg__a"
+                      >
+                        <path
+                          d="M0 0h20v20H0z"
+                          fill="#fff"
+                          transform="matrix(-1 0 0 1 20 0)"
+                        />
+                      </clippath>
+                    </defs>
+                  </svg>
+                </span>
+                <div
+                  class="el-table-cell-content"
+                  data-narrow-label="Contact Mobile Phone"
+                >
+                  242423424
+                </div>
+              </div>
+              <div
+                class="el-table-cell"
+              >
+                <span
+                  class="el-intent-default el-icon"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 20 20"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g
+                      clip-path="url(#houseInfographic_svg__a)"
+                    >
+                      <path
+                        d="M2 20h16V7.882L10 2 2 7.882V20Z"
+                        fill="#d8dee4"
+                      />
+                      <path
+                        d="M1.221 10 10 2.657 18.779 10 20 8.365 10 0 0 8.365 1.221 10Z"
+                        fill="#798da1"
+                      />
+                      <path
+                        d="M6 12h8v8H6v-8Z"
+                        fill="#fff"
+                      />
+                      <path
+                        d="M8 14h4v6H8v-6Z"
+                        fill="#798da1"
+                      />
+                    </g>
+                    <defs>
+                      <clippath
+                        id="houseInfographic_svg__a"
+                      >
+                        <path
+                          d="M0 0h20v20H0z"
+                          fill="#fff"
+                        />
+                      </clippath>
+                    </defs>
+                  </svg>
+                </span>
+                <div
+                  class="el-table-cell-content"
+                  data-narrow-label="Contact Address"
+                >
+                  Bar Foo Foo Bar Foo Bar Foo
+                </div>
+              </div>
+              <div
+                class="el-table-cell"
+              >
+                <div
+                  class="el-table-cell-content"
+                  data-narrow-label="Contact Active"
+                >
+                  <span
+                    class="el-intent-danger el-status-indicator"
+                  />
+                   
+                  Inactive
+                </div>
+              </div>
+              <div
+                class="el-table-expandable-row-trigger-cell"
+              >
+                <span
+                  class="el-intent-default el-icon"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 4 16"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M2 4a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM2 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM2 16a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+            <div
+              class="el-table-expandable-row"
+            >
+              <div
+                class="el-table-expandable-container"
+              >
+                <div
+                  class="el-button-group"
+                >
+                  <div
+                    class="el-button-group-align-center el-button-group-inner"
+                  >
+                    <button
+                      class="el-intent-neutral el-button"
+                    >
+                      <div
+                        class="el-button-loader"
+                      />
+                      Quick View Contact
+                    </button>
+                    <button
+                      class="el-intent-neutral el-button"
+                    >
+                      <div
+                        class="el-button-loader"
+                      />
+                      Full Contact
+                    </button>
+                    <button
+                      class="el-intent-primary el-button"
+                    >
+                      <div
+                        class="el-button-loader"
+                      />
+                      Edit Contact
+                    </button>
+                    <button
+                      class="el-intent-primary el-button"
+                    >
+                      <div
+                        class="el-button-loader"
+                      />
+                      Activate
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="el-mb8"
+        >
+          <div
+            class="el-pagination-wrap"
+          >
+            <div
+              class="el-pagination-text"
+            >
+              <input
+                class="el-pagination-input"
+                value="1"
+              />
+               of 
+              1
+            </div>
+            <button
+              class="el-pagination-button"
+              data-testid="back-button"
+              type="button"
+            >
+              <span
+                class="el-icon"
+              >
+                <svg
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 12 20"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m2.47 10.005 8.692-8.691A.77.77 0 1 0 10.073.225L.838 9.461c-.3.3-.3.787 0 1.088l9.236 9.235a.77.77 0 0 0 1.088-1.088L2.47 10.005Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </span>
+            </button>
+            <button
+              class="el-pagination-button"
+              data-testid="forward-button"
+              type="button"
+            >
+              <span
+                class="el-icon"
+              >
+                <svg
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 12 20"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9.53 10.005.837 1.314A.77.77 0 0 1 1.927.225l9.235 9.236c.3.3.3.787 0 1.088l-9.235 9.235a.77.77 0 0 1-1.089-1.088l8.691-8.691Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

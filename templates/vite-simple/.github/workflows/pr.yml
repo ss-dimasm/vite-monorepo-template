@@ -1,0 +1,42 @@
+name: PR
+
+on:
+  pull_request:
+    types: ['opened', 'synchronize']
+
+env:
+  CI: true
+
+jobs:
+  test-pr:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Set Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '16.x'
+
+      - name: Install
+        run: yarn
+
+      - name: Lint
+        run: |
+          yarn  lint
+
+      - name: TypeCheck
+        run: |
+          yarn  check
+
+      - name: Test
+        run: |
+          yarn test --watch=false --ci --forceExit --detectOpenHandles --runInBand --passWithNoTests
+
+      - name: Build
+        run: |
+          yarn  build
