@@ -19,7 +19,7 @@ The output app will create a simple CRUD contacts app to demonstrate the feature
 Then with `NodeJS ~18` installed, run;
 
 ```
-npx degit reapit/foundations-react-vite-template/#main/templates/vite-simple <<Your App Name>> --mode=git
+npx degit reapit/foundations-react-vite-template <<Your App Name>> --mode=git
 ```
 
 Then;
@@ -34,12 +34,24 @@ And;
 yarn
 ```
 
-Add your `connectClientId` to the `.env` file at the root of the project.
+Add your `CONNECT_CLIENT_ID` to the `.env.example` file at the root of the project and rename it to `.env`.
 
-Finally to start a server at `http://localhost:8080`;
+Finally
 
 ```
 yarn start
 ```
 
-For a full list of commands, see the README in the directory of the scaffolded app.
+Each package has the following commands that can be run using yarn:
+
+- `yarn start` will start a dev server at localhost:8080 with typechecking and linting enabled
+- `yarn build` will build an app for production
+- `yarn test` will run the Jest tests in watch mode
+- `yarn lint` will run eslint and prettier accross the project
+- `yarn check` will use tsc to type check the project
+
+## CI/CD and Releases
+
+### Development & PRs
+
+When raising a PR, the dedicated Github action workflow will run tests, linting, typechecking and build tasks against all packages that changed since `main`.
