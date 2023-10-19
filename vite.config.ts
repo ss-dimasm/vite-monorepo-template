@@ -40,7 +40,7 @@ export default defineConfig(({ mode }) => ({
         name: 'Reapit Contact App',
         short_name: 'Contact',
         description: 'Contact app for Reapit Foundatioms',
-        theme_color: '#262f69',
+        theme_color: '#fff',
         icons: [
           {
             src: 'pwa-192x192.png',
@@ -48,26 +48,26 @@ export default defineConfig(({ mode }) => ({
             type: 'image/png',
           },
           {
-            src: 'pwa-512x512.png',
-            sizes: '512x512',
+            src: 'pwa-152x152.png',
+            sizes: '152x152',
             type: 'image/png',
           },
           {
-            src: 'pwa-512x512.png',
-            sizes: '512x512',
+            src: 'pwa-192x192.png',
+            sizes: '192x192',
             type: 'image/png',
             purpose: 'any maskable',
           },
         ],
       },
     }),
-    EnvironmentPlugin([
-      'APP_ENV',
-      'CONNECT_CLIENT_ID',
-      'CONNECT_USER_POOL_ID',
-      'CONNECT_OAUTH_URL',
-      'PLATFORM_API_URL',
-    ]),
+    EnvironmentPlugin({
+      APP_ENV: 'local',
+      CONNECT_CLIENT_ID: '',
+      CONNECT_USER_POOL_ID: 'eu-west-2_eQ7dreNzJ',
+      CONNECT_OAUTH_URL: 'https://connect.reapit.cloud',
+      PLATFORM_API_URL: 'https://platform.reapit.cloud',
+    }),
   ],
   build: {
     outDir: 'build',
