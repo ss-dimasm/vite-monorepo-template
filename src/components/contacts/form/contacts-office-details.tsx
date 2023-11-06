@@ -182,7 +182,7 @@ export const ContactsOfficeDetails: FC<ContactsOfficeDetailsProps> = ({ form, co
           <InputGroup
             className={elMb3}
             onChange={debouncedSourceSearch}
-            icon="searchSystem"
+            icon="search"
             placeholder="Search"
             label="Source"
           />
@@ -198,7 +198,7 @@ export const ContactsOfficeDetails: FC<ContactsOfficeDetailsProps> = ({ form, co
           <InputGroup
             className={elMb3}
             onChange={debouncedNegsSearch}
-            icon="searchSystem"
+            icon="search"
             placeholder="Search"
             label="Negotiators"
           />
@@ -214,7 +214,7 @@ export const ContactsOfficeDetails: FC<ContactsOfficeDetailsProps> = ({ form, co
           <InputGroup
             className={elMb3}
             onChange={debouncedOfficeSearch}
-            icon="searchSystem"
+            icon="search"
             placeholder="Search"
             label="Offices"
           />

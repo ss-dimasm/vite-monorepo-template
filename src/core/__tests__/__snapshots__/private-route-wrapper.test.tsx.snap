@@ -23,81 +23,85 @@ exports[`PrivateRouteWrapper should match a snapshot 1`] = `
             <div
               class="el-nav-responsive-app-switcher-wrap"
             >
-              <span
-                class="el-icon"
+              <div
+                class="el-nav-responsive-app-switcher-icon-wrap"
               >
-                <svg
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 36 36"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
+                <span
+                  class="el-intent-default el-icon-new el-icon"
                 >
-                  <rect
-                    fill="#fff"
-                    height="36"
-                    rx="4"
-                    width="36"
-                  />
-                  <circle
-                    cx="10"
-                    cy="10"
-                    fill="#798DA1"
-                    r="2"
-                  />
-                  <circle
-                    cx="18"
-                    cy="10"
-                    fill="#798DA1"
-                    r="2"
-                  />
-                  <circle
-                    cx="26"
-                    cy="10"
-                    fill="#798DA1"
-                    r="2"
-                  />
-                  <circle
-                    cx="10"
-                    cy="18"
-                    fill="#798DA1"
-                    r="2"
-                  />
-                  <circle
-                    cx="18"
-                    cy="18"
-                    fill="#798DA1"
-                    r="2"
-                  />
-                  <circle
-                    cx="26"
-                    cy="18"
-                    fill="#798DA1"
-                    r="2"
-                  />
-                  <circle
-                    cx="10"
-                    cy="26"
-                    fill="#798DA1"
-                    r="2"
-                  />
-                  <circle
-                    cx="18"
-                    cy="26"
-                    fill="#798DA1"
-                    r="2"
-                  />
-                  <circle
-                    cx="26"
-                    cy="26"
-                    fill="#798DA1"
-                    r="2"
-                  />
-                </svg>
-              </span>
+                  <svg
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 36 36"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      fill="#fff"
+                      height="36"
+                      rx="4"
+                      width="36"
+                    />
+                    <circle
+                      cx="10"
+                      cy="10"
+                      fill="currentColor"
+                      r="2"
+                    />
+                    <circle
+                      cx="18"
+                      cy="10"
+                      fill="currentColor"
+                      r="2"
+                    />
+                    <circle
+                      cx="26"
+                      cy="10"
+                      fill="currentColor"
+                      r="2"
+                    />
+                    <circle
+                      cx="10"
+                      cy="18"
+                      fill="currentColor"
+                      r="2"
+                    />
+                    <circle
+                      cx="18"
+                      cy="18"
+                      fill="currentColor"
+                      r="2"
+                    />
+                    <circle
+                      cx="26"
+                      cy="18"
+                      fill="currentColor"
+                      r="2"
+                    />
+                    <circle
+                      cx="10"
+                      cy="26"
+                      fill="currentColor"
+                      r="2"
+                    />
+                    <circle
+                      cx="18"
+                      cy="26"
+                      fill="currentColor"
+                      r="2"
+                    />
+                    <circle
+                      cx="26"
+                      cy="26"
+                      fill="currentColor"
+                      r="2"
+                    />
+                  </svg>
+                </span>
+              </div>
             </div>
             <span
-              class="el-icon"
+              class="el-icon-new el-icon"
               style="height: 24px; width: 100px;"
             >
               <svg
@@ -127,19 +131,17 @@ exports[`PrivateRouteWrapper should match a snapshot 1`] = `
               </svg>
             </span>
             <span
-              class="el-ml-auto el-mr4 el-nav-item-hide-desktop el-intent-default el-icon"
-              style="font-size: 1.2rem;"
+              class="el-ml-auto el-mr4 el-nav-item-hide-desktop el-intent-default el-icon-new el-icon"
             >
               <svg
                 fill="none"
                 height="1em"
-                style="font-size: 1.2rem;"
-                viewBox="0 0 4 16"
+                viewBox="0 0 24 24"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M2 4a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM2 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM2 16a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
+                  d="M7 12a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM19 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
                   fill="currentColor"
                 />
               </svg>
@@ -153,19 +155,17 @@ exports[`PrivateRouteWrapper should match a snapshot 1`] = `
                 MM
               </div>
               <span
-                class="el-icon"
-                style="height: 16px; width: 16px;"
+                class="el-intent-default el-icon-new el-icon"
               >
                 <svg
                   fill="none"
                   height="1em"
-                  style="height: 16px; width: 16px;"
-                  viewBox="0 0 20 12"
+                  viewBox="0 0 24 24"
                   width="1em"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M9.995 9.53 18.686.837a.77.77 0 0 1 1.089 1.088l-9.236 9.236c-.3.3-.787.3-1.088 0L.216 1.926A.77.77 0 0 1 1.304.838L9.995 9.53Z"
+                    d="M12 16.504a.999.999 0 0 1-.71-.29l-6.996-7a1.004 1.004 0 0 1 1.42-1.42l6.286 6.3 6.287-6.3a1.003 1.003 0 1 1 1.42 1.42l-6.997 7a.999.999 0 0 1-.71.29Z"
                     fill="currentColor"
                   />
                 </svg>
@@ -209,19 +209,17 @@ exports[`PrivateRouteWrapper should match a snapshot 1`] = `
               MM
             </div>
             <span
-              class="el-icon"
-              style="height: 16px; width: 16px;"
+              class="el-intent-default el-icon-new el-icon"
             >
               <svg
                 fill="none"
                 height="1em"
-                style="height: 16px; width: 16px;"
-                viewBox="0 0 20 12"
+                viewBox="0 0 24 24"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M9.995 9.53 18.686.837a.77.77 0 0 1 1.089 1.088l-9.236 9.236c-.3.3-.787.3-1.088 0L.216 1.926A.77.77 0 0 1 1.304.838L9.995 9.53Z"
+                  d="M12 16.504a.999.999 0 0 1-.71-.29l-6.996-7a1.004 1.004 0 0 1 1.42-1.42l6.286 6.3 6.287-6.3a1.003 1.003 0 1 1 1.42 1.42l-6.997 7a.999.999 0 0 1-.71.29Z"
                   fill="currentColor"
                 />
               </svg>
@@ -251,81 +249,85 @@ exports[`PrivateRouteWrapper should match a snapshot 1`] = `
           <div
             class="el-nav-responsive-app-switcher-wrap"
           >
-            <span
-              class="el-icon"
+            <div
+              class="el-nav-responsive-app-switcher-icon-wrap"
             >
-              <svg
-                fill="none"
-                height="1em"
-                viewBox="0 0 36 36"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
+              <span
+                class="el-intent-default el-icon-new el-icon"
               >
-                <rect
-                  fill="#fff"
-                  height="36"
-                  rx="4"
-                  width="36"
-                />
-                <circle
-                  cx="10"
-                  cy="10"
-                  fill="#798DA1"
-                  r="2"
-                />
-                <circle
-                  cx="18"
-                  cy="10"
-                  fill="#798DA1"
-                  r="2"
-                />
-                <circle
-                  cx="26"
-                  cy="10"
-                  fill="#798DA1"
-                  r="2"
-                />
-                <circle
-                  cx="10"
-                  cy="18"
-                  fill="#798DA1"
-                  r="2"
-                />
-                <circle
-                  cx="18"
-                  cy="18"
-                  fill="#798DA1"
-                  r="2"
-                />
-                <circle
-                  cx="26"
-                  cy="18"
-                  fill="#798DA1"
-                  r="2"
-                />
-                <circle
-                  cx="10"
-                  cy="26"
-                  fill="#798DA1"
-                  r="2"
-                />
-                <circle
-                  cx="18"
-                  cy="26"
-                  fill="#798DA1"
-                  r="2"
-                />
-                <circle
-                  cx="26"
-                  cy="26"
-                  fill="#798DA1"
-                  r="2"
-                />
-              </svg>
-            </span>
+                <svg
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 36 36"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    fill="#fff"
+                    height="36"
+                    rx="4"
+                    width="36"
+                  />
+                  <circle
+                    cx="10"
+                    cy="10"
+                    fill="currentColor"
+                    r="2"
+                  />
+                  <circle
+                    cx="18"
+                    cy="10"
+                    fill="currentColor"
+                    r="2"
+                  />
+                  <circle
+                    cx="26"
+                    cy="10"
+                    fill="currentColor"
+                    r="2"
+                  />
+                  <circle
+                    cx="10"
+                    cy="18"
+                    fill="currentColor"
+                    r="2"
+                  />
+                  <circle
+                    cx="18"
+                    cy="18"
+                    fill="currentColor"
+                    r="2"
+                  />
+                  <circle
+                    cx="26"
+                    cy="18"
+                    fill="currentColor"
+                    r="2"
+                  />
+                  <circle
+                    cx="10"
+                    cy="26"
+                    fill="currentColor"
+                    r="2"
+                  />
+                  <circle
+                    cx="18"
+                    cy="26"
+                    fill="currentColor"
+                    r="2"
+                  />
+                  <circle
+                    cx="26"
+                    cy="26"
+                    fill="currentColor"
+                    r="2"
+                  />
+                </svg>
+              </span>
+            </div>
           </div>
           <span
-            class="el-icon"
+            class="el-icon-new el-icon"
             style="height: 24px; width: 100px;"
           >
             <svg
@@ -355,19 +357,17 @@ exports[`PrivateRouteWrapper should match a snapshot 1`] = `
             </svg>
           </span>
           <span
-            class="el-ml-auto el-mr4 el-nav-item-hide-desktop el-intent-default el-icon"
-            style="font-size: 1.2rem;"
+            class="el-ml-auto el-mr4 el-nav-item-hide-desktop el-intent-default el-icon-new el-icon"
           >
             <svg
               fill="none"
               height="1em"
-              style="font-size: 1.2rem;"
-              viewBox="0 0 4 16"
+              viewBox="0 0 24 24"
               width="1em"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M2 4a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM2 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM2 16a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
+                d="M7 12a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM19 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
                 fill="currentColor"
               />
             </svg>
@@ -381,19 +381,17 @@ exports[`PrivateRouteWrapper should match a snapshot 1`] = `
               MM
             </div>
             <span
-              class="el-icon"
-              style="height: 16px; width: 16px;"
+              class="el-intent-default el-icon-new el-icon"
             >
               <svg
                 fill="none"
                 height="1em"
-                style="height: 16px; width: 16px;"
-                viewBox="0 0 20 12"
+                viewBox="0 0 24 24"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M9.995 9.53 18.686.837a.77.77 0 0 1 1.089 1.088l-9.236 9.236c-.3.3-.787.3-1.088 0L.216 1.926A.77.77 0 0 1 1.304.838L9.995 9.53Z"
+                  d="M12 16.504a.999.999 0 0 1-.71-.29l-6.996-7a1.004 1.004 0 0 1 1.42-1.42l6.286 6.3 6.287-6.3a1.003 1.003 0 1 1 1.42 1.42l-6.997 7a.999.999 0 0 1-.71.29Z"
                   fill="currentColor"
                 />
               </svg>
@@ -437,19 +435,17 @@ exports[`PrivateRouteWrapper should match a snapshot 1`] = `
             MM
           </div>
           <span
-            class="el-icon"
-            style="height: 16px; width: 16px;"
+            class="el-intent-default el-icon-new el-icon"
           >
             <svg
               fill="none"
               height="1em"
-              style="height: 16px; width: 16px;"
-              viewBox="0 0 20 12"
+              viewBox="0 0 24 24"
               width="1em"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M9.995 9.53 18.686.837a.77.77 0 0 1 1.089 1.088l-9.236 9.236c-.3.3-.787.3-1.088 0L.216 1.926A.77.77 0 0 1 1.304.838L9.995 9.53Z"
+                d="M12 16.504a.999.999 0 0 1-.71-.29l-6.996-7a1.004 1.004 0 0 1 1.42-1.42l6.286 6.3 6.287-6.3a1.003 1.003 0 1 1 1.42 1.42l-6.997 7a.999.999 0 0 1-.71.29Z"
                 fill="currentColor"
               />
             </svg>

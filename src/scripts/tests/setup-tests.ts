@@ -15,30 +15,4 @@ Object.defineProperty(process, 'env', {
   },
 })
 
-jest.mock('@linaria/react', () => {
-  const styled = (tag: any) => {
-    return jest.fn(() => `mock-styled.${tag}`)
-  }
-  return {
-    styled: new Proxy(styled, {
-      get(o, prop) {
-        return o(prop)
-      },
-    }),
-  }
-})
-
-jest.mock('@linaria/core', () => {
-  const css = (tag: any) => {
-    return `mock-css.${tag}`
-  }
-
-  const { cx } = jest.requireActual('@linaria/core')
-
-  return {
-    cx,
-    css,
-  }
-})
-
 fetchMock.enableMocks()

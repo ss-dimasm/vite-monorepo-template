@@ -145,7 +145,7 @@ export const ContactsList: FC = () => {
                   {...register('name')}
                   label="Contact Name"
                   type="search"
-                  icon="searchSystem"
+                  icon="search"
                   placeholder="Search name"
                 />
               </InputWrap>
@@ -154,7 +154,7 @@ export const ContactsList: FC = () => {
                   {...register('address')}
                   label="Contact Address"
                   type="search"
-                  icon="searchSystem"
+                  icon="search"
                   placeholder="Search address"
                 />
               </InputWrap>
@@ -163,7 +163,7 @@ export const ContactsList: FC = () => {
                   {...register('email')}
                   label="Contact Email"
                   type="search"
-                  icon="searchSystem"
+                  icon="search"
                   placeholder="Search email"
                 />
               </InputWrap>
@@ -210,7 +210,7 @@ export const ContactsList: FC = () => {
                       {
                         label: 'Contact Name',
                         value: combineName(title, forename, surname),
-                        icon: 'applicantInfographic',
+                        icon: 'contact',
                         cellHasDarkText: true,
                         narrowTable: {
                           showLabel: true,
@@ -218,7 +218,7 @@ export const ContactsList: FC = () => {
                       },
                       {
                         label: 'Contact Email',
-                        icon: 'mailInfographic',
+                        icon: 'email',
                         value: email ?? '-',
                         narrowTable: {
                           showLabel: true,
@@ -226,7 +226,7 @@ export const ContactsList: FC = () => {
                       },
                       {
                         label: 'Contact Mobile Phone',
-                        icon: 'phoneInfographic',
+                        icon: 'phone',
                         value: mobilePhone ?? '-',
                         narrowTable: {
                           showLabel: true,
@@ -234,7 +234,7 @@ export const ContactsList: FC = () => {
                       },
                       {
                         label: 'Contact Address',
-                        icon: 'houseInfographic',
+                        icon: 'property',
                         value: combineAddress(primaryAddress),
                         narrowTable: {
                           showLabel: true,

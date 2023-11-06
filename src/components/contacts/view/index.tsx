@@ -84,7 +84,7 @@ export const ContactsEditView: FC<ContactsEditViewProps> = ({ contact }) => {
           {
             key: 'Name',
             value: combineName(title, forename, surname),
-            iconName: 'usernameSystem',
+            iconName: 'contact',
           },
           {
             key: 'Active Status',
@@ -93,47 +93,47 @@ export const ContactsEditView: FC<ContactsEditViewProps> = ({ contact }) => {
                 <StatusIndicator intent={active ? 'success' : 'danger'} /> {active ? 'Active' : 'Inactive'}{' '}
               </>
             ),
-            iconName: 'warningSystem',
+            iconName: 'info',
           },
           {
             key: 'Email',
             value: email || 'Unknown',
-            iconName: 'emailSystem',
+            iconName: 'email',
           },
 
           {
             key: 'Mobile',
             value: mobilePhone || 'Unknown',
-            iconName: 'phoneSystem',
+            iconName: 'phone',
           },
           {
             key: 'Home',
             value: homePhone || 'Unknown',
-            iconName: 'phoneSystem',
+            iconName: 'phone',
           },
           {
             key: 'Work',
             value: workPhone || 'Unknown',
-            iconName: 'phoneSystem',
+            iconName: 'phone',
           },
           {
             key: 'Primary Address',
             value: combineAddress(primaryAddress),
-            iconName: 'homeSystem',
+            iconName: 'property',
           },
           {
             key: 'Secondary Address',
             value: combineAddress(secondaryAddress),
-            iconName: 'homeSystem',
+            iconName: 'property',
           },
           {
             key: 'Work Address',
             value: combineAddress(workAddress),
-            iconName: 'homeSystem',
+            iconName: 'property',
           },
           {
             key: 'Negotiators',
-            iconName: 'usernameSystem',
+            iconName: 'contact',
             value: (
               <BadgeGroup>
                 {negotiatorIds?.length
@@ -148,7 +148,7 @@ export const ContactsEditView: FC<ContactsEditViewProps> = ({ contact }) => {
           },
           {
             key: 'Offices',
-            iconName: 'companySystem',
+            iconName: 'contacts',
             value: (
               <BadgeGroup>
                 {officeIds?.length
@@ -163,7 +163,7 @@ export const ContactsEditView: FC<ContactsEditViewProps> = ({ contact }) => {
           },
           {
             key: 'Categories',
-            iconName: 'bulletListSystem',
+            iconName: 'task',
             value: (
               <BadgeGroup>
                 {categoryIds?.length && categories?.length
@@ -178,12 +178,12 @@ export const ContactsEditView: FC<ContactsEditViewProps> = ({ contact }) => {
           },
           {
             key: 'Sources',
-            iconName: 'cloudSystem',
+            iconName: 'cloud',
             value: <BadgeGroup>{sourceName ? <Badge intent="primary">{sourceName}</Badge> : 'Unknown'}</BadgeGroup>,
           },
           {
             key: 'Marketing Preferences',
-            iconName: 'messageSystem',
+            iconName: 'message',
             value: (
               <BadgeGroup>
                 <Badge intent="primary">

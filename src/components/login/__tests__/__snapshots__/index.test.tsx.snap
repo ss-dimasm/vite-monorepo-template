@@ -5,10 +5,14 @@ exports[`Login should match a snapshot 1`] = `
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <mock-styled.div>
-        <mock-styled.div>
+      <div
+        class="mocked-styled-0"
+      >
+        <div
+          class="mocked-styled-2"
+        >
           <span
-            class="el-mb7 el-icon"
+            class="el-mb7 el-icon-new el-icon"
             style="height: 40px; width: 200px;"
           >
             <svg
@@ -67,15 +71,19 @@ exports[`Login should match a snapshot 1`] = `
               </button>
             </div>
           </div>
-        </mock-styled.div>
-      </mock-styled.div>
+        </div>
+      </div>
     </div>
   </body>,
   "container": <div>
-    <mock-styled.div>
-      <mock-styled.div>
+    <div
+      class="mocked-styled-0"
+    >
+      <div
+        class="mocked-styled-2"
+      >
         <span
-          class="el-mb7 el-icon"
+          class="el-mb7 el-icon-new el-icon"
           style="height: 40px; width: 200px;"
         >
           <svg
@@ -134,8 +142,8 @@ exports[`Login should match a snapshot 1`] = `
             </button>
           </div>
         </div>
-      </mock-styled.div>
-    </mock-styled.div>
+      </div>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

@@ -16,12 +16,12 @@ export const ContactQuickView: FC<ContactQuickViewProps> = ({ contact }) => {
         {
           key: 'Name',
           value: combineName(title, forename, surname),
-          iconName: 'usernameSystem',
+          iconName: 'contact',
         },
         {
           key: 'Email',
           value: email || '-',
-          iconName: 'emailSystem',
+          iconName: 'email',
         },
         {
           key: 'Active Status',
@@ -30,27 +30,27 @@ export const ContactQuickView: FC<ContactQuickViewProps> = ({ contact }) => {
               <StatusIndicator intent={active ? 'success' : 'danger'} /> {active ? 'Active' : 'Inactive'}{' '}
             </>
           ),
-          iconName: 'warningSystem',
+          iconName: 'info',
         },
         {
           key: 'Mobile',
           value: mobilePhone || '-',
-          iconName: 'phoneSystem',
+          iconName: 'phone',
         },
         {
           key: 'Home',
           value: homePhone || '-',
-          iconName: 'phoneSystem',
+          iconName: 'phone',
         },
         {
           key: 'Work',
           value: workPhone || '-',
-          iconName: 'phoneSystem',
+          iconName: 'phone',
         },
         {
           key: 'Primary Address',
           value: combineAddress(primaryAddress),
-          iconName: 'homeSystem',
+          iconName: 'property',
         },
       ]}
     />
