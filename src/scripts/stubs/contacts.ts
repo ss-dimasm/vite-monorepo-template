@@ -264,7 +264,6 @@ export const mockContactModel: ContactModel = {
   communicationPreferenceEmail: true,
   communicationPreferencePhone: true,
   communicationPreferenceSMS: true,
-  additionalContactDetails: [],
   _eTag: '"997FDB9A176B6E8E07927EBA27E1A8F6"',
   _links: {
     self: {

@@ -320,6 +320,7 @@ export const ContactsList: FC = () => {
               {contactToQuickView && (
                 <Drawer
                   title="Quick View"
+                  canDismiss
                   footerItems={
                     <ButtonGroup alignment="right">
                       <Button onClick={closeDrawer}>Close</Button>
