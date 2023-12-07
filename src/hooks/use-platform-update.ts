@@ -46,56 +46,54 @@ export const usePlatformUpdate = <ParamsType, DataType>({
   const navigate = useNavigate()
   const url = useMemo(getUrl(path), [path])
 
-  const { mutateAsync, data, isSuccess, isError, isLoading } = useMutation<DataType, AxiosError<any>, ParamsType>(
-    [url],
-    {
-      mutationFn: async (data: ParamsType) => {
-        const updateHeaders = await getMergedHeaders(reapitConnectBrowserSession, headers)
+  const { mutateAsync, data, isSuccess, isError, isPending } = useMutation<DataType, AxiosError<any>, ParamsType>({
+    mutationKey: [url],
+    mutationFn: async (data: ParamsType) => {
+      const updateHeaders = await getMergedHeaders(reapitConnectBrowserSession, headers)
 
-        if (!updateHeaders) throw new Error(RC_SESSION_MISSING_ERROR)
+      if (!updateHeaders) throw new Error(RC_SESSION_MISSING_ERROR)
 
-        const res = await axios<DataType>(url, {
-          method,
-          headers: updateHeaders,
-          data,
-        })
+      const res = await axios<DataType>(url, {
+        method,
+        headers: updateHeaders,
+        data,
+      })
 
-        if (!shouldReturnRecord) return true
+      if (!shouldReturnRecord) return true
 
-        const resHeaders = res.headers as AxiosResponseHeaders
-        const location = resHeaders.get('Location')?.valueOf() as string
+      const resHeaders = res.headers as AxiosResponseHeaders
+      const location = resHeaders.get('Location')?.valueOf() as string
 
-        if (!location) throw new Error('Location was not returned by server')
+      if (!location) throw new Error('Location was not returned by server')
 
-        const locationUrl = location.includes('.prod.paas') ? location.replace('.prod.paas', '') : location
+      const locationUrl = location.includes('.prod.paas') ? location.replace('.prod.paas', '') : location
 
-        const locationRes = await axios(locationUrl, {
-          method: 'GET',
-          headers: updateHeaders,
-        })
+      const locationRes = await axios(locationUrl, {
+        method: 'GET',
+        headers: updateHeaders,
+      })
 
-        return locationRes.data
-      },
-      onSuccess: () => {
-        if (successMessage) successSnack(successMessage)
-      },
-      onError: (error: AxiosError<any>) => {
-        const isRcError = error?.message === RC_SESSION_MISSING_ERROR
-        const isFourOOne = error.code === NETWORK_ERROR
-
-        if (isRcError || isFourOOne) {
-          return navigate('/login')
-        }
-
-        const errorString = !isRcError ? handleReapitError(error, errorMessage) : null
-        if (errorString) errorSnack(errorString, 5000)
-        console.error(errorString)
-      },
+      return locationRes.data
     },
-  )
+    onSuccess: () => {
+      if (successMessage) successSnack(successMessage)
+    },
+    onError: (error: AxiosError<any>) => {
+      const isRcError = error?.message === RC_SESSION_MISSING_ERROR
+      const isFourOOne = error.code === NETWORK_ERROR
+
+      if (isRcError || isFourOOne) {
+        return navigate('/login')
+      }
+
+      const errorString = !isRcError ? handleReapitError(error, errorMessage) : null
+      if (errorString) errorSnack(errorString, 5000)
+      console.error(errorString)
+    },
+  })
 
   const updateFunction: UpdateFunction<ParamsType, DataType> = (data: ParamsType) => mutateAsync(data)
   const returnData = data ?? null
 
-  return [updateFunction, isLoading, returnData, isSuccess, isError]
+  return [updateFunction, isPending, returnData, isSuccess, isError]
 }

@@ -20,7 +20,7 @@ const App: FC = () => (
           </NavStateProvider>
         </SnackProvider>
       </ErrorBoundary>
-      <ReactQueryDevtools initialIsOpen={false} position="bottom-right" />
+      <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>
   </StrictMode>
 )

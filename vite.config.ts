@@ -1,4 +1,4 @@
-import { defineConfig, splitVendorChunkPlugin, createLogger } from 'vite'
+import { defineConfig, createLogger } from 'vite'
 import react from '@vitejs/plugin-react'
 import svgrPlugin from 'vite-plugin-svgr'
 import linaria from '@linaria/vite'
@@ -31,7 +31,6 @@ export default defineConfig(({ mode }) => ({
           lintCommand: 'eslint "./src/**/*.{ts,tsx}"',
         },
       }),
-    splitVendorChunkPlugin(),
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['assets/favicon.ico'],
@@ -76,11 +75,6 @@ export default defineConfig(({ mode }) => ({
         manualChunks: {
           elements: ['@reapit/elements'],
         },
-      },
-      onwarn(warning, warn) {
-        // See https://github.com/TanStack/query/issues/5175
-        if (warning.code === 'MODULE_LEVEL_DIRECTIVE') return
-        warn(warning)
       },
     },
   },

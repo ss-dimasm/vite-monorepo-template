@@ -1,5 +1,5 @@
 import React, { PropsWithChildren } from 'react'
-import { renderHook, act } from '@testing-library/react-hooks'
+import { renderHook, act } from '@testing-library/react'
 import { usePlatformUpdate } from '../use-platform-update'
 import { ReapitUpdateState } from '../use-platform-update'
 import axios from 'axios'
@@ -49,7 +49,7 @@ describe('usePlatformUpdate', () => {
       test: true,
     }
 
-    const { result, waitForNextUpdate } = renderHook<{}, ReapitUpdateState<{}, typeof mockData>>(
+    const { result } = renderHook<{}, ReapitUpdateState<{}, typeof mockData>>(
       () =>
         usePlatformUpdate<{}, typeof mockData>({
           path: '/foo/bar',
@@ -73,7 +73,7 @@ describe('usePlatformUpdate', () => {
       result.current[0](objectBody)
     })
 
-    await waitForNextUpdate()
+    await new Promise((resolve) => setTimeout(resolve, 1))
 
     expect(mockAxios).toHaveBeenCalledWith('https://platform.reapit.cloud/foo/bar', {
       data: { test: true },
@@ -109,7 +109,7 @@ describe('usePlatformUpdate', () => {
       data: { updated: true },
     })
 
-    const { result, waitForNextUpdate } = renderHook<{}, ReapitUpdateState<{}, typeof mockData>>(
+    const { result } = renderHook<{}, ReapitUpdateState<{}, typeof mockData>>(
       () =>
         usePlatformUpdate<{}, typeof mockData>({
           path: '/foo/bar',
@@ -135,7 +135,7 @@ describe('usePlatformUpdate', () => {
       result.current[0](objectBody)
     })
 
-    await waitForNextUpdate()
+    await new Promise((resolve) => setTimeout(resolve, 1))
 
     expect(mockAxios).toHaveBeenCalledTimes(2)
 
@@ -180,7 +180,7 @@ describe('usePlatformUpdate', () => {
       test: true,
     }
 
-    const { result, waitForNextUpdate } = renderHook<{}, ReapitUpdateState<{}, typeof mockData>>(
+    const { result } = renderHook<{}, ReapitUpdateState<{}, typeof mockData>>(
       () =>
         usePlatformUpdate<{}, typeof mockData>({
           path: '/foo/bar',
@@ -203,7 +203,7 @@ describe('usePlatformUpdate', () => {
     try {
       await result.current[0](objectBody)
 
-      await waitForNextUpdate({ timeout: 5000 })
+      await new Promise((resolve) => setTimeout(resolve, 2))
 
       expect(mockAxios).toHaveBeenCalledWith('https://platform.reapit.cloud/foo/bar', {
         data: { test: true },

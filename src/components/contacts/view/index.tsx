@@ -190,8 +190,8 @@ export const ContactsEditView: FC<ContactsEditViewProps> = ({ contact }) => {
                   {marketingConsent === 'grant'
                     ? 'Marketing Consent'
                     : marketingConsent === 'Deny'
-                    ? 'No Marketing Consent'
-                    : 'Consent Not Requested'}
+                      ? 'No Marketing Consent'
+                      : 'Consent Not Requested'}
                 </Badge>
                 {communicationPreferenceLetter && <Badge intent="primary">Prefers Letter</Badge>}
                 {communicationPreferenceEmail && <Badge intent="primary">Prefers Email</Badge>}

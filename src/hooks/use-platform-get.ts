@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useEffect, useMemo } from 'react'
 import {
   StringMap,
   getMergedHeaders,
@@ -29,6 +29,7 @@ export interface UsePlatformGetParams {
   queryParams?: Object
   headers?: StringMap
   fetchWhenTrue?: any[]
+  retry?: number | boolean
   onSuccess?: (message: string) => void
   onError?: (message: string) => void
 }
@@ -42,6 +43,7 @@ export const usePlatformGet = <DataType>({
   fetchWhenTrue,
   onSuccess,
   onError,
+  retry,
 }: UsePlatformGetParams): PlatformGet<DataType> => {
   const { success: successSnack, error: errorSnack } = useSnack()
   const navigate = useNavigate()
@@ -53,7 +55,8 @@ export const usePlatformGet = <DataType>({
 
   const url = useMemo(getUrl(path, queryParams), [path, queryParams])
 
-  const { data, error, isLoading, isRefetching, refetch } = useQuery<DataType, AxiosError<any>>([url], {
+  const { data, error, isLoading, isSuccess, isError, isRefetching, refetch } = useQuery<DataType, AxiosError<any>>({
+    queryKey: [url],
     queryFn: async () => {
       const reqHeaders = await getMergedHeaders(reapitConnectBrowserSession, headers)
 
@@ -64,14 +67,22 @@ export const usePlatformGet = <DataType>({
       })
       return req.data
     },
-    onSuccess: () => {
+    retry: retry === undefined ? 1 : retry,
+    refetchOnWindowFocus: false,
+    enabled: isEnabled,
+  })
+
+  useEffect(() => {
+    if (isSuccess) {
       if (onSuccess && successMessage) onSuccess(successMessage)
       if (!onSuccess && successMessage) successSnack(successMessage)
-    },
-    onError: (error) => {
+    }
+  }, [isSuccess, successMessage, onSuccess, successSnack])
+
+  useEffect(() => {
+    if (isError) {
       const isRcError = error.message === RC_SESSION_MISSING_ERROR
       const isFourOOne = error.code === NETWORK_ERROR
-
       if (isRcError || isFourOOne) {
         return navigate('/login')
       }
@@ -80,11 +91,8 @@ export const usePlatformGet = <DataType>({
       if (onError && errorString) onError(errorString)
       if (!onError && errorString) errorSnack(errorString)
       console.error(errorString)
-    },
-    retry: 1,
-    refetchOnWindowFocus: false,
-    enabled: isEnabled,
-  })
+    }
+  }, [isError, error, errorMessage, onError, errorSnack, navigate])
 
   const result = data ? data : null
   const errorString = error?.message ? error.message : null

@@ -1,5 +1,5 @@
 import { PropsWithChildren } from 'react'
-import { renderHook } from '@testing-library/react-hooks'
+import { renderHook } from '@testing-library/react'
 import axios from 'axios'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { PlatformGet, usePlatformGet } from '../use-platform-get'
@@ -46,7 +46,7 @@ describe('usePlatformGet', () => {
       data: mockData,
     })
 
-    const { result, waitForNextUpdate } = renderHook<{}, PlatformGet<typeof mockData>>(
+    const { result } = renderHook<{}, PlatformGet<typeof mockData>>(
       () =>
         usePlatformGet<typeof mockData>({
           path: '/foo/bar',
@@ -67,7 +67,7 @@ describe('usePlatformGet', () => {
     expect(result.current[0]).toBeNull()
     expect(result.current[1]).toBe(true)
 
-    await waitForNextUpdate()
+    await new Promise((resolve) => setTimeout(resolve, 1))
 
     expect(mockAxios).toHaveBeenCalledWith('https://platform.reapit.cloud/foo/bar?baz=bat', {
       headers: {
@@ -80,6 +80,8 @@ describe('usePlatformGet', () => {
 
     expect(mockAxios).toHaveBeenCalledTimes(1)
 
+    await new Promise((resolve) => setTimeout(resolve, 1))
+
     expect(mockSuccess).toHaveBeenCalledWith('Success')
     expect(mockError).not.toHaveBeenCalled()
 
@@ -91,7 +93,7 @@ describe('usePlatformGet', () => {
 
     refresh()
 
-    await waitForNextUpdate()
+    await new Promise((resolve) => setTimeout(resolve, 1))
 
     expect(mockAxios).toHaveBeenCalledTimes(2)
   })
@@ -103,7 +105,7 @@ describe('usePlatformGet', () => {
       }),
     )
 
-    const { result, waitForNextUpdate } = renderHook<{}, PlatformGet<typeof mockData>>(
+    const { result } = renderHook<{}, PlatformGet<typeof mockData>>(
       () =>
         usePlatformGet<typeof mockData>({
           path: '/foo/bar',
@@ -116,6 +118,7 @@ describe('usePlatformGet', () => {
           successMessage: 'Success',
           errorMessage: 'Error',
           fetchWhenTrue: [true],
+          retry: false,
         }),
       {
         wrapper: createWrapper(),
@@ -124,7 +127,7 @@ describe('usePlatformGet', () => {
     expect(result.current[0]).toBeNull()
     expect(result.current[1]).toBe(true)
 
-    await waitForNextUpdate({ timeout: 5000 })
+    await new Promise((resolve) => setTimeout(resolve, 2))
 
     expect(mockError).toHaveBeenCalled()
 

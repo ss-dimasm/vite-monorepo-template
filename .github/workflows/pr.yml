@@ -13,14 +13,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
       - name: Set Node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
-          node-version: '16.x'
+          node-version: '18.x'
 
       - name: Install
         run: yarn
@@ -31,11 +31,11 @@ jobs:
 
       - name: TypeCheck
         run: |
-          yarn  check
+          yarn check
 
       - name: Test
         run: |
-          yarn test --watch=false --ci --forceExit --detectOpenHandles --runInBand --passWithNoTests
+          yarn test:ci
 
       - name: Build
         run: |
