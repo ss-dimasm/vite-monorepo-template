@@ -47,8 +47,10 @@ Each package has the following commands that can be run using yarn:
 - `yarn start` will start a dev server at localhost:8080 with typechecking and linting enabled
 - `yarn build` will build an app for production
 - `yarn test` will run the Jest tests in watch mode
+- `yarn test:ci` will run the Jest tests without watch and with coverage for use in CI environments
 - `yarn lint` will run eslint and prettier accross the project
 - `yarn check` will use tsc to type check the project
+- `yarn upgrade:deps` will load a CLI to that allows you to update dependencies to their latest versions
 
 ## CI/CD and Releases
 

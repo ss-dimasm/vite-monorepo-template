@@ -10,7 +10,7 @@ import {
 import { useSnack } from '@reapit/elements'
 import { useQuery, useQueryClient } from '@tanstack/react-query'
 import axios, { AxiosError } from 'axios'
-import { useNavigate } from 'react-router'
+import { NavigateFunction, useNavigate } from 'react-router'
 import { reapitConnectBrowserSession } from '../core/connect-session'
 
 export type PlatformGet<DataType> = [
@@ -33,6 +33,44 @@ export interface UsePlatformGetParams {
   onSuccess?: (message: string) => void
   onError?: (message: string) => void
 }
+
+export const handleError =
+  (
+    isError: boolean,
+    error: AxiosError<any, any> | null,
+    errorSnack: (text: string, timeout?: number | undefined) => void,
+    navigate: NavigateFunction,
+    errorMessage?: string,
+    onError?: (message: string) => void,
+  ) =>
+  () => {
+    if (isError && error) {
+      const isRcError = error.message === RC_SESSION_MISSING_ERROR
+      const isFourOOne = error.code === NETWORK_ERROR
+      if (isRcError || isFourOOne) {
+        return navigate('/login')
+      }
+
+      const errorString = handleReapitError(error, errorMessage)
+      if (onError && errorString) onError(errorString)
+      if (!onError && errorString) errorSnack(errorString)
+      console.error(errorString)
+    }
+  }
+
+export const handleSuccess =
+  (
+    isSuccess: boolean,
+    successSnack: (text: string, timeout?: number | undefined) => void,
+    successMessage?: string,
+    onSuccess?: (message: string) => void,
+  ) =>
+  () => {
+    if (isSuccess) {
+      if (onSuccess && successMessage) onSuccess(successMessage)
+      if (!onSuccess && successMessage) successSnack(successMessage)
+    }
+  }
 
 export const usePlatformGet = <DataType>({
   path,
@@ -72,27 +110,21 @@ export const usePlatformGet = <DataType>({
     enabled: isEnabled,
   })
 
-  useEffect(() => {
-    if (isSuccess) {
-      if (onSuccess && successMessage) onSuccess(successMessage)
-      if (!onSuccess && successMessage) successSnack(successMessage)
-    }
-  }, [isSuccess, successMessage, onSuccess, successSnack])
+  useEffect(handleSuccess(isSuccess, successSnack, successMessage, onSuccess), [
+    isSuccess,
+    successMessage,
+    onSuccess,
+    successSnack,
+  ])
 
-  useEffect(() => {
-    if (isError) {
-      const isRcError = error.message === RC_SESSION_MISSING_ERROR
-      const isFourOOne = error.code === NETWORK_ERROR
-      if (isRcError || isFourOOne) {
-        return navigate('/login')
-      }
-
-      const errorString = handleReapitError(error, errorMessage)
-      if (onError && errorString) onError(errorString)
-      if (!onError && errorString) errorSnack(errorString)
-      console.error(errorString)
-    }
-  }, [isError, error, errorMessage, onError, errorSnack, navigate])
+  useEffect(handleError(isError, error, errorSnack, navigate, errorMessage, onError), [
+    isError,
+    error,
+    errorMessage,
+    onError,
+    errorSnack,
+    navigate,
+  ])
 
   const result = data ? data : null
   const errorString = error?.message ? error.message : null

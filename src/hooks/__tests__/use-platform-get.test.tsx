@@ -1,9 +1,10 @@
 import { PropsWithChildren } from 'react'
 import { renderHook } from '@testing-library/react'
-import axios from 'axios'
+import axios, { AxiosError } from 'axios'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
-import { PlatformGet, usePlatformGet } from '../use-platform-get'
+import { PlatformGet, handleError, handleSuccess, usePlatformGet } from '../use-platform-get'
 import { MemoryRouter } from 'react-router'
+import { RC_SESSION_MISSING_ERROR } from '../utils'
 
 jest.mock('axios', () => ({
   get: jest.fn(),
@@ -138,5 +139,104 @@ describe('usePlatformGet', () => {
 
   afterEach(() => {
     jest.clearAllMocks()
+  })
+})
+
+describe('handleError', () => {
+  it('should handle error correctly with the onError handler', () => {
+    const isError = true
+    const error = {
+      message: 'RC_SESSION_MISSING_ERROR',
+      code: 'NETWORK_ERROR',
+      config: {},
+      isAxiosError: true,
+      toJSON: () => ({}),
+    } as AxiosError
+    const errorSnack = jest.fn()
+    const navigate = jest.fn()
+    const errorMessage = 'Test error message'
+    const onError = jest.fn()
+
+    const curried = handleError(isError, error, errorSnack, navigate, errorMessage, onError)
+
+    curried()
+
+    expect(navigate).not.toHaveBeenCalled()
+    expect(onError).toHaveBeenCalledWith(`${error.message} `)
+    expect(errorSnack).not.toHaveBeenCalled()
+  })
+
+  it('should handle error correctly with the errorSnack handler', () => {
+    const isError = true
+    const error = {
+      message: 'RC_SESSION_MISSING_ERROR',
+      code: 'NETWORK_ERROR',
+      config: {},
+      isAxiosError: true,
+      toJSON: () => ({}),
+    } as AxiosError
+    const errorSnack = jest.fn()
+    const navigate = jest.fn()
+    const errorMessage = 'Test error message'
+    const onError = jest.fn()
+
+    const curried = handleError(isError, error, errorSnack, navigate, errorMessage)
+
+    curried()
+
+    expect(navigate).not.toHaveBeenCalled()
+    expect(onError).not.toHaveBeenCalled()
+    expect(errorSnack).toHaveBeenCalledWith(`${error.message} `)
+  })
+
+  it('should handle error correctly when session is missing', () => {
+    const isError = true
+    const error = {
+      message: RC_SESSION_MISSING_ERROR,
+      code: 'NETWORK_ERROR',
+      config: {},
+      isAxiosError: true,
+      toJSON: () => ({}),
+    } as AxiosError
+    const errorSnack = jest.fn()
+    const navigate = jest.fn()
+    const errorMessage = 'Test error message'
+    const onError = jest.fn()
+
+    const curried = handleError(isError, error, errorSnack, navigate, errorMessage, onError)
+
+    curried()
+
+    expect(navigate).toHaveBeenCalledWith('/login')
+    expect(onError).not.toHaveBeenCalled()
+    expect(errorSnack).not.toHaveBeenCalled()
+  })
+})
+
+describe('handleSuccess', () => {
+  it('should handle success correctly', () => {
+    const isSuccess = true
+    const successSnack = jest.fn()
+    const successMessage = 'Test success message'
+    const onSuccess = jest.fn()
+
+    const curried = handleSuccess(isSuccess, successSnack, successMessage, onSuccess)
+
+    curried()
+
+    expect(onSuccess).toHaveBeenCalledWith(successMessage)
+    expect(successSnack).not.toHaveBeenCalled()
+  })
+
+  it('should handle success correctly when onSuccess is not provided', () => {
+    const isSuccess = true
+    const successSnack = jest.fn()
+    const successMessage = 'Test success message'
+
+    const curried = handleSuccess(isSuccess, successSnack, successMessage)
+
+    curried()
+
+    expect(successSnack).toHaveBeenCalledWith(successMessage)
   })
 })
