@@ -6,25 +6,25 @@ exports[`ContactsList should match a snapshot when loading 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="el-snack-holder"
+        class="mocked-styled-108 el-snack-holder"
       />
       <div
-        class="el-page-header-wrap"
+        class="mocked-styled-192 el-page-header-wrap"
       >
         <div
           class="el-page-header-max-width el-page-header-wrap-inner"
         >
           <div
-            class="el-page-header-container"
+            class="mocked-styled-189 el-page-header-container"
           >
             <div
-              class="el-page-header-container"
+              class="mocked-styled-189 el-page-header-container"
             >
               <div
                 class="el-flex-column el-flex-container"
               >
                 <div
-                  class="el-page-header-title-container"
+                  class="mocked-styled-190 el-page-header-title-container"
                 >
                   <div
                     class="el-mr3 el-has-bold-text el-text2xl el-text-base"
@@ -35,16 +35,16 @@ exports[`ContactsList should match a snapshot when loading 1`] = `
               </div>
             </div>
             <div
-              class="el-button-group"
+              class="mocked-styled-2 el-button-group"
             >
               <div
-                class="el-button-group-inner"
+                class="mocked-styled-3 el-button-group-inner"
               >
                 <button
                   class="el-mb5 el-button-size-small el-intent-primary el-button"
                 >
                   <div
-                    class="el-button-loader"
+                    class="mocked-styled-0 el-button-loader"
                   />
                   New Contact
                 </button>
@@ -57,20 +57,20 @@ exports[`ContactsList should match a snapshot when loading 1`] = `
         class="el-flex-column el-has-max-width el-flex-container"
       >
         <div
-          class="el-tile"
+          class="mocked-styled-186 el-tile"
         >
           <form>
             <div
               class="el-mb8 el-form-layout"
             >
               <div
-                class="el-input-wrap"
+                class="mocked-styled-148 el-input-wrap"
               >
                 <div
-                  class="el-input-group"
+                  class="mocked-styled-40 el-input-group"
                 >
                   <input
-                    class="el-input"
+                    class="mocked-styled-38 el-input"
                     id="test-static-id"
                     name="name"
                     placeholder="Search name"
@@ -95,7 +95,7 @@ exports[`ContactsList should match a snapshot when loading 1`] = `
                     </svg>
                   </span>
                   <label
-                    class="el-label"
+                    class="mocked-styled-41 el-label"
                     for="test-static-id"
                   >
                     Contact Name
@@ -103,13 +103,13 @@ exports[`ContactsList should match a snapshot when loading 1`] = `
                 </div>
               </div>
               <div
-                class="el-input-wrap"
+                class="mocked-styled-148 el-input-wrap"
               >
                 <div
-                  class="el-input-group"
+                  class="mocked-styled-40 el-input-group"
                 >
                   <input
-                    class="el-input"
+                    class="mocked-styled-38 el-input"
                     id="test-static-id"
                     name="address"
                     placeholder="Search address"
@@ -134,7 +134,7 @@ exports[`ContactsList should match a snapshot when loading 1`] = `
                     </svg>
                   </span>
                   <label
-                    class="el-label"
+                    class="mocked-styled-41 el-label"
                     for="test-static-id"
                   >
                     Contact Address
@@ -142,13 +142,13 @@ exports[`ContactsList should match a snapshot when loading 1`] = `
                 </div>
               </div>
               <div
-                class="el-input-wrap"
+                class="mocked-styled-148 el-input-wrap"
               >
                 <div
-                  class="el-input-group"
+                  class="mocked-styled-40 el-input-group"
                 >
                   <input
-                    class="el-input"
+                    class="mocked-styled-38 el-input"
                     id="test-static-id"
                     name="email"
                     placeholder="Search email"
@@ -173,7 +173,7 @@ exports[`ContactsList should match a snapshot when loading 1`] = `
                     </svg>
                   </span>
                   <label
-                    class="el-label"
+                    class="mocked-styled-41 el-label"
                     for="test-static-id"
                   >
                     Contact Email
@@ -181,13 +181,13 @@ exports[`ContactsList should match a snapshot when loading 1`] = `
                 </div>
               </div>
               <div
-                class="el-input-wrap"
+                class="mocked-styled-148 el-input-wrap"
               >
                 <div
-                  class="el-input-group"
+                  class="mocked-styled-40 el-input-group"
                 >
                   <label
-                    class="el-label"
+                    class="mocked-styled-41 el-label"
                   >
                     Active Contacts
                   </label>
@@ -196,7 +196,7 @@ exports[`ContactsList should match a snapshot when loading 1`] = `
                   >
                     <input
                       checked=""
-                      class="el-toggle-radio"
+                      class="mocked-styled-142 el-toggle-radio"
                       id="option-active-all"
                       name="active"
                       type="radio"
@@ -207,13 +207,13 @@ exports[`ContactsList should match a snapshot when loading 1`] = `
                       for="option-active-all"
                     >
                       <span
-                        class="el-toggle-radio-item"
+                        class="mocked-styled-139 el-toggle-radio-item"
                       >
                         All
                       </span>
                     </label>
                     <input
-                      class="el-toggle-radio"
+                      class="mocked-styled-142 el-toggle-radio"
                       id="option-active-true"
                       name="active"
                       type="radio"
@@ -224,13 +224,13 @@ exports[`ContactsList should match a snapshot when loading 1`] = `
                       for="option-active-true"
                     >
                       <span
-                        class="el-toggle-radio-item"
+                        class="mocked-styled-139 el-toggle-radio-item"
                       >
                         Active
                       </span>
                     </label>
                     <input
-                      class="el-toggle-radio"
+                      class="mocked-styled-142 el-toggle-radio"
                       id="option-active-false"
                       name="active"
                       type="radio"
@@ -241,7 +241,7 @@ exports[`ContactsList should match a snapshot when loading 1`] = `
                       for="option-active-false"
                     >
                       <span
-                        class="el-toggle-radio-item"
+                        class="mocked-styled-139 el-toggle-radio-item"
                       >
                         Inactive
                       </span>
@@ -252,13 +252,13 @@ exports[`ContactsList should match a snapshot when loading 1`] = `
             </div>
           </form>
           <div
-            class="el-loader-container"
+            class="mocked-styled-48 el-loader-container"
           >
             <div
-              class="el-loader"
+              class="mocked-styled-50 el-loader"
             >
               <div
-                class="el-loader-moving-bar"
+                class="mocked-styled-51 el-loader-moving-bar"
               />
             </div>
           </div>
@@ -268,25 +268,25 @@ exports[`ContactsList should match a snapshot when loading 1`] = `
   </body>,
   "container": <div>
     <div
-      class="el-snack-holder"
+      class="mocked-styled-108 el-snack-holder"
     />
     <div
-      class="el-page-header-wrap"
+      class="mocked-styled-192 el-page-header-wrap"
     >
       <div
         class="el-page-header-max-width el-page-header-wrap-inner"
       >
         <div
-          class="el-page-header-container"
+          class="mocked-styled-189 el-page-header-container"
         >
           <div
-            class="el-page-header-container"
+            class="mocked-styled-189 el-page-header-container"
           >
             <div
               class="el-flex-column el-flex-container"
             >
               <div
-                class="el-page-header-title-container"
+                class="mocked-styled-190 el-page-header-title-container"
               >
                 <div
                   class="el-mr3 el-has-bold-text el-text2xl el-text-base"
@@ -297,16 +297,16 @@ exports[`ContactsList should match a snapshot when loading 1`] = `
             </div>
           </div>
           <div
-            class="el-button-group"
+            class="mocked-styled-2 el-button-group"
           >
             <div
-              class="el-button-group-inner"
+              class="mocked-styled-3 el-button-group-inner"
             >
               <button
                 class="el-mb5 el-button-size-small el-intent-primary el-button"
               >
                 <div
-                  class="el-button-loader"
+                  class="mocked-styled-0 el-button-loader"
                 />
                 New Contact
               </button>
@@ -319,20 +319,20 @@ exports[`ContactsList should match a snapshot when loading 1`] = `
       class="el-flex-column el-has-max-width el-flex-container"
     >
       <div
-        class="el-tile"
+        class="mocked-styled-186 el-tile"
       >
         <form>
           <div
             class="el-mb8 el-form-layout"
           >
             <div
-              class="el-input-wrap"
+              class="mocked-styled-148 el-input-wrap"
             >
               <div
-                class="el-input-group"
+                class="mocked-styled-40 el-input-group"
               >
                 <input
-                  class="el-input"
+                  class="mocked-styled-38 el-input"
                   id="test-static-id"
                   name="name"
                   placeholder="Search name"
@@ -357,7 +357,7 @@ exports[`ContactsList should match a snapshot when loading 1`] = `
                   </svg>
                 </span>
                 <label
-                  class="el-label"
+                  class="mocked-styled-41 el-label"
                   for="test-static-id"
                 >
                   Contact Name
@@ -365,13 +365,13 @@ exports[`ContactsList should match a snapshot when loading 1`] = `
               </div>
             </div>
             <div
-              class="el-input-wrap"
+              class="mocked-styled-148 el-input-wrap"
             >
               <div
-                class="el-input-group"
+                class="mocked-styled-40 el-input-group"
               >
                 <input
-                  class="el-input"
+                  class="mocked-styled-38 el-input"
                   id="test-static-id"
                   name="address"
                   placeholder="Search address"
@@ -396,7 +396,7 @@ exports[`ContactsList should match a snapshot when loading 1`] = `
                   </svg>
                 </span>
                 <label
-                  class="el-label"
+                  class="mocked-styled-41 el-label"
                   for="test-static-id"
                 >
                   Contact Address
@@ -404,13 +404,13 @@ exports[`ContactsList should match a snapshot when loading 1`] = `
               </div>
             </div>
             <div
-              class="el-input-wrap"
+              class="mocked-styled-148 el-input-wrap"
             >
               <div
-                class="el-input-group"
+                class="mocked-styled-40 el-input-group"
               >
                 <input
-                  class="el-input"
+                  class="mocked-styled-38 el-input"
                   id="test-static-id"
                   name="email"
                   placeholder="Search email"
@@ -435,7 +435,7 @@ exports[`ContactsList should match a snapshot when loading 1`] = `
                   </svg>
                 </span>
                 <label
-                  class="el-label"
+                  class="mocked-styled-41 el-label"
                   for="test-static-id"
                 >
                   Contact Email
@@ -443,13 +443,13 @@ exports[`ContactsList should match a snapshot when loading 1`] = `
               </div>
             </div>
             <div
-              class="el-input-wrap"
+              class="mocked-styled-148 el-input-wrap"
             >
               <div
-                class="el-input-group"
+                class="mocked-styled-40 el-input-group"
               >
                 <label
-                  class="el-label"
+                  class="mocked-styled-41 el-label"
                 >
                   Active Contacts
                 </label>
@@ -458,7 +458,7 @@ exports[`ContactsList should match a snapshot when loading 1`] = `
                 >
                   <input
                     checked=""
-                    class="el-toggle-radio"
+                    class="mocked-styled-142 el-toggle-radio"
                     id="option-active-all"
                     name="active"
                     type="radio"
@@ -469,13 +469,13 @@ exports[`ContactsList should match a snapshot when loading 1`] = `
                     for="option-active-all"
                   >
                     <span
-                      class="el-toggle-radio-item"
+                      class="mocked-styled-139 el-toggle-radio-item"
                     >
                       All
                     </span>
                   </label>
                   <input
-                    class="el-toggle-radio"
+                    class="mocked-styled-142 el-toggle-radio"
                     id="option-active-true"
                     name="active"
                     type="radio"
@@ -486,13 +486,13 @@ exports[`ContactsList should match a snapshot when loading 1`] = `
                     for="option-active-true"
                   >
                     <span
-                      class="el-toggle-radio-item"
+                      class="mocked-styled-139 el-toggle-radio-item"
                     >
                       Active
                     </span>
                   </label>
                   <input
-                    class="el-toggle-radio"
+                    class="mocked-styled-142 el-toggle-radio"
                     id="option-active-false"
                     name="active"
                     type="radio"
@@ -503,7 +503,7 @@ exports[`ContactsList should match a snapshot when loading 1`] = `
                     for="option-active-false"
                   >
                     <span
-                      class="el-toggle-radio-item"
+                      class="mocked-styled-139 el-toggle-radio-item"
                     >
                       Inactive
                     </span>
@@ -514,13 +514,13 @@ exports[`ContactsList should match a snapshot when loading 1`] = `
           </div>
         </form>
         <div
-          class="el-loader-container"
+          class="mocked-styled-48 el-loader-container"
         >
           <div
-            class="el-loader"
+            class="mocked-styled-50 el-loader"
           >
             <div
-              class="el-loader-moving-bar"
+              class="mocked-styled-51 el-loader-moving-bar"
             />
           </div>
         </div>
@@ -587,25 +587,25 @@ exports[`ContactsList should match a snapshot when not loading but no contact 1`
   "baseElement": <body>
     <div>
       <div
-        class="el-snack-holder"
+        class="mocked-styled-108 el-snack-holder"
       />
       <div
-        class="el-page-header-wrap"
+        class="mocked-styled-192 el-page-header-wrap"
       >
         <div
           class="el-page-header-max-width el-page-header-wrap-inner"
         >
           <div
-            class="el-page-header-container"
+            class="mocked-styled-189 el-page-header-container"
           >
             <div
-              class="el-page-header-container"
+              class="mocked-styled-189 el-page-header-container"
             >
               <div
                 class="el-flex-column el-flex-container"
               >
                 <div
-                  class="el-page-header-title-container"
+                  class="mocked-styled-190 el-page-header-title-container"
                 >
                   <div
                     class="el-mr3 el-has-bold-text el-text2xl el-text-base"
@@ -616,16 +616,16 @@ exports[`ContactsList should match a snapshot when not loading but no contact 1`
               </div>
             </div>
             <div
-              class="el-button-group"
+              class="mocked-styled-2 el-button-group"
             >
               <div
-                class="el-button-group-inner"
+                class="mocked-styled-3 el-button-group-inner"
               >
                 <button
                   class="el-mb5 el-button-size-small el-intent-primary el-button"
                 >
                   <div
-                    class="el-button-loader"
+                    class="mocked-styled-0 el-button-loader"
                   />
                   New Contact
                 </button>
@@ -638,20 +638,20 @@ exports[`ContactsList should match a snapshot when not loading but no contact 1`
         class="el-flex-column el-has-max-width el-flex-container"
       >
         <div
-          class="el-tile"
+          class="mocked-styled-186 el-tile"
         >
           <form>
             <div
               class="el-mb8 el-form-layout"
             >
               <div
-                class="el-input-wrap"
+                class="mocked-styled-148 el-input-wrap"
               >
                 <div
-                  class="el-input-group"
+                  class="mocked-styled-40 el-input-group"
                 >
                   <input
-                    class="el-input"
+                    class="mocked-styled-38 el-input"
                     id="test-static-id"
                     name="name"
                     placeholder="Search name"
@@ -676,7 +676,7 @@ exports[`ContactsList should match a snapshot when not loading but no contact 1`
                     </svg>
                   </span>
                   <label
-                    class="el-label"
+                    class="mocked-styled-41 el-label"
                     for="test-static-id"
                   >
                     Contact Name
@@ -684,13 +684,13 @@ exports[`ContactsList should match a snapshot when not loading but no contact 1`
                 </div>
               </div>
               <div
-                class="el-input-wrap"
+                class="mocked-styled-148 el-input-wrap"
               >
                 <div
-                  class="el-input-group"
+                  class="mocked-styled-40 el-input-group"
                 >
                   <input
-                    class="el-input"
+                    class="mocked-styled-38 el-input"
                     id="test-static-id"
                     name="address"
                     placeholder="Search address"
@@ -715,7 +715,7 @@ exports[`ContactsList should match a snapshot when not loading but no contact 1`
                     </svg>
                   </span>
                   <label
-                    class="el-label"
+                    class="mocked-styled-41 el-label"
                     for="test-static-id"
                   >
                     Contact Address
@@ -723,13 +723,13 @@ exports[`ContactsList should match a snapshot when not loading but no contact 1`
                 </div>
               </div>
               <div
-                class="el-input-wrap"
+                class="mocked-styled-148 el-input-wrap"
               >
                 <div
-                  class="el-input-group"
+                  class="mocked-styled-40 el-input-group"
                 >
                   <input
-                    class="el-input"
+                    class="mocked-styled-38 el-input"
                     id="test-static-id"
                     name="email"
                     placeholder="Search email"
@@ -754,7 +754,7 @@ exports[`ContactsList should match a snapshot when not loading but no contact 1`
                     </svg>
                   </span>
                   <label
-                    class="el-label"
+                    class="mocked-styled-41 el-label"
                     for="test-static-id"
                   >
                     Contact Email
@@ -762,13 +762,13 @@ exports[`ContactsList should match a snapshot when not loading but no contact 1`
                 </div>
               </div>
               <div
-                class="el-input-wrap"
+                class="mocked-styled-148 el-input-wrap"
               >
                 <div
-                  class="el-input-group"
+                  class="mocked-styled-40 el-input-group"
                 >
                   <label
-                    class="el-label"
+                    class="mocked-styled-41 el-label"
                   >
                     Active Contacts
                   </label>
@@ -777,7 +777,7 @@ exports[`ContactsList should match a snapshot when not loading but no contact 1`
                   >
                     <input
                       checked=""
-                      class="el-toggle-radio"
+                      class="mocked-styled-142 el-toggle-radio"
                       id="option-active-all"
                       name="active"
                       type="radio"
@@ -788,13 +788,13 @@ exports[`ContactsList should match a snapshot when not loading but no contact 1`
                       for="option-active-all"
                     >
                       <span
-                        class="el-toggle-radio-item"
+                        class="mocked-styled-139 el-toggle-radio-item"
                       >
                         All
                       </span>
                     </label>
                     <input
-                      class="el-toggle-radio"
+                      class="mocked-styled-142 el-toggle-radio"
                       id="option-active-true"
                       name="active"
                       type="radio"
@@ -805,13 +805,13 @@ exports[`ContactsList should match a snapshot when not loading but no contact 1`
                       for="option-active-true"
                     >
                       <span
-                        class="el-toggle-radio-item"
+                        class="mocked-styled-139 el-toggle-radio-item"
                       >
                         Active
                       </span>
                     </label>
                     <input
-                      class="el-toggle-radio"
+                      class="mocked-styled-142 el-toggle-radio"
                       id="option-active-false"
                       name="active"
                       type="radio"
@@ -822,7 +822,7 @@ exports[`ContactsList should match a snapshot when not loading but no contact 1`
                       for="option-active-false"
                     >
                       <span
-                        class="el-toggle-radio-item"
+                        class="mocked-styled-139 el-toggle-radio-item"
                       >
                         Inactive
                       </span>
@@ -838,25 +838,25 @@ exports[`ContactsList should match a snapshot when not loading but no contact 1`
   </body>,
   "container": <div>
     <div
-      class="el-snack-holder"
+      class="mocked-styled-108 el-snack-holder"
     />
     <div
-      class="el-page-header-wrap"
+      class="mocked-styled-192 el-page-header-wrap"
     >
       <div
         class="el-page-header-max-width el-page-header-wrap-inner"
       >
         <div
-          class="el-page-header-container"
+          class="mocked-styled-189 el-page-header-container"
         >
           <div
-            class="el-page-header-container"
+            class="mocked-styled-189 el-page-header-container"
           >
             <div
               class="el-flex-column el-flex-container"
             >
               <div
-                class="el-page-header-title-container"
+                class="mocked-styled-190 el-page-header-title-container"
               >
                 <div
                   class="el-mr3 el-has-bold-text el-text2xl el-text-base"
@@ -867,16 +867,16 @@ exports[`ContactsList should match a snapshot when not loading but no contact 1`
             </div>
           </div>
           <div
-            class="el-button-group"
+            class="mocked-styled-2 el-button-group"
           >
             <div
-              class="el-button-group-inner"
+              class="mocked-styled-3 el-button-group-inner"
             >
               <button
                 class="el-mb5 el-button-size-small el-intent-primary el-button"
               >
                 <div
-                  class="el-button-loader"
+                  class="mocked-styled-0 el-button-loader"
                 />
                 New Contact
               </button>
@@ -889,20 +889,20 @@ exports[`ContactsList should match a snapshot when not loading but no contact 1`
       class="el-flex-column el-has-max-width el-flex-container"
     >
       <div
-        class="el-tile"
+        class="mocked-styled-186 el-tile"
       >
         <form>
           <div
             class="el-mb8 el-form-layout"
           >
             <div
-              class="el-input-wrap"
+              class="mocked-styled-148 el-input-wrap"
             >
               <div
-                class="el-input-group"
+                class="mocked-styled-40 el-input-group"
               >
                 <input
-                  class="el-input"
+                  class="mocked-styled-38 el-input"
                   id="test-static-id"
                   name="name"
                   placeholder="Search name"
@@ -927,7 +927,7 @@ exports[`ContactsList should match a snapshot when not loading but no contact 1`
                   </svg>
                 </span>
                 <label
-                  class="el-label"
+                  class="mocked-styled-41 el-label"
                   for="test-static-id"
                 >
                   Contact Name
@@ -935,13 +935,13 @@ exports[`ContactsList should match a snapshot when not loading but no contact 1`
               </div>
             </div>
             <div
-              class="el-input-wrap"
+              class="mocked-styled-148 el-input-wrap"
             >
               <div
-                class="el-input-group"
+                class="mocked-styled-40 el-input-group"
               >
                 <input
-                  class="el-input"
+                  class="mocked-styled-38 el-input"
                   id="test-static-id"
                   name="address"
                   placeholder="Search address"
@@ -966,7 +966,7 @@ exports[`ContactsList should match a snapshot when not loading but no contact 1`
                   </svg>
                 </span>
                 <label
-                  class="el-label"
+                  class="mocked-styled-41 el-label"
                   for="test-static-id"
                 >
                   Contact Address
@@ -974,13 +974,13 @@ exports[`ContactsList should match a snapshot when not loading but no contact 1`
               </div>
             </div>
             <div
-              class="el-input-wrap"
+              class="mocked-styled-148 el-input-wrap"
             >
               <div
-                class="el-input-group"
+                class="mocked-styled-40 el-input-group"
               >
                 <input
-                  class="el-input"
+                  class="mocked-styled-38 el-input"
                   id="test-static-id"
                   name="email"
                   placeholder="Search email"
@@ -1005,7 +1005,7 @@ exports[`ContactsList should match a snapshot when not loading but no contact 1`
                   </svg>
                 </span>
                 <label
-                  class="el-label"
+                  class="mocked-styled-41 el-label"
                   for="test-static-id"
                 >
                   Contact Email
@@ -1013,13 +1013,13 @@ exports[`ContactsList should match a snapshot when not loading but no contact 1`
               </div>
             </div>
             <div
-              class="el-input-wrap"
+              class="mocked-styled-148 el-input-wrap"
             >
               <div
-                class="el-input-group"
+                class="mocked-styled-40 el-input-group"
               >
                 <label
-                  class="el-label"
+                  class="mocked-styled-41 el-label"
                 >
                   Active Contacts
                 </label>
@@ -1028,7 +1028,7 @@ exports[`ContactsList should match a snapshot when not loading but no contact 1`
                 >
                   <input
                     checked=""
-                    class="el-toggle-radio"
+                    class="mocked-styled-142 el-toggle-radio"
                     id="option-active-all"
                     name="active"
                     type="radio"
@@ -1039,13 +1039,13 @@ exports[`ContactsList should match a snapshot when not loading but no contact 1`
                     for="option-active-all"
                   >
                     <span
-                      class="el-toggle-radio-item"
+                      class="mocked-styled-139 el-toggle-radio-item"
                     >
                       All
                     </span>
                   </label>
                   <input
-                    class="el-toggle-radio"
+                    class="mocked-styled-142 el-toggle-radio"
                     id="option-active-true"
                     name="active"
                     type="radio"
@@ -1056,13 +1056,13 @@ exports[`ContactsList should match a snapshot when not loading but no contact 1`
                     for="option-active-true"
                   >
                     <span
-                      class="el-toggle-radio-item"
+                      class="mocked-styled-139 el-toggle-radio-item"
                     >
                       Active
                     </span>
                   </label>
                   <input
-                    class="el-toggle-radio"
+                    class="mocked-styled-142 el-toggle-radio"
                     id="option-active-false"
                     name="active"
                     type="radio"
@@ -1073,7 +1073,7 @@ exports[`ContactsList should match a snapshot when not loading but no contact 1`
                     for="option-active-false"
                   >
                     <span
-                      class="el-toggle-radio-item"
+                      class="mocked-styled-139 el-toggle-radio-item"
                     >
                       Inactive
                     </span>
@@ -1146,25 +1146,25 @@ exports[`ContactsList should match a snapshot with data 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="el-snack-holder"
+        class="mocked-styled-108 el-snack-holder"
       />
       <div
-        class="el-page-header-wrap"
+        class="mocked-styled-192 el-page-header-wrap"
       >
         <div
           class="el-page-header-max-width el-page-header-wrap-inner"
         >
           <div
-            class="el-page-header-container"
+            class="mocked-styled-189 el-page-header-container"
           >
             <div
-              class="el-page-header-container"
+              class="mocked-styled-189 el-page-header-container"
             >
               <div
                 class="el-flex-column el-flex-container"
               >
                 <div
-                  class="el-page-header-title-container"
+                  class="mocked-styled-190 el-page-header-title-container"
                 >
                   <div
                     class="el-mr3 el-has-bold-text el-text2xl el-text-base"
@@ -1175,16 +1175,16 @@ exports[`ContactsList should match a snapshot with data 1`] = `
               </div>
             </div>
             <div
-              class="el-button-group"
+              class="mocked-styled-2 el-button-group"
             >
               <div
-                class="el-button-group-inner"
+                class="mocked-styled-3 el-button-group-inner"
               >
                 <button
                   class="el-mb5 el-button-size-small el-intent-primary el-button"
                 >
                   <div
-                    class="el-button-loader"
+                    class="mocked-styled-0 el-button-loader"
                   />
                   New Contact
                 </button>
@@ -1197,20 +1197,20 @@ exports[`ContactsList should match a snapshot with data 1`] = `
         class="el-flex-column el-has-max-width el-flex-container"
       >
         <div
-          class="el-tile"
+          class="mocked-styled-186 el-tile"
         >
           <form>
             <div
               class="el-mb8 el-form-layout"
             >
               <div
-                class="el-input-wrap"
+                class="mocked-styled-148 el-input-wrap"
               >
                 <div
-                  class="el-input-group"
+                  class="mocked-styled-40 el-input-group"
                 >
                   <input
-                    class="el-input"
+                    class="mocked-styled-38 el-input"
                     id="test-static-id"
                     name="name"
                     placeholder="Search name"
@@ -1235,7 +1235,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                     </svg>
                   </span>
                   <label
-                    class="el-label"
+                    class="mocked-styled-41 el-label"
                     for="test-static-id"
                   >
                     Contact Name
@@ -1243,13 +1243,13 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                 </div>
               </div>
               <div
-                class="el-input-wrap"
+                class="mocked-styled-148 el-input-wrap"
               >
                 <div
-                  class="el-input-group"
+                  class="mocked-styled-40 el-input-group"
                 >
                   <input
-                    class="el-input"
+                    class="mocked-styled-38 el-input"
                     id="test-static-id"
                     name="address"
                     placeholder="Search address"
@@ -1274,7 +1274,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                     </svg>
                   </span>
                   <label
-                    class="el-label"
+                    class="mocked-styled-41 el-label"
                     for="test-static-id"
                   >
                     Contact Address
@@ -1282,13 +1282,13 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                 </div>
               </div>
               <div
-                class="el-input-wrap"
+                class="mocked-styled-148 el-input-wrap"
               >
                 <div
-                  class="el-input-group"
+                  class="mocked-styled-40 el-input-group"
                 >
                   <input
-                    class="el-input"
+                    class="mocked-styled-38 el-input"
                     id="test-static-id"
                     name="email"
                     placeholder="Search email"
@@ -1313,7 +1313,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                     </svg>
                   </span>
                   <label
-                    class="el-label"
+                    class="mocked-styled-41 el-label"
                     for="test-static-id"
                   >
                     Contact Email
@@ -1321,13 +1321,13 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                 </div>
               </div>
               <div
-                class="el-input-wrap"
+                class="mocked-styled-148 el-input-wrap"
               >
                 <div
-                  class="el-input-group"
+                  class="mocked-styled-40 el-input-group"
                 >
                   <label
-                    class="el-label"
+                    class="mocked-styled-41 el-label"
                   >
                     Active Contacts
                   </label>
@@ -1336,7 +1336,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                   >
                     <input
                       checked=""
-                      class="el-toggle-radio"
+                      class="mocked-styled-142 el-toggle-radio"
                       id="option-active-all"
                       name="active"
                       type="radio"
@@ -1347,13 +1347,13 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                       for="option-active-all"
                     >
                       <span
-                        class="el-toggle-radio-item"
+                        class="mocked-styled-139 el-toggle-radio-item"
                       >
                         All
                       </span>
                     </label>
                     <input
-                      class="el-toggle-radio"
+                      class="mocked-styled-142 el-toggle-radio"
                       id="option-active-true"
                       name="active"
                       type="radio"
@@ -1364,13 +1364,13 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                       for="option-active-true"
                     >
                       <span
-                        class="el-toggle-radio-item"
+                        class="mocked-styled-139 el-toggle-radio-item"
                       >
                         Active
                       </span>
                     </label>
                     <input
-                      class="el-toggle-radio"
+                      class="mocked-styled-142 el-toggle-radio"
                       id="option-active-false"
                       name="active"
                       type="radio"
@@ -1381,7 +1381,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                       for="option-active-false"
                     >
                       <span
-                        class="el-toggle-radio-item"
+                        class="mocked-styled-139 el-toggle-radio-item"
                       >
                         Inactive
                       </span>
@@ -1398,35 +1398,35 @@ exports[`ContactsList should match a snapshot with data 1`] = `
             data-num-columns-excl-action-col="5"
           >
             <div
-              class="el-table-headers-row"
+              class="mocked-styled-116 el-table-headers-row"
             >
               <div
-                class="el-table-header"
+                class="mocked-styled-117 el-table-header"
               >
                 Contact Name
               </div>
               <div
-                class="el-table-header"
+                class="mocked-styled-117 el-table-header"
               >
                 Contact Email
               </div>
               <div
-                class="el-table-header"
+                class="mocked-styled-117 el-table-header"
               >
                 Contact Mobile Phone
               </div>
               <div
-                class="el-table-header"
+                class="mocked-styled-117 el-table-header"
               >
                 Contact Address
               </div>
               <div
-                class="el-table-header"
+                class="mocked-styled-117 el-table-header"
               >
                 Contact Active
               </div>
               <div
-                class="el-table-header"
+                class="mocked-styled-117 el-table-header"
               >
                 <span
                   class="el-intent-default el-icon-new el-icon"
@@ -1447,10 +1447,10 @@ exports[`ContactsList should match a snapshot with data 1`] = `
               </div>
             </div>
             <div
-              class="el-table-row-container"
+              class="mocked-styled-125 el-table-row-container"
             >
               <div
-                class="el-table-row"
+                class="mocked-styled-118 el-table-row"
               >
                 <div
                   class="el-table-cell-has-dark-text el-table-cell"
@@ -1474,7 +1474,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                     </svg>
                   </span>
                   <div
-                    class="el-table-cell-content"
+                    class="mocked-styled-126 el-table-cell-content"
                     data-narrow-label="Contact Name"
                   >
                     Mr Foo Bar
@@ -1502,7 +1502,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                     </svg>
                   </span>
                   <div
-                    class="el-table-cell-content"
+                    class="mocked-styled-126 el-table-cell-content"
                     data-narrow-label="Contact Email"
                   >
                     foo@bar.com
@@ -1530,7 +1530,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                     </svg>
                   </span>
                   <div
-                    class="el-table-cell-content"
+                    class="mocked-styled-126 el-table-cell-content"
                     data-narrow-label="Contact Mobile Phone"
                   >
                     242423424
@@ -1558,7 +1558,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                     </svg>
                   </span>
                   <div
-                    class="el-table-cell-content"
+                    class="mocked-styled-126 el-table-cell-content"
                     data-narrow-label="Contact Address"
                   >
                     Bar Foo Foo Bar Foo Bar Foo
@@ -1568,7 +1568,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                   class="el-table-cell-has-dark-text el-table-cell"
                 >
                   <div
-                    class="el-table-cell-content"
+                    class="mocked-styled-126 el-table-cell-content"
                     data-narrow-label="Contact Active"
                   >
                     <span
@@ -1579,7 +1579,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                   </div>
                 </div>
                 <div
-                  class="el-table-expandable-row-trigger-cell"
+                  class="mocked-styled-124 el-table-expandable-row-trigger-cell"
                 >
                   <span
                     class="el-intent-default el-icon-new el-icon"
@@ -1600,13 +1600,13 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                 </div>
               </div>
               <div
-                class="el-table-expandable-row"
+                class="mocked-styled-128 el-table-expandable-row"
               >
                 <div
-                  class="el-table-expandable-container"
+                  class="mocked-styled-129 el-table-expandable-container"
                 >
                   <div
-                    class="el-button-group"
+                    class="mocked-styled-2 el-button-group"
                   >
                     <div
                       class="el-button-group-align-center el-button-group-inner"
@@ -1615,7 +1615,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                         class="el-intent-neutral el-button"
                       >
                         <div
-                          class="el-button-loader"
+                          class="mocked-styled-0 el-button-loader"
                         />
                         Quick View Contact
                       </button>
@@ -1623,7 +1623,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                         class="el-intent-neutral el-button"
                       >
                         <div
-                          class="el-button-loader"
+                          class="mocked-styled-0 el-button-loader"
                         />
                         Full Contact
                       </button>
@@ -1631,7 +1631,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                         class="el-intent-primary el-button"
                       >
                         <div
-                          class="el-button-loader"
+                          class="mocked-styled-0 el-button-loader"
                         />
                         Edit Contact
                       </button>
@@ -1639,7 +1639,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                         class="el-intent-danger el-button"
                       >
                         <div
-                          class="el-button-loader"
+                          class="mocked-styled-0 el-button-loader"
                         />
                         Deactivate
                       </button>
@@ -1649,10 +1649,10 @@ exports[`ContactsList should match a snapshot with data 1`] = `
               </div>
             </div>
             <div
-              class="el-table-row-container"
+              class="mocked-styled-125 el-table-row-container"
             >
               <div
-                class="el-table-row"
+                class="mocked-styled-118 el-table-row"
               >
                 <div
                   class="el-table-cell-has-dark-text el-table-cell"
@@ -1676,7 +1676,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                     </svg>
                   </span>
                   <div
-                    class="el-table-cell-content"
+                    class="mocked-styled-126 el-table-cell-content"
                     data-narrow-label="Contact Name"
                   >
                     Mr Foo Bar
@@ -1704,7 +1704,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                     </svg>
                   </span>
                   <div
-                    class="el-table-cell-content"
+                    class="mocked-styled-126 el-table-cell-content"
                     data-narrow-label="Contact Email"
                   >
                     foo@bar.com
@@ -1732,7 +1732,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                     </svg>
                   </span>
                   <div
-                    class="el-table-cell-content"
+                    class="mocked-styled-126 el-table-cell-content"
                     data-narrow-label="Contact Mobile Phone"
                   >
                     242423424
@@ -1760,7 +1760,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                     </svg>
                   </span>
                   <div
-                    class="el-table-cell-content"
+                    class="mocked-styled-126 el-table-cell-content"
                     data-narrow-label="Contact Address"
                   >
                     Bar Foo Foo Bar Foo Bar Foo
@@ -1770,7 +1770,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                   class="el-table-cell-has-dark-text el-table-cell"
                 >
                   <div
-                    class="el-table-cell-content"
+                    class="mocked-styled-126 el-table-cell-content"
                     data-narrow-label="Contact Active"
                   >
                     <span
@@ -1781,7 +1781,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                   </div>
                 </div>
                 <div
-                  class="el-table-expandable-row-trigger-cell"
+                  class="mocked-styled-124 el-table-expandable-row-trigger-cell"
                 >
                   <span
                     class="el-intent-default el-icon-new el-icon"
@@ -1802,13 +1802,13 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                 </div>
               </div>
               <div
-                class="el-table-expandable-row"
+                class="mocked-styled-128 el-table-expandable-row"
               >
                 <div
-                  class="el-table-expandable-container"
+                  class="mocked-styled-129 el-table-expandable-container"
                 >
                   <div
-                    class="el-button-group"
+                    class="mocked-styled-2 el-button-group"
                   >
                     <div
                       class="el-button-group-align-center el-button-group-inner"
@@ -1817,7 +1817,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                         class="el-intent-neutral el-button"
                       >
                         <div
-                          class="el-button-loader"
+                          class="mocked-styled-0 el-button-loader"
                         />
                         Quick View Contact
                       </button>
@@ -1825,7 +1825,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                         class="el-intent-neutral el-button"
                       >
                         <div
-                          class="el-button-loader"
+                          class="mocked-styled-0 el-button-loader"
                         />
                         Full Contact
                       </button>
@@ -1833,7 +1833,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                         class="el-intent-primary el-button"
                       >
                         <div
-                          class="el-button-loader"
+                          class="mocked-styled-0 el-button-loader"
                         />
                         Edit Contact
                       </button>
@@ -1841,7 +1841,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                         class="el-intent-primary el-button"
                       >
                         <div
-                          class="el-button-loader"
+                          class="mocked-styled-0 el-button-loader"
                         />
                         Activate
                       </button>
@@ -1855,10 +1855,10 @@ exports[`ContactsList should match a snapshot with data 1`] = `
             class="el-mb8"
           >
             <div
-              class="el-pagination-wrap"
+              class="mocked-styled-86 el-pagination-wrap"
             >
               <button
-                class="el-pagination-button"
+                class="mocked-styled-89 el-pagination-button"
                 data-testid="back-button"
                 type="button"
               >
@@ -1880,17 +1880,17 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                 </span>
               </button>
               <div
-                class="el-pagination-text"
+                class="mocked-styled-87 el-pagination-text"
               >
                 <input
-                  class="el-pagination-input"
+                  class="mocked-styled-88 el-pagination-input"
                   value="1"
                 />
                  of 
                 1
               </div>
               <button
-                class="el-pagination-button"
+                class="mocked-styled-89 el-pagination-button"
                 data-testid="forward-button"
                 type="button"
               >
@@ -1919,25 +1919,25 @@ exports[`ContactsList should match a snapshot with data 1`] = `
   </body>,
   "container": <div>
     <div
-      class="el-snack-holder"
+      class="mocked-styled-108 el-snack-holder"
     />
     <div
-      class="el-page-header-wrap"
+      class="mocked-styled-192 el-page-header-wrap"
     >
       <div
         class="el-page-header-max-width el-page-header-wrap-inner"
       >
         <div
-          class="el-page-header-container"
+          class="mocked-styled-189 el-page-header-container"
         >
           <div
-            class="el-page-header-container"
+            class="mocked-styled-189 el-page-header-container"
           >
             <div
               class="el-flex-column el-flex-container"
             >
               <div
-                class="el-page-header-title-container"
+                class="mocked-styled-190 el-page-header-title-container"
               >
                 <div
                   class="el-mr3 el-has-bold-text el-text2xl el-text-base"
@@ -1948,16 +1948,16 @@ exports[`ContactsList should match a snapshot with data 1`] = `
             </div>
           </div>
           <div
-            class="el-button-group"
+            class="mocked-styled-2 el-button-group"
           >
             <div
-              class="el-button-group-inner"
+              class="mocked-styled-3 el-button-group-inner"
             >
               <button
                 class="el-mb5 el-button-size-small el-intent-primary el-button"
               >
                 <div
-                  class="el-button-loader"
+                  class="mocked-styled-0 el-button-loader"
                 />
                 New Contact
               </button>
@@ -1970,20 +1970,20 @@ exports[`ContactsList should match a snapshot with data 1`] = `
       class="el-flex-column el-has-max-width el-flex-container"
     >
       <div
-        class="el-tile"
+        class="mocked-styled-186 el-tile"
       >
         <form>
           <div
             class="el-mb8 el-form-layout"
           >
             <div
-              class="el-input-wrap"
+              class="mocked-styled-148 el-input-wrap"
             >
               <div
-                class="el-input-group"
+                class="mocked-styled-40 el-input-group"
               >
                 <input
-                  class="el-input"
+                  class="mocked-styled-38 el-input"
                   id="test-static-id"
                   name="name"
                   placeholder="Search name"
@@ -2008,7 +2008,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                   </svg>
                 </span>
                 <label
-                  class="el-label"
+                  class="mocked-styled-41 el-label"
                   for="test-static-id"
                 >
                   Contact Name
@@ -2016,13 +2016,13 @@ exports[`ContactsList should match a snapshot with data 1`] = `
               </div>
             </div>
             <div
-              class="el-input-wrap"
+              class="mocked-styled-148 el-input-wrap"
             >
               <div
-                class="el-input-group"
+                class="mocked-styled-40 el-input-group"
               >
                 <input
-                  class="el-input"
+                  class="mocked-styled-38 el-input"
                   id="test-static-id"
                   name="address"
                   placeholder="Search address"
@@ -2047,7 +2047,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                   </svg>
                 </span>
                 <label
-                  class="el-label"
+                  class="mocked-styled-41 el-label"
                   for="test-static-id"
                 >
                   Contact Address
@@ -2055,13 +2055,13 @@ exports[`ContactsList should match a snapshot with data 1`] = `
               </div>
             </div>
             <div
-              class="el-input-wrap"
+              class="mocked-styled-148 el-input-wrap"
             >
               <div
-                class="el-input-group"
+                class="mocked-styled-40 el-input-group"
               >
                 <input
-                  class="el-input"
+                  class="mocked-styled-38 el-input"
                   id="test-static-id"
                   name="email"
                   placeholder="Search email"
@@ -2086,7 +2086,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                   </svg>
                 </span>
                 <label
-                  class="el-label"
+                  class="mocked-styled-41 el-label"
                   for="test-static-id"
                 >
                   Contact Email
@@ -2094,13 +2094,13 @@ exports[`ContactsList should match a snapshot with data 1`] = `
               </div>
             </div>
             <div
-              class="el-input-wrap"
+              class="mocked-styled-148 el-input-wrap"
             >
               <div
-                class="el-input-group"
+                class="mocked-styled-40 el-input-group"
               >
                 <label
-                  class="el-label"
+                  class="mocked-styled-41 el-label"
                 >
                   Active Contacts
                 </label>
@@ -2109,7 +2109,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                 >
                   <input
                     checked=""
-                    class="el-toggle-radio"
+                    class="mocked-styled-142 el-toggle-radio"
                     id="option-active-all"
                     name="active"
                     type="radio"
@@ -2120,13 +2120,13 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                     for="option-active-all"
                   >
                     <span
-                      class="el-toggle-radio-item"
+                      class="mocked-styled-139 el-toggle-radio-item"
                     >
                       All
                     </span>
                   </label>
                   <input
-                    class="el-toggle-radio"
+                    class="mocked-styled-142 el-toggle-radio"
                     id="option-active-true"
                     name="active"
                     type="radio"
@@ -2137,13 +2137,13 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                     for="option-active-true"
                   >
                     <span
-                      class="el-toggle-radio-item"
+                      class="mocked-styled-139 el-toggle-radio-item"
                     >
                       Active
                     </span>
                   </label>
                   <input
-                    class="el-toggle-radio"
+                    class="mocked-styled-142 el-toggle-radio"
                     id="option-active-false"
                     name="active"
                     type="radio"
@@ -2154,7 +2154,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                     for="option-active-false"
                   >
                     <span
-                      class="el-toggle-radio-item"
+                      class="mocked-styled-139 el-toggle-radio-item"
                     >
                       Inactive
                     </span>
@@ -2171,35 +2171,35 @@ exports[`ContactsList should match a snapshot with data 1`] = `
           data-num-columns-excl-action-col="5"
         >
           <div
-            class="el-table-headers-row"
+            class="mocked-styled-116 el-table-headers-row"
           >
             <div
-              class="el-table-header"
+              class="mocked-styled-117 el-table-header"
             >
               Contact Name
             </div>
             <div
-              class="el-table-header"
+              class="mocked-styled-117 el-table-header"
             >
               Contact Email
             </div>
             <div
-              class="el-table-header"
+              class="mocked-styled-117 el-table-header"
             >
               Contact Mobile Phone
             </div>
             <div
-              class="el-table-header"
+              class="mocked-styled-117 el-table-header"
             >
               Contact Address
             </div>
             <div
-              class="el-table-header"
+              class="mocked-styled-117 el-table-header"
             >
               Contact Active
             </div>
             <div
-              class="el-table-header"
+              class="mocked-styled-117 el-table-header"
             >
               <span
                 class="el-intent-default el-icon-new el-icon"
@@ -2220,10 +2220,10 @@ exports[`ContactsList should match a snapshot with data 1`] = `
             </div>
           </div>
           <div
-            class="el-table-row-container"
+            class="mocked-styled-125 el-table-row-container"
           >
             <div
-              class="el-table-row"
+              class="mocked-styled-118 el-table-row"
             >
               <div
                 class="el-table-cell-has-dark-text el-table-cell"
@@ -2247,7 +2247,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                   </svg>
                 </span>
                 <div
-                  class="el-table-cell-content"
+                  class="mocked-styled-126 el-table-cell-content"
                   data-narrow-label="Contact Name"
                 >
                   Mr Foo Bar
@@ -2275,7 +2275,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                   </svg>
                 </span>
                 <div
-                  class="el-table-cell-content"
+                  class="mocked-styled-126 el-table-cell-content"
                   data-narrow-label="Contact Email"
                 >
                   foo@bar.com
@@ -2303,7 +2303,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                   </svg>
                 </span>
                 <div
-                  class="el-table-cell-content"
+                  class="mocked-styled-126 el-table-cell-content"
                   data-narrow-label="Contact Mobile Phone"
                 >
                   242423424
@@ -2331,7 +2331,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                   </svg>
                 </span>
                 <div
-                  class="el-table-cell-content"
+                  class="mocked-styled-126 el-table-cell-content"
                   data-narrow-label="Contact Address"
                 >
                   Bar Foo Foo Bar Foo Bar Foo
@@ -2341,7 +2341,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                 class="el-table-cell-has-dark-text el-table-cell"
               >
                 <div
-                  class="el-table-cell-content"
+                  class="mocked-styled-126 el-table-cell-content"
                   data-narrow-label="Contact Active"
                 >
                   <span
@@ -2352,7 +2352,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                 </div>
               </div>
               <div
-                class="el-table-expandable-row-trigger-cell"
+                class="mocked-styled-124 el-table-expandable-row-trigger-cell"
               >
                 <span
                   class="el-intent-default el-icon-new el-icon"
@@ -2373,13 +2373,13 @@ exports[`ContactsList should match a snapshot with data 1`] = `
               </div>
             </div>
             <div
-              class="el-table-expandable-row"
+              class="mocked-styled-128 el-table-expandable-row"
             >
               <div
-                class="el-table-expandable-container"
+                class="mocked-styled-129 el-table-expandable-container"
               >
                 <div
-                  class="el-button-group"
+                  class="mocked-styled-2 el-button-group"
                 >
                   <div
                     class="el-button-group-align-center el-button-group-inner"
@@ -2388,7 +2388,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                       class="el-intent-neutral el-button"
                     >
                       <div
-                        class="el-button-loader"
+                        class="mocked-styled-0 el-button-loader"
                       />
                       Quick View Contact
                     </button>
@@ -2396,7 +2396,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                       class="el-intent-neutral el-button"
                     >
                       <div
-                        class="el-button-loader"
+                        class="mocked-styled-0 el-button-loader"
                       />
                       Full Contact
                     </button>
@@ -2404,7 +2404,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                       class="el-intent-primary el-button"
                     >
                       <div
-                        class="el-button-loader"
+                        class="mocked-styled-0 el-button-loader"
                       />
                       Edit Contact
                     </button>
@@ -2412,7 +2412,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                       class="el-intent-danger el-button"
                     >
                       <div
-                        class="el-button-loader"
+                        class="mocked-styled-0 el-button-loader"
                       />
                       Deactivate
                     </button>
@@ -2422,10 +2422,10 @@ exports[`ContactsList should match a snapshot with data 1`] = `
             </div>
           </div>
           <div
-            class="el-table-row-container"
+            class="mocked-styled-125 el-table-row-container"
           >
             <div
-              class="el-table-row"
+              class="mocked-styled-118 el-table-row"
             >
               <div
                 class="el-table-cell-has-dark-text el-table-cell"
@@ -2449,7 +2449,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                   </svg>
                 </span>
                 <div
-                  class="el-table-cell-content"
+                  class="mocked-styled-126 el-table-cell-content"
                   data-narrow-label="Contact Name"
                 >
                   Mr Foo Bar
@@ -2477,7 +2477,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                   </svg>
                 </span>
                 <div
-                  class="el-table-cell-content"
+                  class="mocked-styled-126 el-table-cell-content"
                   data-narrow-label="Contact Email"
                 >
                   foo@bar.com
@@ -2505,7 +2505,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                   </svg>
                 </span>
                 <div
-                  class="el-table-cell-content"
+                  class="mocked-styled-126 el-table-cell-content"
                   data-narrow-label="Contact Mobile Phone"
                 >
                   242423424
@@ -2533,7 +2533,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                   </svg>
                 </span>
                 <div
-                  class="el-table-cell-content"
+                  class="mocked-styled-126 el-table-cell-content"
                   data-narrow-label="Contact Address"
                 >
                   Bar Foo Foo Bar Foo Bar Foo
@@ -2543,7 +2543,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                 class="el-table-cell-has-dark-text el-table-cell"
               >
                 <div
-                  class="el-table-cell-content"
+                  class="mocked-styled-126 el-table-cell-content"
                   data-narrow-label="Contact Active"
                 >
                   <span
@@ -2554,7 +2554,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                 </div>
               </div>
               <div
-                class="el-table-expandable-row-trigger-cell"
+                class="mocked-styled-124 el-table-expandable-row-trigger-cell"
               >
                 <span
                   class="el-intent-default el-icon-new el-icon"
@@ -2575,13 +2575,13 @@ exports[`ContactsList should match a snapshot with data 1`] = `
               </div>
             </div>
             <div
-              class="el-table-expandable-row"
+              class="mocked-styled-128 el-table-expandable-row"
             >
               <div
-                class="el-table-expandable-container"
+                class="mocked-styled-129 el-table-expandable-container"
               >
                 <div
-                  class="el-button-group"
+                  class="mocked-styled-2 el-button-group"
                 >
                   <div
                     class="el-button-group-align-center el-button-group-inner"
@@ -2590,7 +2590,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                       class="el-intent-neutral el-button"
                     >
                       <div
-                        class="el-button-loader"
+                        class="mocked-styled-0 el-button-loader"
                       />
                       Quick View Contact
                     </button>
@@ -2598,7 +2598,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                       class="el-intent-neutral el-button"
                     >
                       <div
-                        class="el-button-loader"
+                        class="mocked-styled-0 el-button-loader"
                       />
                       Full Contact
                     </button>
@@ -2606,7 +2606,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                       class="el-intent-primary el-button"
                     >
                       <div
-                        class="el-button-loader"
+                        class="mocked-styled-0 el-button-loader"
                       />
                       Edit Contact
                     </button>
@@ -2614,7 +2614,7 @@ exports[`ContactsList should match a snapshot with data 1`] = `
                       class="el-intent-primary el-button"
                     >
                       <div
-                        class="el-button-loader"
+                        class="mocked-styled-0 el-button-loader"
                       />
                       Activate
                     </button>
@@ -2628,10 +2628,10 @@ exports[`ContactsList should match a snapshot with data 1`] = `
           class="el-mb8"
         >
           <div
-            class="el-pagination-wrap"
+            class="mocked-styled-86 el-pagination-wrap"
           >
             <button
-              class="el-pagination-button"
+              class="mocked-styled-89 el-pagination-button"
               data-testid="back-button"
               type="button"
             >
@@ -2653,17 +2653,17 @@ exports[`ContactsList should match a snapshot with data 1`] = `
               </span>
             </button>
             <div
-              class="el-pagination-text"
+              class="mocked-styled-87 el-pagination-text"
             >
               <input
-                class="el-pagination-input"
+                class="mocked-styled-88 el-pagination-input"
                 value="1"
               />
                of 
               1
             </div>
             <button
-              class="el-pagination-button"
+              class="mocked-styled-89 el-pagination-button"
               data-testid="forward-button"
               type="button"
             >

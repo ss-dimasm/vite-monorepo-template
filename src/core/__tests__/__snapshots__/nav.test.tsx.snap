@@ -6,22 +6,22 @@ exports[`Nav should match a snapshot 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="el-snack-holder"
+        class="mocked-styled-108 el-snack-holder"
       />
       <div
-        class="el-nav-bg"
+        class="mocked-styled-63 el-nav-bg"
       />
       <nav
-        class="el-nav-container"
+        class="mocked-styled-64 el-nav-container"
       >
         <a
           class="el-nav-item-active el-nav-item"
         >
           <div
-            class="el-nav-responsive-app-switcher-wrap"
+            class="mocked-styled-72 el-nav-responsive-app-switcher-wrap"
           >
             <div
-              class="el-nav-responsive-app-switcher-icon-wrap"
+              class="mocked-styled-73 el-nav-responsive-app-switcher-icon-wrap"
             >
               <span
                 class="el-intent-default el-icon-new el-icon"
@@ -170,22 +170,22 @@ exports[`Nav should match a snapshot 1`] = `
           </div>
         </a>
         <a
-          class="el-nav-item"
+          class="mocked-styled-66 el-nav-item"
         >
           Contacts
         </a>
         <div
-          class="el-nav-sub-container"
+          class="mocked-styled-65 el-nav-sub-container"
         >
           <a
-            class="el-nav-sub-item"
+            class="mocked-styled-67 el-nav-sub-item"
           >
             <span>
               List
             </span>
           </a>
           <a
-            class="el-nav-sub-item"
+            class="mocked-styled-67 el-nav-sub-item"
           >
             <span>
               New
@@ -193,12 +193,12 @@ exports[`Nav should match a snapshot 1`] = `
           </a>
         </div>
         <a
-          class="el-nav-item"
+          class="mocked-styled-66 el-nav-item"
         >
           New Page
         </a>
         <div
-          class="el-nav-responsive-avatar-wrap"
+          class="mocked-styled-71 el-nav-responsive-avatar-wrap"
         >
           <div
             class="el-mr2 el-avatar"
@@ -227,22 +227,22 @@ exports[`Nav should match a snapshot 1`] = `
   </body>,
   "container": <div>
     <div
-      class="el-snack-holder"
+      class="mocked-styled-108 el-snack-holder"
     />
     <div
-      class="el-nav-bg"
+      class="mocked-styled-63 el-nav-bg"
     />
     <nav
-      class="el-nav-container"
+      class="mocked-styled-64 el-nav-container"
     >
       <a
         class="el-nav-item-active el-nav-item"
       >
         <div
-          class="el-nav-responsive-app-switcher-wrap"
+          class="mocked-styled-72 el-nav-responsive-app-switcher-wrap"
         >
           <div
-            class="el-nav-responsive-app-switcher-icon-wrap"
+            class="mocked-styled-73 el-nav-responsive-app-switcher-icon-wrap"
           >
             <span
               class="el-intent-default el-icon-new el-icon"
@@ -391,22 +391,22 @@ exports[`Nav should match a snapshot 1`] = `
         </div>
       </a>
       <a
-        class="el-nav-item"
+        class="mocked-styled-66 el-nav-item"
       >
         Contacts
       </a>
       <div
-        class="el-nav-sub-container"
+        class="mocked-styled-65 el-nav-sub-container"
       >
         <a
-          class="el-nav-sub-item"
+          class="mocked-styled-67 el-nav-sub-item"
         >
           <span>
             List
           </span>
         </a>
         <a
-          class="el-nav-sub-item"
+          class="mocked-styled-67 el-nav-sub-item"
         >
           <span>
             New
@@ -414,12 +414,12 @@ exports[`Nav should match a snapshot 1`] = `
         </a>
       </div>
       <a
-        class="el-nav-item"
+        class="mocked-styled-66 el-nav-item"
       >
         New Page
       </a>
       <div
-        class="el-nav-responsive-avatar-wrap"
+        class="mocked-styled-71 el-nav-responsive-avatar-wrap"
       >
         <div
           class="el-mr2 el-avatar"

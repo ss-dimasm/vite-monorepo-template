@@ -6,25 +6,25 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="el-snack-holder"
+        class="mocked-styled-108 el-snack-holder"
       />
       <div
-        class="el-page-header-wrap"
+        class="mocked-styled-192 el-page-header-wrap"
       >
         <div
           class="el-page-header-max-width el-page-header-wrap-inner"
         >
           <div
-            class="el-page-header-container"
+            class="mocked-styled-189 el-page-header-container"
           >
             <div
-              class="el-page-header-container"
+              class="mocked-styled-189 el-page-header-container"
             >
               <div
                 class="el-flex-column el-flex-container"
               >
                 <div
-                  class="el-page-header-title-container"
+                  class="mocked-styled-190 el-page-header-title-container"
                 >
                   <div
                     class="el-mr3 el-has-bold-text el-text2xl el-text-base"
@@ -35,16 +35,16 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
               </div>
             </div>
             <div
-              class="el-button-group"
+              class="mocked-styled-2 el-button-group"
             >
               <div
-                class="el-button-group-inner"
+                class="mocked-styled-3 el-button-group-inner"
               >
                 <button
                   class="el-button-size-small el-intent-neutral el-button"
                 >
                   <div
-                    class="el-button-loader"
+                    class="mocked-styled-0 el-button-loader"
                   />
                   Back To List
                 </button>
@@ -52,7 +52,7 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
                   class="el-button-size-small el-intent-primary el-button"
                 >
                   <div
-                    class="el-button-loader"
+                    class="mocked-styled-0 el-button-loader"
                   />
                   New Contact
                 </button>
@@ -60,20 +60,20 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
             </div>
           </div>
           <div
-            class="el-tabs-wrap"
+            class="mocked-styled-134 el-tabs-wrap"
           >
             <div
-              class="el-tabs-options-wrap"
+              class="mocked-styled-135 el-tabs-options-wrap"
             >
               <input
-                class="el-tabs"
+                class="mocked-styled-132 el-tabs"
                 id="view"
                 name="app-edit-tabs"
                 type="radio"
                 value="view"
               />
               <label
-                class="el-tabs-label"
+                class="mocked-styled-133 el-tabs-label"
                 for="view"
               >
                 <span
@@ -83,14 +83,14 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
                 </span>
               </label>
               <input
-                class="el-tabs"
+                class="mocked-styled-132 el-tabs"
                 id="personal"
                 name="app-edit-tabs"
                 type="radio"
                 value="personal"
               />
               <label
-                class="el-tabs-label"
+                class="mocked-styled-133 el-tabs-label"
                 for="personal"
               >
                 <span
@@ -100,14 +100,14 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
                 </span>
               </label>
               <input
-                class="el-tabs"
+                class="mocked-styled-132 el-tabs"
                 id="communications"
                 name="app-edit-tabs"
                 type="radio"
                 value="communications"
               />
               <label
-                class="el-tabs-label"
+                class="mocked-styled-133 el-tabs-label"
                 for="communications"
               >
                 <span
@@ -117,14 +117,14 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
                 </span>
               </label>
               <input
-                class="el-tabs"
+                class="mocked-styled-132 el-tabs"
                 id="addresses"
                 name="app-edit-tabs"
                 type="radio"
                 value="addresses"
               />
               <label
-                class="el-tabs-label"
+                class="mocked-styled-133 el-tabs-label"
                 for="addresses"
               >
                 <span
@@ -134,14 +134,14 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
                 </span>
               </label>
               <input
-                class="el-tabs"
+                class="mocked-styled-132 el-tabs"
                 id="office"
                 name="app-edit-tabs"
                 type="radio"
                 value="office"
               />
               <label
-                class="el-tabs-label"
+                class="mocked-styled-133 el-tabs-label"
                 for="office"
               >
                 <span
@@ -161,16 +161,16 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
         class="el-flex-column el-has-max-width el-flex-container"
       >
         <div
-          class="el-tile"
+          class="mocked-styled-186 el-tile"
         >
           <div
-            class="el-loader-container"
+            class="mocked-styled-48 el-loader-container"
           >
             <div
-              class="el-loader"
+              class="mocked-styled-50 el-loader"
             >
               <div
-                class="el-loader-moving-bar"
+                class="mocked-styled-51 el-loader-moving-bar"
               />
             </div>
           </div>
@@ -179,7 +179,7 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
               class="el-mb7"
             />
             <div
-              class="el-button-group"
+              class="mocked-styled-2 el-button-group"
             >
               <div
                 class="el-button-group-align-left el-button-group-inner"
@@ -190,7 +190,7 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
                   type="button"
                 >
                   <div
-                    class="el-button-loader"
+                    class="mocked-styled-0 el-button-loader"
                   />
                   Update
                 </button>
@@ -203,25 +203,25 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
   </body>,
   "container": <div>
     <div
-      class="el-snack-holder"
+      class="mocked-styled-108 el-snack-holder"
     />
     <div
-      class="el-page-header-wrap"
+      class="mocked-styled-192 el-page-header-wrap"
     >
       <div
         class="el-page-header-max-width el-page-header-wrap-inner"
       >
         <div
-          class="el-page-header-container"
+          class="mocked-styled-189 el-page-header-container"
         >
           <div
-            class="el-page-header-container"
+            class="mocked-styled-189 el-page-header-container"
           >
             <div
               class="el-flex-column el-flex-container"
             >
               <div
-                class="el-page-header-title-container"
+                class="mocked-styled-190 el-page-header-title-container"
               >
                 <div
                   class="el-mr3 el-has-bold-text el-text2xl el-text-base"
@@ -232,16 +232,16 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
             </div>
           </div>
           <div
-            class="el-button-group"
+            class="mocked-styled-2 el-button-group"
           >
             <div
-              class="el-button-group-inner"
+              class="mocked-styled-3 el-button-group-inner"
             >
               <button
                 class="el-button-size-small el-intent-neutral el-button"
               >
                 <div
-                  class="el-button-loader"
+                  class="mocked-styled-0 el-button-loader"
                 />
                 Back To List
               </button>
@@ -249,7 +249,7 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
                 class="el-button-size-small el-intent-primary el-button"
               >
                 <div
-                  class="el-button-loader"
+                  class="mocked-styled-0 el-button-loader"
                 />
                 New Contact
               </button>
@@ -257,20 +257,20 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
           </div>
         </div>
         <div
-          class="el-tabs-wrap"
+          class="mocked-styled-134 el-tabs-wrap"
         >
           <div
-            class="el-tabs-options-wrap"
+            class="mocked-styled-135 el-tabs-options-wrap"
           >
             <input
-              class="el-tabs"
+              class="mocked-styled-132 el-tabs"
               id="view"
               name="app-edit-tabs"
               type="radio"
               value="view"
             />
             <label
-              class="el-tabs-label"
+              class="mocked-styled-133 el-tabs-label"
               for="view"
             >
               <span
@@ -280,14 +280,14 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
               </span>
             </label>
             <input
-              class="el-tabs"
+              class="mocked-styled-132 el-tabs"
               id="personal"
               name="app-edit-tabs"
               type="radio"
               value="personal"
             />
             <label
-              class="el-tabs-label"
+              class="mocked-styled-133 el-tabs-label"
               for="personal"
             >
               <span
@@ -297,14 +297,14 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
               </span>
             </label>
             <input
-              class="el-tabs"
+              class="mocked-styled-132 el-tabs"
               id="communications"
               name="app-edit-tabs"
               type="radio"
               value="communications"
             />
             <label
-              class="el-tabs-label"
+              class="mocked-styled-133 el-tabs-label"
               for="communications"
             >
               <span
@@ -314,14 +314,14 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
               </span>
             </label>
             <input
-              class="el-tabs"
+              class="mocked-styled-132 el-tabs"
               id="addresses"
               name="app-edit-tabs"
               type="radio"
               value="addresses"
             />
             <label
-              class="el-tabs-label"
+              class="mocked-styled-133 el-tabs-label"
               for="addresses"
             >
               <span
@@ -331,14 +331,14 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
               </span>
             </label>
             <input
-              class="el-tabs"
+              class="mocked-styled-132 el-tabs"
               id="office"
               name="app-edit-tabs"
               type="radio"
               value="office"
             />
             <label
-              class="el-tabs-label"
+              class="mocked-styled-133 el-tabs-label"
               for="office"
             >
               <span
@@ -358,16 +358,16 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
       class="el-flex-column el-has-max-width el-flex-container"
     >
       <div
-        class="el-tile"
+        class="mocked-styled-186 el-tile"
       >
         <div
-          class="el-loader-container"
+          class="mocked-styled-48 el-loader-container"
         >
           <div
-            class="el-loader"
+            class="mocked-styled-50 el-loader"
           >
             <div
-              class="el-loader-moving-bar"
+              class="mocked-styled-51 el-loader-moving-bar"
             />
           </div>
         </div>
@@ -376,7 +376,7 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
             class="el-mb7"
           />
           <div
-            class="el-button-group"
+            class="mocked-styled-2 el-button-group"
           >
             <div
               class="el-button-group-align-left el-button-group-inner"
@@ -387,7 +387,7 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
                 type="button"
               >
                 <div
-                  class="el-button-loader"
+                  class="mocked-styled-0 el-button-loader"
                 />
                 Update
               </button>
@@ -457,25 +457,25 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
   "baseElement": <body>
     <div>
       <div
-        class="el-snack-holder"
+        class="mocked-styled-108 el-snack-holder"
       />
       <div
-        class="el-page-header-wrap"
+        class="mocked-styled-192 el-page-header-wrap"
       >
         <div
           class="el-page-header-max-width el-page-header-wrap-inner"
         >
           <div
-            class="el-page-header-container"
+            class="mocked-styled-189 el-page-header-container"
           >
             <div
-              class="el-page-header-container"
+              class="mocked-styled-189 el-page-header-container"
             >
               <div
                 class="el-flex-column el-flex-container"
               >
                 <div
-                  class="el-page-header-title-container"
+                  class="mocked-styled-190 el-page-header-title-container"
                 >
                   <div
                     class="el-mr3 el-has-bold-text el-text2xl el-text-base"
@@ -486,16 +486,16 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
               </div>
             </div>
             <div
-              class="el-button-group"
+              class="mocked-styled-2 el-button-group"
             >
               <div
-                class="el-button-group-inner"
+                class="mocked-styled-3 el-button-group-inner"
               >
                 <button
                   class="el-button-size-small el-intent-neutral el-button"
                 >
                   <div
-                    class="el-button-loader"
+                    class="mocked-styled-0 el-button-loader"
                   />
                   Back To List
                 </button>
@@ -503,7 +503,7 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
                   class="el-button-size-small el-intent-primary el-button"
                 >
                   <div
-                    class="el-button-loader"
+                    class="mocked-styled-0 el-button-loader"
                   />
                   New Contact
                 </button>
@@ -511,20 +511,20 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
             </div>
           </div>
           <div
-            class="el-tabs-wrap"
+            class="mocked-styled-134 el-tabs-wrap"
           >
             <div
-              class="el-tabs-options-wrap"
+              class="mocked-styled-135 el-tabs-options-wrap"
             >
               <input
-                class="el-tabs"
+                class="mocked-styled-132 el-tabs"
                 id="view"
                 name="app-edit-tabs"
                 type="radio"
                 value="view"
               />
               <label
-                class="el-tabs-label"
+                class="mocked-styled-133 el-tabs-label"
                 for="view"
               >
                 <span
@@ -534,14 +534,14 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
                 </span>
               </label>
               <input
-                class="el-tabs"
+                class="mocked-styled-132 el-tabs"
                 id="personal"
                 name="app-edit-tabs"
                 type="radio"
                 value="personal"
               />
               <label
-                class="el-tabs-label"
+                class="mocked-styled-133 el-tabs-label"
                 for="personal"
               >
                 <span
@@ -551,14 +551,14 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
                 </span>
               </label>
               <input
-                class="el-tabs"
+                class="mocked-styled-132 el-tabs"
                 id="communications"
                 name="app-edit-tabs"
                 type="radio"
                 value="communications"
               />
               <label
-                class="el-tabs-label"
+                class="mocked-styled-133 el-tabs-label"
                 for="communications"
               >
                 <span
@@ -568,14 +568,14 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
                 </span>
               </label>
               <input
-                class="el-tabs"
+                class="mocked-styled-132 el-tabs"
                 id="addresses"
                 name="app-edit-tabs"
                 type="radio"
                 value="addresses"
               />
               <label
-                class="el-tabs-label"
+                class="mocked-styled-133 el-tabs-label"
                 for="addresses"
               >
                 <span
@@ -585,14 +585,14 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
                 </span>
               </label>
               <input
-                class="el-tabs"
+                class="mocked-styled-132 el-tabs"
                 id="office"
                 name="app-edit-tabs"
                 type="radio"
                 value="office"
               />
               <label
-                class="el-tabs-label"
+                class="mocked-styled-133 el-tabs-label"
                 for="office"
               >
                 <span
@@ -612,14 +612,14 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
         class="el-flex-column el-has-max-width el-flex-container"
       >
         <div
-          class="el-tile"
+          class="mocked-styled-186 el-tile"
         >
           <form>
             <div
               class="el-mb7"
             />
             <div
-              class="el-button-group"
+              class="mocked-styled-2 el-button-group"
             >
               <div
                 class="el-button-group-align-left el-button-group-inner"
@@ -630,7 +630,7 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
                   type="button"
                 >
                   <div
-                    class="el-button-loader"
+                    class="mocked-styled-0 el-button-loader"
                   />
                   Update
                 </button>
@@ -675,25 +675,25 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
   </body>,
   "container": <div>
     <div
-      class="el-snack-holder"
+      class="mocked-styled-108 el-snack-holder"
     />
     <div
-      class="el-page-header-wrap"
+      class="mocked-styled-192 el-page-header-wrap"
     >
       <div
         class="el-page-header-max-width el-page-header-wrap-inner"
       >
         <div
-          class="el-page-header-container"
+          class="mocked-styled-189 el-page-header-container"
         >
           <div
-            class="el-page-header-container"
+            class="mocked-styled-189 el-page-header-container"
           >
             <div
               class="el-flex-column el-flex-container"
             >
               <div
-                class="el-page-header-title-container"
+                class="mocked-styled-190 el-page-header-title-container"
               >
                 <div
                   class="el-mr3 el-has-bold-text el-text2xl el-text-base"
@@ -704,16 +704,16 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
             </div>
           </div>
           <div
-            class="el-button-group"
+            class="mocked-styled-2 el-button-group"
           >
             <div
-              class="el-button-group-inner"
+              class="mocked-styled-3 el-button-group-inner"
             >
               <button
                 class="el-button-size-small el-intent-neutral el-button"
               >
                 <div
-                  class="el-button-loader"
+                  class="mocked-styled-0 el-button-loader"
                 />
                 Back To List
               </button>
@@ -721,7 +721,7 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
                 class="el-button-size-small el-intent-primary el-button"
               >
                 <div
-                  class="el-button-loader"
+                  class="mocked-styled-0 el-button-loader"
                 />
                 New Contact
               </button>
@@ -729,20 +729,20 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
           </div>
         </div>
         <div
-          class="el-tabs-wrap"
+          class="mocked-styled-134 el-tabs-wrap"
         >
           <div
-            class="el-tabs-options-wrap"
+            class="mocked-styled-135 el-tabs-options-wrap"
           >
             <input
-              class="el-tabs"
+              class="mocked-styled-132 el-tabs"
               id="view"
               name="app-edit-tabs"
               type="radio"
               value="view"
             />
             <label
-              class="el-tabs-label"
+              class="mocked-styled-133 el-tabs-label"
               for="view"
             >
               <span
@@ -752,14 +752,14 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
               </span>
             </label>
             <input
-              class="el-tabs"
+              class="mocked-styled-132 el-tabs"
               id="personal"
               name="app-edit-tabs"
               type="radio"
               value="personal"
             />
             <label
-              class="el-tabs-label"
+              class="mocked-styled-133 el-tabs-label"
               for="personal"
             >
               <span
@@ -769,14 +769,14 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
               </span>
             </label>
             <input
-              class="el-tabs"
+              class="mocked-styled-132 el-tabs"
               id="communications"
               name="app-edit-tabs"
               type="radio"
               value="communications"
             />
             <label
-              class="el-tabs-label"
+              class="mocked-styled-133 el-tabs-label"
               for="communications"
             >
               <span
@@ -786,14 +786,14 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
               </span>
             </label>
             <input
-              class="el-tabs"
+              class="mocked-styled-132 el-tabs"
               id="addresses"
               name="app-edit-tabs"
               type="radio"
               value="addresses"
             />
             <label
-              class="el-tabs-label"
+              class="mocked-styled-133 el-tabs-label"
               for="addresses"
             >
               <span
@@ -803,14 +803,14 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
               </span>
             </label>
             <input
-              class="el-tabs"
+              class="mocked-styled-132 el-tabs"
               id="office"
               name="app-edit-tabs"
               type="radio"
               value="office"
             />
             <label
-              class="el-tabs-label"
+              class="mocked-styled-133 el-tabs-label"
               for="office"
             >
               <span
@@ -830,14 +830,14 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
       class="el-flex-column el-has-max-width el-flex-container"
     >
       <div
-        class="el-tile"
+        class="mocked-styled-186 el-tile"
       >
         <form>
           <div
             class="el-mb7"
           />
           <div
-            class="el-button-group"
+            class="mocked-styled-2 el-button-group"
           >
             <div
               class="el-button-group-align-left el-button-group-inner"
@@ -848,7 +848,7 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
                 type="button"
               >
                 <div
-                  class="el-button-loader"
+                  class="mocked-styled-0 el-button-loader"
                 />
                 Update
               </button>
@@ -950,25 +950,25 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="el-snack-holder"
+        class="mocked-styled-108 el-snack-holder"
       />
       <div
-        class="el-page-header-wrap"
+        class="mocked-styled-192 el-page-header-wrap"
       >
         <div
           class="el-page-header-max-width el-page-header-wrap-inner"
         >
           <div
-            class="el-page-header-container"
+            class="mocked-styled-189 el-page-header-container"
           >
             <div
-              class="el-page-header-container"
+              class="mocked-styled-189 el-page-header-container"
             >
               <div
                 class="el-flex-column el-flex-container"
               >
                 <div
-                  class="el-page-header-title-container"
+                  class="mocked-styled-190 el-page-header-title-container"
                 >
                   <div
                     class="el-mr3 el-has-bold-text el-text2xl el-text-base"
@@ -979,16 +979,16 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
               </div>
             </div>
             <div
-              class="el-button-group"
+              class="mocked-styled-2 el-button-group"
             >
               <div
-                class="el-button-group-inner"
+                class="mocked-styled-3 el-button-group-inner"
               >
                 <button
                   class="el-button-size-small el-intent-neutral el-button"
                 >
                   <div
-                    class="el-button-loader"
+                    class="mocked-styled-0 el-button-loader"
                   />
                   Back To List
                 </button>
@@ -996,7 +996,7 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
                   class="el-button-size-small el-intent-primary el-button"
                 >
                   <div
-                    class="el-button-loader"
+                    class="mocked-styled-0 el-button-loader"
                   />
                   New Contact
                 </button>
@@ -1004,20 +1004,20 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
             </div>
           </div>
           <div
-            class="el-tabs-wrap"
+            class="mocked-styled-134 el-tabs-wrap"
           >
             <div
-              class="el-tabs-options-wrap"
+              class="mocked-styled-135 el-tabs-options-wrap"
             >
               <input
-                class="el-tabs"
+                class="mocked-styled-132 el-tabs"
                 id="view"
                 name="app-edit-tabs"
                 type="radio"
                 value="view"
               />
               <label
-                class="el-tabs-label"
+                class="mocked-styled-133 el-tabs-label"
                 for="view"
               >
                 <span
@@ -1027,14 +1027,14 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
                 </span>
               </label>
               <input
-                class="el-tabs"
+                class="mocked-styled-132 el-tabs"
                 id="personal"
                 name="app-edit-tabs"
                 type="radio"
                 value="personal"
               />
               <label
-                class="el-tabs-label"
+                class="mocked-styled-133 el-tabs-label"
                 for="personal"
               >
                 <span
@@ -1044,14 +1044,14 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
                 </span>
               </label>
               <input
-                class="el-tabs"
+                class="mocked-styled-132 el-tabs"
                 id="communications"
                 name="app-edit-tabs"
                 type="radio"
                 value="communications"
               />
               <label
-                class="el-tabs-label"
+                class="mocked-styled-133 el-tabs-label"
                 for="communications"
               >
                 <span
@@ -1061,14 +1061,14 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
                 </span>
               </label>
               <input
-                class="el-tabs"
+                class="mocked-styled-132 el-tabs"
                 id="addresses"
                 name="app-edit-tabs"
                 type="radio"
                 value="addresses"
               />
               <label
-                class="el-tabs-label"
+                class="mocked-styled-133 el-tabs-label"
                 for="addresses"
               >
                 <span
@@ -1078,14 +1078,14 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
                 </span>
               </label>
               <input
-                class="el-tabs"
+                class="mocked-styled-132 el-tabs"
                 id="office"
                 name="app-edit-tabs"
                 type="radio"
                 value="office"
               />
               <label
-                class="el-tabs-label"
+                class="mocked-styled-133 el-tabs-label"
                 for="office"
               >
                 <span
@@ -1105,7 +1105,7 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
         class="el-flex-column el-has-max-width el-flex-container"
       >
         <div
-          class="el-tile"
+          class="mocked-styled-186 el-tile"
         >
           <form>
             <div
@@ -1144,7 +1144,7 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
               </div>
             </div>
             <div
-              class="el-button-group"
+              class="mocked-styled-2 el-button-group"
             >
               <div
                 class="el-button-group-align-left el-button-group-inner"
@@ -1155,7 +1155,7 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
                   type="button"
                 >
                   <div
-                    class="el-button-loader"
+                    class="mocked-styled-0 el-button-loader"
                   />
                   Update
                 </button>
@@ -1168,25 +1168,25 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
   </body>,
   "container": <div>
     <div
-      class="el-snack-holder"
+      class="mocked-styled-108 el-snack-holder"
     />
     <div
-      class="el-page-header-wrap"
+      class="mocked-styled-192 el-page-header-wrap"
     >
       <div
         class="el-page-header-max-width el-page-header-wrap-inner"
       >
         <div
-          class="el-page-header-container"
+          class="mocked-styled-189 el-page-header-container"
         >
           <div
-            class="el-page-header-container"
+            class="mocked-styled-189 el-page-header-container"
           >
             <div
               class="el-flex-column el-flex-container"
             >
               <div
-                class="el-page-header-title-container"
+                class="mocked-styled-190 el-page-header-title-container"
               >
                 <div
                   class="el-mr3 el-has-bold-text el-text2xl el-text-base"
@@ -1197,16 +1197,16 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
             </div>
           </div>
           <div
-            class="el-button-group"
+            class="mocked-styled-2 el-button-group"
           >
             <div
-              class="el-button-group-inner"
+              class="mocked-styled-3 el-button-group-inner"
             >
               <button
                 class="el-button-size-small el-intent-neutral el-button"
               >
                 <div
-                  class="el-button-loader"
+                  class="mocked-styled-0 el-button-loader"
                 />
                 Back To List
               </button>
@@ -1214,7 +1214,7 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
                 class="el-button-size-small el-intent-primary el-button"
               >
                 <div
-                  class="el-button-loader"
+                  class="mocked-styled-0 el-button-loader"
                 />
                 New Contact
               </button>
@@ -1222,20 +1222,20 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
           </div>
         </div>
         <div
-          class="el-tabs-wrap"
+          class="mocked-styled-134 el-tabs-wrap"
         >
           <div
-            class="el-tabs-options-wrap"
+            class="mocked-styled-135 el-tabs-options-wrap"
           >
             <input
-              class="el-tabs"
+              class="mocked-styled-132 el-tabs"
               id="view"
               name="app-edit-tabs"
               type="radio"
               value="view"
             />
             <label
-              class="el-tabs-label"
+              class="mocked-styled-133 el-tabs-label"
               for="view"
             >
               <span
@@ -1245,14 +1245,14 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
               </span>
             </label>
             <input
-              class="el-tabs"
+              class="mocked-styled-132 el-tabs"
               id="personal"
               name="app-edit-tabs"
               type="radio"
               value="personal"
             />
             <label
-              class="el-tabs-label"
+              class="mocked-styled-133 el-tabs-label"
               for="personal"
             >
               <span
@@ -1262,14 +1262,14 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
               </span>
             </label>
             <input
-              class="el-tabs"
+              class="mocked-styled-132 el-tabs"
               id="communications"
               name="app-edit-tabs"
               type="radio"
               value="communications"
             />
             <label
-              class="el-tabs-label"
+              class="mocked-styled-133 el-tabs-label"
               for="communications"
             >
               <span
@@ -1279,14 +1279,14 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
               </span>
             </label>
             <input
-              class="el-tabs"
+              class="mocked-styled-132 el-tabs"
               id="addresses"
               name="app-edit-tabs"
               type="radio"
               value="addresses"
             />
             <label
-              class="el-tabs-label"
+              class="mocked-styled-133 el-tabs-label"
               for="addresses"
             >
               <span
@@ -1296,14 +1296,14 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
               </span>
             </label>
             <input
-              class="el-tabs"
+              class="mocked-styled-132 el-tabs"
               id="office"
               name="app-edit-tabs"
               type="radio"
               value="office"
             />
             <label
-              class="el-tabs-label"
+              class="mocked-styled-133 el-tabs-label"
               for="office"
             >
               <span
@@ -1323,7 +1323,7 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
       class="el-flex-column el-has-max-width el-flex-container"
     >
       <div
-        class="el-tile"
+        class="mocked-styled-186 el-tile"
       >
         <form>
           <div
@@ -1362,7 +1362,7 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
             </div>
           </div>
           <div
-            class="el-button-group"
+            class="mocked-styled-2 el-button-group"
           >
             <div
               class="el-button-group-align-left el-button-group-inner"
@@ -1373,7 +1373,7 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
                 type="button"
               >
                 <div
-                  class="el-button-loader"
+                  class="mocked-styled-0 el-button-loader"
                 />
                 Update
               </button>

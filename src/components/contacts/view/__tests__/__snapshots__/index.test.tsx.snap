@@ -6,19 +6,19 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="el-snack-holder"
+        class="mocked-styled-108 el-snack-holder"
       />
       <div
         class="el-fade-in el-grid"
       >
         <div
-          class="el-col"
+          class="mocked-styled-31 el-col"
         >
           <div
-            class="el-flex-container"
+            class="mocked-styled-47 el-flex-container"
           >
             <div
-              class="el-key-value-icon-wrap"
+              class="mocked-styled-187 el-key-value-icon-wrap"
             >
               <span
                 class="el-intent-primary el-icon-new el-icon"
@@ -46,7 +46,7 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
                 Name
               </div>
               <div
-                class="el-text-sm el-text-base"
+                class="mocked-styled-79 el-text-base el-text-sm el-text-base"
               >
                 Mr Foo Bar
               </div>
@@ -54,13 +54,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
           </div>
         </div>
         <div
-          class="el-col"
+          class="mocked-styled-31 el-col"
         >
           <div
-            class="el-flex-container"
+            class="mocked-styled-47 el-flex-container"
           >
             <div
-              class="el-key-value-icon-wrap"
+              class="mocked-styled-187 el-key-value-icon-wrap"
             >
               <span
                 class="el-intent-primary el-icon-new el-icon"
@@ -88,7 +88,7 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
                 Active Status
               </div>
               <div
-                class="el-text-sm el-text-base"
+                class="mocked-styled-79 el-text-base el-text-sm el-text-base"
               >
                 <span
                   class="el-intent-success el-status-indicator"
@@ -101,13 +101,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
           </div>
         </div>
         <div
-          class="el-col"
+          class="mocked-styled-31 el-col"
         >
           <div
-            class="el-flex-container"
+            class="mocked-styled-47 el-flex-container"
           >
             <div
-              class="el-key-value-icon-wrap"
+              class="mocked-styled-187 el-key-value-icon-wrap"
             >
               <span
                 class="el-intent-primary el-icon-new el-icon"
@@ -135,7 +135,7 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
                 Email
               </div>
               <div
-                class="el-text-sm el-text-base"
+                class="mocked-styled-79 el-text-base el-text-sm el-text-base"
               >
                 foo@bar.com
               </div>
@@ -143,13 +143,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
           </div>
         </div>
         <div
-          class="el-col"
+          class="mocked-styled-31 el-col"
         >
           <div
-            class="el-flex-container"
+            class="mocked-styled-47 el-flex-container"
           >
             <div
-              class="el-key-value-icon-wrap"
+              class="mocked-styled-187 el-key-value-icon-wrap"
             >
               <span
                 class="el-intent-primary el-icon-new el-icon"
@@ -177,7 +177,7 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
                 Mobile
               </div>
               <div
-                class="el-text-sm el-text-base"
+                class="mocked-styled-79 el-text-base el-text-sm el-text-base"
               >
                 242423424
               </div>
@@ -185,13 +185,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
           </div>
         </div>
         <div
-          class="el-col"
+          class="mocked-styled-31 el-col"
         >
           <div
-            class="el-flex-container"
+            class="mocked-styled-47 el-flex-container"
           >
             <div
-              class="el-key-value-icon-wrap"
+              class="mocked-styled-187 el-key-value-icon-wrap"
             >
               <span
                 class="el-intent-primary el-icon-new el-icon"
@@ -219,7 +219,7 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
                 Home
               </div>
               <div
-                class="el-text-sm el-text-base"
+                class="mocked-styled-79 el-text-base el-text-sm el-text-base"
               >
                 234234234
               </div>
@@ -227,13 +227,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
           </div>
         </div>
         <div
-          class="el-col"
+          class="mocked-styled-31 el-col"
         >
           <div
-            class="el-flex-container"
+            class="mocked-styled-47 el-flex-container"
           >
             <div
-              class="el-key-value-icon-wrap"
+              class="mocked-styled-187 el-key-value-icon-wrap"
             >
               <span
                 class="el-intent-primary el-icon-new el-icon"
@@ -261,7 +261,7 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
                 Work
               </div>
               <div
-                class="el-text-sm el-text-base"
+                class="mocked-styled-79 el-text-base el-text-sm el-text-base"
               >
                 2342342344
               </div>
@@ -269,13 +269,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
           </div>
         </div>
         <div
-          class="el-col"
+          class="mocked-styled-31 el-col"
         >
           <div
-            class="el-flex-container"
+            class="mocked-styled-47 el-flex-container"
           >
             <div
-              class="el-key-value-icon-wrap"
+              class="mocked-styled-187 el-key-value-icon-wrap"
             >
               <span
                 class="el-intent-primary el-icon-new el-icon"
@@ -303,7 +303,7 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
                 Primary Address
               </div>
               <div
-                class="el-text-sm el-text-base"
+                class="mocked-styled-79 el-text-base el-text-sm el-text-base"
               >
                 Bar Foo Foo Bar Foo Bar Foo
               </div>
@@ -311,13 +311,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
           </div>
         </div>
         <div
-          class="el-col"
+          class="mocked-styled-31 el-col"
         >
           <div
-            class="el-flex-container"
+            class="mocked-styled-47 el-flex-container"
           >
             <div
-              class="el-key-value-icon-wrap"
+              class="mocked-styled-187 el-key-value-icon-wrap"
             >
               <span
                 class="el-intent-primary el-icon-new el-icon"
@@ -345,7 +345,7 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
                 Secondary Address
               </div>
               <div
-                class="el-text-sm el-text-base"
+                class="mocked-styled-79 el-text-base el-text-sm el-text-base"
               >
                 Bar Foo Foo Bar Foo Bar Foo
               </div>
@@ -353,13 +353,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
           </div>
         </div>
         <div
-          class="el-col"
+          class="mocked-styled-31 el-col"
         >
           <div
-            class="el-flex-container"
+            class="mocked-styled-47 el-flex-container"
           >
             <div
-              class="el-key-value-icon-wrap"
+              class="mocked-styled-187 el-key-value-icon-wrap"
             >
               <span
                 class="el-intent-primary el-icon-new el-icon"
@@ -387,7 +387,7 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
                 Work Address
               </div>
               <div
-                class="el-text-sm el-text-base"
+                class="mocked-styled-79 el-text-base el-text-sm el-text-base"
               >
                 Bar Foo Foo Bar Foo Bar Foo
               </div>
@@ -395,13 +395,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
           </div>
         </div>
         <div
-          class="el-col"
+          class="mocked-styled-31 el-col"
         >
           <div
-            class="el-flex-container"
+            class="mocked-styled-47 el-flex-container"
           >
             <div
-              class="el-key-value-icon-wrap"
+              class="mocked-styled-187 el-key-value-icon-wrap"
             >
               <span
                 class="el-intent-primary el-icon-new el-icon"
@@ -429,13 +429,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
                 Negotiators
               </div>
               <div
-                class="el-text-sm el-text-base"
+                class="mocked-styled-79 el-text-base el-text-sm el-text-base"
               >
                 <div
-                  class="el-badge-group"
+                  class="mocked-styled-180 el-badge-group"
                 >
                   <div
-                    class="el-badge-group-inner"
+                    class="mocked-styled-181 el-badge-group-inner"
                   >
                     <span
                       class="el-intent-primary el-badge"
@@ -447,13 +447,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
           </div>
         </div>
         <div
-          class="el-col"
+          class="mocked-styled-31 el-col"
         >
           <div
-            class="el-flex-container"
+            class="mocked-styled-47 el-flex-container"
           >
             <div
-              class="el-key-value-icon-wrap"
+              class="mocked-styled-187 el-key-value-icon-wrap"
             >
               <span
                 class="el-intent-primary el-icon-new el-icon"
@@ -481,13 +481,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
                 Offices
               </div>
               <div
-                class="el-text-sm el-text-base"
+                class="mocked-styled-79 el-text-base el-text-sm el-text-base"
               >
                 <div
-                  class="el-badge-group"
+                  class="mocked-styled-180 el-badge-group"
                 >
                   <div
-                    class="el-badge-group-inner"
+                    class="mocked-styled-181 el-badge-group-inner"
                   >
                     <span
                       class="el-intent-primary el-badge"
@@ -501,13 +501,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
           </div>
         </div>
         <div
-          class="el-col"
+          class="mocked-styled-31 el-col"
         >
           <div
-            class="el-flex-container"
+            class="mocked-styled-47 el-flex-container"
           >
             <div
-              class="el-key-value-icon-wrap"
+              class="mocked-styled-187 el-key-value-icon-wrap"
             >
               <span
                 class="el-intent-primary el-icon-new el-icon"
@@ -535,13 +535,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
                 Categories
               </div>
               <div
-                class="el-text-sm el-text-base"
+                class="mocked-styled-79 el-text-base el-text-sm el-text-base"
               >
                 <div
-                  class="el-badge-group"
+                  class="mocked-styled-180 el-badge-group"
                 >
                   <div
-                    class="el-badge-group-inner"
+                    class="mocked-styled-181 el-badge-group-inner"
                   >
                     Unknown
                   </div>
@@ -551,13 +551,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
           </div>
         </div>
         <div
-          class="el-col"
+          class="mocked-styled-31 el-col"
         >
           <div
-            class="el-flex-container"
+            class="mocked-styled-47 el-flex-container"
           >
             <div
-              class="el-key-value-icon-wrap"
+              class="mocked-styled-187 el-key-value-icon-wrap"
             >
               <span
                 class="el-intent-primary el-icon-new el-icon"
@@ -585,13 +585,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
                 Sources
               </div>
               <div
-                class="el-text-sm el-text-base"
+                class="mocked-styled-79 el-text-base el-text-sm el-text-base"
               >
                 <div
-                  class="el-badge-group"
+                  class="mocked-styled-180 el-badge-group"
                 >
                   <div
-                    class="el-badge-group-inner"
+                    class="mocked-styled-181 el-badge-group-inner"
                   >
                     Unknown
                   </div>
@@ -601,13 +601,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
           </div>
         </div>
         <div
-          class="el-col"
+          class="mocked-styled-31 el-col"
         >
           <div
-            class="el-flex-container"
+            class="mocked-styled-47 el-flex-container"
           >
             <div
-              class="el-key-value-icon-wrap"
+              class="mocked-styled-187 el-key-value-icon-wrap"
             >
               <span
                 class="el-intent-primary el-icon-new el-icon"
@@ -635,13 +635,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
                 Marketing Preferences
               </div>
               <div
-                class="el-text-sm el-text-base"
+                class="mocked-styled-79 el-text-base el-text-sm el-text-base"
               >
                 <div
-                  class="el-badge-group"
+                  class="mocked-styled-180 el-badge-group"
                 >
                   <div
-                    class="el-badge-group-inner"
+                    class="mocked-styled-181 el-badge-group-inner"
                   >
                     <span
                       class="el-intent-primary el-badge"
@@ -679,19 +679,19 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
   </body>,
   "container": <div>
     <div
-      class="el-snack-holder"
+      class="mocked-styled-108 el-snack-holder"
     />
     <div
       class="el-fade-in el-grid"
     >
       <div
-        class="el-col"
+        class="mocked-styled-31 el-col"
       >
         <div
-          class="el-flex-container"
+          class="mocked-styled-47 el-flex-container"
         >
           <div
-            class="el-key-value-icon-wrap"
+            class="mocked-styled-187 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
@@ -719,7 +719,7 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
               Name
             </div>
             <div
-              class="el-text-sm el-text-base"
+              class="mocked-styled-79 el-text-base el-text-sm el-text-base"
             >
               Mr Foo Bar
             </div>
@@ -727,13 +727,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
         </div>
       </div>
       <div
-        class="el-col"
+        class="mocked-styled-31 el-col"
       >
         <div
-          class="el-flex-container"
+          class="mocked-styled-47 el-flex-container"
         >
           <div
-            class="el-key-value-icon-wrap"
+            class="mocked-styled-187 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
@@ -761,7 +761,7 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
               Active Status
             </div>
             <div
-              class="el-text-sm el-text-base"
+              class="mocked-styled-79 el-text-base el-text-sm el-text-base"
             >
               <span
                 class="el-intent-success el-status-indicator"
@@ -774,13 +774,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
         </div>
       </div>
       <div
-        class="el-col"
+        class="mocked-styled-31 el-col"
       >
         <div
-          class="el-flex-container"
+          class="mocked-styled-47 el-flex-container"
         >
           <div
-            class="el-key-value-icon-wrap"
+            class="mocked-styled-187 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
@@ -808,7 +808,7 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
               Email
             </div>
             <div
-              class="el-text-sm el-text-base"
+              class="mocked-styled-79 el-text-base el-text-sm el-text-base"
             >
               foo@bar.com
             </div>
@@ -816,13 +816,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
         </div>
       </div>
       <div
-        class="el-col"
+        class="mocked-styled-31 el-col"
       >
         <div
-          class="el-flex-container"
+          class="mocked-styled-47 el-flex-container"
         >
           <div
-            class="el-key-value-icon-wrap"
+            class="mocked-styled-187 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
@@ -850,7 +850,7 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
               Mobile
             </div>
             <div
-              class="el-text-sm el-text-base"
+              class="mocked-styled-79 el-text-base el-text-sm el-text-base"
             >
               242423424
             </div>
@@ -858,13 +858,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
         </div>
       </div>
       <div
-        class="el-col"
+        class="mocked-styled-31 el-col"
       >
         <div
-          class="el-flex-container"
+          class="mocked-styled-47 el-flex-container"
         >
           <div
-            class="el-key-value-icon-wrap"
+            class="mocked-styled-187 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
@@ -892,7 +892,7 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
               Home
             </div>
             <div
-              class="el-text-sm el-text-base"
+              class="mocked-styled-79 el-text-base el-text-sm el-text-base"
             >
               234234234
             </div>
@@ -900,13 +900,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
         </div>
       </div>
       <div
-        class="el-col"
+        class="mocked-styled-31 el-col"
       >
         <div
-          class="el-flex-container"
+          class="mocked-styled-47 el-flex-container"
         >
           <div
-            class="el-key-value-icon-wrap"
+            class="mocked-styled-187 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
@@ -934,7 +934,7 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
               Work
             </div>
             <div
-              class="el-text-sm el-text-base"
+              class="mocked-styled-79 el-text-base el-text-sm el-text-base"
             >
               2342342344
             </div>
@@ -942,13 +942,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
         </div>
       </div>
       <div
-        class="el-col"
+        class="mocked-styled-31 el-col"
       >
         <div
-          class="el-flex-container"
+          class="mocked-styled-47 el-flex-container"
         >
           <div
-            class="el-key-value-icon-wrap"
+            class="mocked-styled-187 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
@@ -976,7 +976,7 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
               Primary Address
             </div>
             <div
-              class="el-text-sm el-text-base"
+              class="mocked-styled-79 el-text-base el-text-sm el-text-base"
             >
               Bar Foo Foo Bar Foo Bar Foo
             </div>
@@ -984,13 +984,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
         </div>
       </div>
       <div
-        class="el-col"
+        class="mocked-styled-31 el-col"
       >
         <div
-          class="el-flex-container"
+          class="mocked-styled-47 el-flex-container"
         >
           <div
-            class="el-key-value-icon-wrap"
+            class="mocked-styled-187 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
@@ -1018,7 +1018,7 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
               Secondary Address
             </div>
             <div
-              class="el-text-sm el-text-base"
+              class="mocked-styled-79 el-text-base el-text-sm el-text-base"
             >
               Bar Foo Foo Bar Foo Bar Foo
             </div>
@@ -1026,13 +1026,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
         </div>
       </div>
       <div
-        class="el-col"
+        class="mocked-styled-31 el-col"
       >
         <div
-          class="el-flex-container"
+          class="mocked-styled-47 el-flex-container"
         >
           <div
-            class="el-key-value-icon-wrap"
+            class="mocked-styled-187 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
@@ -1060,7 +1060,7 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
               Work Address
             </div>
             <div
-              class="el-text-sm el-text-base"
+              class="mocked-styled-79 el-text-base el-text-sm el-text-base"
             >
               Bar Foo Foo Bar Foo Bar Foo
             </div>
@@ -1068,13 +1068,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
         </div>
       </div>
       <div
-        class="el-col"
+        class="mocked-styled-31 el-col"
       >
         <div
-          class="el-flex-container"
+          class="mocked-styled-47 el-flex-container"
         >
           <div
-            class="el-key-value-icon-wrap"
+            class="mocked-styled-187 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
@@ -1102,13 +1102,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
               Negotiators
             </div>
             <div
-              class="el-text-sm el-text-base"
+              class="mocked-styled-79 el-text-base el-text-sm el-text-base"
             >
               <div
-                class="el-badge-group"
+                class="mocked-styled-180 el-badge-group"
               >
                 <div
-                  class="el-badge-group-inner"
+                  class="mocked-styled-181 el-badge-group-inner"
                 >
                   <span
                     class="el-intent-primary el-badge"
@@ -1120,13 +1120,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
         </div>
       </div>
       <div
-        class="el-col"
+        class="mocked-styled-31 el-col"
       >
         <div
-          class="el-flex-container"
+          class="mocked-styled-47 el-flex-container"
         >
           <div
-            class="el-key-value-icon-wrap"
+            class="mocked-styled-187 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
@@ -1154,13 +1154,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
               Offices
             </div>
             <div
-              class="el-text-sm el-text-base"
+              class="mocked-styled-79 el-text-base el-text-sm el-text-base"
             >
               <div
-                class="el-badge-group"
+                class="mocked-styled-180 el-badge-group"
               >
                 <div
-                  class="el-badge-group-inner"
+                  class="mocked-styled-181 el-badge-group-inner"
                 >
                   <span
                     class="el-intent-primary el-badge"
@@ -1174,13 +1174,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
         </div>
       </div>
       <div
-        class="el-col"
+        class="mocked-styled-31 el-col"
       >
         <div
-          class="el-flex-container"
+          class="mocked-styled-47 el-flex-container"
         >
           <div
-            class="el-key-value-icon-wrap"
+            class="mocked-styled-187 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
@@ -1208,13 +1208,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
               Categories
             </div>
             <div
-              class="el-text-sm el-text-base"
+              class="mocked-styled-79 el-text-base el-text-sm el-text-base"
             >
               <div
-                class="el-badge-group"
+                class="mocked-styled-180 el-badge-group"
               >
                 <div
-                  class="el-badge-group-inner"
+                  class="mocked-styled-181 el-badge-group-inner"
                 >
                   Unknown
                 </div>
@@ -1224,13 +1224,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
         </div>
       </div>
       <div
-        class="el-col"
+        class="mocked-styled-31 el-col"
       >
         <div
-          class="el-flex-container"
+          class="mocked-styled-47 el-flex-container"
         >
           <div
-            class="el-key-value-icon-wrap"
+            class="mocked-styled-187 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
@@ -1258,13 +1258,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
               Sources
             </div>
             <div
-              class="el-text-sm el-text-base"
+              class="mocked-styled-79 el-text-base el-text-sm el-text-base"
             >
               <div
-                class="el-badge-group"
+                class="mocked-styled-180 el-badge-group"
               >
                 <div
-                  class="el-badge-group-inner"
+                  class="mocked-styled-181 el-badge-group-inner"
                 >
                   Unknown
                 </div>
@@ -1274,13 +1274,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
         </div>
       </div>
       <div
-        class="el-col"
+        class="mocked-styled-31 el-col"
       >
         <div
-          class="el-flex-container"
+          class="mocked-styled-47 el-flex-container"
         >
           <div
-            class="el-key-value-icon-wrap"
+            class="mocked-styled-187 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
@@ -1308,13 +1308,13 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
               Marketing Preferences
             </div>
             <div
-              class="el-text-sm el-text-base"
+              class="mocked-styled-79 el-text-base el-text-sm el-text-base"
             >
               <div
-                class="el-badge-group"
+                class="mocked-styled-180 el-badge-group"
               >
                 <div
-                  class="el-badge-group-inner"
+                  class="mocked-styled-181 el-badge-group-inner"
                 >
                   <span
                     class="el-intent-primary el-badge"
@@ -1409,13 +1409,13 @@ exports[`ContactsEditView should match a snapshot with no data 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="el-snack-holder"
+        class="mocked-styled-108 el-snack-holder"
       />
     </div>
   </body>,
   "container": <div>
     <div
-      class="el-snack-holder"
+      class="mocked-styled-108 el-snack-holder"
     />
   </div>,
   "debug": [Function],

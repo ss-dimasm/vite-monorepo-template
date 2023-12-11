@@ -6,25 +6,25 @@ exports[`ContactsNew should match a snapshot 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="el-snack-holder"
+        class="mocked-styled-108 el-snack-holder"
       />
       <div
-        class="el-page-header-wrap"
+        class="mocked-styled-192 el-page-header-wrap"
       >
         <div
           class="el-page-header-max-width el-page-header-wrap-inner"
         >
           <div
-            class="el-page-header-container"
+            class="mocked-styled-189 el-page-header-container"
           >
             <div
-              class="el-page-header-container"
+              class="mocked-styled-189 el-page-header-container"
             >
               <div
                 class="el-flex-column el-flex-container"
               >
                 <div
-                  class="el-page-header-title-container"
+                  class="mocked-styled-190 el-page-header-title-container"
                 >
                   <div
                     class="el-mr3 el-has-bold-text el-text2xl el-text-base"
@@ -35,16 +35,16 @@ exports[`ContactsNew should match a snapshot 1`] = `
               </div>
             </div>
             <div
-              class="el-button-group"
+              class="mocked-styled-2 el-button-group"
             >
               <div
-                class="el-button-group-inner"
+                class="mocked-styled-3 el-button-group-inner"
               >
                 <button
                   class="el-mb5 el-button-size-small el-intent-neutral el-button"
                 >
                   <div
-                    class="el-button-loader"
+                    class="mocked-styled-0 el-button-loader"
                   />
                   Back To List
                 </button>
@@ -57,17 +57,17 @@ exports[`ContactsNew should match a snapshot 1`] = `
         class="el-flex-column el-has-max-width el-flex-container"
       >
         <div
-          class="el-tile"
+          class="mocked-styled-186 el-tile"
         >
           <form>
             <div
-              class="el-steps-vertical"
+              class="mocked-styled-112 el-steps-vertical"
             >
               <div
-                class="el-step-vertical"
+                class="mocked-styled-113 el-step-vertical"
               >
                 <div
-                  class="el-step-vertical-item"
+                  class="mocked-styled-114 el-step-vertical-item"
                 >
                   <div
                     class="el-is-active el-step"
@@ -77,7 +77,7 @@ exports[`ContactsNew should match a snapshot 1`] = `
                   </div>
                 </div>
                 <div
-                  class="el-step-vertical-content"
+                  class="mocked-styled-115 el-step-vertical-content"
                 >
                   <p
                     class="el-has-bold-text el-has-section-margin el-body-text"
@@ -88,13 +88,13 @@ exports[`ContactsNew should match a snapshot 1`] = `
                     class="el-fade-in el-form-layout"
                   >
                     <div
-                      class="el-input-wrap"
+                      class="mocked-styled-148 el-input-wrap"
                     >
                       <div
-                        class="el-input-group"
+                        class="mocked-styled-40 el-input-group"
                       >
                         <select
-                          class="el-select"
+                          class="mocked-styled-98 el-select"
                           name="title"
                         >
                           <option
@@ -139,26 +139,26 @@ exports[`ContactsNew should match a snapshot 1`] = `
                           </option>
                         </select>
                         <label
-                          class="el-label"
+                          class="mocked-styled-41 el-label"
                         >
                           Please select a title
                         </label>
                       </div>
                     </div>
                     <div
-                      class="el-input-wrap"
+                      class="mocked-styled-148 el-input-wrap"
                     >
                       <div
-                        class="el-input-group"
+                        class="mocked-styled-40 el-input-group"
                       >
                         <input
-                          class="el-input"
+                          class="mocked-styled-38 el-input"
                           id="test-static-id"
                           name="forename"
                           placeholder="Please enter a first name"
                         />
                         <label
-                          class="el-label"
+                          class="mocked-styled-41 el-label"
                           for="test-static-id"
                         >
                           First Name
@@ -166,19 +166,19 @@ exports[`ContactsNew should match a snapshot 1`] = `
                       </div>
                     </div>
                     <div
-                      class="el-input-wrap"
+                      class="mocked-styled-148 el-input-wrap"
                     >
                       <div
-                        class="el-input-group"
+                        class="mocked-styled-40 el-input-group"
                       >
                         <input
-                          class="el-input"
+                          class="mocked-styled-38 el-input"
                           id="test-static-id"
                           name="surname"
                           placeholder="Please enter a surname"
                         />
                         <label
-                          class="el-label"
+                          class="mocked-styled-41 el-label"
                           for="test-static-id"
                         >
                           Surname
@@ -186,20 +186,20 @@ exports[`ContactsNew should match a snapshot 1`] = `
                       </div>
                     </div>
                     <div
-                      class="el-input-wrap"
+                      class="mocked-styled-148 el-input-wrap"
                     >
                       <div
-                        class="el-input-group"
+                        class="mocked-styled-40 el-input-group"
                       >
                         <input
-                          class="el-input"
+                          class="mocked-styled-38 el-input"
                           id="test-static-id"
                           max="2023-01-01"
                           name="dateOfBirth"
                           type="date"
                         />
                         <label
-                          class="el-label"
+                          class="mocked-styled-41 el-label"
                           for="test-static-id"
                         >
                           Date of birth
@@ -221,7 +221,7 @@ exports[`ContactsNew should match a snapshot 1`] = `
                   type="button"
                 >
                   <div
-                    class="el-button-loader"
+                    class="mocked-styled-0 el-button-loader"
                   />
                   Next
                 </button>
@@ -234,25 +234,25 @@ exports[`ContactsNew should match a snapshot 1`] = `
   </body>,
   "container": <div>
     <div
-      class="el-snack-holder"
+      class="mocked-styled-108 el-snack-holder"
     />
     <div
-      class="el-page-header-wrap"
+      class="mocked-styled-192 el-page-header-wrap"
     >
       <div
         class="el-page-header-max-width el-page-header-wrap-inner"
       >
         <div
-          class="el-page-header-container"
+          class="mocked-styled-189 el-page-header-container"
         >
           <div
-            class="el-page-header-container"
+            class="mocked-styled-189 el-page-header-container"
           >
             <div
               class="el-flex-column el-flex-container"
             >
               <div
-                class="el-page-header-title-container"
+                class="mocked-styled-190 el-page-header-title-container"
               >
                 <div
                   class="el-mr3 el-has-bold-text el-text2xl el-text-base"
@@ -263,16 +263,16 @@ exports[`ContactsNew should match a snapshot 1`] = `
             </div>
           </div>
           <div
-            class="el-button-group"
+            class="mocked-styled-2 el-button-group"
           >
             <div
-              class="el-button-group-inner"
+              class="mocked-styled-3 el-button-group-inner"
             >
               <button
                 class="el-mb5 el-button-size-small el-intent-neutral el-button"
               >
                 <div
-                  class="el-button-loader"
+                  class="mocked-styled-0 el-button-loader"
                 />
                 Back To List
               </button>
@@ -285,17 +285,17 @@ exports[`ContactsNew should match a snapshot 1`] = `
       class="el-flex-column el-has-max-width el-flex-container"
     >
       <div
-        class="el-tile"
+        class="mocked-styled-186 el-tile"
       >
         <form>
           <div
-            class="el-steps-vertical"
+            class="mocked-styled-112 el-steps-vertical"
           >
             <div
-              class="el-step-vertical"
+              class="mocked-styled-113 el-step-vertical"
             >
               <div
-                class="el-step-vertical-item"
+                class="mocked-styled-114 el-step-vertical-item"
               >
                 <div
                   class="el-is-active el-step"
@@ -305,7 +305,7 @@ exports[`ContactsNew should match a snapshot 1`] = `
                 </div>
               </div>
               <div
-                class="el-step-vertical-content"
+                class="mocked-styled-115 el-step-vertical-content"
               >
                 <p
                   class="el-has-bold-text el-has-section-margin el-body-text"
@@ -316,13 +316,13 @@ exports[`ContactsNew should match a snapshot 1`] = `
                   class="el-fade-in el-form-layout"
                 >
                   <div
-                    class="el-input-wrap"
+                    class="mocked-styled-148 el-input-wrap"
                   >
                     <div
-                      class="el-input-group"
+                      class="mocked-styled-40 el-input-group"
                     >
                       <select
-                        class="el-select"
+                        class="mocked-styled-98 el-select"
                         name="title"
                       >
                         <option
@@ -367,26 +367,26 @@ exports[`ContactsNew should match a snapshot 1`] = `
                         </option>
                       </select>
                       <label
-                        class="el-label"
+                        class="mocked-styled-41 el-label"
                       >
                         Please select a title
                       </label>
                     </div>
                   </div>
                   <div
-                    class="el-input-wrap"
+                    class="mocked-styled-148 el-input-wrap"
                   >
                     <div
-                      class="el-input-group"
+                      class="mocked-styled-40 el-input-group"
                     >
                       <input
-                        class="el-input"
+                        class="mocked-styled-38 el-input"
                         id="test-static-id"
                         name="forename"
                         placeholder="Please enter a first name"
                       />
                       <label
-                        class="el-label"
+                        class="mocked-styled-41 el-label"
                         for="test-static-id"
                       >
                         First Name
@@ -394,19 +394,19 @@ exports[`ContactsNew should match a snapshot 1`] = `
                     </div>
                   </div>
                   <div
-                    class="el-input-wrap"
+                    class="mocked-styled-148 el-input-wrap"
                   >
                     <div
-                      class="el-input-group"
+                      class="mocked-styled-40 el-input-group"
                     >
                       <input
-                        class="el-input"
+                        class="mocked-styled-38 el-input"
                         id="test-static-id"
                         name="surname"
                         placeholder="Please enter a surname"
                       />
                       <label
-                        class="el-label"
+                        class="mocked-styled-41 el-label"
                         for="test-static-id"
                       >
                         Surname
@@ -414,20 +414,20 @@ exports[`ContactsNew should match a snapshot 1`] = `
                     </div>
                   </div>
                   <div
-                    class="el-input-wrap"
+                    class="mocked-styled-148 el-input-wrap"
                   >
                     <div
-                      class="el-input-group"
+                      class="mocked-styled-40 el-input-group"
                     >
                       <input
-                        class="el-input"
+                        class="mocked-styled-38 el-input"
                         id="test-static-id"
                         max="2023-01-01"
                         name="dateOfBirth"
                         type="date"
                       />
                       <label
-                        class="el-label"
+                        class="mocked-styled-41 el-label"
                         for="test-static-id"
                       >
                         Date of birth
@@ -449,7 +449,7 @@ exports[`ContactsNew should match a snapshot 1`] = `
                 type="button"
               >
                 <div
-                  class="el-button-loader"
+                  class="mocked-styled-0 el-button-loader"
                 />
                 Next
               </button>

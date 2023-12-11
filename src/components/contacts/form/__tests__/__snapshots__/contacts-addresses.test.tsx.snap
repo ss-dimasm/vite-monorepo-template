@@ -6,7 +6,7 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="el-snack-holder"
+        class="mocked-styled-108 el-snack-holder"
       />
       <p
         class="el-has-bold-text el-has-section-margin el-body-text"
@@ -22,13 +22,13 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
         class="el-mb8 el-fade-in el-form-layout"
       >
         <div
-          class="el-input-wrap"
+          class="mocked-styled-148 el-input-wrap"
         >
           <div
-            class="el-input-group"
+            class="mocked-styled-40 el-input-group"
           >
             <select
-              class="el-select"
+              class="mocked-styled-98 el-select"
             >
               <option
                 value=""
@@ -73,26 +73,26 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
               </option>
             </select>
             <label
-              class="el-label"
+              class="mocked-styled-41 el-label"
             >
               Address Type
             </label>
           </div>
         </div>
         <div
-          class="el-input-wrap"
+          class="mocked-styled-148 el-input-wrap"
         >
           <div
-            class="el-input-group"
+            class="mocked-styled-40 el-input-group"
           >
             <input
-              class="el-input"
+              class="mocked-styled-38 el-input"
               id="test-static-id"
               placeholder="Name of the building"
               type="text"
             />
             <label
-              class="el-label"
+              class="mocked-styled-41 el-label"
               for="test-static-id"
             >
               Building Name
@@ -100,19 +100,19 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
           </div>
         </div>
         <div
-          class="el-input-wrap"
+          class="mocked-styled-148 el-input-wrap"
         >
           <div
-            class="el-input-group"
+            class="mocked-styled-40 el-input-group"
           >
             <input
-              class="el-input"
+              class="mocked-styled-38 el-input"
               id="test-static-id"
               placeholder="Number of the building"
               type="text"
             />
             <label
-              class="el-label"
+              class="mocked-styled-41 el-label"
               for="test-static-id"
             >
               Building Number
@@ -120,19 +120,19 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
           </div>
         </div>
         <div
-          class="el-input-wrap"
+          class="mocked-styled-148 el-input-wrap"
         >
           <div
-            class="el-input-group"
+            class="mocked-styled-40 el-input-group"
           >
             <input
-              class="el-input"
+              class="mocked-styled-38 el-input"
               id="test-static-id"
               placeholder="Address line 1"
               type="text"
             />
             <label
-              class="el-label"
+              class="mocked-styled-41 el-label"
               for="test-static-id"
             >
               Line 1
@@ -140,19 +140,19 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
           </div>
         </div>
         <div
-          class="el-input-wrap"
+          class="mocked-styled-148 el-input-wrap"
         >
           <div
-            class="el-input-group"
+            class="mocked-styled-40 el-input-group"
           >
             <input
-              class="el-input"
+              class="mocked-styled-38 el-input"
               id="test-static-id"
               placeholder="Address line 2"
               type="text"
             />
             <label
-              class="el-label"
+              class="mocked-styled-41 el-label"
               for="test-static-id"
             >
               Line 2
@@ -160,19 +160,19 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
           </div>
         </div>
         <div
-          class="el-input-wrap"
+          class="mocked-styled-148 el-input-wrap"
         >
           <div
-            class="el-input-group"
+            class="mocked-styled-40 el-input-group"
           >
             <input
-              class="el-input"
+              class="mocked-styled-38 el-input"
               id="test-static-id"
               placeholder="Address line 3"
               type="text"
             />
             <label
-              class="el-label"
+              class="mocked-styled-41 el-label"
               for="test-static-id"
             >
               Line 3
@@ -180,19 +180,19 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
           </div>
         </div>
         <div
-          class="el-input-wrap"
+          class="mocked-styled-148 el-input-wrap"
         >
           <div
-            class="el-input-group"
+            class="mocked-styled-40 el-input-group"
           >
             <input
-              class="el-input"
+              class="mocked-styled-38 el-input"
               id="test-static-id"
               placeholder="Address line 4"
               type="text"
             />
             <label
-              class="el-label"
+              class="mocked-styled-41 el-label"
               for="test-static-id"
             >
               Line 4
@@ -200,19 +200,19 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
           </div>
         </div>
         <div
-          class="el-input-wrap"
+          class="mocked-styled-148 el-input-wrap"
         >
           <div
-            class="el-input-group"
+            class="mocked-styled-40 el-input-group"
           >
             <input
-              class="el-input"
+              class="mocked-styled-38 el-input"
               id="test-static-id"
               placeholder="Address post code"
               type="text"
             />
             <label
-              class="el-label"
+              class="mocked-styled-41 el-label"
               for="test-static-id"
             >
               Post Code
@@ -220,13 +220,13 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
           </div>
         </div>
         <div
-          class="el-input-wrap"
+          class="mocked-styled-148 el-input-wrap"
         >
           <div
-            class="el-input-group"
+            class="mocked-styled-40 el-input-group"
           >
             <select
-              class="el-select"
+              class="mocked-styled-98 el-select"
             >
               <option
                 value=""
@@ -1481,7 +1481,7 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
               </option>
             </select>
             <label
-              class="el-label"
+              class="mocked-styled-41 el-label"
             >
               Country
             </label>
@@ -1495,7 +1495,7 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
           class="el-intent-neutral el-button"
         >
           <div
-            class="el-button-loader"
+            class="mocked-styled-0 el-button-loader"
           />
           Add Secondary Address
         </button>
@@ -1507,7 +1507,7 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
           class="el-intent-neutral el-button"
         >
           <div
-            class="el-button-loader"
+            class="mocked-styled-0 el-button-loader"
           />
           Add Work Address
         </button>
@@ -1516,7 +1516,7 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
   </body>,
   "container": <div>
     <div
-      class="el-snack-holder"
+      class="mocked-styled-108 el-snack-holder"
     />
     <p
       class="el-has-bold-text el-has-section-margin el-body-text"
@@ -1532,13 +1532,13 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
       class="el-mb8 el-fade-in el-form-layout"
     >
       <div
-        class="el-input-wrap"
+        class="mocked-styled-148 el-input-wrap"
       >
         <div
-          class="el-input-group"
+          class="mocked-styled-40 el-input-group"
         >
           <select
-            class="el-select"
+            class="mocked-styled-98 el-select"
           >
             <option
               value=""
@@ -1583,26 +1583,26 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
             </option>
           </select>
           <label
-            class="el-label"
+            class="mocked-styled-41 el-label"
           >
             Address Type
           </label>
         </div>
       </div>
       <div
-        class="el-input-wrap"
+        class="mocked-styled-148 el-input-wrap"
       >
         <div
-          class="el-input-group"
+          class="mocked-styled-40 el-input-group"
         >
           <input
-            class="el-input"
+            class="mocked-styled-38 el-input"
             id="test-static-id"
             placeholder="Name of the building"
             type="text"
           />
           <label
-            class="el-label"
+            class="mocked-styled-41 el-label"
             for="test-static-id"
           >
             Building Name
@@ -1610,19 +1610,19 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
         </div>
       </div>
       <div
-        class="el-input-wrap"
+        class="mocked-styled-148 el-input-wrap"
       >
         <div
-          class="el-input-group"
+          class="mocked-styled-40 el-input-group"
         >
           <input
-            class="el-input"
+            class="mocked-styled-38 el-input"
             id="test-static-id"
             placeholder="Number of the building"
             type="text"
           />
           <label
-            class="el-label"
+            class="mocked-styled-41 el-label"
             for="test-static-id"
           >
             Building Number
@@ -1630,19 +1630,19 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
         </div>
       </div>
       <div
-        class="el-input-wrap"
+        class="mocked-styled-148 el-input-wrap"
       >
         <div
-          class="el-input-group"
+          class="mocked-styled-40 el-input-group"
         >
           <input
-            class="el-input"
+            class="mocked-styled-38 el-input"
             id="test-static-id"
             placeholder="Address line 1"
             type="text"
           />
           <label
-            class="el-label"
+            class="mocked-styled-41 el-label"
             for="test-static-id"
           >
             Line 1
@@ -1650,19 +1650,19 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
         </div>
       </div>
       <div
-        class="el-input-wrap"
+        class="mocked-styled-148 el-input-wrap"
       >
         <div
-          class="el-input-group"
+          class="mocked-styled-40 el-input-group"
         >
           <input
-            class="el-input"
+            class="mocked-styled-38 el-input"
             id="test-static-id"
             placeholder="Address line 2"
             type="text"
           />
           <label
-            class="el-label"
+            class="mocked-styled-41 el-label"
             for="test-static-id"
           >
             Line 2
@@ -1670,19 +1670,19 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
         </div>
       </div>
       <div
-        class="el-input-wrap"
+        class="mocked-styled-148 el-input-wrap"
       >
         <div
-          class="el-input-group"
+          class="mocked-styled-40 el-input-group"
         >
           <input
-            class="el-input"
+            class="mocked-styled-38 el-input"
             id="test-static-id"
             placeholder="Address line 3"
             type="text"
           />
           <label
-            class="el-label"
+            class="mocked-styled-41 el-label"
             for="test-static-id"
           >
             Line 3
@@ -1690,19 +1690,19 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
         </div>
       </div>
       <div
-        class="el-input-wrap"
+        class="mocked-styled-148 el-input-wrap"
       >
         <div
-          class="el-input-group"
+          class="mocked-styled-40 el-input-group"
         >
           <input
-            class="el-input"
+            class="mocked-styled-38 el-input"
             id="test-static-id"
             placeholder="Address line 4"
             type="text"
           />
           <label
-            class="el-label"
+            class="mocked-styled-41 el-label"
             for="test-static-id"
           >
             Line 4
@@ -1710,19 +1710,19 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
         </div>
       </div>
       <div
-        class="el-input-wrap"
+        class="mocked-styled-148 el-input-wrap"
       >
         <div
-          class="el-input-group"
+          class="mocked-styled-40 el-input-group"
         >
           <input
-            class="el-input"
+            class="mocked-styled-38 el-input"
             id="test-static-id"
             placeholder="Address post code"
             type="text"
           />
           <label
-            class="el-label"
+            class="mocked-styled-41 el-label"
             for="test-static-id"
           >
             Post Code
@@ -1730,13 +1730,13 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
         </div>
       </div>
       <div
-        class="el-input-wrap"
+        class="mocked-styled-148 el-input-wrap"
       >
         <div
-          class="el-input-group"
+          class="mocked-styled-40 el-input-group"
         >
           <select
-            class="el-select"
+            class="mocked-styled-98 el-select"
           >
             <option
               value=""
@@ -2991,7 +2991,7 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
             </option>
           </select>
           <label
-            class="el-label"
+            class="mocked-styled-41 el-label"
           >
             Country
           </label>
@@ -3005,7 +3005,7 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
         class="el-intent-neutral el-button"
       >
         <div
-          class="el-button-loader"
+          class="mocked-styled-0 el-button-loader"
         />
         Add Secondary Address
       </button>
@@ -3017,7 +3017,7 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
         class="el-intent-neutral el-button"
       >
         <div
-          class="el-button-loader"
+          class="mocked-styled-0 el-button-loader"
         />
         Add Work Address
       </button>
@@ -3083,7 +3083,7 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
   "baseElement": <body>
     <div>
       <div
-        class="el-snack-holder"
+        class="mocked-styled-108 el-snack-holder"
       />
       <p
         class="el-has-bold-text el-has-section-margin el-body-text"
@@ -3099,13 +3099,13 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
         class="el-mb8 el-fade-in el-form-layout"
       >
         <div
-          class="el-input-wrap"
+          class="mocked-styled-148 el-input-wrap"
         >
           <div
-            class="el-input-group"
+            class="mocked-styled-40 el-input-group"
           >
             <select
-              class="el-select"
+              class="mocked-styled-98 el-select"
             >
               <option
                 value=""
@@ -3150,17 +3150,17 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
               </option>
             </select>
             <label
-              class="el-label"
+              class="mocked-styled-41 el-label"
             >
               Address Type
             </label>
           </div>
         </div>
         <div
-          class="el-input-wrap"
+          class="mocked-styled-148 el-input-wrap"
         >
           <div
-            class="el-input-group"
+            class="mocked-styled-40 el-input-group"
           >
             <input
               class="el-has-input-error el-input"
@@ -3169,23 +3169,23 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
               type="text"
             />
             <label
-              class="el-label"
+              class="mocked-styled-41 el-label"
               for="test-static-id"
             >
               Building Name
             </label>
           </div>
           <p
-            class="el-input-error"
+            class="mocked-styled-42 el-input-error"
           >
             Error
           </p>
         </div>
         <div
-          class="el-input-wrap"
+          class="mocked-styled-148 el-input-wrap"
         >
           <div
-            class="el-input-group"
+            class="mocked-styled-40 el-input-group"
           >
             <input
               class="el-has-input-error el-input"
@@ -3194,23 +3194,23 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
               type="text"
             />
             <label
-              class="el-label"
+              class="mocked-styled-41 el-label"
               for="test-static-id"
             >
               Building Number
             </label>
           </div>
           <p
-            class="el-input-error"
+            class="mocked-styled-42 el-input-error"
           >
             Error
           </p>
         </div>
         <div
-          class="el-input-wrap"
+          class="mocked-styled-148 el-input-wrap"
         >
           <div
-            class="el-input-group"
+            class="mocked-styled-40 el-input-group"
           >
             <input
               class="el-has-input-error el-input"
@@ -3219,23 +3219,23 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
               type="text"
             />
             <label
-              class="el-label"
+              class="mocked-styled-41 el-label"
               for="test-static-id"
             >
               Line 1
             </label>
           </div>
           <p
-            class="el-input-error"
+            class="mocked-styled-42 el-input-error"
           >
             Error
           </p>
         </div>
         <div
-          class="el-input-wrap"
+          class="mocked-styled-148 el-input-wrap"
         >
           <div
-            class="el-input-group"
+            class="mocked-styled-40 el-input-group"
           >
             <input
               class="el-has-input-error el-input"
@@ -3244,23 +3244,23 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
               type="text"
             />
             <label
-              class="el-label"
+              class="mocked-styled-41 el-label"
               for="test-static-id"
             >
               Line 2
             </label>
           </div>
           <p
-            class="el-input-error"
+            class="mocked-styled-42 el-input-error"
           >
             Error
           </p>
         </div>
         <div
-          class="el-input-wrap"
+          class="mocked-styled-148 el-input-wrap"
         >
           <div
-            class="el-input-group"
+            class="mocked-styled-40 el-input-group"
           >
             <input
               class="el-has-input-error el-input"
@@ -3269,23 +3269,23 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
               type="text"
             />
             <label
-              class="el-label"
+              class="mocked-styled-41 el-label"
               for="test-static-id"
             >
               Line 3
             </label>
           </div>
           <p
-            class="el-input-error"
+            class="mocked-styled-42 el-input-error"
           >
             Error
           </p>
         </div>
         <div
-          class="el-input-wrap"
+          class="mocked-styled-148 el-input-wrap"
         >
           <div
-            class="el-input-group"
+            class="mocked-styled-40 el-input-group"
           >
             <input
               class="el-has-input-error el-input"
@@ -3294,23 +3294,23 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
               type="text"
             />
             <label
-              class="el-label"
+              class="mocked-styled-41 el-label"
               for="test-static-id"
             >
               Line 4
             </label>
           </div>
           <p
-            class="el-input-error"
+            class="mocked-styled-42 el-input-error"
           >
             Error
           </p>
         </div>
         <div
-          class="el-input-wrap"
+          class="mocked-styled-148 el-input-wrap"
         >
           <div
-            class="el-input-group"
+            class="mocked-styled-40 el-input-group"
           >
             <input
               class="el-has-input-error el-input"
@@ -3319,26 +3319,26 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
               type="text"
             />
             <label
-              class="el-label"
+              class="mocked-styled-41 el-label"
               for="test-static-id"
             >
               Post Code
             </label>
           </div>
           <p
-            class="el-input-error"
+            class="mocked-styled-42 el-input-error"
           >
             Error
           </p>
         </div>
         <div
-          class="el-input-wrap"
+          class="mocked-styled-148 el-input-wrap"
         >
           <div
-            class="el-input-group"
+            class="mocked-styled-40 el-input-group"
           >
             <select
-              class="el-select"
+              class="mocked-styled-98 el-select"
             >
               <option
                 value=""
@@ -4593,7 +4593,7 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
               </option>
             </select>
             <label
-              class="el-label"
+              class="mocked-styled-41 el-label"
             >
               Country
             </label>
@@ -4607,7 +4607,7 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
           class="el-intent-neutral el-button"
         >
           <div
-            class="el-button-loader"
+            class="mocked-styled-0 el-button-loader"
           />
           Add Secondary Address
         </button>
@@ -4619,7 +4619,7 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
           class="el-intent-neutral el-button"
         >
           <div
-            class="el-button-loader"
+            class="mocked-styled-0 el-button-loader"
           />
           Add Work Address
         </button>
@@ -4628,7 +4628,7 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
   </body>,
   "container": <div>
     <div
-      class="el-snack-holder"
+      class="mocked-styled-108 el-snack-holder"
     />
     <p
       class="el-has-bold-text el-has-section-margin el-body-text"
@@ -4644,13 +4644,13 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
       class="el-mb8 el-fade-in el-form-layout"
     >
       <div
-        class="el-input-wrap"
+        class="mocked-styled-148 el-input-wrap"
       >
         <div
-          class="el-input-group"
+          class="mocked-styled-40 el-input-group"
         >
           <select
-            class="el-select"
+            class="mocked-styled-98 el-select"
           >
             <option
               value=""
@@ -4695,17 +4695,17 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
             </option>
           </select>
           <label
-            class="el-label"
+            class="mocked-styled-41 el-label"
           >
             Address Type
           </label>
         </div>
       </div>
       <div
-        class="el-input-wrap"
+        class="mocked-styled-148 el-input-wrap"
       >
         <div
-          class="el-input-group"
+          class="mocked-styled-40 el-input-group"
         >
           <input
             class="el-has-input-error el-input"
@@ -4714,23 +4714,23 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
             type="text"
           />
           <label
-            class="el-label"
+            class="mocked-styled-41 el-label"
             for="test-static-id"
           >
             Building Name
           </label>
         </div>
         <p
-          class="el-input-error"
+          class="mocked-styled-42 el-input-error"
         >
           Error
         </p>
       </div>
       <div
-        class="el-input-wrap"
+        class="mocked-styled-148 el-input-wrap"
       >
         <div
-          class="el-input-group"
+          class="mocked-styled-40 el-input-group"
         >
           <input
             class="el-has-input-error el-input"
@@ -4739,23 +4739,23 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
             type="text"
           />
           <label
-            class="el-label"
+            class="mocked-styled-41 el-label"
             for="test-static-id"
           >
             Building Number
           </label>
         </div>
         <p
-          class="el-input-error"
+          class="mocked-styled-42 el-input-error"
         >
           Error
         </p>
       </div>
       <div
-        class="el-input-wrap"
+        class="mocked-styled-148 el-input-wrap"
       >
         <div
-          class="el-input-group"
+          class="mocked-styled-40 el-input-group"
         >
           <input
             class="el-has-input-error el-input"
@@ -4764,23 +4764,23 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
             type="text"
           />
           <label
-            class="el-label"
+            class="mocked-styled-41 el-label"
             for="test-static-id"
           >
             Line 1
           </label>
         </div>
         <p
-          class="el-input-error"
+          class="mocked-styled-42 el-input-error"
         >
           Error
         </p>
       </div>
       <div
-        class="el-input-wrap"
+        class="mocked-styled-148 el-input-wrap"
       >
         <div
-          class="el-input-group"
+          class="mocked-styled-40 el-input-group"
         >
           <input
             class="el-has-input-error el-input"
@@ -4789,23 +4789,23 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
             type="text"
           />
           <label
-            class="el-label"
+            class="mocked-styled-41 el-label"
             for="test-static-id"
           >
             Line 2
           </label>
         </div>
         <p
-          class="el-input-error"
+          class="mocked-styled-42 el-input-error"
         >
           Error
         </p>
       </div>
       <div
-        class="el-input-wrap"
+        class="mocked-styled-148 el-input-wrap"
       >
         <div
-          class="el-input-group"
+          class="mocked-styled-40 el-input-group"
         >
           <input
             class="el-has-input-error el-input"
@@ -4814,23 +4814,23 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
             type="text"
           />
           <label
-            class="el-label"
+            class="mocked-styled-41 el-label"
             for="test-static-id"
           >
             Line 3
           </label>
         </div>
         <p
-          class="el-input-error"
+          class="mocked-styled-42 el-input-error"
         >
           Error
         </p>
       </div>
       <div
-        class="el-input-wrap"
+        class="mocked-styled-148 el-input-wrap"
       >
         <div
-          class="el-input-group"
+          class="mocked-styled-40 el-input-group"
         >
           <input
             class="el-has-input-error el-input"
@@ -4839,23 +4839,23 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
             type="text"
           />
           <label
-            class="el-label"
+            class="mocked-styled-41 el-label"
             for="test-static-id"
           >
             Line 4
           </label>
         </div>
         <p
-          class="el-input-error"
+          class="mocked-styled-42 el-input-error"
         >
           Error
         </p>
       </div>
       <div
-        class="el-input-wrap"
+        class="mocked-styled-148 el-input-wrap"
       >
         <div
-          class="el-input-group"
+          class="mocked-styled-40 el-input-group"
         >
           <input
             class="el-has-input-error el-input"
@@ -4864,26 +4864,26 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
             type="text"
           />
           <label
-            class="el-label"
+            class="mocked-styled-41 el-label"
             for="test-static-id"
           >
             Post Code
           </label>
         </div>
         <p
-          class="el-input-error"
+          class="mocked-styled-42 el-input-error"
         >
           Error
         </p>
       </div>
       <div
-        class="el-input-wrap"
+        class="mocked-styled-148 el-input-wrap"
       >
         <div
-          class="el-input-group"
+          class="mocked-styled-40 el-input-group"
         >
           <select
-            class="el-select"
+            class="mocked-styled-98 el-select"
           >
             <option
               value=""
@@ -6138,7 +6138,7 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
             </option>
           </select>
           <label
-            class="el-label"
+            class="mocked-styled-41 el-label"
           >
             Country
           </label>
@@ -6152,7 +6152,7 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
         class="el-intent-neutral el-button"
       >
         <div
-          class="el-button-loader"
+          class="mocked-styled-0 el-button-loader"
         />
         Add Secondary Address
       </button>
@@ -6164,7 +6164,7 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
         class="el-intent-neutral el-button"
       >
         <div
-          class="el-button-loader"
+          class="mocked-styled-0 el-button-loader"
         />
         Add Work Address
       </button>

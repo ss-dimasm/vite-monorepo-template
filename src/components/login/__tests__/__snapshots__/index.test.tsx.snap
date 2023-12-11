@@ -56,7 +56,7 @@ exports[`Login should match a snapshot 1`] = `
             </p>
           </div>
           <div
-            class="el-button-group"
+            class="mocked-styled-2 el-button-group"
           >
             <div
               class="el-button-group-align-center el-button-group-inner"
@@ -65,7 +65,7 @@ exports[`Login should match a snapshot 1`] = `
                 class="el-intent-primary el-button"
               >
                 <div
-                  class="el-button-loader"
+                  class="mocked-styled-0 el-button-loader"
                 />
                 Login With Reapit
               </button>
@@ -127,7 +127,7 @@ exports[`Login should match a snapshot 1`] = `
           </p>
         </div>
         <div
-          class="el-button-group"
+          class="mocked-styled-2 el-button-group"
         >
           <div
             class="el-button-group-align-center el-button-group-inner"
@@ -136,7 +136,7 @@ exports[`Login should match a snapshot 1`] = `
               class="el-intent-primary el-button"
             >
               <div
-                class="el-button-loader"
+                class="mocked-styled-0 el-button-loader"
               />
               Login With Reapit
             </button>

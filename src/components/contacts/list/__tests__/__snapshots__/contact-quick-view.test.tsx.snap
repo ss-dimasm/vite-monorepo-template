@@ -6,13 +6,13 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="el-snack-holder"
+        class="mocked-styled-108 el-snack-holder"
       />
       <div
-        class="el-key-value-list-wrap"
+        class="mocked-styled-188 el-key-value-list-wrap"
       >
         <div
-          class="el-key-value-icon-wrap"
+          class="mocked-styled-187 el-key-value-icon-wrap"
         >
           <span
             class="el-intent-primary el-icon-new el-icon"
@@ -40,17 +40,17 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
             Name
           </div>
           <div
-            class="el-text-sm el-text-base"
+            class="mocked-styled-79 el-text-base el-text-sm el-text-base"
           >
             Mr Foo Bar
           </div>
         </div>
       </div>
       <div
-        class="el-key-value-list-wrap"
+        class="mocked-styled-188 el-key-value-list-wrap"
       >
         <div
-          class="el-key-value-icon-wrap"
+          class="mocked-styled-187 el-key-value-icon-wrap"
         >
           <span
             class="el-intent-primary el-icon-new el-icon"
@@ -78,17 +78,17 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
             Email
           </div>
           <div
-            class="el-text-sm el-text-base"
+            class="mocked-styled-79 el-text-base el-text-sm el-text-base"
           >
             foo@bar.com
           </div>
         </div>
       </div>
       <div
-        class="el-key-value-list-wrap"
+        class="mocked-styled-188 el-key-value-list-wrap"
       >
         <div
-          class="el-key-value-icon-wrap"
+          class="mocked-styled-187 el-key-value-icon-wrap"
         >
           <span
             class="el-intent-primary el-icon-new el-icon"
@@ -116,7 +116,7 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
             Active Status
           </div>
           <div
-            class="el-text-sm el-text-base"
+            class="mocked-styled-79 el-text-base el-text-sm el-text-base"
           >
             <span
               class="el-intent-success el-status-indicator"
@@ -128,10 +128,10 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
         </div>
       </div>
       <div
-        class="el-key-value-list-wrap"
+        class="mocked-styled-188 el-key-value-list-wrap"
       >
         <div
-          class="el-key-value-icon-wrap"
+          class="mocked-styled-187 el-key-value-icon-wrap"
         >
           <span
             class="el-intent-primary el-icon-new el-icon"
@@ -159,17 +159,17 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
             Mobile
           </div>
           <div
-            class="el-text-sm el-text-base"
+            class="mocked-styled-79 el-text-base el-text-sm el-text-base"
           >
             242423424
           </div>
         </div>
       </div>
       <div
-        class="el-key-value-list-wrap"
+        class="mocked-styled-188 el-key-value-list-wrap"
       >
         <div
-          class="el-key-value-icon-wrap"
+          class="mocked-styled-187 el-key-value-icon-wrap"
         >
           <span
             class="el-intent-primary el-icon-new el-icon"
@@ -197,17 +197,17 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
             Home
           </div>
           <div
-            class="el-text-sm el-text-base"
+            class="mocked-styled-79 el-text-base el-text-sm el-text-base"
           >
             234234234
           </div>
         </div>
       </div>
       <div
-        class="el-key-value-list-wrap"
+        class="mocked-styled-188 el-key-value-list-wrap"
       >
         <div
-          class="el-key-value-icon-wrap"
+          class="mocked-styled-187 el-key-value-icon-wrap"
         >
           <span
             class="el-intent-primary el-icon-new el-icon"
@@ -235,17 +235,17 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
             Work
           </div>
           <div
-            class="el-text-sm el-text-base"
+            class="mocked-styled-79 el-text-base el-text-sm el-text-base"
           >
             2342342344
           </div>
         </div>
       </div>
       <div
-        class="el-key-value-list-wrap"
+        class="mocked-styled-188 el-key-value-list-wrap"
       >
         <div
-          class="el-key-value-icon-wrap"
+          class="mocked-styled-187 el-key-value-icon-wrap"
         >
           <span
             class="el-intent-primary el-icon-new el-icon"
@@ -273,7 +273,7 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
             Primary Address
           </div>
           <div
-            class="el-text-sm el-text-base"
+            class="mocked-styled-79 el-text-base el-text-sm el-text-base"
           >
             Bar Foo Foo Bar Foo Bar Foo
           </div>
@@ -283,13 +283,13 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
   </body>,
   "container": <div>
     <div
-      class="el-snack-holder"
+      class="mocked-styled-108 el-snack-holder"
     />
     <div
-      class="el-key-value-list-wrap"
+      class="mocked-styled-188 el-key-value-list-wrap"
     >
       <div
-        class="el-key-value-icon-wrap"
+        class="mocked-styled-187 el-key-value-icon-wrap"
       >
         <span
           class="el-intent-primary el-icon-new el-icon"
@@ -317,17 +317,17 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
           Name
         </div>
         <div
-          class="el-text-sm el-text-base"
+          class="mocked-styled-79 el-text-base el-text-sm el-text-base"
         >
           Mr Foo Bar
         </div>
       </div>
     </div>
     <div
-      class="el-key-value-list-wrap"
+      class="mocked-styled-188 el-key-value-list-wrap"
     >
       <div
-        class="el-key-value-icon-wrap"
+        class="mocked-styled-187 el-key-value-icon-wrap"
       >
         <span
           class="el-intent-primary el-icon-new el-icon"
@@ -355,17 +355,17 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
           Email
         </div>
         <div
-          class="el-text-sm el-text-base"
+          class="mocked-styled-79 el-text-base el-text-sm el-text-base"
         >
           foo@bar.com
         </div>
       </div>
     </div>
     <div
-      class="el-key-value-list-wrap"
+      class="mocked-styled-188 el-key-value-list-wrap"
     >
       <div
-        class="el-key-value-icon-wrap"
+        class="mocked-styled-187 el-key-value-icon-wrap"
       >
         <span
           class="el-intent-primary el-icon-new el-icon"
@@ -393,7 +393,7 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
           Active Status
         </div>
         <div
-          class="el-text-sm el-text-base"
+          class="mocked-styled-79 el-text-base el-text-sm el-text-base"
         >
           <span
             class="el-intent-success el-status-indicator"
@@ -405,10 +405,10 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
       </div>
     </div>
     <div
-      class="el-key-value-list-wrap"
+      class="mocked-styled-188 el-key-value-list-wrap"
     >
       <div
-        class="el-key-value-icon-wrap"
+        class="mocked-styled-187 el-key-value-icon-wrap"
       >
         <span
           class="el-intent-primary el-icon-new el-icon"
@@ -436,17 +436,17 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
           Mobile
         </div>
         <div
-          class="el-text-sm el-text-base"
+          class="mocked-styled-79 el-text-base el-text-sm el-text-base"
         >
           242423424
         </div>
       </div>
     </div>
     <div
-      class="el-key-value-list-wrap"
+      class="mocked-styled-188 el-key-value-list-wrap"
     >
       <div
-        class="el-key-value-icon-wrap"
+        class="mocked-styled-187 el-key-value-icon-wrap"
       >
         <span
           class="el-intent-primary el-icon-new el-icon"
@@ -474,17 +474,17 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
           Home
         </div>
         <div
-          class="el-text-sm el-text-base"
+          class="mocked-styled-79 el-text-base el-text-sm el-text-base"
         >
           234234234
         </div>
       </div>
     </div>
     <div
-      class="el-key-value-list-wrap"
+      class="mocked-styled-188 el-key-value-list-wrap"
     >
       <div
-        class="el-key-value-icon-wrap"
+        class="mocked-styled-187 el-key-value-icon-wrap"
       >
         <span
           class="el-intent-primary el-icon-new el-icon"
@@ -512,17 +512,17 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
           Work
         </div>
         <div
-          class="el-text-sm el-text-base"
+          class="mocked-styled-79 el-text-base el-text-sm el-text-base"
         >
           2342342344
         </div>
       </div>
     </div>
     <div
-      class="el-key-value-list-wrap"
+      class="mocked-styled-188 el-key-value-list-wrap"
     >
       <div
-        class="el-key-value-icon-wrap"
+        class="mocked-styled-187 el-key-value-icon-wrap"
       >
         <span
           class="el-intent-primary el-icon-new el-icon"
@@ -550,7 +550,7 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
           Primary Address
         </div>
         <div
-          class="el-text-sm el-text-base"
+          class="mocked-styled-79 el-text-base el-text-sm el-text-base"
         >
           Bar Foo Foo Bar Foo Bar Foo
         </div>

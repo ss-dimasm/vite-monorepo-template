@@ -6,7 +6,7 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="el-snack-holder"
+        class="mocked-styled-108 el-snack-holder"
       />
       <p
         class="el-has-bold-text el-has-section-margin el-body-text"
@@ -17,10 +17,10 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
         class="el-fade-in el-form-layout"
       >
         <div
-          class="el-input-wrap"
+          class="mocked-styled-148 el-input-wrap"
         >
           <div
-            class="el-input-group"
+            class="mocked-styled-40 el-input-group"
           >
             <input
               class="el-has-input-error el-input"
@@ -28,23 +28,23 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
               placeholder="Please enter a telephone number"
             />
             <label
-              class="el-label"
+              class="mocked-styled-41 el-label"
               for="test-static-id"
             >
               Home Phone
             </label>
           </div>
           <p
-            class="el-input-error"
+            class="mocked-styled-42 el-input-error"
           >
             Error
           </p>
         </div>
         <div
-          class="el-input-wrap"
+          class="mocked-styled-148 el-input-wrap"
         >
           <div
-            class="el-input-group"
+            class="mocked-styled-40 el-input-group"
           >
             <input
               class="el-has-input-error el-input"
@@ -52,23 +52,23 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
               placeholder="Please enter a telephone number"
             />
             <label
-              class="el-label"
+              class="mocked-styled-41 el-label"
               for="test-static-id"
             >
               Work Phone
             </label>
           </div>
           <p
-            class="el-input-error"
+            class="mocked-styled-42 el-input-error"
           >
             Error
           </p>
         </div>
         <div
-          class="el-input-wrap"
+          class="mocked-styled-148 el-input-wrap"
         >
           <div
-            class="el-input-group"
+            class="mocked-styled-40 el-input-group"
           >
             <input
               class="el-has-input-error el-input"
@@ -76,23 +76,23 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
               placeholder="Please enter a telephone number"
             />
             <label
-              class="el-label"
+              class="mocked-styled-41 el-label"
               for="test-static-id"
             >
               Mobile Phone
             </label>
           </div>
           <p
-            class="el-input-error"
+            class="mocked-styled-42 el-input-error"
           >
             Error
           </p>
         </div>
         <div
-          class="el-input-wrap"
+          class="mocked-styled-148 el-input-wrap"
         >
           <div
-            class="el-input-group"
+            class="mocked-styled-40 el-input-group"
           >
             <input
               class="el-has-input-error el-input"
@@ -101,26 +101,26 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
               type="email"
             />
             <label
-              class="el-label"
+              class="mocked-styled-41 el-label"
               for="test-static-id"
             >
               Email
             </label>
           </div>
           <p
-            class="el-input-error"
+            class="mocked-styled-42 el-input-error"
           >
             Error
           </p>
         </div>
         <div
-          class="el-input-wrap"
+          class="mocked-styled-148 el-input-wrap"
         >
           <div
-            class="el-input-group"
+            class="mocked-styled-40 el-input-group"
           >
             <select
-              class="el-select"
+              class="mocked-styled-98 el-select"
             >
               <option
                 value=""
@@ -144,144 +144,144 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
               </option>
             </select>
             <label
-              class="el-label"
+              class="mocked-styled-41 el-label"
             >
               Marketing Consent
             </label>
           </div>
           <p
-            class="el-input-error"
+            class="mocked-styled-42 el-input-error"
           >
             Error
           </p>
         </div>
         <div
-          class="el-input-wrap"
+          class="mocked-styled-148 el-input-wrap"
         >
           <div
-            class="el-input-group"
+            class="mocked-styled-40 el-input-group"
           >
             <input
-              class="el-toggle-checkbox"
+              class="mocked-styled-140 el-toggle-checkbox"
               id="com-pref-letter"
               type="checkbox"
             />
             <label
-              class="el-toggle-label"
+              class="mocked-styled-141 el-toggle-label"
               for="com-pref-letter"
             >
               <span
-                class="el-toggle-item"
+                class="mocked-styled-138 el-toggle-item"
               >
                 On
               </span>
               <span
-                class="el-toggle-item"
+                class="mocked-styled-138 el-toggle-item"
               >
                 Off
               </span>
             </label>
             <label
-              class="el-label"
+              class="mocked-styled-41 el-label"
             >
               Communicate Preference Letter
             </label>
           </div>
         </div>
         <div
-          class="el-input-wrap"
+          class="mocked-styled-148 el-input-wrap"
         >
           <div
-            class="el-input-group"
+            class="mocked-styled-40 el-input-group"
           >
             <input
-              class="el-toggle-checkbox"
+              class="mocked-styled-140 el-toggle-checkbox"
               id="com-pref-email"
               type="checkbox"
             />
             <label
-              class="el-toggle-label"
+              class="mocked-styled-141 el-toggle-label"
               for="com-pref-email"
             >
               <span
-                class="el-toggle-item"
+                class="mocked-styled-138 el-toggle-item"
               >
                 On
               </span>
               <span
-                class="el-toggle-item"
+                class="mocked-styled-138 el-toggle-item"
               >
                 Off
               </span>
             </label>
             <label
-              class="el-label"
+              class="mocked-styled-41 el-label"
             >
               Communicate Preference Email
             </label>
           </div>
         </div>
         <div
-          class="el-input-wrap"
+          class="mocked-styled-148 el-input-wrap"
         >
           <div
-            class="el-input-group"
+            class="mocked-styled-40 el-input-group"
           >
             <input
-              class="el-toggle-checkbox"
+              class="mocked-styled-140 el-toggle-checkbox"
               id="com-pref-phone"
               type="checkbox"
             />
             <label
-              class="el-toggle-label"
+              class="mocked-styled-141 el-toggle-label"
               for="com-pref-phone"
             >
               <span
-                class="el-toggle-item"
+                class="mocked-styled-138 el-toggle-item"
               >
                 On
               </span>
               <span
-                class="el-toggle-item"
+                class="mocked-styled-138 el-toggle-item"
               >
                 Off
               </span>
             </label>
             <label
-              class="el-label"
+              class="mocked-styled-41 el-label"
             >
               Communicate Preference Phone
             </label>
           </div>
         </div>
         <div
-          class="el-input-wrap"
+          class="mocked-styled-148 el-input-wrap"
         >
           <div
-            class="el-input-group"
+            class="mocked-styled-40 el-input-group"
           >
             <input
-              class="el-toggle-checkbox"
+              class="mocked-styled-140 el-toggle-checkbox"
               id="com-pref-sms"
               type="checkbox"
             />
             <label
-              class="el-toggle-label"
+              class="mocked-styled-141 el-toggle-label"
               for="com-pref-sms"
             >
               <span
-                class="el-toggle-item"
+                class="mocked-styled-138 el-toggle-item"
               >
                 On
               </span>
               <span
-                class="el-toggle-item"
+                class="mocked-styled-138 el-toggle-item"
               >
                 Off
               </span>
             </label>
             <label
-              class="el-label"
+              class="mocked-styled-41 el-label"
             >
               Communicate Preference SMS
             </label>
@@ -292,7 +292,7 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
   </body>,
   "container": <div>
     <div
-      class="el-snack-holder"
+      class="mocked-styled-108 el-snack-holder"
     />
     <p
       class="el-has-bold-text el-has-section-margin el-body-text"
@@ -303,10 +303,10 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
       class="el-fade-in el-form-layout"
     >
       <div
-        class="el-input-wrap"
+        class="mocked-styled-148 el-input-wrap"
       >
         <div
-          class="el-input-group"
+          class="mocked-styled-40 el-input-group"
         >
           <input
             class="el-has-input-error el-input"
@@ -314,23 +314,23 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
             placeholder="Please enter a telephone number"
           />
           <label
-            class="el-label"
+            class="mocked-styled-41 el-label"
             for="test-static-id"
           >
             Home Phone
           </label>
         </div>
         <p
-          class="el-input-error"
+          class="mocked-styled-42 el-input-error"
         >
           Error
         </p>
       </div>
       <div
-        class="el-input-wrap"
+        class="mocked-styled-148 el-input-wrap"
       >
         <div
-          class="el-input-group"
+          class="mocked-styled-40 el-input-group"
         >
           <input
             class="el-has-input-error el-input"
@@ -338,23 +338,23 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
             placeholder="Please enter a telephone number"
           />
           <label
-            class="el-label"
+            class="mocked-styled-41 el-label"
             for="test-static-id"
           >
             Work Phone
           </label>
         </div>
         <p
-          class="el-input-error"
+          class="mocked-styled-42 el-input-error"
         >
           Error
         </p>
       </div>
       <div
-        class="el-input-wrap"
+        class="mocked-styled-148 el-input-wrap"
       >
         <div
-          class="el-input-group"
+          class="mocked-styled-40 el-input-group"
         >
           <input
             class="el-has-input-error el-input"
@@ -362,23 +362,23 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
             placeholder="Please enter a telephone number"
           />
           <label
-            class="el-label"
+            class="mocked-styled-41 el-label"
             for="test-static-id"
           >
             Mobile Phone
           </label>
         </div>
         <p
-          class="el-input-error"
+          class="mocked-styled-42 el-input-error"
         >
           Error
         </p>
       </div>
       <div
-        class="el-input-wrap"
+        class="mocked-styled-148 el-input-wrap"
       >
         <div
-          class="el-input-group"
+          class="mocked-styled-40 el-input-group"
         >
           <input
             class="el-has-input-error el-input"
@@ -387,26 +387,26 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
             type="email"
           />
           <label
-            class="el-label"
+            class="mocked-styled-41 el-label"
             for="test-static-id"
           >
             Email
           </label>
         </div>
         <p
-          class="el-input-error"
+          class="mocked-styled-42 el-input-error"
         >
           Error
         </p>
       </div>
       <div
-        class="el-input-wrap"
+        class="mocked-styled-148 el-input-wrap"
       >
         <div
-          class="el-input-group"
+          class="mocked-styled-40 el-input-group"
         >
           <select
-            class="el-select"
+            class="mocked-styled-98 el-select"
           >
             <option
               value=""
@@ -430,144 +430,144 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
             </option>
           </select>
           <label
-            class="el-label"
+            class="mocked-styled-41 el-label"
           >
             Marketing Consent
           </label>
         </div>
         <p
-          class="el-input-error"
+          class="mocked-styled-42 el-input-error"
         >
           Error
         </p>
       </div>
       <div
-        class="el-input-wrap"
+        class="mocked-styled-148 el-input-wrap"
       >
         <div
-          class="el-input-group"
+          class="mocked-styled-40 el-input-group"
         >
           <input
-            class="el-toggle-checkbox"
+            class="mocked-styled-140 el-toggle-checkbox"
             id="com-pref-letter"
             type="checkbox"
           />
           <label
-            class="el-toggle-label"
+            class="mocked-styled-141 el-toggle-label"
             for="com-pref-letter"
           >
             <span
-              class="el-toggle-item"
+              class="mocked-styled-138 el-toggle-item"
             >
               On
             </span>
             <span
-              class="el-toggle-item"
+              class="mocked-styled-138 el-toggle-item"
             >
               Off
             </span>
           </label>
           <label
-            class="el-label"
+            class="mocked-styled-41 el-label"
           >
             Communicate Preference Letter
           </label>
         </div>
       </div>
       <div
-        class="el-input-wrap"
+        class="mocked-styled-148 el-input-wrap"
       >
         <div
-          class="el-input-group"
+          class="mocked-styled-40 el-input-group"
         >
           <input
-            class="el-toggle-checkbox"
+            class="mocked-styled-140 el-toggle-checkbox"
             id="com-pref-email"
             type="checkbox"
           />
           <label
-            class="el-toggle-label"
+            class="mocked-styled-141 el-toggle-label"
             for="com-pref-email"
           >
             <span
-              class="el-toggle-item"
+              class="mocked-styled-138 el-toggle-item"
             >
               On
             </span>
             <span
-              class="el-toggle-item"
+              class="mocked-styled-138 el-toggle-item"
             >
               Off
             </span>
           </label>
           <label
-            class="el-label"
+            class="mocked-styled-41 el-label"
           >
             Communicate Preference Email
           </label>
         </div>
       </div>
       <div
-        class="el-input-wrap"
+        class="mocked-styled-148 el-input-wrap"
       >
         <div
-          class="el-input-group"
+          class="mocked-styled-40 el-input-group"
         >
           <input
-            class="el-toggle-checkbox"
+            class="mocked-styled-140 el-toggle-checkbox"
             id="com-pref-phone"
             type="checkbox"
           />
           <label
-            class="el-toggle-label"
+            class="mocked-styled-141 el-toggle-label"
             for="com-pref-phone"
           >
             <span
-              class="el-toggle-item"
+              class="mocked-styled-138 el-toggle-item"
             >
               On
             </span>
             <span
-              class="el-toggle-item"
+              class="mocked-styled-138 el-toggle-item"
             >
               Off
             </span>
           </label>
           <label
-            class="el-label"
+            class="mocked-styled-41 el-label"
           >
             Communicate Preference Phone
           </label>
         </div>
       </div>
       <div
-        class="el-input-wrap"
+        class="mocked-styled-148 el-input-wrap"
       >
         <div
-          class="el-input-group"
+          class="mocked-styled-40 el-input-group"
         >
           <input
-            class="el-toggle-checkbox"
+            class="mocked-styled-140 el-toggle-checkbox"
             id="com-pref-sms"
             type="checkbox"
           />
           <label
-            class="el-toggle-label"
+            class="mocked-styled-141 el-toggle-label"
             for="com-pref-sms"
           >
             <span
-              class="el-toggle-item"
+              class="mocked-styled-138 el-toggle-item"
             >
               On
             </span>
             <span
-              class="el-toggle-item"
+              class="mocked-styled-138 el-toggle-item"
             >
               Off
             </span>
           </label>
           <label
-            class="el-label"
+            class="mocked-styled-41 el-label"
           >
             Communicate Preference SMS
           </label>

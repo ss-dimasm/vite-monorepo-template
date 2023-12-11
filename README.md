@@ -16,10 +16,15 @@ Ensure also you have set `http://localhost:8080` as a redirect uri and `http://l
 
 The output app will create a simple CRUD contacts app to demonstrate the features of the platform.
 
-Then with `NodeJS ~18` installed, run;
+### Prerequisites
+
+- Node.js 18+
+- Yarn 1+
+
+First, run;
 
 ```
-npx degit reapit/foundations-react-vite-template <<Your App Name>> --mode=git
+npx degit reapit/foundations-react-vite-template <<Your App Name>>
 ```
 
 Then;
