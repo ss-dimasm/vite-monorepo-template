@@ -6,26 +6,26 @@ exports[`ContactsPage should match a snapshot 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="mocked-styled-108 el-snack-holder"
+        class="mocked-styled-97 el-snack-holder"
       />
       <div
-        class="el-flex-auto el-flex-container"
+        class="el-flex-container el-flex-auto"
       >
         <section
-          class="el-has-grey-background el-page-container"
+          class="el-page-container el-has-grey-background"
         />
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="mocked-styled-108 el-snack-holder"
+      class="mocked-styled-97 el-snack-holder"
     />
     <div
-      class="el-flex-auto el-flex-container"
+      class="el-flex-container el-flex-auto"
     >
       <section
-        class="el-has-grey-background el-page-container"
+        class="el-page-container el-has-grey-background"
       />
     </div>
   </div>,

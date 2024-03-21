@@ -6,28 +6,28 @@ exports[`ContactsNew should match a snapshot 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="mocked-styled-108 el-snack-holder"
+        class="mocked-styled-97 el-snack-holder"
       />
       <div
-        class="mocked-styled-192 el-page-header-wrap"
+        class="mocked-styled-181 el-page-header-wrap"
       >
         <div
           class="el-page-header-max-width el-page-header-wrap-inner"
         >
           <div
-            class="mocked-styled-189 el-page-header-container"
+            class="mocked-styled-178 el-page-header-container"
           >
             <div
-              class="mocked-styled-189 el-page-header-container"
+              class="mocked-styled-178 el-page-header-container"
             >
               <div
-                class="el-flex-column el-flex-container"
+                class="el-flex-container el-flex-column"
               >
                 <div
-                  class="mocked-styled-190 el-page-header-title-container"
+                  class="mocked-styled-179 el-page-header-title-container"
                 >
                   <div
-                    class="el-mr3 el-has-bold-text el-text2xl el-text-base"
+                    class="el-text-base el-text2xl el-has-bold-text el-mr3"
                   >
                     New Contact
                   </div>
@@ -54,20 +54,20 @@ exports[`ContactsNew should match a snapshot 1`] = `
         </div>
       </div>
       <div
-        class="el-flex-column el-has-max-width el-flex-container"
+        class="el-flex-container el-flex-column el-has-max-width"
       >
         <div
-          class="mocked-styled-186 el-tile"
+          class="mocked-styled-175 el-tile"
         >
           <form>
             <div
-              class="mocked-styled-112 el-steps-vertical"
+              class="mocked-styled-101 el-steps-vertical"
             >
               <div
-                class="mocked-styled-113 el-step-vertical"
+                class="mocked-styled-102 el-step-vertical"
               >
                 <div
-                  class="mocked-styled-114 el-step-vertical-item"
+                  class="mocked-styled-103 el-step-vertical-item"
                 >
                   <div
                     class="el-is-active el-step"
@@ -77,10 +77,10 @@ exports[`ContactsNew should match a snapshot 1`] = `
                   </div>
                 </div>
                 <div
-                  class="mocked-styled-115 el-step-vertical-content"
+                  class="mocked-styled-104 el-step-vertical-content"
                 >
                   <p
-                    class="el-has-bold-text el-has-section-margin el-body-text"
+                    class="el-text-base el-has-bold-text el-has-section-margin el-body-text"
                   >
                     Provide us with some basic personal information about your contact.
                   </p>
@@ -88,13 +88,13 @@ exports[`ContactsNew should match a snapshot 1`] = `
                     class="el-fade-in el-form-layout"
                   >
                     <div
-                      class="mocked-styled-148 el-input-wrap"
+                      class="mocked-styled-137 el-input-wrap"
                     >
                       <div
                         class="mocked-styled-40 el-input-group"
                       >
                         <select
-                          class="mocked-styled-98 el-select"
+                          class="mocked-styled-87 el-select"
                           name="title"
                         >
                           <option
@@ -146,7 +146,7 @@ exports[`ContactsNew should match a snapshot 1`] = `
                       </div>
                     </div>
                     <div
-                      class="mocked-styled-148 el-input-wrap"
+                      class="mocked-styled-137 el-input-wrap"
                     >
                       <div
                         class="mocked-styled-40 el-input-group"
@@ -166,7 +166,7 @@ exports[`ContactsNew should match a snapshot 1`] = `
                       </div>
                     </div>
                     <div
-                      class="mocked-styled-148 el-input-wrap"
+                      class="mocked-styled-137 el-input-wrap"
                     >
                       <div
                         class="mocked-styled-40 el-input-group"
@@ -186,7 +186,7 @@ exports[`ContactsNew should match a snapshot 1`] = `
                       </div>
                     </div>
                     <div
-                      class="mocked-styled-148 el-input-wrap"
+                      class="mocked-styled-137 el-input-wrap"
                     >
                       <div
                         class="mocked-styled-40 el-input-group"
@@ -234,28 +234,28 @@ exports[`ContactsNew should match a snapshot 1`] = `
   </body>,
   "container": <div>
     <div
-      class="mocked-styled-108 el-snack-holder"
+      class="mocked-styled-97 el-snack-holder"
     />
     <div
-      class="mocked-styled-192 el-page-header-wrap"
+      class="mocked-styled-181 el-page-header-wrap"
     >
       <div
         class="el-page-header-max-width el-page-header-wrap-inner"
       >
         <div
-          class="mocked-styled-189 el-page-header-container"
+          class="mocked-styled-178 el-page-header-container"
         >
           <div
-            class="mocked-styled-189 el-page-header-container"
+            class="mocked-styled-178 el-page-header-container"
           >
             <div
-              class="el-flex-column el-flex-container"
+              class="el-flex-container el-flex-column"
             >
               <div
-                class="mocked-styled-190 el-page-header-title-container"
+                class="mocked-styled-179 el-page-header-title-container"
               >
                 <div
-                  class="el-mr3 el-has-bold-text el-text2xl el-text-base"
+                  class="el-text-base el-text2xl el-has-bold-text el-mr3"
                 >
                   New Contact
                 </div>
@@ -282,20 +282,20 @@ exports[`ContactsNew should match a snapshot 1`] = `
       </div>
     </div>
     <div
-      class="el-flex-column el-has-max-width el-flex-container"
+      class="el-flex-container el-flex-column el-has-max-width"
     >
       <div
-        class="mocked-styled-186 el-tile"
+        class="mocked-styled-175 el-tile"
       >
         <form>
           <div
-            class="mocked-styled-112 el-steps-vertical"
+            class="mocked-styled-101 el-steps-vertical"
           >
             <div
-              class="mocked-styled-113 el-step-vertical"
+              class="mocked-styled-102 el-step-vertical"
             >
               <div
-                class="mocked-styled-114 el-step-vertical-item"
+                class="mocked-styled-103 el-step-vertical-item"
               >
                 <div
                   class="el-is-active el-step"
@@ -305,10 +305,10 @@ exports[`ContactsNew should match a snapshot 1`] = `
                 </div>
               </div>
               <div
-                class="mocked-styled-115 el-step-vertical-content"
+                class="mocked-styled-104 el-step-vertical-content"
               >
                 <p
-                  class="el-has-bold-text el-has-section-margin el-body-text"
+                  class="el-text-base el-has-bold-text el-has-section-margin el-body-text"
                 >
                   Provide us with some basic personal information about your contact.
                 </p>
@@ -316,13 +316,13 @@ exports[`ContactsNew should match a snapshot 1`] = `
                   class="el-fade-in el-form-layout"
                 >
                   <div
-                    class="mocked-styled-148 el-input-wrap"
+                    class="mocked-styled-137 el-input-wrap"
                   >
                     <div
                       class="mocked-styled-40 el-input-group"
                     >
                       <select
-                        class="mocked-styled-98 el-select"
+                        class="mocked-styled-87 el-select"
                         name="title"
                       >
                         <option
@@ -374,7 +374,7 @@ exports[`ContactsNew should match a snapshot 1`] = `
                     </div>
                   </div>
                   <div
-                    class="mocked-styled-148 el-input-wrap"
+                    class="mocked-styled-137 el-input-wrap"
                   >
                     <div
                       class="mocked-styled-40 el-input-group"
@@ -394,7 +394,7 @@ exports[`ContactsNew should match a snapshot 1`] = `
                     </div>
                   </div>
                   <div
-                    class="mocked-styled-148 el-input-wrap"
+                    class="mocked-styled-137 el-input-wrap"
                   >
                     <div
                       class="mocked-styled-40 el-input-group"
@@ -414,7 +414,7 @@ exports[`ContactsNew should match a snapshot 1`] = `
                     </div>
                   </div>
                   <div
-                    class="mocked-styled-148 el-input-wrap"
+                    class="mocked-styled-137 el-input-wrap"
                   >
                     <div
                       class="mocked-styled-40 el-input-group"

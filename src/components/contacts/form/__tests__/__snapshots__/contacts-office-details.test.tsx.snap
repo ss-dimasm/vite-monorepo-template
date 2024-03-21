@@ -6,10 +6,10 @@ exports[`ContactsOfficeDetails should match a snapshot 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="mocked-styled-108 el-snack-holder"
+        class="mocked-styled-97 el-snack-holder"
       />
       <p
-        class="el-has-bold-text el-has-section-margin el-body-text"
+        class="el-text-base el-has-bold-text el-has-section-margin el-body-text"
       >
         Provide information here relating to your Reapit organisation & office.
       </p>
@@ -17,7 +17,7 @@ exports[`ContactsOfficeDetails should match a snapshot 1`] = `
         class="el-fade-in el-form-layout"
       >
         <div
-          class="mocked-styled-150 el-input-wrap-full"
+          class="mocked-styled-139 el-input-wrap-full"
         >
           <div
             class="el-mb3 el-input-group"
@@ -29,6 +29,7 @@ exports[`ContactsOfficeDetails should match a snapshot 1`] = `
             />
             <span
               class="el-icon-new el-icon"
+              role="img"
               style="font-size: 1rem;"
             >
               <svg
@@ -40,7 +41,7 @@ exports[`ContactsOfficeDetails should match a snapshot 1`] = `
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="m21.71 20.29-5.4-5.39A7.9 7.9 0 0 0 18 10a8 8 0 1 0-8 8 7.9 7.9 0 0 0 4.9-1.69l5.39 5.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42ZM4 10a6 6 0 1 1 12 0 6 6 0 0 1-12 0Z"
+                  d="m21.71 20.29-5.4-5.39A7.9 7.9 0 0 0 18 10a8 8 0 1 0-8 8 7.9 7.9 0 0 0 4.9-1.69l5.39 5.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42M4 10a6 6 0 1 1 12 0 6 6 0 0 1-12 0"
                   fill="currentColor"
                 />
               </svg>
@@ -53,20 +54,23 @@ exports[`ContactsOfficeDetails should match a snapshot 1`] = `
             </label>
           </div>
           <div
-            class="mocked-styled-62 el-multi-select-input-wrapper"
+            aria-controls=":r0:"
+            aria-haspopup="listbox"
+            class="mocked-styled-58 el-multi-select-input-wrapper"
+            role="combobox"
           >
             <input
-              class="mocked-styled-61 el-multi-select-input"
+              class="mocked-styled-57 el-multi-select-input"
               id="source-select"
             />
             <div
-              class="mocked-styled-59 el-multi-select-selected"
+              class="mocked-styled-55 el-multi-select-selected"
             />
             <div
-              class="mocked-styled-60 el-multi-select-un-selected"
+              class="mocked-styled-56 el-multi-select-un-selected"
             >
               <input
-                class="mocked-styled-56 el-multi-select-checkbox"
+                class="mocked-styled-52 el-multi-select-checkbox"
                 id="test-static-id"
                 type="checkbox"
               />
@@ -77,7 +81,7 @@ exports[`ContactsOfficeDetails should match a snapshot 1`] = `
                 London Estate Agent
               </label>
               <input
-                class="mocked-styled-56 el-multi-select-checkbox"
+                class="mocked-styled-52 el-multi-select-checkbox"
                 id="test-static-id"
                 type="checkbox"
               />
@@ -96,7 +100,7 @@ exports[`ContactsOfficeDetails should match a snapshot 1`] = `
           </p>
         </div>
         <div
-          class="mocked-styled-150 el-input-wrap-full"
+          class="mocked-styled-139 el-input-wrap-full"
         >
           <div
             class="el-mb3 el-input-group"
@@ -108,6 +112,7 @@ exports[`ContactsOfficeDetails should match a snapshot 1`] = `
             />
             <span
               class="el-icon-new el-icon"
+              role="img"
               style="font-size: 1rem;"
             >
               <svg
@@ -119,7 +124,7 @@ exports[`ContactsOfficeDetails should match a snapshot 1`] = `
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="m21.71 20.29-5.4-5.39A7.9 7.9 0 0 0 18 10a8 8 0 1 0-8 8 7.9 7.9 0 0 0 4.9-1.69l5.39 5.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42ZM4 10a6 6 0 1 1 12 0 6 6 0 0 1-12 0Z"
+                  d="m21.71 20.29-5.4-5.39A7.9 7.9 0 0 0 18 10a8 8 0 1 0-8 8 7.9 7.9 0 0 0 4.9-1.69l5.39 5.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42M4 10a6 6 0 1 1 12 0 6 6 0 0 1-12 0"
                   fill="currentColor"
                 />
               </svg>
@@ -132,20 +137,23 @@ exports[`ContactsOfficeDetails should match a snapshot 1`] = `
             </label>
           </div>
           <div
-            class="mocked-styled-62 el-multi-select-input-wrapper"
+            aria-controls=":r1:"
+            aria-haspopup="listbox"
+            class="mocked-styled-58 el-multi-select-input-wrapper"
+            role="combobox"
           >
             <input
-              class="mocked-styled-61 el-multi-select-input"
+              class="mocked-styled-57 el-multi-select-input"
               id="negotiators-select"
             />
             <div
-              class="mocked-styled-59 el-multi-select-selected"
+              class="mocked-styled-55 el-multi-select-selected"
             />
             <div
-              class="mocked-styled-60 el-multi-select-un-selected"
+              class="mocked-styled-56 el-multi-select-un-selected"
             >
               <input
-                class="mocked-styled-56 el-multi-select-checkbox"
+                class="mocked-styled-52 el-multi-select-checkbox"
                 id="test-static-id"
                 type="checkbox"
               />
@@ -156,7 +164,7 @@ exports[`ContactsOfficeDetails should match a snapshot 1`] = `
                 Mr Alfred Williamson
               </label>
               <input
-                class="mocked-styled-56 el-multi-select-checkbox"
+                class="mocked-styled-52 el-multi-select-checkbox"
                 id="test-static-id"
                 type="checkbox"
               />
@@ -175,7 +183,7 @@ exports[`ContactsOfficeDetails should match a snapshot 1`] = `
           </p>
         </div>
         <div
-          class="mocked-styled-150 el-input-wrap-full"
+          class="mocked-styled-139 el-input-wrap-full"
         >
           <div
             class="el-mb3 el-input-group"
@@ -187,6 +195,7 @@ exports[`ContactsOfficeDetails should match a snapshot 1`] = `
             />
             <span
               class="el-icon-new el-icon"
+              role="img"
               style="font-size: 1rem;"
             >
               <svg
@@ -198,7 +207,7 @@ exports[`ContactsOfficeDetails should match a snapshot 1`] = `
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="m21.71 20.29-5.4-5.39A7.9 7.9 0 0 0 18 10a8 8 0 1 0-8 8 7.9 7.9 0 0 0 4.9-1.69l5.39 5.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42ZM4 10a6 6 0 1 1 12 0 6 6 0 0 1-12 0Z"
+                  d="m21.71 20.29-5.4-5.39A7.9 7.9 0 0 0 18 10a8 8 0 1 0-8 8 7.9 7.9 0 0 0 4.9-1.69l5.39 5.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42M4 10a6 6 0 1 1 12 0 6 6 0 0 1-12 0"
                   fill="currentColor"
                 />
               </svg>
@@ -211,14 +220,17 @@ exports[`ContactsOfficeDetails should match a snapshot 1`] = `
             </label>
           </div>
           <div
-            class="mocked-styled-62 el-multi-select-input-wrapper"
+            aria-controls=":r2:"
+            aria-haspopup="listbox"
+            class="mocked-styled-58 el-multi-select-input-wrapper"
+            role="combobox"
           >
             <input
-              class="mocked-styled-61 el-multi-select-input"
+              class="mocked-styled-57 el-multi-select-input"
               id="offices-select"
             />
             <div
-              class="mocked-styled-59 el-multi-select-selected"
+              class="mocked-styled-55 el-multi-select-selected"
             />
           </div>
           <p
@@ -232,10 +244,10 @@ exports[`ContactsOfficeDetails should match a snapshot 1`] = `
   </body>,
   "container": <div>
     <div
-      class="mocked-styled-108 el-snack-holder"
+      class="mocked-styled-97 el-snack-holder"
     />
     <p
-      class="el-has-bold-text el-has-section-margin el-body-text"
+      class="el-text-base el-has-bold-text el-has-section-margin el-body-text"
     >
       Provide information here relating to your Reapit organisation & office.
     </p>
@@ -243,7 +255,7 @@ exports[`ContactsOfficeDetails should match a snapshot 1`] = `
       class="el-fade-in el-form-layout"
     >
       <div
-        class="mocked-styled-150 el-input-wrap-full"
+        class="mocked-styled-139 el-input-wrap-full"
       >
         <div
           class="el-mb3 el-input-group"
@@ -255,6 +267,7 @@ exports[`ContactsOfficeDetails should match a snapshot 1`] = `
           />
           <span
             class="el-icon-new el-icon"
+            role="img"
             style="font-size: 1rem;"
           >
             <svg
@@ -266,7 +279,7 @@ exports[`ContactsOfficeDetails should match a snapshot 1`] = `
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="m21.71 20.29-5.4-5.39A7.9 7.9 0 0 0 18 10a8 8 0 1 0-8 8 7.9 7.9 0 0 0 4.9-1.69l5.39 5.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42ZM4 10a6 6 0 1 1 12 0 6 6 0 0 1-12 0Z"
+                d="m21.71 20.29-5.4-5.39A7.9 7.9 0 0 0 18 10a8 8 0 1 0-8 8 7.9 7.9 0 0 0 4.9-1.69l5.39 5.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42M4 10a6 6 0 1 1 12 0 6 6 0 0 1-12 0"
                 fill="currentColor"
               />
             </svg>
@@ -279,20 +292,23 @@ exports[`ContactsOfficeDetails should match a snapshot 1`] = `
           </label>
         </div>
         <div
-          class="mocked-styled-62 el-multi-select-input-wrapper"
+          aria-controls=":r0:"
+          aria-haspopup="listbox"
+          class="mocked-styled-58 el-multi-select-input-wrapper"
+          role="combobox"
         >
           <input
-            class="mocked-styled-61 el-multi-select-input"
+            class="mocked-styled-57 el-multi-select-input"
             id="source-select"
           />
           <div
-            class="mocked-styled-59 el-multi-select-selected"
+            class="mocked-styled-55 el-multi-select-selected"
           />
           <div
-            class="mocked-styled-60 el-multi-select-un-selected"
+            class="mocked-styled-56 el-multi-select-un-selected"
           >
             <input
-              class="mocked-styled-56 el-multi-select-checkbox"
+              class="mocked-styled-52 el-multi-select-checkbox"
               id="test-static-id"
               type="checkbox"
             />
@@ -303,7 +319,7 @@ exports[`ContactsOfficeDetails should match a snapshot 1`] = `
               London Estate Agent
             </label>
             <input
-              class="mocked-styled-56 el-multi-select-checkbox"
+              class="mocked-styled-52 el-multi-select-checkbox"
               id="test-static-id"
               type="checkbox"
             />
@@ -322,7 +338,7 @@ exports[`ContactsOfficeDetails should match a snapshot 1`] = `
         </p>
       </div>
       <div
-        class="mocked-styled-150 el-input-wrap-full"
+        class="mocked-styled-139 el-input-wrap-full"
       >
         <div
           class="el-mb3 el-input-group"
@@ -334,6 +350,7 @@ exports[`ContactsOfficeDetails should match a snapshot 1`] = `
           />
           <span
             class="el-icon-new el-icon"
+            role="img"
             style="font-size: 1rem;"
           >
             <svg
@@ -345,7 +362,7 @@ exports[`ContactsOfficeDetails should match a snapshot 1`] = `
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="m21.71 20.29-5.4-5.39A7.9 7.9 0 0 0 18 10a8 8 0 1 0-8 8 7.9 7.9 0 0 0 4.9-1.69l5.39 5.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42ZM4 10a6 6 0 1 1 12 0 6 6 0 0 1-12 0Z"
+                d="m21.71 20.29-5.4-5.39A7.9 7.9 0 0 0 18 10a8 8 0 1 0-8 8 7.9 7.9 0 0 0 4.9-1.69l5.39 5.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42M4 10a6 6 0 1 1 12 0 6 6 0 0 1-12 0"
                 fill="currentColor"
               />
             </svg>
@@ -358,20 +375,23 @@ exports[`ContactsOfficeDetails should match a snapshot 1`] = `
           </label>
         </div>
         <div
-          class="mocked-styled-62 el-multi-select-input-wrapper"
+          aria-controls=":r1:"
+          aria-haspopup="listbox"
+          class="mocked-styled-58 el-multi-select-input-wrapper"
+          role="combobox"
         >
           <input
-            class="mocked-styled-61 el-multi-select-input"
+            class="mocked-styled-57 el-multi-select-input"
             id="negotiators-select"
           />
           <div
-            class="mocked-styled-59 el-multi-select-selected"
+            class="mocked-styled-55 el-multi-select-selected"
           />
           <div
-            class="mocked-styled-60 el-multi-select-un-selected"
+            class="mocked-styled-56 el-multi-select-un-selected"
           >
             <input
-              class="mocked-styled-56 el-multi-select-checkbox"
+              class="mocked-styled-52 el-multi-select-checkbox"
               id="test-static-id"
               type="checkbox"
             />
@@ -382,7 +402,7 @@ exports[`ContactsOfficeDetails should match a snapshot 1`] = `
               Mr Alfred Williamson
             </label>
             <input
-              class="mocked-styled-56 el-multi-select-checkbox"
+              class="mocked-styled-52 el-multi-select-checkbox"
               id="test-static-id"
               type="checkbox"
             />
@@ -401,7 +421,7 @@ exports[`ContactsOfficeDetails should match a snapshot 1`] = `
         </p>
       </div>
       <div
-        class="mocked-styled-150 el-input-wrap-full"
+        class="mocked-styled-139 el-input-wrap-full"
       >
         <div
           class="el-mb3 el-input-group"
@@ -413,6 +433,7 @@ exports[`ContactsOfficeDetails should match a snapshot 1`] = `
           />
           <span
             class="el-icon-new el-icon"
+            role="img"
             style="font-size: 1rem;"
           >
             <svg
@@ -424,7 +445,7 @@ exports[`ContactsOfficeDetails should match a snapshot 1`] = `
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="m21.71 20.29-5.4-5.39A7.9 7.9 0 0 0 18 10a8 8 0 1 0-8 8 7.9 7.9 0 0 0 4.9-1.69l5.39 5.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42ZM4 10a6 6 0 1 1 12 0 6 6 0 0 1-12 0Z"
+                d="m21.71 20.29-5.4-5.39A7.9 7.9 0 0 0 18 10a8 8 0 1 0-8 8 7.9 7.9 0 0 0 4.9-1.69l5.39 5.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42M4 10a6 6 0 1 1 12 0 6 6 0 0 1-12 0"
                 fill="currentColor"
               />
             </svg>
@@ -437,14 +458,17 @@ exports[`ContactsOfficeDetails should match a snapshot 1`] = `
           </label>
         </div>
         <div
-          class="mocked-styled-62 el-multi-select-input-wrapper"
+          aria-controls=":r2:"
+          aria-haspopup="listbox"
+          class="mocked-styled-58 el-multi-select-input-wrapper"
+          role="combobox"
         >
           <input
-            class="mocked-styled-61 el-multi-select-input"
+            class="mocked-styled-57 el-multi-select-input"
             id="offices-select"
           />
           <div
-            class="mocked-styled-59 el-multi-select-selected"
+            class="mocked-styled-55 el-multi-select-selected"
           />
         </div>
         <p

@@ -6,10 +6,10 @@ exports[`ContactsPersonal should match a snapshot 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="mocked-styled-108 el-snack-holder"
+        class="mocked-styled-97 el-snack-holder"
       />
       <p
-        class="el-has-bold-text el-has-section-margin el-body-text"
+        class="el-text-base el-has-bold-text el-has-section-margin el-body-text"
       >
         Provide us with some basic personal information about your contact.
       </p>
@@ -17,13 +17,13 @@ exports[`ContactsPersonal should match a snapshot 1`] = `
         class="el-fade-in el-form-layout"
       >
         <div
-          class="mocked-styled-148 el-input-wrap"
+          class="mocked-styled-137 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <select
-              class="mocked-styled-98 el-select"
+              class="mocked-styled-87 el-select"
             >
               <option
                 value=""
@@ -79,7 +79,7 @@ exports[`ContactsPersonal should match a snapshot 1`] = `
           </div>
         </div>
         <div
-          class="mocked-styled-148 el-input-wrap"
+          class="mocked-styled-137 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
@@ -98,7 +98,7 @@ exports[`ContactsPersonal should match a snapshot 1`] = `
           </div>
         </div>
         <div
-          class="mocked-styled-148 el-input-wrap"
+          class="mocked-styled-137 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
@@ -122,7 +122,7 @@ exports[`ContactsPersonal should match a snapshot 1`] = `
           </p>
         </div>
         <div
-          class="mocked-styled-148 el-input-wrap"
+          class="mocked-styled-137 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
@@ -151,10 +151,10 @@ exports[`ContactsPersonal should match a snapshot 1`] = `
   </body>,
   "container": <div>
     <div
-      class="mocked-styled-108 el-snack-holder"
+      class="mocked-styled-97 el-snack-holder"
     />
     <p
-      class="el-has-bold-text el-has-section-margin el-body-text"
+      class="el-text-base el-has-bold-text el-has-section-margin el-body-text"
     >
       Provide us with some basic personal information about your contact.
     </p>
@@ -162,13 +162,13 @@ exports[`ContactsPersonal should match a snapshot 1`] = `
       class="el-fade-in el-form-layout"
     >
       <div
-        class="mocked-styled-148 el-input-wrap"
+        class="mocked-styled-137 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <select
-            class="mocked-styled-98 el-select"
+            class="mocked-styled-87 el-select"
           >
             <option
               value=""
@@ -224,7 +224,7 @@ exports[`ContactsPersonal should match a snapshot 1`] = `
         </div>
       </div>
       <div
-        class="mocked-styled-148 el-input-wrap"
+        class="mocked-styled-137 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
@@ -243,7 +243,7 @@ exports[`ContactsPersonal should match a snapshot 1`] = `
         </div>
       </div>
       <div
-        class="mocked-styled-148 el-input-wrap"
+        class="mocked-styled-137 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
@@ -267,7 +267,7 @@ exports[`ContactsPersonal should match a snapshot 1`] = `
         </p>
       </div>
       <div
-        class="mocked-styled-148 el-input-wrap"
+        class="mocked-styled-137 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
