@@ -6,37 +6,37 @@ exports[`Wrapper should match a snapshot 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="mocked-styled-97 el-snack-holder"
+        class="mocked-styled-93 el-snack-holder"
       />
       <div
-        class="mocked-styled-181 el-page-header-wrap"
+        class="mocked-styled-178 el-page-header-wrap"
       >
         <div
           class="el-page-header-max-width el-page-header-wrap-inner"
         >
           <div
-            class="mocked-styled-178 el-page-header-container"
+            class="mocked-styled-175 el-page-header-container"
           >
             <div
-              class="mocked-styled-178 el-page-header-container"
+              class="mocked-styled-175 el-page-header-container"
             >
               <div
                 class="el-flex-container el-flex-column"
               >
                 <div
-                  class="mocked-styled-179 el-page-header-title-container"
+                  class="mocked-styled-176 el-page-header-title-container"
                 >
-                  <div
+                  <h1
                     class="el-text-base el-text2xl el-has-bold-text el-mr3"
                   >
                     New Page
-                  </div>
+                  </h1>
                 </div>
-                <div
-                  class="el-text-base el-text-l"
+                <h2
+                  class="el-text-base el-text-l el-has-bold-text"
                 >
                   This is a new page - add your content here
-                </div>
+                </h2>
               </div>
             </div>
           </div>
@@ -46,7 +46,7 @@ exports[`Wrapper should match a snapshot 1`] = `
         class="el-flex-container el-flex-column el-has-max-width"
       >
         <div
-          class="mocked-styled-175 el-tile"
+          class="mocked-styled-172 el-tile"
         >
           <div
             class="el-text-base"
@@ -59,37 +59,37 @@ exports[`Wrapper should match a snapshot 1`] = `
   </body>,
   "container": <div>
     <div
-      class="mocked-styled-97 el-snack-holder"
+      class="mocked-styled-93 el-snack-holder"
     />
     <div
-      class="mocked-styled-181 el-page-header-wrap"
+      class="mocked-styled-178 el-page-header-wrap"
     >
       <div
         class="el-page-header-max-width el-page-header-wrap-inner"
       >
         <div
-          class="mocked-styled-178 el-page-header-container"
+          class="mocked-styled-175 el-page-header-container"
         >
           <div
-            class="mocked-styled-178 el-page-header-container"
+            class="mocked-styled-175 el-page-header-container"
           >
             <div
               class="el-flex-container el-flex-column"
             >
               <div
-                class="mocked-styled-179 el-page-header-title-container"
+                class="mocked-styled-176 el-page-header-title-container"
               >
-                <div
+                <h1
                   class="el-text-base el-text2xl el-has-bold-text el-mr3"
                 >
                   New Page
-                </div>
+                </h1>
               </div>
-              <div
-                class="el-text-base el-text-l"
+              <h2
+                class="el-text-base el-text-l el-has-bold-text"
               >
                 This is a new page - add your content here
-              </div>
+              </h2>
             </div>
           </div>
         </div>
@@ -99,7 +99,7 @@ exports[`Wrapper should match a snapshot 1`] = `
       class="el-flex-container el-flex-column el-has-max-width"
     >
       <div
-        class="mocked-styled-175 el-tile"
+        class="mocked-styled-172 el-tile"
       >
         <div
           class="el-text-base"

@@ -6,7 +6,7 @@ exports[`NewPage should match a snapshot 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="mocked-styled-97 el-snack-holder"
+        class="mocked-styled-93 el-snack-holder"
       />
       <div
         class="el-flex-container el-flex-auto"
@@ -19,7 +19,7 @@ exports[`NewPage should match a snapshot 1`] = `
   </body>,
   "container": <div>
     <div
-      class="mocked-styled-97 el-snack-holder"
+      class="mocked-styled-93 el-snack-holder"
     />
     <div
       class="el-flex-container el-flex-auto"

@@ -6,10 +6,10 @@ exports[`ContactsPersonal should match a snapshot 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="mocked-styled-97 el-snack-holder"
+        class="mocked-styled-93 el-snack-holder"
       />
       <p
-        class="el-text-base el-has-bold-text el-has-section-margin el-body-text"
+        class="el-text-base el-body-text el-has-bold-text el-has-section-margin"
       >
         Provide us with some basic personal information about your contact.
       </p>
@@ -17,13 +17,14 @@ exports[`ContactsPersonal should match a snapshot 1`] = `
         class="el-fade-in el-form-layout"
       >
         <div
-          class="mocked-styled-137 el-input-wrap"
+          class="mocked-styled-133 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <select
-              class="mocked-styled-87 el-select"
+              aria-label="Select an item from the dropdown list"
+              class="mocked-styled-83 el-select"
             >
               <option
                 value=""
@@ -79,12 +80,13 @@ exports[`ContactsPersonal should match a snapshot 1`] = `
           </div>
         </div>
         <div
-          class="mocked-styled-137 el-input-wrap"
+          class="mocked-styled-133 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <input
+              aria-label="Input type undefined"
               class="mocked-styled-38 el-input"
               id="test-static-id"
               placeholder="Please enter a first name"
@@ -98,12 +100,13 @@ exports[`ContactsPersonal should match a snapshot 1`] = `
           </div>
         </div>
         <div
-          class="mocked-styled-137 el-input-wrap"
+          class="mocked-styled-133 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <input
+              aria-label="Input type undefined"
               class="el-has-input-error el-input"
               id="test-static-id"
               placeholder="Please enter a surname"
@@ -122,12 +125,13 @@ exports[`ContactsPersonal should match a snapshot 1`] = `
           </p>
         </div>
         <div
-          class="mocked-styled-137 el-input-wrap"
+          class="mocked-styled-133 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <input
+              aria-label="Input type date format dd/mm/yyy max date of 2023-01-01"
               class="el-has-input-error el-input"
               id="test-static-id"
               max="2023-01-01"
@@ -151,10 +155,10 @@ exports[`ContactsPersonal should match a snapshot 1`] = `
   </body>,
   "container": <div>
     <div
-      class="mocked-styled-97 el-snack-holder"
+      class="mocked-styled-93 el-snack-holder"
     />
     <p
-      class="el-text-base el-has-bold-text el-has-section-margin el-body-text"
+      class="el-text-base el-body-text el-has-bold-text el-has-section-margin"
     >
       Provide us with some basic personal information about your contact.
     </p>
@@ -162,13 +166,14 @@ exports[`ContactsPersonal should match a snapshot 1`] = `
       class="el-fade-in el-form-layout"
     >
       <div
-        class="mocked-styled-137 el-input-wrap"
+        class="mocked-styled-133 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <select
-            class="mocked-styled-87 el-select"
+            aria-label="Select an item from the dropdown list"
+            class="mocked-styled-83 el-select"
           >
             <option
               value=""
@@ -224,12 +229,13 @@ exports[`ContactsPersonal should match a snapshot 1`] = `
         </div>
       </div>
       <div
-        class="mocked-styled-137 el-input-wrap"
+        class="mocked-styled-133 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <input
+            aria-label="Input type undefined"
             class="mocked-styled-38 el-input"
             id="test-static-id"
             placeholder="Please enter a first name"
@@ -243,12 +249,13 @@ exports[`ContactsPersonal should match a snapshot 1`] = `
         </div>
       </div>
       <div
-        class="mocked-styled-137 el-input-wrap"
+        class="mocked-styled-133 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <input
+            aria-label="Input type undefined"
             class="el-has-input-error el-input"
             id="test-static-id"
             placeholder="Please enter a surname"
@@ -267,12 +274,13 @@ exports[`ContactsPersonal should match a snapshot 1`] = `
         </p>
       </div>
       <div
-        class="mocked-styled-137 el-input-wrap"
+        class="mocked-styled-133 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <input
+            aria-label="Input type date format dd/mm/yyy max date of 2023-01-01"
             class="el-has-input-error el-input"
             id="test-static-id"
             max="2023-01-01"

@@ -6,29 +6,28 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="mocked-styled-97 el-snack-holder"
+        class="mocked-styled-93 el-snack-holder"
       />
       <div
         class="el-fade-in el-grid"
-        role="listbox"
       >
         <div
           class="mocked-styled-31 el-col"
-          role="listitem"
         >
           <div
             class="el-flex-container"
           >
             <div
-              class="mocked-styled-176 el-key-value-icon-wrap"
+              class="mocked-styled-173 el-key-value-icon-wrap"
             >
               <span
                 class="el-intent-primary el-icon-new el-icon"
-                role="img"
               >
                 <svg
                   fill="none"
                   height="1em"
+                  role="img"
+                  title="Icon image with name contact"
                   viewBox="0 0 24 24"
                   width="1em"
                   xmlns="http://www.w3.org/2000/svg"
@@ -58,21 +57,21 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
         </div>
         <div
           class="mocked-styled-31 el-col"
-          role="listitem"
         >
           <div
             class="el-flex-container"
           >
             <div
-              class="mocked-styled-176 el-key-value-icon-wrap"
+              class="mocked-styled-173 el-key-value-icon-wrap"
             >
               <span
                 class="el-intent-primary el-icon-new el-icon"
-                role="img"
               >
                 <svg
                   fill="none"
                   height="1em"
+                  role="img"
+                  title="Icon image with name info"
                   viewBox="0 0 24 24"
                   width="1em"
                   xmlns="http://www.w3.org/2000/svg"
@@ -107,21 +106,21 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
         </div>
         <div
           class="mocked-styled-31 el-col"
-          role="listitem"
         >
           <div
             class="el-flex-container"
           >
             <div
-              class="mocked-styled-176 el-key-value-icon-wrap"
+              class="mocked-styled-173 el-key-value-icon-wrap"
             >
               <span
                 class="el-intent-primary el-icon-new el-icon"
-                role="img"
               >
                 <svg
                   fill="none"
                   height="1em"
+                  role="img"
+                  title="Icon image with name email"
                   viewBox="0 0 24 24"
                   width="1em"
                   xmlns="http://www.w3.org/2000/svg"
@@ -151,21 +150,21 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
         </div>
         <div
           class="mocked-styled-31 el-col"
-          role="listitem"
         >
           <div
             class="el-flex-container"
           >
             <div
-              class="mocked-styled-176 el-key-value-icon-wrap"
+              class="mocked-styled-173 el-key-value-icon-wrap"
             >
               <span
                 class="el-intent-primary el-icon-new el-icon"
-                role="img"
               >
                 <svg
                   fill="none"
                   height="1em"
+                  role="img"
+                  title="Icon image with name phone"
                   viewBox="0 0 24 24"
                   width="1em"
                   xmlns="http://www.w3.org/2000/svg"
@@ -195,21 +194,21 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
         </div>
         <div
           class="mocked-styled-31 el-col"
-          role="listitem"
         >
           <div
             class="el-flex-container"
           >
             <div
-              class="mocked-styled-176 el-key-value-icon-wrap"
+              class="mocked-styled-173 el-key-value-icon-wrap"
             >
               <span
                 class="el-intent-primary el-icon-new el-icon"
-                role="img"
               >
                 <svg
                   fill="none"
                   height="1em"
+                  role="img"
+                  title="Icon image with name phone"
                   viewBox="0 0 24 24"
                   width="1em"
                   xmlns="http://www.w3.org/2000/svg"
@@ -239,21 +238,21 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
         </div>
         <div
           class="mocked-styled-31 el-col"
-          role="listitem"
         >
           <div
             class="el-flex-container"
           >
             <div
-              class="mocked-styled-176 el-key-value-icon-wrap"
+              class="mocked-styled-173 el-key-value-icon-wrap"
             >
               <span
                 class="el-intent-primary el-icon-new el-icon"
-                role="img"
               >
                 <svg
                   fill="none"
                   height="1em"
+                  role="img"
+                  title="Icon image with name phone"
                   viewBox="0 0 24 24"
                   width="1em"
                   xmlns="http://www.w3.org/2000/svg"
@@ -283,21 +282,21 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
         </div>
         <div
           class="mocked-styled-31 el-col"
-          role="listitem"
         >
           <div
             class="el-flex-container"
           >
             <div
-              class="mocked-styled-176 el-key-value-icon-wrap"
+              class="mocked-styled-173 el-key-value-icon-wrap"
             >
               <span
                 class="el-intent-primary el-icon-new el-icon"
-                role="img"
               >
                 <svg
                   fill="none"
                   height="1em"
+                  role="img"
+                  title="Icon image with name property"
                   viewBox="0 0 24 24"
                   width="1em"
                   xmlns="http://www.w3.org/2000/svg"
@@ -327,21 +326,21 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
         </div>
         <div
           class="mocked-styled-31 el-col"
-          role="listitem"
         >
           <div
             class="el-flex-container"
           >
             <div
-              class="mocked-styled-176 el-key-value-icon-wrap"
+              class="mocked-styled-173 el-key-value-icon-wrap"
             >
               <span
                 class="el-intent-primary el-icon-new el-icon"
-                role="img"
               >
                 <svg
                   fill="none"
                   height="1em"
+                  role="img"
+                  title="Icon image with name property"
                   viewBox="0 0 24 24"
                   width="1em"
                   xmlns="http://www.w3.org/2000/svg"
@@ -371,21 +370,21 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
         </div>
         <div
           class="mocked-styled-31 el-col"
-          role="listitem"
         >
           <div
             class="el-flex-container"
           >
             <div
-              class="mocked-styled-176 el-key-value-icon-wrap"
+              class="mocked-styled-173 el-key-value-icon-wrap"
             >
               <span
                 class="el-intent-primary el-icon-new el-icon"
-                role="img"
               >
                 <svg
                   fill="none"
                   height="1em"
+                  role="img"
+                  title="Icon image with name property"
                   viewBox="0 0 24 24"
                   width="1em"
                   xmlns="http://www.w3.org/2000/svg"
@@ -415,21 +414,21 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
         </div>
         <div
           class="mocked-styled-31 el-col"
-          role="listitem"
         >
           <div
             class="el-flex-container"
           >
             <div
-              class="mocked-styled-176 el-key-value-icon-wrap"
+              class="mocked-styled-173 el-key-value-icon-wrap"
             >
               <span
                 class="el-intent-primary el-icon-new el-icon"
-                role="img"
               >
                 <svg
                   fill="none"
                   height="1em"
+                  role="img"
+                  title="Icon image with name contact"
                   viewBox="0 0 24 24"
                   width="1em"
                   xmlns="http://www.w3.org/2000/svg"
@@ -453,10 +452,10 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
                 class="el-text-base el-text-sm"
               >
                 <div
-                  class="mocked-styled-169 el-badge-group"
+                  class="mocked-styled-166 el-badge-group"
                 >
                   <div
-                    class="mocked-styled-170 el-badge-group-inner"
+                    class="mocked-styled-167 el-badge-group-inner"
                   >
                     <span
                       class="el-intent-primary el-badge"
@@ -470,21 +469,21 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
         </div>
         <div
           class="mocked-styled-31 el-col"
-          role="listitem"
         >
           <div
             class="el-flex-container"
           >
             <div
-              class="mocked-styled-176 el-key-value-icon-wrap"
+              class="mocked-styled-173 el-key-value-icon-wrap"
             >
               <span
                 class="el-intent-primary el-icon-new el-icon"
-                role="img"
               >
                 <svg
                   fill="none"
                   height="1em"
+                  role="img"
+                  title="Icon image with name contacts"
                   viewBox="0 0 24 24"
                   width="1em"
                   xmlns="http://www.w3.org/2000/svg"
@@ -508,10 +507,10 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
                 class="el-text-base el-text-sm"
               >
                 <div
-                  class="mocked-styled-169 el-badge-group"
+                  class="mocked-styled-166 el-badge-group"
                 >
                   <div
-                    class="mocked-styled-170 el-badge-group-inner"
+                    class="mocked-styled-167 el-badge-group-inner"
                   >
                     <span
                       class="el-intent-primary el-badge"
@@ -527,21 +526,21 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
         </div>
         <div
           class="mocked-styled-31 el-col"
-          role="listitem"
         >
           <div
             class="el-flex-container"
           >
             <div
-              class="mocked-styled-176 el-key-value-icon-wrap"
+              class="mocked-styled-173 el-key-value-icon-wrap"
             >
               <span
                 class="el-intent-primary el-icon-new el-icon"
-                role="img"
               >
                 <svg
                   fill="none"
                   height="1em"
+                  role="img"
+                  title="Icon image with name task"
                   viewBox="0 0 24 24"
                   width="1em"
                   xmlns="http://www.w3.org/2000/svg"
@@ -565,10 +564,10 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
                 class="el-text-base el-text-sm"
               >
                 <div
-                  class="mocked-styled-169 el-badge-group"
+                  class="mocked-styled-166 el-badge-group"
                 >
                   <div
-                    class="mocked-styled-170 el-badge-group-inner"
+                    class="mocked-styled-167 el-badge-group-inner"
                   >
                     Unknown
                   </div>
@@ -579,21 +578,21 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
         </div>
         <div
           class="mocked-styled-31 el-col"
-          role="listitem"
         >
           <div
             class="el-flex-container"
           >
             <div
-              class="mocked-styled-176 el-key-value-icon-wrap"
+              class="mocked-styled-173 el-key-value-icon-wrap"
             >
               <span
                 class="el-intent-primary el-icon-new el-icon"
-                role="img"
               >
                 <svg
                   fill="none"
                   height="1em"
+                  role="img"
+                  title="Icon image with name cloud"
                   viewBox="0 0 24 24"
                   width="1em"
                   xmlns="http://www.w3.org/2000/svg"
@@ -617,10 +616,10 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
                 class="el-text-base el-text-sm"
               >
                 <div
-                  class="mocked-styled-169 el-badge-group"
+                  class="mocked-styled-166 el-badge-group"
                 >
                   <div
-                    class="mocked-styled-170 el-badge-group-inner"
+                    class="mocked-styled-167 el-badge-group-inner"
                   >
                     Unknown
                   </div>
@@ -631,21 +630,21 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
         </div>
         <div
           class="mocked-styled-31 el-col"
-          role="listitem"
         >
           <div
             class="el-flex-container"
           >
             <div
-              class="mocked-styled-176 el-key-value-icon-wrap"
+              class="mocked-styled-173 el-key-value-icon-wrap"
             >
               <span
                 class="el-intent-primary el-icon-new el-icon"
-                role="img"
               >
                 <svg
                   fill="none"
                   height="1em"
+                  role="img"
+                  title="Icon image with name message"
                   viewBox="0 0 24 24"
                   width="1em"
                   xmlns="http://www.w3.org/2000/svg"
@@ -669,10 +668,10 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
                 class="el-text-base el-text-sm"
               >
                 <div
-                  class="mocked-styled-169 el-badge-group"
+                  class="mocked-styled-166 el-badge-group"
                 >
                   <div
-                    class="mocked-styled-170 el-badge-group-inner"
+                    class="mocked-styled-167 el-badge-group-inner"
                   >
                     <span
                       class="el-intent-primary el-badge"
@@ -715,29 +714,28 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
   </body>,
   "container": <div>
     <div
-      class="mocked-styled-97 el-snack-holder"
+      class="mocked-styled-93 el-snack-holder"
     />
     <div
       class="el-fade-in el-grid"
-      role="listbox"
     >
       <div
         class="mocked-styled-31 el-col"
-        role="listitem"
       >
         <div
           class="el-flex-container"
         >
           <div
-            class="mocked-styled-176 el-key-value-icon-wrap"
+            class="mocked-styled-173 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
-              role="img"
             >
               <svg
                 fill="none"
                 height="1em"
+                role="img"
+                title="Icon image with name contact"
                 viewBox="0 0 24 24"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
@@ -767,21 +765,21 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
       </div>
       <div
         class="mocked-styled-31 el-col"
-        role="listitem"
       >
         <div
           class="el-flex-container"
         >
           <div
-            class="mocked-styled-176 el-key-value-icon-wrap"
+            class="mocked-styled-173 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
-              role="img"
             >
               <svg
                 fill="none"
                 height="1em"
+                role="img"
+                title="Icon image with name info"
                 viewBox="0 0 24 24"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
@@ -816,21 +814,21 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
       </div>
       <div
         class="mocked-styled-31 el-col"
-        role="listitem"
       >
         <div
           class="el-flex-container"
         >
           <div
-            class="mocked-styled-176 el-key-value-icon-wrap"
+            class="mocked-styled-173 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
-              role="img"
             >
               <svg
                 fill="none"
                 height="1em"
+                role="img"
+                title="Icon image with name email"
                 viewBox="0 0 24 24"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
@@ -860,21 +858,21 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
       </div>
       <div
         class="mocked-styled-31 el-col"
-        role="listitem"
       >
         <div
           class="el-flex-container"
         >
           <div
-            class="mocked-styled-176 el-key-value-icon-wrap"
+            class="mocked-styled-173 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
-              role="img"
             >
               <svg
                 fill="none"
                 height="1em"
+                role="img"
+                title="Icon image with name phone"
                 viewBox="0 0 24 24"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
@@ -904,21 +902,21 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
       </div>
       <div
         class="mocked-styled-31 el-col"
-        role="listitem"
       >
         <div
           class="el-flex-container"
         >
           <div
-            class="mocked-styled-176 el-key-value-icon-wrap"
+            class="mocked-styled-173 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
-              role="img"
             >
               <svg
                 fill="none"
                 height="1em"
+                role="img"
+                title="Icon image with name phone"
                 viewBox="0 0 24 24"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
@@ -948,21 +946,21 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
       </div>
       <div
         class="mocked-styled-31 el-col"
-        role="listitem"
       >
         <div
           class="el-flex-container"
         >
           <div
-            class="mocked-styled-176 el-key-value-icon-wrap"
+            class="mocked-styled-173 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
-              role="img"
             >
               <svg
                 fill="none"
                 height="1em"
+                role="img"
+                title="Icon image with name phone"
                 viewBox="0 0 24 24"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
@@ -992,21 +990,21 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
       </div>
       <div
         class="mocked-styled-31 el-col"
-        role="listitem"
       >
         <div
           class="el-flex-container"
         >
           <div
-            class="mocked-styled-176 el-key-value-icon-wrap"
+            class="mocked-styled-173 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
-              role="img"
             >
               <svg
                 fill="none"
                 height="1em"
+                role="img"
+                title="Icon image with name property"
                 viewBox="0 0 24 24"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
@@ -1036,21 +1034,21 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
       </div>
       <div
         class="mocked-styled-31 el-col"
-        role="listitem"
       >
         <div
           class="el-flex-container"
         >
           <div
-            class="mocked-styled-176 el-key-value-icon-wrap"
+            class="mocked-styled-173 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
-              role="img"
             >
               <svg
                 fill="none"
                 height="1em"
+                role="img"
+                title="Icon image with name property"
                 viewBox="0 0 24 24"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
@@ -1080,21 +1078,21 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
       </div>
       <div
         class="mocked-styled-31 el-col"
-        role="listitem"
       >
         <div
           class="el-flex-container"
         >
           <div
-            class="mocked-styled-176 el-key-value-icon-wrap"
+            class="mocked-styled-173 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
-              role="img"
             >
               <svg
                 fill="none"
                 height="1em"
+                role="img"
+                title="Icon image with name property"
                 viewBox="0 0 24 24"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
@@ -1124,21 +1122,21 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
       </div>
       <div
         class="mocked-styled-31 el-col"
-        role="listitem"
       >
         <div
           class="el-flex-container"
         >
           <div
-            class="mocked-styled-176 el-key-value-icon-wrap"
+            class="mocked-styled-173 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
-              role="img"
             >
               <svg
                 fill="none"
                 height="1em"
+                role="img"
+                title="Icon image with name contact"
                 viewBox="0 0 24 24"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
@@ -1162,10 +1160,10 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
               class="el-text-base el-text-sm"
             >
               <div
-                class="mocked-styled-169 el-badge-group"
+                class="mocked-styled-166 el-badge-group"
               >
                 <div
-                  class="mocked-styled-170 el-badge-group-inner"
+                  class="mocked-styled-167 el-badge-group-inner"
                 >
                   <span
                     class="el-intent-primary el-badge"
@@ -1179,21 +1177,21 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
       </div>
       <div
         class="mocked-styled-31 el-col"
-        role="listitem"
       >
         <div
           class="el-flex-container"
         >
           <div
-            class="mocked-styled-176 el-key-value-icon-wrap"
+            class="mocked-styled-173 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
-              role="img"
             >
               <svg
                 fill="none"
                 height="1em"
+                role="img"
+                title="Icon image with name contacts"
                 viewBox="0 0 24 24"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
@@ -1217,10 +1215,10 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
               class="el-text-base el-text-sm"
             >
               <div
-                class="mocked-styled-169 el-badge-group"
+                class="mocked-styled-166 el-badge-group"
               >
                 <div
-                  class="mocked-styled-170 el-badge-group-inner"
+                  class="mocked-styled-167 el-badge-group-inner"
                 >
                   <span
                     class="el-intent-primary el-badge"
@@ -1236,21 +1234,21 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
       </div>
       <div
         class="mocked-styled-31 el-col"
-        role="listitem"
       >
         <div
           class="el-flex-container"
         >
           <div
-            class="mocked-styled-176 el-key-value-icon-wrap"
+            class="mocked-styled-173 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
-              role="img"
             >
               <svg
                 fill="none"
                 height="1em"
+                role="img"
+                title="Icon image with name task"
                 viewBox="0 0 24 24"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
@@ -1274,10 +1272,10 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
               class="el-text-base el-text-sm"
             >
               <div
-                class="mocked-styled-169 el-badge-group"
+                class="mocked-styled-166 el-badge-group"
               >
                 <div
-                  class="mocked-styled-170 el-badge-group-inner"
+                  class="mocked-styled-167 el-badge-group-inner"
                 >
                   Unknown
                 </div>
@@ -1288,21 +1286,21 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
       </div>
       <div
         class="mocked-styled-31 el-col"
-        role="listitem"
       >
         <div
           class="el-flex-container"
         >
           <div
-            class="mocked-styled-176 el-key-value-icon-wrap"
+            class="mocked-styled-173 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
-              role="img"
             >
               <svg
                 fill="none"
                 height="1em"
+                role="img"
+                title="Icon image with name cloud"
                 viewBox="0 0 24 24"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
@@ -1326,10 +1324,10 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
               class="el-text-base el-text-sm"
             >
               <div
-                class="mocked-styled-169 el-badge-group"
+                class="mocked-styled-166 el-badge-group"
               >
                 <div
-                  class="mocked-styled-170 el-badge-group-inner"
+                  class="mocked-styled-167 el-badge-group-inner"
                 >
                   Unknown
                 </div>
@@ -1340,21 +1338,21 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
       </div>
       <div
         class="mocked-styled-31 el-col"
-        role="listitem"
       >
         <div
           class="el-flex-container"
         >
           <div
-            class="mocked-styled-176 el-key-value-icon-wrap"
+            class="mocked-styled-173 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
-              role="img"
             >
               <svg
                 fill="none"
                 height="1em"
+                role="img"
+                title="Icon image with name message"
                 viewBox="0 0 24 24"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
@@ -1378,10 +1376,10 @@ exports[`ContactsEditView should match a snapshot with data 1`] = `
               class="el-text-base el-text-sm"
             >
               <div
-                class="mocked-styled-169 el-badge-group"
+                class="mocked-styled-166 el-badge-group"
               >
                 <div
-                  class="mocked-styled-170 el-badge-group-inner"
+                  class="mocked-styled-167 el-badge-group-inner"
                 >
                   <span
                     class="el-intent-primary el-badge"
@@ -1481,13 +1479,13 @@ exports[`ContactsEditView should match a snapshot with no data 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="mocked-styled-97 el-snack-holder"
+        class="mocked-styled-93 el-snack-holder"
       />
     </div>
   </body>,
   "container": <div>
     <div
-      class="mocked-styled-97 el-snack-holder"
+      class="mocked-styled-93 el-snack-holder"
     />
   </div>,
   "debug": [Function],

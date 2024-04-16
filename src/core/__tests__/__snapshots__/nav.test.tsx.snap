@@ -6,7 +6,7 @@ exports[`Nav should match a snapshot 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="mocked-styled-97 el-snack-holder"
+        class="mocked-styled-93 el-snack-holder"
       />
       <div
         class="mocked-styled-59 el-nav-bg"
@@ -22,17 +22,20 @@ exports[`Nav should match a snapshot 1`] = `
           />
           <div
             class="mocked-styled-69 el-nav-responsive-app-switcher-wrap"
+            role="button"
+            tabindex="0"
           >
             <div
               class="mocked-styled-70 el-nav-responsive-app-switcher-icon-wrap"
             >
               <span
                 class="el-intent-default el-icon-new el-icon"
-                role="img"
               >
                 <svg
                   fill="none"
                   height="1em"
+                  role="img"
+                  title="Icon image with name appLauncher"
                   viewBox="0 0 36 36"
                   width="1em"
                   xmlns="http://www.w3.org/2000/svg"
@@ -103,13 +106,16 @@ exports[`Nav should match a snapshot 1`] = `
           </div>
           <span
             class="el-icon-new el-icon"
-            role="img"
-            style="height: 24px; width: 100px;"
+            role="button"
+            style="width: 100px;"
+            tabindex="0"
           >
             <svg
               fill="none"
               height="1em"
-              style="height: 24px; width: 100px;"
+              role="img"
+              style="width: 100px;"
+              title="Icon image with name reapitLogo"
               viewBox="0 0 382 80"
               width="1em"
               xmlns="http://www.w3.org/2000/svg"
@@ -134,11 +140,14 @@ exports[`Nav should match a snapshot 1`] = `
           </span>
           <span
             class="el-ml-auto el-mr4 el-nav-item-hide-desktop el-intent-default el-icon-new el-icon"
-            role="img"
+            role="button"
+            tabindex="0"
           >
             <svg
               fill="none"
               height="1em"
+              role="img"
+              title="Icon image with name more"
               viewBox="0 0 24 24"
               width="1em"
               xmlns="http://www.w3.org/2000/svg"
@@ -154,20 +163,24 @@ exports[`Nav should match a snapshot 1`] = `
           />
           <div
             class="el-nav-is-hidden el-nav-responsive-avatar-wrap"
+            role="button"
+            tabindex="0"
           >
             <div
               class="el-mr2 el-avatar"
               role="img"
+              title="A profile image"
             >
               MM
             </div>
             <span
               class="el-intent-default el-icon-new el-icon"
-              role="img"
             >
               <svg
                 fill="none"
                 height="1em"
+                role="img"
+                title="Icon image with name chevronDown"
                 viewBox="0 0 24 24"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
@@ -182,6 +195,8 @@ exports[`Nav should match a snapshot 1`] = `
         </a>
         <a
           class="mocked-styled-63 el-nav-item"
+          role="button"
+          tabindex="0"
         >
           Contacts
         </a>
@@ -205,6 +220,8 @@ exports[`Nav should match a snapshot 1`] = `
         </div>
         <a
           class="mocked-styled-63 el-nav-item"
+          role="button"
+          tabindex="0"
         >
           New Page
         </a>
@@ -213,20 +230,24 @@ exports[`Nav should match a snapshot 1`] = `
         />
         <div
           class="mocked-styled-68 el-nav-responsive-avatar-wrap"
+          role="button"
+          tabindex="0"
         >
           <div
             class="el-mr2 el-avatar"
             role="img"
+            title="A profile image"
           >
             MM
           </div>
           <span
             class="el-intent-default el-icon-new el-icon"
-            role="img"
           >
             <svg
               fill="none"
               height="1em"
+              role="img"
+              title="Icon image with name chevronDown"
               viewBox="0 0 24 24"
               width="1em"
               xmlns="http://www.w3.org/2000/svg"
@@ -243,7 +264,7 @@ exports[`Nav should match a snapshot 1`] = `
   </body>,
   "container": <div>
     <div
-      class="mocked-styled-97 el-snack-holder"
+      class="mocked-styled-93 el-snack-holder"
     />
     <div
       class="mocked-styled-59 el-nav-bg"
@@ -259,17 +280,20 @@ exports[`Nav should match a snapshot 1`] = `
         />
         <div
           class="mocked-styled-69 el-nav-responsive-app-switcher-wrap"
+          role="button"
+          tabindex="0"
         >
           <div
             class="mocked-styled-70 el-nav-responsive-app-switcher-icon-wrap"
           >
             <span
               class="el-intent-default el-icon-new el-icon"
-              role="img"
             >
               <svg
                 fill="none"
                 height="1em"
+                role="img"
+                title="Icon image with name appLauncher"
                 viewBox="0 0 36 36"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
@@ -340,13 +364,16 @@ exports[`Nav should match a snapshot 1`] = `
         </div>
         <span
           class="el-icon-new el-icon"
-          role="img"
-          style="height: 24px; width: 100px;"
+          role="button"
+          style="width: 100px;"
+          tabindex="0"
         >
           <svg
             fill="none"
             height="1em"
-            style="height: 24px; width: 100px;"
+            role="img"
+            style="width: 100px;"
+            title="Icon image with name reapitLogo"
             viewBox="0 0 382 80"
             width="1em"
             xmlns="http://www.w3.org/2000/svg"
@@ -371,11 +398,14 @@ exports[`Nav should match a snapshot 1`] = `
         </span>
         <span
           class="el-ml-auto el-mr4 el-nav-item-hide-desktop el-intent-default el-icon-new el-icon"
-          role="img"
+          role="button"
+          tabindex="0"
         >
           <svg
             fill="none"
             height="1em"
+            role="img"
+            title="Icon image with name more"
             viewBox="0 0 24 24"
             width="1em"
             xmlns="http://www.w3.org/2000/svg"
@@ -391,20 +421,24 @@ exports[`Nav should match a snapshot 1`] = `
         />
         <div
           class="el-nav-is-hidden el-nav-responsive-avatar-wrap"
+          role="button"
+          tabindex="0"
         >
           <div
             class="el-mr2 el-avatar"
             role="img"
+            title="A profile image"
           >
             MM
           </div>
           <span
             class="el-intent-default el-icon-new el-icon"
-            role="img"
           >
             <svg
               fill="none"
               height="1em"
+              role="img"
+              title="Icon image with name chevronDown"
               viewBox="0 0 24 24"
               width="1em"
               xmlns="http://www.w3.org/2000/svg"
@@ -419,6 +453,8 @@ exports[`Nav should match a snapshot 1`] = `
       </a>
       <a
         class="mocked-styled-63 el-nav-item"
+        role="button"
+        tabindex="0"
       >
         Contacts
       </a>
@@ -442,6 +478,8 @@ exports[`Nav should match a snapshot 1`] = `
       </div>
       <a
         class="mocked-styled-63 el-nav-item"
+        role="button"
+        tabindex="0"
       >
         New Page
       </a>
@@ -450,20 +488,24 @@ exports[`Nav should match a snapshot 1`] = `
       />
       <div
         class="mocked-styled-68 el-nav-responsive-avatar-wrap"
+        role="button"
+        tabindex="0"
       >
         <div
           class="el-mr2 el-avatar"
           role="img"
+          title="A profile image"
         >
           MM
         </div>
         <span
           class="el-intent-default el-icon-new el-icon"
-          role="img"
         >
           <svg
             fill="none"
             height="1em"
+            role="img"
+            title="Icon image with name chevronDown"
             viewBox="0 0 24 24"
             width="1em"
             xmlns="http://www.w3.org/2000/svg"

@@ -6,31 +6,31 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="mocked-styled-97 el-snack-holder"
+        class="mocked-styled-93 el-snack-holder"
       />
       <div
-        class="mocked-styled-181 el-page-header-wrap"
+        class="mocked-styled-178 el-page-header-wrap"
       >
         <div
           class="el-page-header-max-width el-page-header-wrap-inner"
         >
           <div
-            class="mocked-styled-178 el-page-header-container"
+            class="mocked-styled-175 el-page-header-container"
           >
             <div
-              class="mocked-styled-178 el-page-header-container"
+              class="mocked-styled-175 el-page-header-container"
             >
               <div
                 class="el-flex-container el-flex-column"
               >
                 <div
-                  class="mocked-styled-179 el-page-header-title-container"
+                  class="mocked-styled-176 el-page-header-title-container"
                 >
-                  <div
+                  <h1
                     class="el-text-base el-text2xl el-has-bold-text el-mr3"
                   >
                     Contact 
-                  </div>
+                  </h1>
                 </div>
               </div>
             </div>
@@ -60,24 +60,25 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
             </div>
           </div>
           <div
-            class="mocked-styled-123 el-tabs-wrap"
-            role="tablist"
+            class="mocked-styled-119 el-tabs-wrap"
           >
             <div
-              class="mocked-styled-124 el-tabs-options-wrap"
+              class="mocked-styled-120 el-tabs-options-wrap"
+              role="tablist"
             >
               <input
                 aria-selected="false"
-                class="mocked-styled-121 el-tabs"
+                class="mocked-styled-117 el-tabs"
                 id="view"
                 name="app-edit-tabs"
-                role="tab"
                 type="radio"
                 value="view"
               />
               <label
-                class="mocked-styled-122 el-tabs-label"
+                class="mocked-styled-118 el-tabs-label"
                 for="view"
+                role="tab"
+                tabindex="0"
               >
                 <span
                   class="el-tabs-item"
@@ -87,16 +88,17 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
               </label>
               <input
                 aria-selected="false"
-                class="mocked-styled-121 el-tabs"
+                class="mocked-styled-117 el-tabs"
                 id="personal"
                 name="app-edit-tabs"
-                role="tab"
                 type="radio"
                 value="personal"
               />
               <label
-                class="mocked-styled-122 el-tabs-label"
+                class="mocked-styled-118 el-tabs-label"
                 for="personal"
+                role="tab"
+                tabindex="0"
               >
                 <span
                   class="el-tabs-item"
@@ -106,16 +108,17 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
               </label>
               <input
                 aria-selected="false"
-                class="mocked-styled-121 el-tabs"
+                class="mocked-styled-117 el-tabs"
                 id="communications"
                 name="app-edit-tabs"
-                role="tab"
                 type="radio"
                 value="communications"
               />
               <label
-                class="mocked-styled-122 el-tabs-label"
+                class="mocked-styled-118 el-tabs-label"
                 for="communications"
+                role="tab"
+                tabindex="0"
               >
                 <span
                   class="el-tabs-item"
@@ -125,16 +128,17 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
               </label>
               <input
                 aria-selected="false"
-                class="mocked-styled-121 el-tabs"
+                class="mocked-styled-117 el-tabs"
                 id="addresses"
                 name="app-edit-tabs"
-                role="tab"
                 type="radio"
                 value="addresses"
               />
               <label
-                class="mocked-styled-122 el-tabs-label"
+                class="mocked-styled-118 el-tabs-label"
                 for="addresses"
+                role="tab"
+                tabindex="0"
               >
                 <span
                   class="el-tabs-item"
@@ -144,16 +148,17 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
               </label>
               <input
                 aria-selected="false"
-                class="mocked-styled-121 el-tabs"
+                class="mocked-styled-117 el-tabs"
                 id="office"
                 name="app-edit-tabs"
-                role="tab"
                 type="radio"
                 value="office"
               />
               <label
-                class="mocked-styled-122 el-tabs-label"
+                class="mocked-styled-118 el-tabs-label"
                 for="office"
+                role="tab"
+                tabindex="0"
               >
                 <span
                   class="el-tabs-item"
@@ -172,7 +177,7 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
         class="el-flex-container el-flex-column el-has-max-width"
       >
         <div
-          class="mocked-styled-175 el-tile"
+          class="mocked-styled-172 el-tile"
         >
           <div
             class="mocked-styled-44 el-loader-container"
@@ -214,31 +219,31 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
   </body>,
   "container": <div>
     <div
-      class="mocked-styled-97 el-snack-holder"
+      class="mocked-styled-93 el-snack-holder"
     />
     <div
-      class="mocked-styled-181 el-page-header-wrap"
+      class="mocked-styled-178 el-page-header-wrap"
     >
       <div
         class="el-page-header-max-width el-page-header-wrap-inner"
       >
         <div
-          class="mocked-styled-178 el-page-header-container"
+          class="mocked-styled-175 el-page-header-container"
         >
           <div
-            class="mocked-styled-178 el-page-header-container"
+            class="mocked-styled-175 el-page-header-container"
           >
             <div
               class="el-flex-container el-flex-column"
             >
               <div
-                class="mocked-styled-179 el-page-header-title-container"
+                class="mocked-styled-176 el-page-header-title-container"
               >
-                <div
+                <h1
                   class="el-text-base el-text2xl el-has-bold-text el-mr3"
                 >
                   Contact 
-                </div>
+                </h1>
               </div>
             </div>
           </div>
@@ -268,24 +273,25 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
           </div>
         </div>
         <div
-          class="mocked-styled-123 el-tabs-wrap"
-          role="tablist"
+          class="mocked-styled-119 el-tabs-wrap"
         >
           <div
-            class="mocked-styled-124 el-tabs-options-wrap"
+            class="mocked-styled-120 el-tabs-options-wrap"
+            role="tablist"
           >
             <input
               aria-selected="false"
-              class="mocked-styled-121 el-tabs"
+              class="mocked-styled-117 el-tabs"
               id="view"
               name="app-edit-tabs"
-              role="tab"
               type="radio"
               value="view"
             />
             <label
-              class="mocked-styled-122 el-tabs-label"
+              class="mocked-styled-118 el-tabs-label"
               for="view"
+              role="tab"
+              tabindex="0"
             >
               <span
                 class="el-tabs-item"
@@ -295,16 +301,17 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
             </label>
             <input
               aria-selected="false"
-              class="mocked-styled-121 el-tabs"
+              class="mocked-styled-117 el-tabs"
               id="personal"
               name="app-edit-tabs"
-              role="tab"
               type="radio"
               value="personal"
             />
             <label
-              class="mocked-styled-122 el-tabs-label"
+              class="mocked-styled-118 el-tabs-label"
               for="personal"
+              role="tab"
+              tabindex="0"
             >
               <span
                 class="el-tabs-item"
@@ -314,16 +321,17 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
             </label>
             <input
               aria-selected="false"
-              class="mocked-styled-121 el-tabs"
+              class="mocked-styled-117 el-tabs"
               id="communications"
               name="app-edit-tabs"
-              role="tab"
               type="radio"
               value="communications"
             />
             <label
-              class="mocked-styled-122 el-tabs-label"
+              class="mocked-styled-118 el-tabs-label"
               for="communications"
+              role="tab"
+              tabindex="0"
             >
               <span
                 class="el-tabs-item"
@@ -333,16 +341,17 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
             </label>
             <input
               aria-selected="false"
-              class="mocked-styled-121 el-tabs"
+              class="mocked-styled-117 el-tabs"
               id="addresses"
               name="app-edit-tabs"
-              role="tab"
               type="radio"
               value="addresses"
             />
             <label
-              class="mocked-styled-122 el-tabs-label"
+              class="mocked-styled-118 el-tabs-label"
               for="addresses"
+              role="tab"
+              tabindex="0"
             >
               <span
                 class="el-tabs-item"
@@ -352,16 +361,17 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
             </label>
             <input
               aria-selected="false"
-              class="mocked-styled-121 el-tabs"
+              class="mocked-styled-117 el-tabs"
               id="office"
               name="app-edit-tabs"
-              role="tab"
               type="radio"
               value="office"
             />
             <label
-              class="mocked-styled-122 el-tabs-label"
+              class="mocked-styled-118 el-tabs-label"
               for="office"
+              role="tab"
+              tabindex="0"
             >
               <span
                 class="el-tabs-item"
@@ -380,7 +390,7 @@ exports[`ContactsEdit should match a snapshot when loading 1`] = `
       class="el-flex-container el-flex-column el-has-max-width"
     >
       <div
-        class="mocked-styled-175 el-tile"
+        class="mocked-styled-172 el-tile"
       >
         <div
           class="mocked-styled-44 el-loader-container"
@@ -479,31 +489,31 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
   "baseElement": <body>
     <div>
       <div
-        class="mocked-styled-97 el-snack-holder"
+        class="mocked-styled-93 el-snack-holder"
       />
       <div
-        class="mocked-styled-181 el-page-header-wrap"
+        class="mocked-styled-178 el-page-header-wrap"
       >
         <div
           class="el-page-header-max-width el-page-header-wrap-inner"
         >
           <div
-            class="mocked-styled-178 el-page-header-container"
+            class="mocked-styled-175 el-page-header-container"
           >
             <div
-              class="mocked-styled-178 el-page-header-container"
+              class="mocked-styled-175 el-page-header-container"
             >
               <div
                 class="el-flex-container el-flex-column"
               >
                 <div
-                  class="mocked-styled-179 el-page-header-title-container"
+                  class="mocked-styled-176 el-page-header-title-container"
                 >
-                  <div
+                  <h1
                     class="el-text-base el-text2xl el-has-bold-text el-mr3"
                   >
                     Contact 
-                  </div>
+                  </h1>
                 </div>
               </div>
             </div>
@@ -533,24 +543,25 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
             </div>
           </div>
           <div
-            class="mocked-styled-123 el-tabs-wrap"
-            role="tablist"
+            class="mocked-styled-119 el-tabs-wrap"
           >
             <div
-              class="mocked-styled-124 el-tabs-options-wrap"
+              class="mocked-styled-120 el-tabs-options-wrap"
+              role="tablist"
             >
               <input
                 aria-selected="false"
-                class="mocked-styled-121 el-tabs"
+                class="mocked-styled-117 el-tabs"
                 id="view"
                 name="app-edit-tabs"
-                role="tab"
                 type="radio"
                 value="view"
               />
               <label
-                class="mocked-styled-122 el-tabs-label"
+                class="mocked-styled-118 el-tabs-label"
                 for="view"
+                role="tab"
+                tabindex="0"
               >
                 <span
                   class="el-tabs-item"
@@ -560,16 +571,17 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
               </label>
               <input
                 aria-selected="false"
-                class="mocked-styled-121 el-tabs"
+                class="mocked-styled-117 el-tabs"
                 id="personal"
                 name="app-edit-tabs"
-                role="tab"
                 type="radio"
                 value="personal"
               />
               <label
-                class="mocked-styled-122 el-tabs-label"
+                class="mocked-styled-118 el-tabs-label"
                 for="personal"
+                role="tab"
+                tabindex="0"
               >
                 <span
                   class="el-tabs-item"
@@ -579,16 +591,17 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
               </label>
               <input
                 aria-selected="false"
-                class="mocked-styled-121 el-tabs"
+                class="mocked-styled-117 el-tabs"
                 id="communications"
                 name="app-edit-tabs"
-                role="tab"
                 type="radio"
                 value="communications"
               />
               <label
-                class="mocked-styled-122 el-tabs-label"
+                class="mocked-styled-118 el-tabs-label"
                 for="communications"
+                role="tab"
+                tabindex="0"
               >
                 <span
                   class="el-tabs-item"
@@ -598,16 +611,17 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
               </label>
               <input
                 aria-selected="false"
-                class="mocked-styled-121 el-tabs"
+                class="mocked-styled-117 el-tabs"
                 id="addresses"
                 name="app-edit-tabs"
-                role="tab"
                 type="radio"
                 value="addresses"
               />
               <label
-                class="mocked-styled-122 el-tabs-label"
+                class="mocked-styled-118 el-tabs-label"
                 for="addresses"
+                role="tab"
+                tabindex="0"
               >
                 <span
                   class="el-tabs-item"
@@ -617,16 +631,17 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
               </label>
               <input
                 aria-selected="false"
-                class="mocked-styled-121 el-tabs"
+                class="mocked-styled-117 el-tabs"
                 id="office"
                 name="app-edit-tabs"
-                role="tab"
                 type="radio"
                 value="office"
               />
               <label
-                class="mocked-styled-122 el-tabs-label"
+                class="mocked-styled-118 el-tabs-label"
                 for="office"
+                role="tab"
+                tabindex="0"
               >
                 <span
                   class="el-tabs-item"
@@ -645,7 +660,7 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
         class="el-flex-container el-flex-column el-has-max-width"
       >
         <div
-          class="mocked-styled-175 el-tile"
+          class="mocked-styled-172 el-tile"
         >
           <form>
             <div
@@ -672,7 +687,7 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
           </form>
           <div
             class="el-intent-primary el-is-active el-pn-is-full-width el-pn-is-inline el-persistent-notification"
-            role="alertdialog"
+            role="status"
           >
             <div
               class="el-pn-icon"
@@ -680,13 +695,14 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
             >
               <span
                 class="el-icon-new el-icon"
-                role="img"
                 style="font-size: 1.25rem;"
               >
                 <svg
                   fill="none"
                   height="1em"
+                  role="img"
                   style="font-size: 1.25rem;"
+                  title="Icon image with name info"
                   viewBox="0 0 24 24"
                   width="1em"
                   xmlns="http://www.w3.org/2000/svg"
@@ -699,6 +715,7 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
               </span>
             </div>
             <div
+              aria-live="polite"
               class="el-pn-content"
             >
               Contact not found
@@ -710,31 +727,31 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
   </body>,
   "container": <div>
     <div
-      class="mocked-styled-97 el-snack-holder"
+      class="mocked-styled-93 el-snack-holder"
     />
     <div
-      class="mocked-styled-181 el-page-header-wrap"
+      class="mocked-styled-178 el-page-header-wrap"
     >
       <div
         class="el-page-header-max-width el-page-header-wrap-inner"
       >
         <div
-          class="mocked-styled-178 el-page-header-container"
+          class="mocked-styled-175 el-page-header-container"
         >
           <div
-            class="mocked-styled-178 el-page-header-container"
+            class="mocked-styled-175 el-page-header-container"
           >
             <div
               class="el-flex-container el-flex-column"
             >
               <div
-                class="mocked-styled-179 el-page-header-title-container"
+                class="mocked-styled-176 el-page-header-title-container"
               >
-                <div
+                <h1
                   class="el-text-base el-text2xl el-has-bold-text el-mr3"
                 >
                   Contact 
-                </div>
+                </h1>
               </div>
             </div>
           </div>
@@ -764,24 +781,25 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
           </div>
         </div>
         <div
-          class="mocked-styled-123 el-tabs-wrap"
-          role="tablist"
+          class="mocked-styled-119 el-tabs-wrap"
         >
           <div
-            class="mocked-styled-124 el-tabs-options-wrap"
+            class="mocked-styled-120 el-tabs-options-wrap"
+            role="tablist"
           >
             <input
               aria-selected="false"
-              class="mocked-styled-121 el-tabs"
+              class="mocked-styled-117 el-tabs"
               id="view"
               name="app-edit-tabs"
-              role="tab"
               type="radio"
               value="view"
             />
             <label
-              class="mocked-styled-122 el-tabs-label"
+              class="mocked-styled-118 el-tabs-label"
               for="view"
+              role="tab"
+              tabindex="0"
             >
               <span
                 class="el-tabs-item"
@@ -791,16 +809,17 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
             </label>
             <input
               aria-selected="false"
-              class="mocked-styled-121 el-tabs"
+              class="mocked-styled-117 el-tabs"
               id="personal"
               name="app-edit-tabs"
-              role="tab"
               type="radio"
               value="personal"
             />
             <label
-              class="mocked-styled-122 el-tabs-label"
+              class="mocked-styled-118 el-tabs-label"
               for="personal"
+              role="tab"
+              tabindex="0"
             >
               <span
                 class="el-tabs-item"
@@ -810,16 +829,17 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
             </label>
             <input
               aria-selected="false"
-              class="mocked-styled-121 el-tabs"
+              class="mocked-styled-117 el-tabs"
               id="communications"
               name="app-edit-tabs"
-              role="tab"
               type="radio"
               value="communications"
             />
             <label
-              class="mocked-styled-122 el-tabs-label"
+              class="mocked-styled-118 el-tabs-label"
               for="communications"
+              role="tab"
+              tabindex="0"
             >
               <span
                 class="el-tabs-item"
@@ -829,16 +849,17 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
             </label>
             <input
               aria-selected="false"
-              class="mocked-styled-121 el-tabs"
+              class="mocked-styled-117 el-tabs"
               id="addresses"
               name="app-edit-tabs"
-              role="tab"
               type="radio"
               value="addresses"
             />
             <label
-              class="mocked-styled-122 el-tabs-label"
+              class="mocked-styled-118 el-tabs-label"
               for="addresses"
+              role="tab"
+              tabindex="0"
             >
               <span
                 class="el-tabs-item"
@@ -848,16 +869,17 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
             </label>
             <input
               aria-selected="false"
-              class="mocked-styled-121 el-tabs"
+              class="mocked-styled-117 el-tabs"
               id="office"
               name="app-edit-tabs"
-              role="tab"
               type="radio"
               value="office"
             />
             <label
-              class="mocked-styled-122 el-tabs-label"
+              class="mocked-styled-118 el-tabs-label"
               for="office"
+              role="tab"
+              tabindex="0"
             >
               <span
                 class="el-tabs-item"
@@ -876,7 +898,7 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
       class="el-flex-container el-flex-column el-has-max-width"
     >
       <div
-        class="mocked-styled-175 el-tile"
+        class="mocked-styled-172 el-tile"
       >
         <form>
           <div
@@ -903,7 +925,7 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
         </form>
         <div
           class="el-intent-primary el-is-active el-pn-is-full-width el-pn-is-inline el-persistent-notification"
-          role="alertdialog"
+          role="status"
         >
           <div
             class="el-pn-icon"
@@ -911,13 +933,14 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
           >
             <span
               class="el-icon-new el-icon"
-              role="img"
               style="font-size: 1.25rem;"
             >
               <svg
                 fill="none"
                 height="1em"
+                role="img"
                 style="font-size: 1.25rem;"
+                title="Icon image with name info"
                 viewBox="0 0 24 24"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
@@ -930,6 +953,7 @@ exports[`ContactsEdit should match a snapshot when not loading but no contact 1`
             </span>
           </div>
           <div
+            aria-live="polite"
             class="el-pn-content"
           >
             Contact not found
@@ -998,31 +1022,31 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="mocked-styled-97 el-snack-holder"
+        class="mocked-styled-93 el-snack-holder"
       />
       <div
-        class="mocked-styled-181 el-page-header-wrap"
+        class="mocked-styled-178 el-page-header-wrap"
       >
         <div
           class="el-page-header-max-width el-page-header-wrap-inner"
         >
           <div
-            class="mocked-styled-178 el-page-header-container"
+            class="mocked-styled-175 el-page-header-container"
           >
             <div
-              class="mocked-styled-178 el-page-header-container"
+              class="mocked-styled-175 el-page-header-container"
             >
               <div
                 class="el-flex-container el-flex-column"
               >
                 <div
-                  class="mocked-styled-179 el-page-header-title-container"
+                  class="mocked-styled-176 el-page-header-title-container"
                 >
-                  <div
+                  <h1
                     class="el-text-base el-text2xl el-has-bold-text el-mr3"
                   >
                     Contact Mr Foo Bar
-                  </div>
+                  </h1>
                 </div>
               </div>
             </div>
@@ -1052,24 +1076,25 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
             </div>
           </div>
           <div
-            class="mocked-styled-123 el-tabs-wrap"
-            role="tablist"
+            class="mocked-styled-119 el-tabs-wrap"
           >
             <div
-              class="mocked-styled-124 el-tabs-options-wrap"
+              class="mocked-styled-120 el-tabs-options-wrap"
+              role="tablist"
             >
               <input
                 aria-selected="false"
-                class="mocked-styled-121 el-tabs"
+                class="mocked-styled-117 el-tabs"
                 id="view"
                 name="app-edit-tabs"
-                role="tab"
                 type="radio"
                 value="view"
               />
               <label
-                class="mocked-styled-122 el-tabs-label"
+                class="mocked-styled-118 el-tabs-label"
                 for="view"
+                role="tab"
+                tabindex="0"
               >
                 <span
                   class="el-tabs-item"
@@ -1079,16 +1104,17 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
               </label>
               <input
                 aria-selected="false"
-                class="mocked-styled-121 el-tabs"
+                class="mocked-styled-117 el-tabs"
                 id="personal"
                 name="app-edit-tabs"
-                role="tab"
                 type="radio"
                 value="personal"
               />
               <label
-                class="mocked-styled-122 el-tabs-label"
+                class="mocked-styled-118 el-tabs-label"
                 for="personal"
+                role="tab"
+                tabindex="0"
               >
                 <span
                   class="el-tabs-item"
@@ -1098,16 +1124,17 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
               </label>
               <input
                 aria-selected="false"
-                class="mocked-styled-121 el-tabs"
+                class="mocked-styled-117 el-tabs"
                 id="communications"
                 name="app-edit-tabs"
-                role="tab"
                 type="radio"
                 value="communications"
               />
               <label
-                class="mocked-styled-122 el-tabs-label"
+                class="mocked-styled-118 el-tabs-label"
                 for="communications"
+                role="tab"
+                tabindex="0"
               >
                 <span
                   class="el-tabs-item"
@@ -1117,16 +1144,17 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
               </label>
               <input
                 aria-selected="false"
-                class="mocked-styled-121 el-tabs"
+                class="mocked-styled-117 el-tabs"
                 id="addresses"
                 name="app-edit-tabs"
-                role="tab"
                 type="radio"
                 value="addresses"
               />
               <label
-                class="mocked-styled-122 el-tabs-label"
+                class="mocked-styled-118 el-tabs-label"
                 for="addresses"
+                role="tab"
+                tabindex="0"
               >
                 <span
                   class="el-tabs-item"
@@ -1136,16 +1164,17 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
               </label>
               <input
                 aria-selected="false"
-                class="mocked-styled-121 el-tabs"
+                class="mocked-styled-117 el-tabs"
                 id="office"
                 name="app-edit-tabs"
-                role="tab"
                 type="radio"
                 value="office"
               />
               <label
-                class="mocked-styled-122 el-tabs-label"
+                class="mocked-styled-118 el-tabs-label"
                 for="office"
+                role="tab"
+                tabindex="0"
               >
                 <span
                   class="el-tabs-item"
@@ -1164,7 +1193,7 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
         class="el-flex-container el-flex-column el-has-max-width"
       >
         <div
-          class="mocked-styled-175 el-tile"
+          class="mocked-styled-172 el-tile"
         >
           <form>
             <div
@@ -1172,7 +1201,7 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
             />
             <div
               class="el-mb7 el-intent-danger el-is-active el-pn-is-full-width el-pn-is-inline el-persistent-notification"
-              role="alertdialog"
+              role="status"
             >
               <div
                 class="el-pn-icon"
@@ -1180,13 +1209,14 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
               >
                 <span
                   class="el-icon-new el-icon"
-                  role="img"
                   style="font-size: 1.25rem;"
                 >
                   <svg
                     fill="none"
                     height="1em"
+                    role="img"
                     style="font-size: 1.25rem;"
+                    title="Icon image with name info"
                     viewBox="0 0 24 24"
                     width="1em"
                     xmlns="http://www.w3.org/2000/svg"
@@ -1199,6 +1229,7 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
                 </span>
               </div>
               <div
+                aria-live="polite"
                 class="el-pn-content"
               >
                 There are one or more errors in the form that are preventing you from saving the contact. Please check each section to proceeed.
@@ -1229,31 +1260,31 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
   </body>,
   "container": <div>
     <div
-      class="mocked-styled-97 el-snack-holder"
+      class="mocked-styled-93 el-snack-holder"
     />
     <div
-      class="mocked-styled-181 el-page-header-wrap"
+      class="mocked-styled-178 el-page-header-wrap"
     >
       <div
         class="el-page-header-max-width el-page-header-wrap-inner"
       >
         <div
-          class="mocked-styled-178 el-page-header-container"
+          class="mocked-styled-175 el-page-header-container"
         >
           <div
-            class="mocked-styled-178 el-page-header-container"
+            class="mocked-styled-175 el-page-header-container"
           >
             <div
               class="el-flex-container el-flex-column"
             >
               <div
-                class="mocked-styled-179 el-page-header-title-container"
+                class="mocked-styled-176 el-page-header-title-container"
               >
-                <div
+                <h1
                   class="el-text-base el-text2xl el-has-bold-text el-mr3"
                 >
                   Contact Mr Foo Bar
-                </div>
+                </h1>
               </div>
             </div>
           </div>
@@ -1283,24 +1314,25 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
           </div>
         </div>
         <div
-          class="mocked-styled-123 el-tabs-wrap"
-          role="tablist"
+          class="mocked-styled-119 el-tabs-wrap"
         >
           <div
-            class="mocked-styled-124 el-tabs-options-wrap"
+            class="mocked-styled-120 el-tabs-options-wrap"
+            role="tablist"
           >
             <input
               aria-selected="false"
-              class="mocked-styled-121 el-tabs"
+              class="mocked-styled-117 el-tabs"
               id="view"
               name="app-edit-tabs"
-              role="tab"
               type="radio"
               value="view"
             />
             <label
-              class="mocked-styled-122 el-tabs-label"
+              class="mocked-styled-118 el-tabs-label"
               for="view"
+              role="tab"
+              tabindex="0"
             >
               <span
                 class="el-tabs-item"
@@ -1310,16 +1342,17 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
             </label>
             <input
               aria-selected="false"
-              class="mocked-styled-121 el-tabs"
+              class="mocked-styled-117 el-tabs"
               id="personal"
               name="app-edit-tabs"
-              role="tab"
               type="radio"
               value="personal"
             />
             <label
-              class="mocked-styled-122 el-tabs-label"
+              class="mocked-styled-118 el-tabs-label"
               for="personal"
+              role="tab"
+              tabindex="0"
             >
               <span
                 class="el-tabs-item"
@@ -1329,16 +1362,17 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
             </label>
             <input
               aria-selected="false"
-              class="mocked-styled-121 el-tabs"
+              class="mocked-styled-117 el-tabs"
               id="communications"
               name="app-edit-tabs"
-              role="tab"
               type="radio"
               value="communications"
             />
             <label
-              class="mocked-styled-122 el-tabs-label"
+              class="mocked-styled-118 el-tabs-label"
               for="communications"
+              role="tab"
+              tabindex="0"
             >
               <span
                 class="el-tabs-item"
@@ -1348,16 +1382,17 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
             </label>
             <input
               aria-selected="false"
-              class="mocked-styled-121 el-tabs"
+              class="mocked-styled-117 el-tabs"
               id="addresses"
               name="app-edit-tabs"
-              role="tab"
               type="radio"
               value="addresses"
             />
             <label
-              class="mocked-styled-122 el-tabs-label"
+              class="mocked-styled-118 el-tabs-label"
               for="addresses"
+              role="tab"
+              tabindex="0"
             >
               <span
                 class="el-tabs-item"
@@ -1367,16 +1402,17 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
             </label>
             <input
               aria-selected="false"
-              class="mocked-styled-121 el-tabs"
+              class="mocked-styled-117 el-tabs"
               id="office"
               name="app-edit-tabs"
-              role="tab"
               type="radio"
               value="office"
             />
             <label
-              class="mocked-styled-122 el-tabs-label"
+              class="mocked-styled-118 el-tabs-label"
               for="office"
+              role="tab"
+              tabindex="0"
             >
               <span
                 class="el-tabs-item"
@@ -1395,7 +1431,7 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
       class="el-flex-container el-flex-column el-has-max-width"
     >
       <div
-        class="mocked-styled-175 el-tile"
+        class="mocked-styled-172 el-tile"
       >
         <form>
           <div
@@ -1403,7 +1439,7 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
           />
           <div
             class="el-mb7 el-intent-danger el-is-active el-pn-is-full-width el-pn-is-inline el-persistent-notification"
-            role="alertdialog"
+            role="status"
           >
             <div
               class="el-pn-icon"
@@ -1411,13 +1447,14 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
             >
               <span
                 class="el-icon-new el-icon"
-                role="img"
                 style="font-size: 1.25rem;"
               >
                 <svg
                   fill="none"
                   height="1em"
+                  role="img"
                   style="font-size: 1.25rem;"
+                  title="Icon image with name info"
                   viewBox="0 0 24 24"
                   width="1em"
                   xmlns="http://www.w3.org/2000/svg"
@@ -1430,6 +1467,7 @@ exports[`ContactsEdit should match a snapshot with data 1`] = `
               </span>
             </div>
             <div
+              aria-live="polite"
               class="el-pn-content"
             >
               There are one or more errors in the form that are preventing you from saving the contact. Please check each section to proceeed.

@@ -6,29 +6,30 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="mocked-styled-97 el-snack-holder"
+        class="mocked-styled-93 el-snack-holder"
       />
       <p
-        class="el-text-base el-has-bold-text el-has-section-margin el-body-text"
+        class="el-text-base el-body-text el-has-bold-text el-has-section-margin"
       >
         Provide up to three addresses for your contact. All addresses are optional, only primary address is shown by default.
       </p>
-      <p
-        class="el-text-base el-has-section-margin el-small-text"
+      <small
+        class="el-text-base el-small-text el-has-section-margin"
       >
         Primary Address
-      </p>
+      </small>
       <div
         class="el-mb8 el-fade-in el-form-layout"
       >
         <div
-          class="mocked-styled-137 el-input-wrap"
+          class="mocked-styled-133 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <select
-              class="mocked-styled-87 el-select"
+              aria-label="Select an item from the dropdown list"
+              class="mocked-styled-83 el-select"
             >
               <option
                 value=""
@@ -80,12 +81,13 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
           </div>
         </div>
         <div
-          class="mocked-styled-137 el-input-wrap"
+          class="mocked-styled-133 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <input
+              aria-label="Input type text"
               class="mocked-styled-38 el-input"
               id="test-static-id"
               placeholder="Name of the building"
@@ -100,12 +102,13 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
           </div>
         </div>
         <div
-          class="mocked-styled-137 el-input-wrap"
+          class="mocked-styled-133 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <input
+              aria-label="Input type text"
               class="mocked-styled-38 el-input"
               id="test-static-id"
               placeholder="Number of the building"
@@ -120,12 +123,13 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
           </div>
         </div>
         <div
-          class="mocked-styled-137 el-input-wrap"
+          class="mocked-styled-133 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <input
+              aria-label="Input type text"
               class="mocked-styled-38 el-input"
               id="test-static-id"
               placeholder="Address line 1"
@@ -140,12 +144,13 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
           </div>
         </div>
         <div
-          class="mocked-styled-137 el-input-wrap"
+          class="mocked-styled-133 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <input
+              aria-label="Input type text"
               class="mocked-styled-38 el-input"
               id="test-static-id"
               placeholder="Address line 2"
@@ -160,12 +165,13 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
           </div>
         </div>
         <div
-          class="mocked-styled-137 el-input-wrap"
+          class="mocked-styled-133 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <input
+              aria-label="Input type text"
               class="mocked-styled-38 el-input"
               id="test-static-id"
               placeholder="Address line 3"
@@ -180,12 +186,13 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
           </div>
         </div>
         <div
-          class="mocked-styled-137 el-input-wrap"
+          class="mocked-styled-133 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <input
+              aria-label="Input type text"
               class="mocked-styled-38 el-input"
               id="test-static-id"
               placeholder="Address line 4"
@@ -200,12 +207,13 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
           </div>
         </div>
         <div
-          class="mocked-styled-137 el-input-wrap"
+          class="mocked-styled-133 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <input
+              aria-label="Input type text"
               class="mocked-styled-38 el-input"
               id="test-static-id"
               placeholder="Address post code"
@@ -220,13 +228,14 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
           </div>
         </div>
         <div
-          class="mocked-styled-137 el-input-wrap"
+          class="mocked-styled-133 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <select
-              class="mocked-styled-87 el-select"
+              aria-label="Select an item from the dropdown list"
+              class="mocked-styled-83 el-select"
             >
               <option
                 value=""
@@ -1516,29 +1525,30 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
   </body>,
   "container": <div>
     <div
-      class="mocked-styled-97 el-snack-holder"
+      class="mocked-styled-93 el-snack-holder"
     />
     <p
-      class="el-text-base el-has-bold-text el-has-section-margin el-body-text"
+      class="el-text-base el-body-text el-has-bold-text el-has-section-margin"
     >
       Provide up to three addresses for your contact. All addresses are optional, only primary address is shown by default.
     </p>
-    <p
-      class="el-text-base el-has-section-margin el-small-text"
+    <small
+      class="el-text-base el-small-text el-has-section-margin"
     >
       Primary Address
-    </p>
+    </small>
     <div
       class="el-mb8 el-fade-in el-form-layout"
     >
       <div
-        class="mocked-styled-137 el-input-wrap"
+        class="mocked-styled-133 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <select
-            class="mocked-styled-87 el-select"
+            aria-label="Select an item from the dropdown list"
+            class="mocked-styled-83 el-select"
           >
             <option
               value=""
@@ -1590,12 +1600,13 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
         </div>
       </div>
       <div
-        class="mocked-styled-137 el-input-wrap"
+        class="mocked-styled-133 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <input
+            aria-label="Input type text"
             class="mocked-styled-38 el-input"
             id="test-static-id"
             placeholder="Name of the building"
@@ -1610,12 +1621,13 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
         </div>
       </div>
       <div
-        class="mocked-styled-137 el-input-wrap"
+        class="mocked-styled-133 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <input
+            aria-label="Input type text"
             class="mocked-styled-38 el-input"
             id="test-static-id"
             placeholder="Number of the building"
@@ -1630,12 +1642,13 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
         </div>
       </div>
       <div
-        class="mocked-styled-137 el-input-wrap"
+        class="mocked-styled-133 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <input
+            aria-label="Input type text"
             class="mocked-styled-38 el-input"
             id="test-static-id"
             placeholder="Address line 1"
@@ -1650,12 +1663,13 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
         </div>
       </div>
       <div
-        class="mocked-styled-137 el-input-wrap"
+        class="mocked-styled-133 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <input
+            aria-label="Input type text"
             class="mocked-styled-38 el-input"
             id="test-static-id"
             placeholder="Address line 2"
@@ -1670,12 +1684,13 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
         </div>
       </div>
       <div
-        class="mocked-styled-137 el-input-wrap"
+        class="mocked-styled-133 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <input
+            aria-label="Input type text"
             class="mocked-styled-38 el-input"
             id="test-static-id"
             placeholder="Address line 3"
@@ -1690,12 +1705,13 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
         </div>
       </div>
       <div
-        class="mocked-styled-137 el-input-wrap"
+        class="mocked-styled-133 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <input
+            aria-label="Input type text"
             class="mocked-styled-38 el-input"
             id="test-static-id"
             placeholder="Address line 4"
@@ -1710,12 +1726,13 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
         </div>
       </div>
       <div
-        class="mocked-styled-137 el-input-wrap"
+        class="mocked-styled-133 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <input
+            aria-label="Input type text"
             class="mocked-styled-38 el-input"
             id="test-static-id"
             placeholder="Address post code"
@@ -1730,13 +1747,14 @@ exports[`ContactsAddresses should match a snapshot 1`] = `
         </div>
       </div>
       <div
-        class="mocked-styled-137 el-input-wrap"
+        class="mocked-styled-133 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <select
-            class="mocked-styled-87 el-select"
+            aria-label="Select an item from the dropdown list"
+            class="mocked-styled-83 el-select"
           >
             <option
               value=""
@@ -3083,29 +3101,30 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
   "baseElement": <body>
     <div>
       <div
-        class="mocked-styled-97 el-snack-holder"
+        class="mocked-styled-93 el-snack-holder"
       />
       <p
-        class="el-text-base el-has-bold-text el-has-section-margin el-body-text"
+        class="el-text-base el-body-text el-has-bold-text el-has-section-margin"
       >
         Provide up to three addresses for your contact. All addresses are optional, only primary address is shown by default.
       </p>
-      <p
-        class="el-text-base el-has-section-margin el-small-text"
+      <small
+        class="el-text-base el-small-text el-has-section-margin"
       >
         Primary Address
-      </p>
+      </small>
       <div
         class="el-mb8 el-fade-in el-form-layout"
       >
         <div
-          class="mocked-styled-137 el-input-wrap"
+          class="mocked-styled-133 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <select
-              class="mocked-styled-87 el-select"
+              aria-label="Select an item from the dropdown list"
+              class="mocked-styled-83 el-select"
             >
               <option
                 value=""
@@ -3157,12 +3176,13 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
           </div>
         </div>
         <div
-          class="mocked-styled-137 el-input-wrap"
+          class="mocked-styled-133 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <input
+              aria-label="Input type text"
               class="el-has-input-error el-input"
               id="test-static-id"
               placeholder="Name of the building"
@@ -3182,12 +3202,13 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
           </p>
         </div>
         <div
-          class="mocked-styled-137 el-input-wrap"
+          class="mocked-styled-133 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <input
+              aria-label="Input type text"
               class="el-has-input-error el-input"
               id="test-static-id"
               placeholder="Number of the building"
@@ -3207,12 +3228,13 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
           </p>
         </div>
         <div
-          class="mocked-styled-137 el-input-wrap"
+          class="mocked-styled-133 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <input
+              aria-label="Input type text"
               class="el-has-input-error el-input"
               id="test-static-id"
               placeholder="Address line 1"
@@ -3232,12 +3254,13 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
           </p>
         </div>
         <div
-          class="mocked-styled-137 el-input-wrap"
+          class="mocked-styled-133 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <input
+              aria-label="Input type text"
               class="el-has-input-error el-input"
               id="test-static-id"
               placeholder="Address line 2"
@@ -3257,12 +3280,13 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
           </p>
         </div>
         <div
-          class="mocked-styled-137 el-input-wrap"
+          class="mocked-styled-133 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <input
+              aria-label="Input type text"
               class="el-has-input-error el-input"
               id="test-static-id"
               placeholder="Address line 3"
@@ -3282,12 +3306,13 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
           </p>
         </div>
         <div
-          class="mocked-styled-137 el-input-wrap"
+          class="mocked-styled-133 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <input
+              aria-label="Input type text"
               class="el-has-input-error el-input"
               id="test-static-id"
               placeholder="Address line 4"
@@ -3307,12 +3332,13 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
           </p>
         </div>
         <div
-          class="mocked-styled-137 el-input-wrap"
+          class="mocked-styled-133 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <input
+              aria-label="Input type text"
               class="el-has-input-error el-input"
               id="test-static-id"
               placeholder="Address post code"
@@ -3332,13 +3358,14 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
           </p>
         </div>
         <div
-          class="mocked-styled-137 el-input-wrap"
+          class="mocked-styled-133 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <select
-              class="mocked-styled-87 el-select"
+              aria-label="Select an item from the dropdown list"
+              class="mocked-styled-83 el-select"
             >
               <option
                 value=""
@@ -4628,29 +4655,30 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
   </body>,
   "container": <div>
     <div
-      class="mocked-styled-97 el-snack-holder"
+      class="mocked-styled-93 el-snack-holder"
     />
     <p
-      class="el-text-base el-has-bold-text el-has-section-margin el-body-text"
+      class="el-text-base el-body-text el-has-bold-text el-has-section-margin"
     >
       Provide up to three addresses for your contact. All addresses are optional, only primary address is shown by default.
     </p>
-    <p
-      class="el-text-base el-has-section-margin el-small-text"
+    <small
+      class="el-text-base el-small-text el-has-section-margin"
     >
       Primary Address
-    </p>
+    </small>
     <div
       class="el-mb8 el-fade-in el-form-layout"
     >
       <div
-        class="mocked-styled-137 el-input-wrap"
+        class="mocked-styled-133 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <select
-            class="mocked-styled-87 el-select"
+            aria-label="Select an item from the dropdown list"
+            class="mocked-styled-83 el-select"
           >
             <option
               value=""
@@ -4702,12 +4730,13 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
         </div>
       </div>
       <div
-        class="mocked-styled-137 el-input-wrap"
+        class="mocked-styled-133 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <input
+            aria-label="Input type text"
             class="el-has-input-error el-input"
             id="test-static-id"
             placeholder="Name of the building"
@@ -4727,12 +4756,13 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
         </p>
       </div>
       <div
-        class="mocked-styled-137 el-input-wrap"
+        class="mocked-styled-133 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <input
+            aria-label="Input type text"
             class="el-has-input-error el-input"
             id="test-static-id"
             placeholder="Number of the building"
@@ -4752,12 +4782,13 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
         </p>
       </div>
       <div
-        class="mocked-styled-137 el-input-wrap"
+        class="mocked-styled-133 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <input
+            aria-label="Input type text"
             class="el-has-input-error el-input"
             id="test-static-id"
             placeholder="Address line 1"
@@ -4777,12 +4808,13 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
         </p>
       </div>
       <div
-        class="mocked-styled-137 el-input-wrap"
+        class="mocked-styled-133 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <input
+            aria-label="Input type text"
             class="el-has-input-error el-input"
             id="test-static-id"
             placeholder="Address line 2"
@@ -4802,12 +4834,13 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
         </p>
       </div>
       <div
-        class="mocked-styled-137 el-input-wrap"
+        class="mocked-styled-133 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <input
+            aria-label="Input type text"
             class="el-has-input-error el-input"
             id="test-static-id"
             placeholder="Address line 3"
@@ -4827,12 +4860,13 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
         </p>
       </div>
       <div
-        class="mocked-styled-137 el-input-wrap"
+        class="mocked-styled-133 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <input
+            aria-label="Input type text"
             class="el-has-input-error el-input"
             id="test-static-id"
             placeholder="Address line 4"
@@ -4852,12 +4886,13 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
         </p>
       </div>
       <div
-        class="mocked-styled-137 el-input-wrap"
+        class="mocked-styled-133 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <input
+            aria-label="Input type text"
             class="el-has-input-error el-input"
             id="test-static-id"
             placeholder="Address post code"
@@ -4877,13 +4912,14 @@ exports[`ContactsAddresses should match a snapshot with work and secondary addre
         </p>
       </div>
       <div
-        class="mocked-styled-137 el-input-wrap"
+        class="mocked-styled-133 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <select
-            class="mocked-styled-87 el-select"
+            aria-label="Select an item from the dropdown list"
+            class="mocked-styled-83 el-select"
           >
             <option
               value=""

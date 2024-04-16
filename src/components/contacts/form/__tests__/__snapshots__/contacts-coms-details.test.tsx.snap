@@ -6,10 +6,10 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="mocked-styled-97 el-snack-holder"
+        class="mocked-styled-93 el-snack-holder"
       />
       <p
-        class="el-text-base el-has-bold-text el-has-section-margin el-body-text"
+        class="el-text-base el-body-text el-has-bold-text el-has-section-margin"
       >
         Provide here the communication details and marketing preferences of your contact.
       </p>
@@ -17,12 +17,13 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
         class="el-fade-in el-form-layout"
       >
         <div
-          class="mocked-styled-137 el-input-wrap"
+          class="mocked-styled-133 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <input
+              aria-label="Input type undefined"
               class="el-has-input-error el-input"
               id="test-static-id"
               placeholder="Please enter a telephone number"
@@ -41,12 +42,13 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
           </p>
         </div>
         <div
-          class="mocked-styled-137 el-input-wrap"
+          class="mocked-styled-133 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <input
+              aria-label="Input type undefined"
               class="el-has-input-error el-input"
               id="test-static-id"
               placeholder="Please enter a telephone number"
@@ -65,12 +67,13 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
           </p>
         </div>
         <div
-          class="mocked-styled-137 el-input-wrap"
+          class="mocked-styled-133 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <input
+              aria-label="Input type undefined"
               class="el-has-input-error el-input"
               id="test-static-id"
               placeholder="Please enter a telephone number"
@@ -89,12 +92,13 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
           </p>
         </div>
         <div
-          class="mocked-styled-137 el-input-wrap"
+          class="mocked-styled-133 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <input
+              aria-label="Input type email"
               class="el-has-input-error el-input"
               id="test-static-id"
               placeholder="Please enter an email address"
@@ -114,13 +118,14 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
           </p>
         </div>
         <div
-          class="mocked-styled-137 el-input-wrap"
+          class="mocked-styled-133 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <select
-              class="mocked-styled-87 el-select"
+              aria-label="Select an item from the dropdown list"
+              class="mocked-styled-83 el-select"
             >
               <option
                 value=""
@@ -156,27 +161,29 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
           </p>
         </div>
         <div
-          class="mocked-styled-137 el-input-wrap"
+          class="mocked-styled-133 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <input
-              class="mocked-styled-129 el-toggle-checkbox"
+              class="mocked-styled-125 el-toggle-checkbox"
               id="com-pref-letter"
               type="checkbox"
             />
             <label
-              class="mocked-styled-130 el-toggle-label"
+              class="mocked-styled-126 el-toggle-label"
               for="com-pref-letter"
+              role="button"
+              tabindex="0"
             >
               <span
-                class="mocked-styled-127 el-toggle-item"
+                class="mocked-styled-123 el-toggle-item"
               >
                 On
               </span>
               <span
-                class="mocked-styled-127 el-toggle-item"
+                class="mocked-styled-123 el-toggle-item"
               >
                 Off
               </span>
@@ -189,27 +196,29 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
           </div>
         </div>
         <div
-          class="mocked-styled-137 el-input-wrap"
+          class="mocked-styled-133 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <input
-              class="mocked-styled-129 el-toggle-checkbox"
+              class="mocked-styled-125 el-toggle-checkbox"
               id="com-pref-email"
               type="checkbox"
             />
             <label
-              class="mocked-styled-130 el-toggle-label"
+              class="mocked-styled-126 el-toggle-label"
               for="com-pref-email"
+              role="button"
+              tabindex="0"
             >
               <span
-                class="mocked-styled-127 el-toggle-item"
+                class="mocked-styled-123 el-toggle-item"
               >
                 On
               </span>
               <span
-                class="mocked-styled-127 el-toggle-item"
+                class="mocked-styled-123 el-toggle-item"
               >
                 Off
               </span>
@@ -222,27 +231,29 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
           </div>
         </div>
         <div
-          class="mocked-styled-137 el-input-wrap"
+          class="mocked-styled-133 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <input
-              class="mocked-styled-129 el-toggle-checkbox"
+              class="mocked-styled-125 el-toggle-checkbox"
               id="com-pref-phone"
               type="checkbox"
             />
             <label
-              class="mocked-styled-130 el-toggle-label"
+              class="mocked-styled-126 el-toggle-label"
               for="com-pref-phone"
+              role="button"
+              tabindex="0"
             >
               <span
-                class="mocked-styled-127 el-toggle-item"
+                class="mocked-styled-123 el-toggle-item"
               >
                 On
               </span>
               <span
-                class="mocked-styled-127 el-toggle-item"
+                class="mocked-styled-123 el-toggle-item"
               >
                 Off
               </span>
@@ -255,27 +266,29 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
           </div>
         </div>
         <div
-          class="mocked-styled-137 el-input-wrap"
+          class="mocked-styled-133 el-input-wrap"
         >
           <div
             class="mocked-styled-40 el-input-group"
           >
             <input
-              class="mocked-styled-129 el-toggle-checkbox"
+              class="mocked-styled-125 el-toggle-checkbox"
               id="com-pref-sms"
               type="checkbox"
             />
             <label
-              class="mocked-styled-130 el-toggle-label"
+              class="mocked-styled-126 el-toggle-label"
               for="com-pref-sms"
+              role="button"
+              tabindex="0"
             >
               <span
-                class="mocked-styled-127 el-toggle-item"
+                class="mocked-styled-123 el-toggle-item"
               >
                 On
               </span>
               <span
-                class="mocked-styled-127 el-toggle-item"
+                class="mocked-styled-123 el-toggle-item"
               >
                 Off
               </span>
@@ -292,10 +305,10 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
   </body>,
   "container": <div>
     <div
-      class="mocked-styled-97 el-snack-holder"
+      class="mocked-styled-93 el-snack-holder"
     />
     <p
-      class="el-text-base el-has-bold-text el-has-section-margin el-body-text"
+      class="el-text-base el-body-text el-has-bold-text el-has-section-margin"
     >
       Provide here the communication details and marketing preferences of your contact.
     </p>
@@ -303,12 +316,13 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
       class="el-fade-in el-form-layout"
     >
       <div
-        class="mocked-styled-137 el-input-wrap"
+        class="mocked-styled-133 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <input
+            aria-label="Input type undefined"
             class="el-has-input-error el-input"
             id="test-static-id"
             placeholder="Please enter a telephone number"
@@ -327,12 +341,13 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
         </p>
       </div>
       <div
-        class="mocked-styled-137 el-input-wrap"
+        class="mocked-styled-133 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <input
+            aria-label="Input type undefined"
             class="el-has-input-error el-input"
             id="test-static-id"
             placeholder="Please enter a telephone number"
@@ -351,12 +366,13 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
         </p>
       </div>
       <div
-        class="mocked-styled-137 el-input-wrap"
+        class="mocked-styled-133 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <input
+            aria-label="Input type undefined"
             class="el-has-input-error el-input"
             id="test-static-id"
             placeholder="Please enter a telephone number"
@@ -375,12 +391,13 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
         </p>
       </div>
       <div
-        class="mocked-styled-137 el-input-wrap"
+        class="mocked-styled-133 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <input
+            aria-label="Input type email"
             class="el-has-input-error el-input"
             id="test-static-id"
             placeholder="Please enter an email address"
@@ -400,13 +417,14 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
         </p>
       </div>
       <div
-        class="mocked-styled-137 el-input-wrap"
+        class="mocked-styled-133 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <select
-            class="mocked-styled-87 el-select"
+            aria-label="Select an item from the dropdown list"
+            class="mocked-styled-83 el-select"
           >
             <option
               value=""
@@ -442,27 +460,29 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
         </p>
       </div>
       <div
-        class="mocked-styled-137 el-input-wrap"
+        class="mocked-styled-133 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <input
-            class="mocked-styled-129 el-toggle-checkbox"
+            class="mocked-styled-125 el-toggle-checkbox"
             id="com-pref-letter"
             type="checkbox"
           />
           <label
-            class="mocked-styled-130 el-toggle-label"
+            class="mocked-styled-126 el-toggle-label"
             for="com-pref-letter"
+            role="button"
+            tabindex="0"
           >
             <span
-              class="mocked-styled-127 el-toggle-item"
+              class="mocked-styled-123 el-toggle-item"
             >
               On
             </span>
             <span
-              class="mocked-styled-127 el-toggle-item"
+              class="mocked-styled-123 el-toggle-item"
             >
               Off
             </span>
@@ -475,27 +495,29 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
         </div>
       </div>
       <div
-        class="mocked-styled-137 el-input-wrap"
+        class="mocked-styled-133 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <input
-            class="mocked-styled-129 el-toggle-checkbox"
+            class="mocked-styled-125 el-toggle-checkbox"
             id="com-pref-email"
             type="checkbox"
           />
           <label
-            class="mocked-styled-130 el-toggle-label"
+            class="mocked-styled-126 el-toggle-label"
             for="com-pref-email"
+            role="button"
+            tabindex="0"
           >
             <span
-              class="mocked-styled-127 el-toggle-item"
+              class="mocked-styled-123 el-toggle-item"
             >
               On
             </span>
             <span
-              class="mocked-styled-127 el-toggle-item"
+              class="mocked-styled-123 el-toggle-item"
             >
               Off
             </span>
@@ -508,27 +530,29 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
         </div>
       </div>
       <div
-        class="mocked-styled-137 el-input-wrap"
+        class="mocked-styled-133 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <input
-            class="mocked-styled-129 el-toggle-checkbox"
+            class="mocked-styled-125 el-toggle-checkbox"
             id="com-pref-phone"
             type="checkbox"
           />
           <label
-            class="mocked-styled-130 el-toggle-label"
+            class="mocked-styled-126 el-toggle-label"
             for="com-pref-phone"
+            role="button"
+            tabindex="0"
           >
             <span
-              class="mocked-styled-127 el-toggle-item"
+              class="mocked-styled-123 el-toggle-item"
             >
               On
             </span>
             <span
-              class="mocked-styled-127 el-toggle-item"
+              class="mocked-styled-123 el-toggle-item"
             >
               Off
             </span>
@@ -541,27 +565,29 @@ exports[`ContactsComsDetails should match a snapshot 1`] = `
         </div>
       </div>
       <div
-        class="mocked-styled-137 el-input-wrap"
+        class="mocked-styled-133 el-input-wrap"
       >
         <div
           class="mocked-styled-40 el-input-group"
         >
           <input
-            class="mocked-styled-129 el-toggle-checkbox"
+            class="mocked-styled-125 el-toggle-checkbox"
             id="com-pref-sms"
             type="checkbox"
           />
           <label
-            class="mocked-styled-130 el-toggle-label"
+            class="mocked-styled-126 el-toggle-label"
             for="com-pref-sms"
+            role="button"
+            tabindex="0"
           >
             <span
-              class="mocked-styled-127 el-toggle-item"
+              class="mocked-styled-123 el-toggle-item"
             >
               On
             </span>
             <span
-              class="mocked-styled-127 el-toggle-item"
+              class="mocked-styled-123 el-toggle-item"
             >
               Off
             </span>

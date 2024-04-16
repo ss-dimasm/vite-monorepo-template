@@ -6,25 +6,26 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="mocked-styled-97 el-snack-holder"
+        class="mocked-styled-93 el-snack-holder"
       />
       <div
         role="list"
       >
         <div
-          class="mocked-styled-177 el-key-value-list-wrap"
+          class="mocked-styled-174 el-key-value-list-wrap"
           role="listitem"
         >
           <div
-            class="mocked-styled-176 el-key-value-icon-wrap"
+            class="mocked-styled-173 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
-              role="img"
             >
               <svg
                 fill="none"
                 height="1em"
+                role="img"
+                title="Icon image with name contact"
                 viewBox="0 0 24 24"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
@@ -52,19 +53,20 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
           </div>
         </div>
         <div
-          class="mocked-styled-177 el-key-value-list-wrap"
+          class="mocked-styled-174 el-key-value-list-wrap"
           role="listitem"
         >
           <div
-            class="mocked-styled-176 el-key-value-icon-wrap"
+            class="mocked-styled-173 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
-              role="img"
             >
               <svg
                 fill="none"
                 height="1em"
+                role="img"
+                title="Icon image with name email"
                 viewBox="0 0 24 24"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
@@ -92,19 +94,20 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
           </div>
         </div>
         <div
-          class="mocked-styled-177 el-key-value-list-wrap"
+          class="mocked-styled-174 el-key-value-list-wrap"
           role="listitem"
         >
           <div
-            class="mocked-styled-176 el-key-value-icon-wrap"
+            class="mocked-styled-173 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
-              role="img"
             >
               <svg
                 fill="none"
                 height="1em"
+                role="img"
+                title="Icon image with name info"
                 viewBox="0 0 24 24"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
@@ -137,19 +140,20 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
           </div>
         </div>
         <div
-          class="mocked-styled-177 el-key-value-list-wrap"
+          class="mocked-styled-174 el-key-value-list-wrap"
           role="listitem"
         >
           <div
-            class="mocked-styled-176 el-key-value-icon-wrap"
+            class="mocked-styled-173 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
-              role="img"
             >
               <svg
                 fill="none"
                 height="1em"
+                role="img"
+                title="Icon image with name phone"
                 viewBox="0 0 24 24"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
@@ -177,19 +181,20 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
           </div>
         </div>
         <div
-          class="mocked-styled-177 el-key-value-list-wrap"
+          class="mocked-styled-174 el-key-value-list-wrap"
           role="listitem"
         >
           <div
-            class="mocked-styled-176 el-key-value-icon-wrap"
+            class="mocked-styled-173 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
-              role="img"
             >
               <svg
                 fill="none"
                 height="1em"
+                role="img"
+                title="Icon image with name phone"
                 viewBox="0 0 24 24"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
@@ -217,19 +222,20 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
           </div>
         </div>
         <div
-          class="mocked-styled-177 el-key-value-list-wrap"
+          class="mocked-styled-174 el-key-value-list-wrap"
           role="listitem"
         >
           <div
-            class="mocked-styled-176 el-key-value-icon-wrap"
+            class="mocked-styled-173 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
-              role="img"
             >
               <svg
                 fill="none"
                 height="1em"
+                role="img"
+                title="Icon image with name phone"
                 viewBox="0 0 24 24"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
@@ -257,19 +263,20 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
           </div>
         </div>
         <div
-          class="mocked-styled-177 el-key-value-list-wrap"
+          class="mocked-styled-174 el-key-value-list-wrap"
           role="listitem"
         >
           <div
-            class="mocked-styled-176 el-key-value-icon-wrap"
+            class="mocked-styled-173 el-key-value-icon-wrap"
           >
             <span
               class="el-intent-primary el-icon-new el-icon"
-              role="img"
             >
               <svg
                 fill="none"
                 height="1em"
+                role="img"
+                title="Icon image with name property"
                 viewBox="0 0 24 24"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
@@ -301,25 +308,26 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
   </body>,
   "container": <div>
     <div
-      class="mocked-styled-97 el-snack-holder"
+      class="mocked-styled-93 el-snack-holder"
     />
     <div
       role="list"
     >
       <div
-        class="mocked-styled-177 el-key-value-list-wrap"
+        class="mocked-styled-174 el-key-value-list-wrap"
         role="listitem"
       >
         <div
-          class="mocked-styled-176 el-key-value-icon-wrap"
+          class="mocked-styled-173 el-key-value-icon-wrap"
         >
           <span
             class="el-intent-primary el-icon-new el-icon"
-            role="img"
           >
             <svg
               fill="none"
               height="1em"
+              role="img"
+              title="Icon image with name contact"
               viewBox="0 0 24 24"
               width="1em"
               xmlns="http://www.w3.org/2000/svg"
@@ -347,19 +355,20 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
         </div>
       </div>
       <div
-        class="mocked-styled-177 el-key-value-list-wrap"
+        class="mocked-styled-174 el-key-value-list-wrap"
         role="listitem"
       >
         <div
-          class="mocked-styled-176 el-key-value-icon-wrap"
+          class="mocked-styled-173 el-key-value-icon-wrap"
         >
           <span
             class="el-intent-primary el-icon-new el-icon"
-            role="img"
           >
             <svg
               fill="none"
               height="1em"
+              role="img"
+              title="Icon image with name email"
               viewBox="0 0 24 24"
               width="1em"
               xmlns="http://www.w3.org/2000/svg"
@@ -387,19 +396,20 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
         </div>
       </div>
       <div
-        class="mocked-styled-177 el-key-value-list-wrap"
+        class="mocked-styled-174 el-key-value-list-wrap"
         role="listitem"
       >
         <div
-          class="mocked-styled-176 el-key-value-icon-wrap"
+          class="mocked-styled-173 el-key-value-icon-wrap"
         >
           <span
             class="el-intent-primary el-icon-new el-icon"
-            role="img"
           >
             <svg
               fill="none"
               height="1em"
+              role="img"
+              title="Icon image with name info"
               viewBox="0 0 24 24"
               width="1em"
               xmlns="http://www.w3.org/2000/svg"
@@ -432,19 +442,20 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
         </div>
       </div>
       <div
-        class="mocked-styled-177 el-key-value-list-wrap"
+        class="mocked-styled-174 el-key-value-list-wrap"
         role="listitem"
       >
         <div
-          class="mocked-styled-176 el-key-value-icon-wrap"
+          class="mocked-styled-173 el-key-value-icon-wrap"
         >
           <span
             class="el-intent-primary el-icon-new el-icon"
-            role="img"
           >
             <svg
               fill="none"
               height="1em"
+              role="img"
+              title="Icon image with name phone"
               viewBox="0 0 24 24"
               width="1em"
               xmlns="http://www.w3.org/2000/svg"
@@ -472,19 +483,20 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
         </div>
       </div>
       <div
-        class="mocked-styled-177 el-key-value-list-wrap"
+        class="mocked-styled-174 el-key-value-list-wrap"
         role="listitem"
       >
         <div
-          class="mocked-styled-176 el-key-value-icon-wrap"
+          class="mocked-styled-173 el-key-value-icon-wrap"
         >
           <span
             class="el-intent-primary el-icon-new el-icon"
-            role="img"
           >
             <svg
               fill="none"
               height="1em"
+              role="img"
+              title="Icon image with name phone"
               viewBox="0 0 24 24"
               width="1em"
               xmlns="http://www.w3.org/2000/svg"
@@ -512,19 +524,20 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
         </div>
       </div>
       <div
-        class="mocked-styled-177 el-key-value-list-wrap"
+        class="mocked-styled-174 el-key-value-list-wrap"
         role="listitem"
       >
         <div
-          class="mocked-styled-176 el-key-value-icon-wrap"
+          class="mocked-styled-173 el-key-value-icon-wrap"
         >
           <span
             class="el-intent-primary el-icon-new el-icon"
-            role="img"
           >
             <svg
               fill="none"
               height="1em"
+              role="img"
+              title="Icon image with name phone"
               viewBox="0 0 24 24"
               width="1em"
               xmlns="http://www.w3.org/2000/svg"
@@ -552,19 +565,20 @@ exports[`ContactQuickView should match a snapshot with data 1`] = `
         </div>
       </div>
       <div
-        class="mocked-styled-177 el-key-value-list-wrap"
+        class="mocked-styled-174 el-key-value-list-wrap"
         role="listitem"
       >
         <div
-          class="mocked-styled-176 el-key-value-icon-wrap"
+          class="mocked-styled-173 el-key-value-icon-wrap"
         >
           <span
             class="el-intent-primary el-icon-new el-icon"
-            role="img"
           >
             <svg
               fill="none"
               height="1em"
+              role="img"
+              title="Icon image with name property"
               viewBox="0 0 24 24"
               width="1em"
               xmlns="http://www.w3.org/2000/svg"
