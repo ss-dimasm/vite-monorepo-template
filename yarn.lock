@@ -42,6 +42,71 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@aws-crypto/sha256-browser@npm:^5.2.0":
+  version: 5.2.0
+  resolution: "@aws-crypto/sha256-browser@npm:5.2.0"
+  dependencies:
+    "@aws-crypto/sha256-js": "npm:^5.2.0"
+    "@aws-crypto/supports-web-crypto": "npm:^5.2.0"
+    "@aws-crypto/util": "npm:^5.2.0"
+    "@aws-sdk/types": "npm:^3.222.0"
+    "@aws-sdk/util-locate-window": "npm:^3.0.0"
+    "@smithy/util-utf8": "npm:^2.0.0"
+    tslib: "npm:^2.6.2"
+  checksum: 10c0/05f6d256794df800fe9aef5f52f2ac7415f7f3117d461f85a6aecaa4e29e91527b6fd503681a17136fa89e9dd3d916e9c7e4cfb5eba222875cb6c077bdc1d00d
+  languageName: node
+  linkType: hard
+
+"@aws-crypto/sha256-js@npm:^5.2.0":
+  version: 5.2.0
+  resolution: "@aws-crypto/sha256-js@npm:5.2.0"
+  dependencies:
+    "@aws-crypto/util": "npm:^5.2.0"
+    "@aws-sdk/types": "npm:^3.222.0"
+    tslib: "npm:^2.6.2"
+  checksum: 10c0/6c48701f8336341bb104dfde3d0050c89c288051f6b5e9bdfeb8091cf3ffc86efcd5c9e6ff2a4a134406b019c07aca9db608128f8d9267c952578a3108db9fd1
+  languageName: node
+  linkType: hard
+
+"@aws-crypto/supports-web-crypto@npm:^5.2.0":
+  version: 5.2.0
+  resolution: "@aws-crypto/supports-web-crypto@npm:5.2.0"
+  dependencies:
+    tslib: "npm:^2.6.2"
+  checksum: 10c0/4d2118e29d68ca3f5947f1e37ce1fbb3239a0c569cc938cdc8ab8390d595609b5caf51a07c9e0535105b17bf5c52ea256fed705a07e9681118120ab64ee73af2
+  languageName: node
+  linkType: hard
+
+"@aws-crypto/util@npm:^5.2.0":
+  version: 5.2.0
+  resolution: "@aws-crypto/util@npm:5.2.0"
+  dependencies:
+    "@aws-sdk/types": "npm:^3.222.0"
+    "@smithy/util-utf8": "npm:^2.0.0"
+    tslib: "npm:^2.6.2"
+  checksum: 10c0/0362d4c197b1fd64b423966945130207d1fe23e1bb2878a18e361f7743c8d339dad3f8729895a29aa34fff6a86c65f281cf5167c4bf253f21627ae80b6dd2951
+  languageName: node
+  linkType: hard
+
+"@aws-sdk/types@npm:^3.222.0":
+  version: 3.609.0
+  resolution: "@aws-sdk/types@npm:3.609.0"
+  dependencies:
+    "@smithy/types": "npm:^3.3.0"
+    tslib: "npm:^2.6.2"
+  checksum: 10c0/293249118c2fc3cdc79ff9712e3a9f757a2f38e7d5d770507b3bb31d22b8c67ed6f9bdd83c1b6319236b8257d5cc7e2882c15e076200021e8bbf41e4780d430c
+  languageName: node
+  linkType: hard
+
+"@aws-sdk/util-locate-window@npm:^3.0.0":
+  version: 3.568.0
+  resolution: "@aws-sdk/util-locate-window@npm:3.568.0"
+  dependencies:
+    tslib: "npm:^2.6.2"
+  checksum: 10c0/cb1d0919498206fe266542a635cd05909456a06f007a6a550ff897a01390b239e51c2a50e47509e23c179f8df8001bd5fecd900045da5ec989c3f934c3fd3d56
+  languageName: node
+  linkType: hard
+
 "@babel/code-frame@npm:^7.0.0, @babel/code-frame@npm:^7.10.4, @babel/code-frame@npm:^7.12.13, @babel/code-frame@npm:^7.18.6":
   version: 7.18.6
   resolution: "@babel/code-frame@npm:7.18.6"
@@ -2742,11 +2807,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@reapit/connect-session@npm:^4.1.4":
-  version: 4.1.4
-  resolution: "@reapit/connect-session@npm:4.1.4"
+"@reapit/connect-session@npm:^6.0.3":
+  version: 6.0.3
+  resolution: "@reapit/connect-session@npm:6.0.3"
   dependencies:
-    axios: "npm:^1.6.7"
+    "@aws-crypto/sha256-browser": "npm:^5.2.0"
+    axios: "npm:^1.6.8"
     base-64: "npm:^1.0.0"
     idtoken-verifier: "npm:^2.2.4"
     isomorphic-fetch: "npm:^3.0.0"
@@ -2754,14 +2820,15 @@ __metadata:
     jwt-decode: "npm:^3.1.2"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
+    text-encoding: "npm:^0.7.0"
     uuid: "npm:^9.0.1"
-  checksum: 10c0/c9cd51cf462eb0b7cc81de7ef292197e8331d5fd62e50aa9aae72c7601f67203cfa4138d6ecb770a5be46d6e2d88df2a85e8b35076d774811016a74f297c07e3
+  checksum: 10c0/8ea7f72f584d14fba6b16815fc0c7c5731244d0287cb505fb04055b7c4f1c0812c6d7fdab2f467b0c614127d129ec7e437c925f3325a15749ed9cfc07c09a708
   languageName: node
   linkType: hard
 
-"@reapit/elements@npm:^4.3.0":
-  version: 4.3.0
-  resolution: "@reapit/elements@npm:4.3.0"
+"@reapit/elements@npm:^4.3.1":
+  version: 4.3.1
+  resolution: "@reapit/elements@npm:4.3.1"
   dependencies:
     "@linaria/core": "npm:^6.1.0"
     "@linaria/react": "npm:^6.1.0"
@@ -2770,14 +2837,14 @@ __metadata:
     react-dom: ">=18.0.2"
   bin:
     elements-deploy: ./scripts/cdk/bin/rpt-cdk.js
-  checksum: 10c0/847b6d5e00989c509b0ee0c28eb82e12aa246dc6df63f9e3a0c7b5a03fb2427d592dd623c6f356fd67cc240795583d7f2465ff438e3c9b517ed026a427ae8c26
+  checksum: 10c0/15dfdd4192f9767130054244454fa231ebbe336c30fc95bf0169d89ebe6f7df8fef0f672575856e688614a16c2383cf5c5f1fab7289c928c87e28761f1da0d0f
   languageName: node
   linkType: hard
 
-"@reapit/foundations-ts-definitions@npm:^1.3.56":
-  version: 1.3.56
-  resolution: "@reapit/foundations-ts-definitions@npm:1.3.56"
-  checksum: 10c0/96f1197a435362cc046eee5e71363b40ca17f3cae50f4207f912103b17e7c517949de75913c3721331c22b0eb7b72292796270eee019c74adeb832a088a0c732
+"@reapit/foundations-ts-definitions@npm:^1.3.58":
+  version: 1.3.58
+  resolution: "@reapit/foundations-ts-definitions@npm:1.3.58"
+  checksum: 10c0/ea009f2f0cb53d03a8c11aedbdfdadb6acb332777140e0aaf7bb5a3f91b19501dabd6a1db4d847b2e3778446c436e0089517e9c42a4b224adfb965dc0da30e48
   languageName: node
   linkType: hard
 
@@ -3005,6 +3072,44 @@ __metadata:
   dependencies:
     "@sinonjs/commons": "npm:^2.0.0"
   checksum: 10c0/24555ed94053319fa18d4efa0923b295a445a00d2515d260b9e4e2b5943bd8b5b55fee85baabb2819a13ca1f57dbc1949265a350f592eef9e2535ec9de711ebc
+  languageName: node
+  linkType: hard
+
+"@smithy/is-array-buffer@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "@smithy/is-array-buffer@npm:2.2.0"
+  dependencies:
+    tslib: "npm:^2.6.2"
+  checksum: 10c0/2f2523cd8cc4538131e408eb31664983fecb0c8724956788b015aaf3ab85a0c976b50f4f09b176f1ed7bbe79f3edf80743be7a80a11f22cd9ce1285d77161aaf
+  languageName: node
+  linkType: hard
+
+"@smithy/types@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "@smithy/types@npm:3.3.0"
+  dependencies:
+    tslib: "npm:^2.6.2"
+  checksum: 10c0/ab2c2d621384a2bbdd31d5c90809395cb5c2a726afd69758895d5a630f932f6ae9a53ca7a9cd5d8c195df9278869b2420a2fb4fada47dee9e8c9d4e3c80a349e
+  languageName: node
+  linkType: hard
+
+"@smithy/util-buffer-from@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "@smithy/util-buffer-from@npm:2.2.0"
+  dependencies:
+    "@smithy/is-array-buffer": "npm:^2.2.0"
+    tslib: "npm:^2.6.2"
+  checksum: 10c0/223d6a508b52ff236eea01cddc062b7652d859dd01d457a4e50365af3de1e24a05f756e19433f6ccf1538544076b4215469e21a4ea83dc1d58d829725b0dbc5a
+  languageName: node
+  linkType: hard
+
+"@smithy/util-utf8@npm:^2.0.0":
+  version: 2.3.0
+  resolution: "@smithy/util-utf8@npm:2.3.0"
+  dependencies:
+    "@smithy/util-buffer-from": "npm:^2.2.0"
+    tslib: "npm:^2.6.2"
+  checksum: 10c0/e18840c58cc507ca57fdd624302aefd13337ee982754c9aa688463ffcae598c08461e8620e9852a424d662ffa948fc64919e852508028d09e89ced459bd506ab
   languageName: node
   linkType: hard
 
@@ -4407,7 +4512,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:^1.6.7, axios@npm:^1.6.8":
+"axios@npm:^1.6.8":
   version: 1.6.8
   resolution: "axios@npm:1.6.8"
   dependencies:
@@ -6619,9 +6724,9 @@ __metadata:
     "@hookform/resolvers": "npm:^3.3.4"
     "@linaria/core": "npm:^6.1.0"
     "@linaria/react": "npm:^6.1.0"
-    "@reapit/connect-session": "npm:^4.1.4"
-    "@reapit/elements": "npm:^4.3.0"
-    "@reapit/foundations-ts-definitions": "npm:^1.3.56"
+    "@reapit/connect-session": "npm:^6.0.3"
+    "@reapit/elements": "npm:^4.3.1"
+    "@reapit/foundations-ts-definitions": "npm:^1.3.58"
     "@tanstack/react-query": "npm:^5.29.2"
     "@tanstack/react-query-devtools": "npm:^5.29.2"
     "@testing-library/dom": "npm:^10.0.0"
@@ -11038,6 +11143,13 @@ __metadata:
     glob: "npm:^7.1.4"
     minimatch: "npm:^3.0.4"
   checksum: 10c0/019d33d81adff3f9f1bfcff18125fb2d3c65564f437d9be539270ee74b994986abb8260c7c2ce90e8f30162178b09dbbce33c6389273afac4f36069c48521f57
+  languageName: node
+  linkType: hard
+
+"text-encoding@npm:^0.7.0":
+  version: 0.7.0
+  resolution: "text-encoding@npm:0.7.0"
+  checksum: 10c0/6c20f5d19f996501677cc60b79bc4af550f840b426eacc5f67bd2bd5a7a7a058ab58679f851e0afee879aaaaf7fdb95cfe4de35ab29f9b34f9ce2a7b8de9bacb
   languageName: node
   linkType: hard
 
