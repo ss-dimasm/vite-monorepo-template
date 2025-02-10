@@ -11,13 +11,14 @@ import {
   mockContactModel,
 } from '../../../../scripts/stubs'
 import { render } from '../../../../scripts/tests'
+import { Mock } from 'vitest'
 
-jest.mock('../../../../hooks', () => ({
-  usePlatformGet: jest.fn(),
-  usePlatformUpdate: jest.fn(() => [jest.fn()]),
+vi.mock('../../../../hooks', () => ({
+  usePlatformGet: vi.fn(),
+  usePlatformUpdate: vi.fn(() => [vi.fn()]),
 }))
 
-const mockUsePlatformGet = usePlatformGet as jest.Mock
+const mockUsePlatformGet = usePlatformGet as Mock
 
 const error = {
   message: 'Error',
@@ -32,8 +33,8 @@ describe('ContactsOfficeDetails', () => {
       .mockReturnValue([mockOfficeModelPagedResult])
 
     const form = {
-      register: jest.fn(() => ({})),
-      getValues: jest.fn(() => 'MOCK_ID'),
+      register: vi.fn(() => ({})),
+      getValues: vi.fn(() => 'MOCK_ID'),
       formState: {
         errors: {
           source: error,
@@ -44,13 +45,13 @@ describe('ContactsOfficeDetails', () => {
       },
     } as unknown as UseFormReturn<ContactFormSchema, any>
 
-    expect(render(<ContactsOfficeDetails form={form} contact={mockContactModel} />)).toMatchSnapshot()
+    expect(render(<ContactsOfficeDetails form={form} contact={mockContactModel} />).asFragment()).toMatchSnapshot()
   })
 })
 
 describe('handleAddAddress', () => {
   it('should submit a contact then navigate', () => {
-    const setHasAsAddress = jest.fn()
+    const setHasAsAddress = vi.fn()
     const hadAsAddress = true
 
     const curried = handleAddAddress(setHasAsAddress, hadAsAddress)

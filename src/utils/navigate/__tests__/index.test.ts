@@ -2,7 +2,7 @@ import { navigateRoute, openNewPage } from '..'
 
 describe('navigate', () => {
   it('should open a new page', () => {
-    const navigateFn = jest.fn()
+    const navigateFn = vi.fn()
 
     const curried = navigateRoute(navigateFn, '/home')
 
@@ -14,7 +14,7 @@ describe('navigate', () => {
 
 describe('openNewPage', () => {
   it('should open a new page', () => {
-    const windowSpy = ((window.open as any) = jest.fn())
+    const windowSpy = ((window.open as any) = vi.fn())
     const curried = openNewPage('/home')
 
     curried()

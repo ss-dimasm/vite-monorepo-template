@@ -5,39 +5,40 @@ import { CONTACTS_ROUTES } from '../../routes'
 import { usePlatformGet } from '../../../../hooks'
 import { mockContactModel } from '../../../../scripts/stubs'
 import { render } from '../../../../scripts/tests'
+import { Mock } from 'vitest'
 
-jest.mock('../../../../hooks', () => ({
-  usePlatformGet: jest.fn(),
-  usePlatformUpdate: jest.fn(() => [jest.fn()]),
+vi.mock('../../../../hooks', () => ({
+  usePlatformGet: vi.fn(),
+  usePlatformUpdate: vi.fn(() => [vi.fn()]),
 }))
 
-const mockUsePlatformGet = usePlatformGet as jest.Mock
+const mockUsePlatformGet = usePlatformGet as Mock
 
 describe('ContactsEdit', () => {
   it('should match a snapshot with data', () => {
     mockUsePlatformGet.mockReturnValue([mockContactModel, false])
 
-    expect(render(<ContactsEdit />)).toMatchSnapshot()
+    expect(render(<ContactsEdit />).asFragment()).toMatchSnapshot()
   })
 
   it('should match a snapshot when loading', () => {
     mockUsePlatformGet.mockReturnValue([null, true])
 
-    expect(render(<ContactsEdit />)).toMatchSnapshot()
+    expect(render(<ContactsEdit />).asFragment()).toMatchSnapshot()
   })
 
   it('should match a snapshot when not loading but no contact', () => {
     mockUsePlatformGet.mockReturnValue([null, false])
 
-    expect(render(<ContactsEdit />)).toMatchSnapshot()
+    expect(render(<ContactsEdit />).asFragment()).toMatchSnapshot()
   })
 })
 
 describe('handleChangeTab', () => {
   it('should validate the personal tab then navigate', async () => {
     window.location.pathname = '/personal'
-    const trigger = jest.fn()
-    const navigate = jest.fn()
+    const trigger = vi.fn()
+    const navigate = vi.fn()
     const contactId = 'FOO'
     const event = { target: { value: 'foo' } } as ChangeEvent<HTMLInputElement>
 
@@ -53,8 +54,8 @@ describe('handleChangeTab', () => {
 
   it('should validate the communications tab then navigate', async () => {
     window.location.pathname = '/communications'
-    const trigger = jest.fn()
-    const navigate = jest.fn()
+    const trigger = vi.fn()
+    const navigate = vi.fn()
     const contactId = 'FOO'
     const event = { target: { value: 'foo' } } as ChangeEvent<HTMLInputElement>
 
@@ -81,8 +82,8 @@ describe('handleChangeTab', () => {
 
   it('should validate the addresses tab then navigate', async () => {
     window.location.pathname = '/addresses'
-    const trigger = jest.fn()
-    const navigate = jest.fn()
+    const trigger = vi.fn()
+    const navigate = vi.fn()
     const contactId = 'FOO'
     const event = { target: { value: 'foo' } } as ChangeEvent<HTMLInputElement>
 
@@ -99,8 +100,8 @@ describe('handleChangeTab', () => {
 
   it('should validate the office tab then navigate', async () => {
     window.location.pathname = '/office'
-    const trigger = jest.fn()
-    const navigate = jest.fn()
+    const trigger = vi.fn()
+    const navigate = vi.fn()
     const contactId = 'FOO'
     const event = { target: { value: 'foo' } } as ChangeEvent<HTMLInputElement>
 
@@ -119,8 +120,8 @@ describe('handleChangeTab', () => {
 describe('handleSubmitContact', () => {
   it('should submit a contact then navigate', async () => {
     window.location.pathname = '/personal'
-    const updateContact = jest.fn(() => Promise.resolve(true))
-    const navigate = jest.fn()
+    const updateContact = vi.fn(() => Promise.resolve(true))
+    const navigate = vi.fn()
     const values = {
       surname: 'MOCK_NAME',
       categoryIds: 'MOCK_CATEGORY',
@@ -151,7 +152,7 @@ describe('handleSubmitContact', () => {
 describe('handleResetForm', () => {
   it('should submit a contact then navigate', () => {
     window.location.pathname = '/personal'
-    const reset = jest.fn()
+    const reset = vi.fn()
 
     const curried = handleResetForm(mockContactModel, reset)
 

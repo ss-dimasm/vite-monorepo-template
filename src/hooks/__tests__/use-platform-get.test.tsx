@@ -5,28 +5,37 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { PlatformGet, handleError, handleSuccess, usePlatformGet } from '../use-platform-get'
 import { MemoryRouter } from 'react-router'
 import { RC_SESSION_MISSING_ERROR } from '../utils'
+import { Mock } from 'vitest'
 
-jest.mock('axios', () => ({
-  get: jest.fn(),
-}))
+vi.mock('axios', async (importOriginal) => {
+  const actual = (await importOriginal()) as typeof axios
+  return {
+    ...actual,
+    default: {
+      ...actual.defaults,
+      get: vi.fn(),
+    },
+    get: vi.fn(),
+  }
+})
 
-jest.mock('@reapit/elements', () => ({
-  useSnack: jest.fn(() => ({
+vi.mock('@reapit/elements', () => ({
+  useSnack: vi.fn(() => ({
     success: mockSuccess,
     error: mockError,
   })),
 }))
 
-jest.mock('../../core/connect-session')
+vi.mock('../../core/connect-session')
 
 const mockData = {
   someData: {
     someKey: 'someValue',
   },
 }
-const mockSuccess = jest.fn()
-const mockError = jest.fn()
-const mockAxios = axios.get as unknown as jest.Mock
+const mockSuccess = vi.fn()
+const mockError = vi.fn()
+const mockAxios = axios.get as unknown as Mock
 
 process.env.PLATFORM_API_URL = 'https://platform.reapit.cloud'
 
@@ -101,7 +110,7 @@ describe('usePlatformGet', () => {
 
   it('should correctly handle an error', async () => {
     mockAxios.mockImplementation(
-      jest.fn(() => {
+      vi.fn(() => {
         throw new Error('Error')
       }),
     )
@@ -138,7 +147,7 @@ describe('usePlatformGet', () => {
   })
 
   afterEach(() => {
-    jest.clearAllMocks()
+    vi.clearAllMocks()
   })
 })
 
@@ -152,10 +161,10 @@ describe('handleError', () => {
       isAxiosError: true,
       toJSON: () => ({}),
     } as AxiosError
-    const errorSnack = jest.fn()
-    const navigate = jest.fn()
+    const errorSnack = vi.fn()
+    const navigate = vi.fn()
     const errorMessage = 'Test error message'
-    const onError = jest.fn()
+    const onError = vi.fn()
 
     const curried = handleError(isError, error, errorSnack, navigate, errorMessage, onError)
 
@@ -175,10 +184,10 @@ describe('handleError', () => {
       isAxiosError: true,
       toJSON: () => ({}),
     } as AxiosError
-    const errorSnack = jest.fn()
-    const navigate = jest.fn()
+    const errorSnack = vi.fn()
+    const navigate = vi.fn()
     const errorMessage = 'Test error message'
-    const onError = jest.fn()
+    const onError = vi.fn()
 
     const curried = handleError(isError, error, errorSnack, navigate, errorMessage)
 
@@ -198,10 +207,10 @@ describe('handleError', () => {
       isAxiosError: true,
       toJSON: () => ({}),
     } as AxiosError
-    const errorSnack = jest.fn()
-    const navigate = jest.fn()
+    const errorSnack = vi.fn()
+    const navigate = vi.fn()
     const errorMessage = 'Test error message'
-    const onError = jest.fn()
+    const onError = vi.fn()
 
     const curried = handleError(isError, error, errorSnack, navigate, errorMessage, onError)
 
@@ -216,9 +225,9 @@ describe('handleError', () => {
 describe('handleSuccess', () => {
   it('should handle success correctly', () => {
     const isSuccess = true
-    const successSnack = jest.fn()
+    const successSnack = vi.fn()
     const successMessage = 'Test success message'
-    const onSuccess = jest.fn()
+    const onSuccess = vi.fn()
 
     const curried = handleSuccess(isSuccess, successSnack, successMessage, onSuccess)
 
@@ -230,7 +239,7 @@ describe('handleSuccess', () => {
 
   it('should handle success correctly when onSuccess is not provided', () => {
     const isSuccess = true
-    const successSnack = jest.fn()
+    const successSnack = vi.fn()
     const successMessage = 'Test success message'
 
     const curried = handleSuccess(isSuccess, successSnack, successMessage)

@@ -5,30 +5,31 @@ import { ReapitUpdateState } from '../use-platform-update'
 import axios from 'axios'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { MemoryRouter } from 'react-router'
+import { Mock } from 'vitest'
 
-jest.mock('axios', () => ({
+vi.mock('axios', () => ({
   __esModule: true,
-  default: jest.fn(),
+  default: vi.fn(),
 }))
 
-jest.mock('@reapit/elements', () => ({
-  useSnack: jest.fn(() => ({
+vi.mock('@reapit/elements', () => ({
+  useSnack: vi.fn(() => ({
     success: mockSuccess,
     error: mockError,
   })),
 }))
 
-jest.mock('../../core/connect-session')
+vi.mock('../../core/connect-session')
 
-const mockData = {
+type MockData = {
   someData: {
-    someKey: 'someValue',
-  },
+    someKey: 'someValue'
+  }
 }
 
-const mockSuccess = jest.fn()
-const mockError = jest.fn()
-const mockAxios = axios as unknown as jest.Mock
+const mockSuccess = vi.fn()
+const mockError = vi.fn()
+const mockAxios = axios as unknown as Mock
 
 process.env.PLATFORM_API_URL = 'https://platform.reapit.cloud'
 
@@ -49,9 +50,9 @@ describe('usePlatformUpdate', () => {
       test: true,
     }
 
-    const { result } = renderHook<{}, ReapitUpdateState<{}, typeof mockData>>(
+    const { result } = renderHook<{}, ReapitUpdateState<{}, MockData>>(
       () =>
-        usePlatformUpdate<{}, typeof mockData>({
+        usePlatformUpdate<{}, MockData>({
           path: '/foo/bar',
           headers: {
             foo: 'bar',
@@ -109,9 +110,9 @@ describe('usePlatformUpdate', () => {
       data: { updated: true },
     })
 
-    const { result } = renderHook<{}, ReapitUpdateState<{}, typeof mockData>>(
+    const { result } = renderHook<{}, ReapitUpdateState<{}, MockData>>(
       () =>
-        usePlatformUpdate<{}, typeof mockData>({
+        usePlatformUpdate<{}, MockData>({
           path: '/foo/bar',
           headers: {
             foo: 'bar',
@@ -172,7 +173,7 @@ describe('usePlatformUpdate', () => {
 
   it('should correctly handle an error', async () => {
     mockAxios.mockImplementation(
-      jest.fn(() => {
+      vi.fn(() => {
         return Promise.reject('Error')
       }),
     )
@@ -180,9 +181,9 @@ describe('usePlatformUpdate', () => {
       test: true,
     }
 
-    const { result } = renderHook<{}, ReapitUpdateState<{}, typeof mockData>>(
+    const { result } = renderHook<{}, ReapitUpdateState<{}, MockData>>(
       () =>
-        usePlatformUpdate<{}, typeof mockData>({
+        usePlatformUpdate<{}, MockData>({
           path: '/foo/bar',
           headers: {
             foo: 'bar',

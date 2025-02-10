@@ -1,3 +1,4 @@
+import { Mock } from 'vitest'
 import {
   ContactsList,
   handleOpenModal,
@@ -9,38 +10,38 @@ import { usePlatformGet } from '../../../../hooks'
 import { mockContactModelPagedResult, mockContactModel } from '../../../../scripts/stubs'
 import { render } from '../../../../scripts/tests'
 
-jest.mock('../../../../hooks', () => ({
-  usePlatformGet: jest.fn(),
-  usePlatformUpdate: jest.fn(() => [jest.fn()]),
+vi.mock('../../../../hooks', () => ({
+  usePlatformGet: vi.fn(),
+  usePlatformUpdate: vi.fn(() => [vi.fn()]),
 }))
 
-const mockUsePlatformGet = usePlatformGet as jest.Mock
+const mockUsePlatformGet = usePlatformGet as Mock
 
 describe('ContactsList', () => {
   it('should match a snapshot with data', () => {
     mockUsePlatformGet.mockReturnValue([mockContactModelPagedResult, false])
 
-    expect(render(<ContactsList />)).toMatchSnapshot()
+    expect(render(<ContactsList />).asFragment()).toMatchSnapshot()
   })
 
   it('should match a snapshot when loading', () => {
     mockUsePlatformGet.mockReturnValue([null, true])
 
-    expect(render(<ContactsList />)).toMatchSnapshot()
+    expect(render(<ContactsList />).asFragment()).toMatchSnapshot()
   })
 
   it('should match a snapshot when not loading but no contact', () => {
     mockUsePlatformGet.mockReturnValue([null, false])
 
-    expect(render(<ContactsList />)).toMatchSnapshot()
+    expect(render(<ContactsList />).asFragment()).toMatchSnapshot()
   })
 })
 
 describe('handleOpenModal', () => {
   it('should correctly open the modal', () => {
-    const openModal = jest.fn()
+    const openModal = vi.fn()
     const contact = mockContactModel
-    const setContactToToggleActive = jest.fn()
+    const setContactToToggleActive = vi.fn()
 
     const curried = handleOpenModal(openModal, contact, setContactToToggleActive)
 
@@ -53,9 +54,9 @@ describe('handleOpenModal', () => {
 
 describe('handleOpenDrawer', () => {
   it('should correctly open the modal', () => {
-    const openDrawer = jest.fn()
+    const openDrawer = vi.fn()
     const contact = mockContactModel
-    const setContactToQuickView = jest.fn()
+    const setContactToQuickView = vi.fn()
 
     const curried = handleOpenDrawer(openDrawer, contact, setContactToQuickView)
 
@@ -68,10 +69,10 @@ describe('handleOpenDrawer', () => {
 
 describe('handleToggleActiveContact', () => {
   it('should correctly deactivate the contact', async () => {
-    const closeModal = jest.fn()
-    const contactsRefresh = jest.fn()
-    const toggleActiveContact = jest.fn(() => Promise.resolve(true))
-    const setContactToToggleActive = jest.fn()
+    const closeModal = vi.fn()
+    const contactsRefresh = vi.fn()
+    const toggleActiveContact = vi.fn(() => Promise.resolve(true))
+    const setContactToToggleActive = vi.fn()
 
     const curried = handleToggleActiveContact(
       closeModal,
@@ -92,8 +93,8 @@ describe('handleToggleActiveContact', () => {
 
 describe('handleSetContactsFilters', () => {
   it('should subscribe to watch', () => {
-    const setContactFilters = jest.fn()
-    const watch = jest.fn()
+    const setContactFilters = vi.fn()
+    const watch = vi.fn()
 
     const curried = handleSetContactsFilters(setContactFilters, watch)
 

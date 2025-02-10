@@ -10,18 +10,18 @@ const error = {
 describe('ContactsAddresses', () => {
   it('should match a snapshot', () => {
     const form = {
-      register: jest.fn(() => ({})),
+      register: vi.fn(() => ({})),
       formState: {
         errors: {},
       },
     } as unknown as UseFormReturn<ContactFormSchema, any>
 
-    expect(render(<ContactsAddresses form={form} />)).toMatchSnapshot()
+    expect(render(<ContactsAddresses form={form} />).asFragment()).toMatchSnapshot()
   })
 
   it('should match a snapshot with work and secondary addresses', async () => {
     const form = {
-      register: jest.fn(() => ({})),
+      register: vi.fn(() => ({})),
       formState: {
         errors: {
           primaryAddress: {
@@ -63,13 +63,13 @@ describe('ContactsAddresses', () => {
     secondaryButton.click()
     workButton.click()
 
-    expect(wrapper).toMatchSnapshot()
+    expect(wrapper.asFragment()).toMatchSnapshot()
   })
 })
 
 describe('handleAddAddress', () => {
   it('should submit a contact then navigate', () => {
-    const setHasAsAddress = jest.fn()
+    const setHasAsAddress = vi.fn()
     const hadAsAddress = true
 
     const curried = handleAddAddress(setHasAsAddress, hadAsAddress)

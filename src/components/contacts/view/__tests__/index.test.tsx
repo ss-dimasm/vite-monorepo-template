@@ -1,3 +1,4 @@
+import { Mock } from 'vitest'
 import { ContactsEditView } from '..'
 import { usePlatformGet } from '../../../../hooks'
 import {
@@ -9,12 +10,12 @@ import {
 } from '../../../../scripts/stubs'
 import { render } from '../../../../scripts/tests'
 
-jest.mock('../../../../hooks', () => ({
-  usePlatformGet: jest.fn(),
-  usePlatformUpdate: jest.fn(() => [jest.fn()]),
+vi.mock('../../../../hooks', () => ({
+  usePlatformGet: vi.fn(),
+  usePlatformUpdate: vi.fn(() => [vi.fn()]),
 }))
 
-const mockUsePlatformGet = usePlatformGet as jest.Mock
+const mockUsePlatformGet = usePlatformGet as Mock
 
 describe('ContactsEditView', () => {
   it('should match a snapshot with data', () => {
@@ -24,10 +25,10 @@ describe('ContactsEditView', () => {
       .mockReturnValue([mockNegotiatorModelPagedResult])
       .mockReturnValue([mockOfficeModelPagedResult])
 
-    expect(render(<ContactsEditView contact={mockContactModel} />)).toMatchSnapshot()
+    expect(render(<ContactsEditView contact={mockContactModel} />).asFragment()).toMatchSnapshot()
   })
 
   it('should match a snapshot with no data', () => {
-    expect(render(<ContactsEditView contact={null} />)).toMatchSnapshot()
+    expect(render(<ContactsEditView contact={null} />).asFragment()).toMatchSnapshot()
   })
 })

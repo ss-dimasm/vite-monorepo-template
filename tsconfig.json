@@ -13,12 +13,12 @@
     "outDir": "dist",
     "strict": true,
     "target": "esnext",
-    "typeRoots": ["./node_modules/@types"],
     "sourceMap": true,
     "sourceRoot": "/",
     "inlineSources": true,
     "resolveJsonModule": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "types": ["vite/client", "vitest/globals", "vite-plugin-svgr/client"],
   },
   "exclude": ["**/public/**/*", "**/dist/**/*", ".yarn/**/*", "**/node_modules/**/*", "**/coverage/**/*"]
 }

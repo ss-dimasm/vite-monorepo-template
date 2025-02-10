@@ -4,11 +4,12 @@ import { MediaStateProvider, NavStateProvider, SnackProvider } from '@reapit/ele
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { MemoryRouter, redirect, Route, Routes } from 'react-router'
 import { PrivateRouteWrapper } from '../private-route-wrapper'
+import { Mock } from 'vitest'
 
-jest.mock('../connect-session')
-jest.mock('@reapit/connect-session', () => ({
-  ReapitConnectBrowserSession: jest.fn(),
-  useReapitConnect: jest.fn(() => ({
+vi.mock('../connect-session')
+vi.mock('@reapit/connect-session', () => ({
+  ReapitConnectBrowserSession: vi.fn(),
+  useReapitConnect: vi.fn(() => ({
     connectSession: {
       loginIdentity: {
         name: 'MOCK_NAME',
@@ -17,12 +18,12 @@ jest.mock('@reapit/connect-session', () => ({
     connectInternalRedirect: '',
   })),
 }))
-jest.mock('react-router', () => ({
-  ...jest.requireActual('react-router'),
-  redirect: jest.fn(),
+vi.mock('react-router', async () => ({
+  ...(await vi.importActual('react-router')),
+  redirect: vi.fn(),
 }))
 
-const mockUseReapitConnect = useReapitConnect as jest.Mock
+const mockUseReapitConnect = useReapitConnect as Mock
 const queryClient = new QueryClient()
 
 const createWrapper = (children) => {

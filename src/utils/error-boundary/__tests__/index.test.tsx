@@ -1,33 +1,57 @@
-import { FC, useEffect } from 'react'
-import { render } from '@testing-library/react'
+import { render, screen } from '@testing-library/react'
+import { vi } from 'vitest'
 import { ErrorBoundary } from '..'
 
-const Component: FC = () => <div>I am a component!</div>
-const DangerousComponent: FC = () => {
-  useEffect(() => {
-    throw new Error('Error')
-  })
-  return <div>I am a dangerous component!</div>
+const ThrowError = () => {
+  throw new Error('Test error')
 }
 
 describe('ErrorBoundary', () => {
-  it('should match a snapshot', () => {
-    expect(
-      render(
-        <ErrorBoundary>
-          <Component />
-        </ErrorBoundary>,
-      ),
-    ).toMatchSnapshot()
+  it('should render children when there is no error', () => {
+    render(
+      <ErrorBoundary>
+        <div>Test Child</div>
+      </ErrorBoundary>,
+    ).asFragment()
+
+    expect(screen.getByText('Test Child')).toBeInTheDocument()
   })
 
-  it('should match a snapshot if the component throws', () => {
-    expect(
-      render(
-        <ErrorBoundary>
-          <DangerousComponent />
-        </ErrorBoundary>,
-      ),
-    ).toMatchSnapshot()
+  it('should catch errors and display fallback UI', () => {
+    const consoleErrorSpy = vi.spyOn(console, 'error').mockImplementation(() => {})
+
+    render(
+      <ErrorBoundary>
+        <ThrowError />
+      </ErrorBoundary>,
+    ).asFragment()
+
+    expect(screen.getByText('Something went wrong here, try refreshing your page.')).toBeInTheDocument()
+    expect(consoleErrorSpy).toHaveBeenCalled()
+
+    consoleErrorSpy.mockRestore()
+  })
+
+  it('should match snapshot when no error occurs', () => {
+    const { asFragment } = render(
+      <ErrorBoundary>
+        <div>Snapshot Test</div>
+      </ErrorBoundary>,
+    )
+
+    expect(asFragment()).toMatchSnapshot()
+  })
+
+  it('should match snapshot when an error occurs', () => {
+    const consoleErrorSpy = vi.spyOn(console, 'error').mockImplementation(() => {})
+
+    const { asFragment } = render(
+      <ErrorBoundary>
+        <ThrowError />
+      </ErrorBoundary>,
+    )
+
+    expect(asFragment()).toMatchSnapshot()
+    consoleErrorSpy.mockRestore()
   })
 })

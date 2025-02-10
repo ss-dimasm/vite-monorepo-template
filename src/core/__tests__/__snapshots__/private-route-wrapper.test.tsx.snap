@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`PrivateRouteWrapper should match a snapshot 1`] = `
+exports[`PrivateRouteWrapper > should match a snapshot 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -583,7 +583,7 @@ exports[`PrivateRouteWrapper should match a snapshot 1`] = `
 }
 `;
 
-exports[`PrivateRouteWrapper should match a snapshot where there is no session 1`] = `
+exports[`PrivateRouteWrapper > should match a snapshot where there is no session 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>

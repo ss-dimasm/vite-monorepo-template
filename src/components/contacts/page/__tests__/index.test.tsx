@@ -3,6 +3,6 @@ import { render } from '../../../../scripts/tests'
 
 describe('ContactsPage', () => {
   it('should match a snapshot', () => {
-    expect(render(<ContactsPage />)).toMatchSnapshot()
+    expect(render(<ContactsPage />).asFragment()).toMatchSnapshot()
   })
 })

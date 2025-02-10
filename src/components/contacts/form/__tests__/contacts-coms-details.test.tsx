@@ -10,7 +10,7 @@ const error = {
 describe('ContactsComsDetails', () => {
   it('should match a snapshot', () => {
     const form = {
-      register: jest.fn(() => ({})),
+      register: vi.fn(() => ({})),
       formState: {
         errors: {
           email: error,

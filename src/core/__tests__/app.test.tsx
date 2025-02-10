@@ -2,7 +2,7 @@ import { render } from '@testing-library/react'
 import App from '../app'
 import { createRoot } from 'react-dom/client'
 
-jest.mock('../router')
+vi.mock('../router')
 
 describe('App', () => {
   it('should render without crashing', () => {
@@ -12,6 +12,6 @@ describe('App', () => {
 
   it('should match a snapshot', () => {
     const app = render(<App />)
-    expect(app).toMatchSnapshot()
+    expect(app.asFragment()).toMatchSnapshot()
   })
 })

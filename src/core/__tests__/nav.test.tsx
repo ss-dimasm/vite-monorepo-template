@@ -2,7 +2,7 @@ import { Nav, getDefaultNavIndex } from '../nav'
 import { Routes } from '../../constants/routes'
 import { render } from '../../scripts/tests'
 
-jest.mock('@reapit/connect-session', () => ({
+vi.mock('@reapit/connect-session', () => ({
   useReapitConnect: () => ({
     connectSession: {
       loginIdentity: {
@@ -12,13 +12,13 @@ jest.mock('@reapit/connect-session', () => ({
   }),
 }))
 
-jest.mock('../connect-session')
+vi.mock('../connect-session')
 
 describe('Nav', () => {
   it('should match a snapshot', () => {
     window.location.pathname = '/'
     const wrapper = render(<Nav />)
-    expect(wrapper).toMatchSnapshot()
+    expect(wrapper.asFragment()).toMatchSnapshot()
   })
 })
 

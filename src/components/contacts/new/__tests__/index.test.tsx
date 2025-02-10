@@ -3,14 +3,14 @@ import { render } from '../../../../scripts/tests'
 import { ContactFormSchema } from '../../form/contacts-validation-schema'
 import { CONTACTS_ROUTES } from '../../routes'
 
-jest.mock('../../../../hooks', () => ({
-  usePlatformGet: jest.fn(),
-  usePlatformUpdate: jest.fn(() => [jest.fn()]),
+vi.mock('../../../../hooks', () => ({
+  usePlatformGet: vi.fn(),
+  usePlatformUpdate: vi.fn(() => [vi.fn()]),
 }))
 
 describe('ContactsNew', () => {
   it('should match a snapshot', () => {
-    expect(render(<ContactsNew />)).toMatchSnapshot()
+    expect(render(<ContactsNew />).asFragment()).toMatchSnapshot()
   })
 })
 
@@ -18,8 +18,8 @@ describe('handleSwitchStep', () => {
   it('should validate step 1', async () => {
     const step = '2'
     const selectedStep = '1'
-    const trigger = jest.fn(() => Promise.resolve(true))
-    const setSelectedStep = jest.fn()
+    const trigger = vi.fn(() => Promise.resolve(true))
+    const setSelectedStep = vi.fn()
 
     const curried = handleSwitchStep(step, selectedStep, trigger, setSelectedStep)
 
@@ -34,8 +34,8 @@ describe('handleSwitchStep', () => {
   it('should validate step 2', async () => {
     const step = '3'
     const selectedStep = '2'
-    const trigger = jest.fn(() => Promise.resolve(true))
-    const setSelectedStep = jest.fn()
+    const trigger = vi.fn(() => Promise.resolve(true))
+    const setSelectedStep = vi.fn()
 
     const curried = handleSwitchStep(step, selectedStep, trigger, setSelectedStep)
 
@@ -60,8 +60,8 @@ describe('handleSwitchStep', () => {
   it('should validate step 3', async () => {
     const step = '4'
     const selectedStep = '3'
-    const trigger = jest.fn(() => Promise.resolve(true))
-    const setSelectedStep = jest.fn()
+    const trigger = vi.fn(() => Promise.resolve(true))
+    const setSelectedStep = vi.fn()
 
     const curried = handleSwitchStep(step, selectedStep, trigger, setSelectedStep)
 
@@ -76,8 +76,8 @@ describe('handleSwitchStep', () => {
   it('should validate step 4', async () => {
     const step = '1'
     const selectedStep = '4'
-    const trigger = jest.fn(() => Promise.resolve(true))
-    const setSelectedStep = jest.fn()
+    const trigger = vi.fn(() => Promise.resolve(true))
+    const setSelectedStep = vi.fn()
 
     const curried = handleSwitchStep(step, selectedStep, trigger, setSelectedStep)
 
@@ -93,8 +93,8 @@ describe('handleSwitchStep', () => {
 describe('handleSubmitContact', () => {
   it('should submit a contact then navigate', async () => {
     window.location.pathname = '/personal'
-    const updateContact = jest.fn(() => Promise.resolve(true))
-    const navigate = jest.fn()
+    const updateContact = vi.fn(() => Promise.resolve(true))
+    const navigate = vi.fn()
     const values = {
       surname: 'MOCK_NAME',
       categoryIds: 'MOCK_CATEGORY',

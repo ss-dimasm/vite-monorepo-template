@@ -10,7 +10,7 @@ const error = {
 describe('ContactsPersonal', () => {
   it('should match a snapshot', () => {
     const form = {
-      register: jest.fn(() => ({})),
+      register: vi.fn(() => ({})),
       formState: {
         errors: {
           title: error,
@@ -21,6 +21,6 @@ describe('ContactsPersonal', () => {
       },
     } as unknown as UseFormReturn<ContactFormSchema, any>
 
-    expect(render(<ContactsPersonal form={form} />)).toMatchSnapshot()
+    expect(render(<ContactsPersonal form={form} />).asFragment()).toMatchSnapshot()
   })
 })

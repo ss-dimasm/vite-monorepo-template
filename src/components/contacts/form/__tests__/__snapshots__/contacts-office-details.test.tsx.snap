@@ -1,588 +1,268 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`ContactsOfficeDetails should match a snapshot 1`] = `
-{
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
+exports[`ContactsOfficeDetails > should match a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="mocked-styled-93 el-snack-holder"
+  />
+  <p
+    class="el-text-base el-body-text el-has-bold-text el-has-section-margin"
+  >
+    Provide information here relating to your Reapit organisation & office.
+  </p>
+  <div
+    class="el-fade-in el-form-layout"
+  >
+    <div
+      class="mocked-styled-135 el-input-wrap-full"
+    >
       <div
-        class="mocked-styled-93 el-snack-holder"
-      />
+        class="el-mb3 el-input-group"
+      >
+        <input
+          aria-label="Input type undefined"
+          class="mocked-styled-38 el-input"
+          id="test-static-id"
+          placeholder="Search"
+        />
+        <span
+          class="el-icon-new el-icon"
+          style="font-size: 1rem;"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            role="img"
+            style="font-size: 1rem;"
+            title="Icon image with name search"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m21.71 20.29-5.4-5.39A7.9 7.9 0 0 0 18 10a8 8 0 1 0-8 8 7.9 7.9 0 0 0 4.9-1.69l5.39 5.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42M4 10a6 6 0 1 1 12 0 6 6 0 0 1-12 0"
+              fill="currentColor"
+            />
+          </svg>
+        </span>
+        <label
+          class="mocked-styled-41 el-label"
+          for="test-static-id"
+        >
+          Source
+        </label>
+      </div>
+      <div
+        class="mocked-styled-58 el-multi-select-input-wrapper"
+      >
+        <input
+          class="mocked-styled-57 el-multi-select-input"
+          id="source-select"
+        />
+        <div
+          aria-label="Multi selected options"
+          class="mocked-styled-55 el-multi-select-selected"
+          role="listbox"
+        />
+        <div
+          aria-label="Multi unselected options"
+          class="mocked-styled-56 el-multi-select-un-selected"
+          role="listbox"
+        >
+          <input
+            aria-checked="false"
+            aria-hidden="true"
+            class="mocked-styled-52 el-multi-select-checkbox"
+            id="test-static-id"
+            role="option"
+            type="checkbox"
+          />
+          <label
+            class="el-has-grey-chips el-multi-select-label"
+            for="test-static-id"
+            role="option"
+            tabindex="0"
+          >
+            London Estate Agent
+          </label>
+          <input
+            aria-checked="false"
+            aria-hidden="true"
+            class="mocked-styled-52 el-multi-select-checkbox"
+            id="test-static-id"
+            role="option"
+            type="checkbox"
+          />
+          <label
+            class="el-has-grey-chips el-multi-select-label"
+            for="test-static-id"
+            role="option"
+            tabindex="0"
+          >
+            Propertyfinder WhatsApp
+          </label>
+        </div>
+      </div>
       <p
-        class="el-text-base el-body-text el-has-bold-text el-has-section-margin"
+        class="mocked-styled-42 el-input-error"
       >
-        Provide information here relating to your Reapit organisation & office.
+        Error
       </p>
-      <div
-        class="el-fade-in el-form-layout"
-      >
-        <div
-          class="mocked-styled-135 el-input-wrap-full"
-        >
-          <div
-            class="el-mb3 el-input-group"
-          >
-            <input
-              aria-label="Input type undefined"
-              class="mocked-styled-38 el-input"
-              id="test-static-id"
-              placeholder="Search"
-            />
-            <span
-              class="el-icon-new el-icon"
-              style="font-size: 1rem;"
-            >
-              <svg
-                fill="none"
-                height="1em"
-                role="img"
-                style="font-size: 1rem;"
-                title="Icon image with name search"
-                viewBox="0 0 24 24"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="m21.71 20.29-5.4-5.39A7.9 7.9 0 0 0 18 10a8 8 0 1 0-8 8 7.9 7.9 0 0 0 4.9-1.69l5.39 5.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42M4 10a6 6 0 1 1 12 0 6 6 0 0 1-12 0"
-                  fill="currentColor"
-                />
-              </svg>
-            </span>
-            <label
-              class="mocked-styled-41 el-label"
-              for="test-static-id"
-            >
-              Source
-            </label>
-          </div>
-          <div
-            class="mocked-styled-58 el-multi-select-input-wrapper"
-          >
-            <input
-              class="mocked-styled-57 el-multi-select-input"
-              id="source-select"
-            />
-            <div
-              aria-label="Multi selected options"
-              class="mocked-styled-55 el-multi-select-selected"
-              role="listbox"
-            />
-            <div
-              aria-label="Multi unselected options"
-              class="mocked-styled-56 el-multi-select-un-selected"
-              role="listbox"
-            >
-              <input
-                aria-checked="false"
-                aria-hidden="true"
-                class="mocked-styled-52 el-multi-select-checkbox"
-                id="test-static-id"
-                role="option"
-                type="checkbox"
-              />
-              <label
-                class="el-has-grey-chips el-multi-select-label"
-                for="test-static-id"
-                role="option"
-                tabindex="0"
-              >
-                London Estate Agent
-              </label>
-              <input
-                aria-checked="false"
-                aria-hidden="true"
-                class="mocked-styled-52 el-multi-select-checkbox"
-                id="test-static-id"
-                role="option"
-                type="checkbox"
-              />
-              <label
-                class="el-has-grey-chips el-multi-select-label"
-                for="test-static-id"
-                role="option"
-                tabindex="0"
-              >
-                Propertyfinder WhatsApp
-              </label>
-            </div>
-          </div>
-          <p
-            class="mocked-styled-42 el-input-error"
-          >
-            Error
-          </p>
-        </div>
-        <div
-          class="mocked-styled-135 el-input-wrap-full"
-        >
-          <div
-            class="el-mb3 el-input-group"
-          >
-            <input
-              aria-label="Input type undefined"
-              class="mocked-styled-38 el-input"
-              id="test-static-id"
-              placeholder="Search"
-            />
-            <span
-              class="el-icon-new el-icon"
-              style="font-size: 1rem;"
-            >
-              <svg
-                fill="none"
-                height="1em"
-                role="img"
-                style="font-size: 1rem;"
-                title="Icon image with name search"
-                viewBox="0 0 24 24"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="m21.71 20.29-5.4-5.39A7.9 7.9 0 0 0 18 10a8 8 0 1 0-8 8 7.9 7.9 0 0 0 4.9-1.69l5.39 5.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42M4 10a6 6 0 1 1 12 0 6 6 0 0 1-12 0"
-                  fill="currentColor"
-                />
-              </svg>
-            </span>
-            <label
-              class="mocked-styled-41 el-label"
-              for="test-static-id"
-            >
-              Negotiators
-            </label>
-          </div>
-          <div
-            class="mocked-styled-58 el-multi-select-input-wrapper"
-          >
-            <input
-              class="mocked-styled-57 el-multi-select-input"
-              id="negotiators-select"
-            />
-            <div
-              aria-label="Multi selected options"
-              class="mocked-styled-55 el-multi-select-selected"
-              role="listbox"
-            />
-            <div
-              aria-label="Multi unselected options"
-              class="mocked-styled-56 el-multi-select-un-selected"
-              role="listbox"
-            >
-              <input
-                aria-checked="false"
-                aria-hidden="true"
-                class="mocked-styled-52 el-multi-select-checkbox"
-                id="test-static-id"
-                role="option"
-                type="checkbox"
-              />
-              <label
-                class="el-has-grey-chips el-multi-select-label"
-                for="test-static-id"
-                role="option"
-                tabindex="0"
-              >
-                Mr Alfred Williamson
-              </label>
-              <input
-                aria-checked="false"
-                aria-hidden="true"
-                class="mocked-styled-52 el-multi-select-checkbox"
-                id="test-static-id"
-                role="option"
-                type="checkbox"
-              />
-              <label
-                class="el-has-grey-chips el-multi-select-label"
-                for="test-static-id"
-                role="option"
-                tabindex="0"
-              >
-                London Estate Agent
-              </label>
-            </div>
-          </div>
-          <p
-            class="mocked-styled-42 el-input-error"
-          >
-            Error
-          </p>
-        </div>
-        <div
-          class="mocked-styled-135 el-input-wrap-full"
-        >
-          <div
-            class="el-mb3 el-input-group"
-          >
-            <input
-              aria-label="Input type undefined"
-              class="mocked-styled-38 el-input"
-              id="test-static-id"
-              placeholder="Search"
-            />
-            <span
-              class="el-icon-new el-icon"
-              style="font-size: 1rem;"
-            >
-              <svg
-                fill="none"
-                height="1em"
-                role="img"
-                style="font-size: 1rem;"
-                title="Icon image with name search"
-                viewBox="0 0 24 24"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="m21.71 20.29-5.4-5.39A7.9 7.9 0 0 0 18 10a8 8 0 1 0-8 8 7.9 7.9 0 0 0 4.9-1.69l5.39 5.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42M4 10a6 6 0 1 1 12 0 6 6 0 0 1-12 0"
-                  fill="currentColor"
-                />
-              </svg>
-            </span>
-            <label
-              class="mocked-styled-41 el-label"
-              for="test-static-id"
-            >
-              Offices
-            </label>
-          </div>
-          <div
-            class="mocked-styled-58 el-multi-select-input-wrapper"
-          >
-            <input
-              class="mocked-styled-57 el-multi-select-input"
-              id="offices-select"
-            />
-            <div
-              aria-label="Multi selected options"
-              class="mocked-styled-55 el-multi-select-selected"
-              role="listbox"
-            />
-          </div>
-          <p
-            class="mocked-styled-42 el-input-error"
-          >
-            Error
-          </p>
-        </div>
-      </div>
     </div>
-  </body>,
-  "container": <div>
     <div
-      class="mocked-styled-93 el-snack-holder"
-    />
-    <p
-      class="el-text-base el-body-text el-has-bold-text el-has-section-margin"
-    >
-      Provide information here relating to your Reapit organisation & office.
-    </p>
-    <div
-      class="el-fade-in el-form-layout"
+      class="mocked-styled-135 el-input-wrap-full"
     >
       <div
-        class="mocked-styled-135 el-input-wrap-full"
+        class="el-mb3 el-input-group"
       >
-        <div
-          class="el-mb3 el-input-group"
+        <input
+          aria-label="Input type undefined"
+          class="mocked-styled-38 el-input"
+          id="test-static-id"
+          placeholder="Search"
+        />
+        <span
+          class="el-icon-new el-icon"
+          style="font-size: 1rem;"
         >
-          <input
-            aria-label="Input type undefined"
-            class="mocked-styled-38 el-input"
-            id="test-static-id"
-            placeholder="Search"
-          />
-          <span
-            class="el-icon-new el-icon"
+          <svg
+            fill="none"
+            height="1em"
+            role="img"
             style="font-size: 1rem;"
+            title="Icon image with name search"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              fill="none"
-              height="1em"
-              role="img"
-              style="font-size: 1rem;"
-              title="Icon image with name search"
-              viewBox="0 0 24 24"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="m21.71 20.29-5.4-5.39A7.9 7.9 0 0 0 18 10a8 8 0 1 0-8 8 7.9 7.9 0 0 0 4.9-1.69l5.39 5.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42M4 10a6 6 0 1 1 12 0 6 6 0 0 1-12 0"
-                fill="currentColor"
-              />
-            </svg>
-          </span>
-          <label
-            class="mocked-styled-41 el-label"
-            for="test-static-id"
-          >
-            Source
-          </label>
-        </div>
-        <div
-          class="mocked-styled-58 el-multi-select-input-wrapper"
-        >
-          <input
-            class="mocked-styled-57 el-multi-select-input"
-            id="source-select"
-          />
-          <div
-            aria-label="Multi selected options"
-            class="mocked-styled-55 el-multi-select-selected"
-            role="listbox"
-          />
-          <div
-            aria-label="Multi unselected options"
-            class="mocked-styled-56 el-multi-select-un-selected"
-            role="listbox"
-          >
-            <input
-              aria-checked="false"
-              aria-hidden="true"
-              class="mocked-styled-52 el-multi-select-checkbox"
-              id="test-static-id"
-              role="option"
-              type="checkbox"
+            <path
+              d="m21.71 20.29-5.4-5.39A7.9 7.9 0 0 0 18 10a8 8 0 1 0-8 8 7.9 7.9 0 0 0 4.9-1.69l5.39 5.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42M4 10a6 6 0 1 1 12 0 6 6 0 0 1-12 0"
+              fill="currentColor"
             />
-            <label
-              class="el-has-grey-chips el-multi-select-label"
-              for="test-static-id"
-              role="option"
-              tabindex="0"
-            >
-              London Estate Agent
-            </label>
-            <input
-              aria-checked="false"
-              aria-hidden="true"
-              class="mocked-styled-52 el-multi-select-checkbox"
-              id="test-static-id"
-              role="option"
-              type="checkbox"
-            />
-            <label
-              class="el-has-grey-chips el-multi-select-label"
-              for="test-static-id"
-              role="option"
-              tabindex="0"
-            >
-              Propertyfinder WhatsApp
-            </label>
-          </div>
-        </div>
-        <p
-          class="mocked-styled-42 el-input-error"
+          </svg>
+        </span>
+        <label
+          class="mocked-styled-41 el-label"
+          for="test-static-id"
         >
-          Error
-        </p>
+          Negotiators
+        </label>
       </div>
       <div
-        class="mocked-styled-135 el-input-wrap-full"
+        class="mocked-styled-58 el-multi-select-input-wrapper"
       >
+        <input
+          class="mocked-styled-57 el-multi-select-input"
+          id="negotiators-select"
+        />
         <div
-          class="el-mb3 el-input-group"
+          aria-label="Multi selected options"
+          class="mocked-styled-55 el-multi-select-selected"
+          role="listbox"
+        />
+        <div
+          aria-label="Multi unselected options"
+          class="mocked-styled-56 el-multi-select-un-selected"
+          role="listbox"
         >
           <input
-            aria-label="Input type undefined"
-            class="mocked-styled-38 el-input"
+            aria-checked="false"
+            aria-hidden="true"
+            class="mocked-styled-52 el-multi-select-checkbox"
             id="test-static-id"
-            placeholder="Search"
+            role="option"
+            type="checkbox"
           />
-          <span
-            class="el-icon-new el-icon"
-            style="font-size: 1rem;"
-          >
-            <svg
-              fill="none"
-              height="1em"
-              role="img"
-              style="font-size: 1rem;"
-              title="Icon image with name search"
-              viewBox="0 0 24 24"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="m21.71 20.29-5.4-5.39A7.9 7.9 0 0 0 18 10a8 8 0 1 0-8 8 7.9 7.9 0 0 0 4.9-1.69l5.39 5.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42M4 10a6 6 0 1 1 12 0 6 6 0 0 1-12 0"
-                fill="currentColor"
-              />
-            </svg>
-          </span>
           <label
-            class="mocked-styled-41 el-label"
+            class="el-has-grey-chips el-multi-select-label"
             for="test-static-id"
+            role="option"
+            tabindex="0"
           >
-            Negotiators
+            Mr Alfred Williamson
+          </label>
+          <input
+            aria-checked="false"
+            aria-hidden="true"
+            class="mocked-styled-52 el-multi-select-checkbox"
+            id="test-static-id"
+            role="option"
+            type="checkbox"
+          />
+          <label
+            class="el-has-grey-chips el-multi-select-label"
+            for="test-static-id"
+            role="option"
+            tabindex="0"
+          >
+            London Estate Agent
           </label>
         </div>
-        <div
-          class="mocked-styled-58 el-multi-select-input-wrapper"
-        >
-          <input
-            class="mocked-styled-57 el-multi-select-input"
-            id="negotiators-select"
-          />
-          <div
-            aria-label="Multi selected options"
-            class="mocked-styled-55 el-multi-select-selected"
-            role="listbox"
-          />
-          <div
-            aria-label="Multi unselected options"
-            class="mocked-styled-56 el-multi-select-un-selected"
-            role="listbox"
-          >
-            <input
-              aria-checked="false"
-              aria-hidden="true"
-              class="mocked-styled-52 el-multi-select-checkbox"
-              id="test-static-id"
-              role="option"
-              type="checkbox"
-            />
-            <label
-              class="el-has-grey-chips el-multi-select-label"
-              for="test-static-id"
-              role="option"
-              tabindex="0"
-            >
-              Mr Alfred Williamson
-            </label>
-            <input
-              aria-checked="false"
-              aria-hidden="true"
-              class="mocked-styled-52 el-multi-select-checkbox"
-              id="test-static-id"
-              role="option"
-              type="checkbox"
-            />
-            <label
-              class="el-has-grey-chips el-multi-select-label"
-              for="test-static-id"
-              role="option"
-              tabindex="0"
-            >
-              London Estate Agent
-            </label>
-          </div>
-        </div>
-        <p
-          class="mocked-styled-42 el-input-error"
-        >
-          Error
-        </p>
       </div>
-      <div
-        class="mocked-styled-135 el-input-wrap-full"
+      <p
+        class="mocked-styled-42 el-input-error"
       >
-        <div
-          class="el-mb3 el-input-group"
-        >
-          <input
-            aria-label="Input type undefined"
-            class="mocked-styled-38 el-input"
-            id="test-static-id"
-            placeholder="Search"
-          />
-          <span
-            class="el-icon-new el-icon"
-            style="font-size: 1rem;"
-          >
-            <svg
-              fill="none"
-              height="1em"
-              role="img"
-              style="font-size: 1rem;"
-              title="Icon image with name search"
-              viewBox="0 0 24 24"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="m21.71 20.29-5.4-5.39A7.9 7.9 0 0 0 18 10a8 8 0 1 0-8 8 7.9 7.9 0 0 0 4.9-1.69l5.39 5.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42M4 10a6 6 0 1 1 12 0 6 6 0 0 1-12 0"
-                fill="currentColor"
-              />
-            </svg>
-          </span>
-          <label
-            class="mocked-styled-41 el-label"
-            for="test-static-id"
-          >
-            Offices
-          </label>
-        </div>
-        <div
-          class="mocked-styled-58 el-multi-select-input-wrapper"
-        >
-          <input
-            class="mocked-styled-57 el-multi-select-input"
-            id="offices-select"
-          />
-          <div
-            aria-label="Multi selected options"
-            class="mocked-styled-55 el-multi-select-selected"
-            role="listbox"
-          />
-        </div>
-        <p
-          class="mocked-styled-42 el-input-error"
-        >
-          Error
-        </p>
-      </div>
+        Error
+      </p>
     </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
+    <div
+      class="mocked-styled-135 el-input-wrap-full"
+    >
+      <div
+        class="el-mb3 el-input-group"
+      >
+        <input
+          aria-label="Input type undefined"
+          class="mocked-styled-38 el-input"
+          id="test-static-id"
+          placeholder="Search"
+        />
+        <span
+          class="el-icon-new el-icon"
+          style="font-size: 1rem;"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            role="img"
+            style="font-size: 1rem;"
+            title="Icon image with name search"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m21.71 20.29-5.4-5.39A7.9 7.9 0 0 0 18 10a8 8 0 1 0-8 8 7.9 7.9 0 0 0 4.9-1.69l5.39 5.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42M4 10a6 6 0 1 1 12 0 6 6 0 0 1-12 0"
+              fill="currentColor"
+            />
+          </svg>
+        </span>
+        <label
+          class="mocked-styled-41 el-label"
+          for="test-static-id"
+        >
+          Offices
+        </label>
+      </div>
+      <div
+        class="mocked-styled-58 el-multi-select-input-wrapper"
+      >
+        <input
+          class="mocked-styled-57 el-multi-select-input"
+          id="offices-select"
+        />
+        <div
+          aria-label="Multi selected options"
+          class="mocked-styled-55 el-multi-select-selected"
+          role="listbox"
+        />
+      </div>
+      <p
+        class="mocked-styled-42 el-input-error"
+      >
+        Error
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
 `;

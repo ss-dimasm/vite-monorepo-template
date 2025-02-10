@@ -4,6 +4,6 @@ import { ContactQuickView } from '../contact-quick-view'
 
 describe('ContactQuickView', () => {
   it('should match a snapshot with data', () => {
-    expect(render(<ContactQuickView contact={mockContactModel} />)).toMatchSnapshot()
+    expect(render(<ContactQuickView contact={mockContactModel} />).asFragment()).toMatchSnapshot()
   })
 })

@@ -3,6 +3,6 @@ import { render } from '../../../../scripts/tests'
 
 describe('NewPage', () => {
   it('should match a snapshot', () => {
-    expect(render(<NewPage />)).toMatchSnapshot()
+    expect(render(<NewPage />).asFragment()).toMatchSnapshot()
   })
 })

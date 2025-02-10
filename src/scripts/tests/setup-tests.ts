@@ -1,10 +1,11 @@
-import '@testing-library/jest-dom'
-import fetchMock from 'jest-fetch-mock'
-import 'jest-location-mock'
+import '@testing-library/jest-dom/vitest'
+import { vi } from 'vitest' // Use vi from Vitest instead of jest
 import MockDate from 'mockdate'
 
+// Mock the Date globally
 MockDate.set(new Date('2023-01-01'))
 
+// Mock environment variables for tests
 Object.defineProperty(process, 'env', {
   value: {
     CONNECT_CLIENT_ID: 'MOCK_ID',
@@ -15,4 +16,10 @@ Object.defineProperty(process, 'env', {
   },
 })
 
-fetchMock.enableMocks()
+// Enable fetch mocks using Vitest's fetch mock system
+vi.mock('node-fetch', async () => {
+  const { Response } = await import('node-fetch')
+  return {
+    default: vi.fn().mockResolvedValue(new Response('{}')),
+  }
+})
