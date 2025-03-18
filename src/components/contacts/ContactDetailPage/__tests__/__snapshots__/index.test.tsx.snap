@@ -1,0 +1,720 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ContactDetailPage > should match a snapshot when loading 1`] = `
+<DocumentFragment>
+  <div
+    class="mocked-styled-93 el-snack-holder"
+  />
+  <div
+    class="el-flex-container el-flex-auto"
+  >
+    <section
+      class="el-page-container el-has-grey-background"
+    >
+      <div
+        class="mocked-styled-178 el-page-header-wrap"
+      >
+        <div
+          class="el-page-header-max-width el-page-header-wrap-inner"
+        >
+          <div
+            class="mocked-styled-175 el-page-header-container"
+          >
+            <div
+              class="mocked-styled-175 el-page-header-container"
+            >
+              <div
+                class="el-flex-container el-flex-column"
+              >
+                <div
+                  class="mocked-styled-176 el-page-header-title-container"
+                >
+                  <h1
+                    class="el-text-base el-text2xl el-has-bold-text el-mr3"
+                  >
+                    Unknown
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div
+              class="mocked-styled-2 el-button-group"
+            >
+              <div
+                class="mocked-styled-3 el-button-group-inner"
+              >
+                <button
+                  class="el-button-size-small el-intent-neutral el-button"
+                >
+                  <div
+                    class="mocked-styled-0 el-button-loader"
+                  />
+                  Back To List
+                </button>
+                <button
+                  class="el-button-size-small el-intent-primary el-button"
+                >
+                  <div
+                    class="mocked-styled-0 el-button-loader"
+                  />
+                  New Contact
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="mocked-styled-119 el-tabs-wrap"
+          >
+            <div
+              class="mocked-styled-120 el-tabs-options-wrap"
+              role="tablist"
+            >
+              <input
+                aria-selected="false"
+                class="mocked-styled-117 el-tabs"
+                id="overview"
+                name="app-edit-tabs"
+                type="radio"
+                value="overview"
+              />
+              <label
+                class="mocked-styled-118 el-tabs-label"
+                for="overview"
+                role="tab"
+                tabindex="0"
+              >
+                <span
+                  class="el-tabs-item"
+                >
+                  Overview
+                </span>
+              </label>
+              <input
+                aria-selected="false"
+                class="mocked-styled-117 el-tabs"
+                id="personal"
+                name="app-edit-tabs"
+                type="radio"
+                value="personal"
+              />
+              <label
+                class="mocked-styled-118 el-tabs-label"
+                for="personal"
+                role="tab"
+                tabindex="0"
+              >
+                <span
+                  class="el-tabs-item"
+                >
+                  Personal
+                </span>
+              </label>
+              <input
+                aria-selected="false"
+                class="mocked-styled-117 el-tabs"
+                id="communications"
+                name="app-edit-tabs"
+                type="radio"
+                value="communications"
+              />
+              <label
+                class="mocked-styled-118 el-tabs-label"
+                for="communications"
+                role="tab"
+                tabindex="0"
+              >
+                <span
+                  class="el-tabs-item"
+                >
+                  Communications
+                </span>
+              </label>
+              <input
+                aria-selected="false"
+                class="mocked-styled-117 el-tabs"
+                id="addresses"
+                name="app-edit-tabs"
+                type="radio"
+                value="addresses"
+              />
+              <label
+                class="mocked-styled-118 el-tabs-label"
+                for="addresses"
+                role="tab"
+                tabindex="0"
+              >
+                <span
+                  class="el-tabs-item"
+                >
+                  Addresses
+                </span>
+              </label>
+              <input
+                aria-selected="false"
+                class="mocked-styled-117 el-tabs"
+                id="office"
+                name="app-edit-tabs"
+                type="radio"
+                value="office"
+              />
+              <label
+                class="mocked-styled-118 el-tabs-label"
+                for="office"
+                role="tab"
+                tabindex="0"
+              >
+                <span
+                  class="el-tabs-item"
+                >
+                  Office Details
+                </span>
+              </label>
+            </div>
+            <div
+              class="el-tabs-has-no-border el-tabs-footer"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="el-flex-container el-flex-column el-has-max-width"
+      >
+        <div
+          class="mocked-styled-172 el-tile"
+        >
+          <div
+            class="mocked-styled-44 el-loader-container"
+          >
+            <div
+              class="mocked-styled-46 el-loader"
+            >
+              <div
+                class="mocked-styled-47 el-loader-moving-bar"
+              />
+            </div>
+          </div>
+          <form>
+            <div
+              class="el-mb7"
+            />
+            <div
+              class="mocked-styled-2 el-button-group"
+            >
+              <div
+                class="el-button-group-align-left el-button-group-inner"
+              >
+                <button
+                  class="el-intent-primary el-button"
+                  disabled=""
+                  type="button"
+                >
+                  <div
+                    class="mocked-styled-0 el-button-loader"
+                  />
+                  Update
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ContactDetailPage > should match a snapshot when not loading but no contact 1`] = `
+<DocumentFragment>
+  <div
+    class="mocked-styled-93 el-snack-holder"
+  />
+  <div
+    class="el-flex-container el-flex-auto"
+  >
+    <section
+      class="el-page-container el-has-grey-background"
+    >
+      <div
+        class="mocked-styled-178 el-page-header-wrap"
+      >
+        <div
+          class="el-page-header-max-width el-page-header-wrap-inner"
+        >
+          <div
+            class="mocked-styled-175 el-page-header-container"
+          >
+            <div
+              class="mocked-styled-175 el-page-header-container"
+            >
+              <div
+                class="el-flex-container el-flex-column"
+              >
+                <div
+                  class="mocked-styled-176 el-page-header-title-container"
+                >
+                  <h1
+                    class="el-text-base el-text2xl el-has-bold-text el-mr3"
+                  >
+                    Unknown
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div
+              class="mocked-styled-2 el-button-group"
+            >
+              <div
+                class="mocked-styled-3 el-button-group-inner"
+              >
+                <button
+                  class="el-button-size-small el-intent-neutral el-button"
+                >
+                  <div
+                    class="mocked-styled-0 el-button-loader"
+                  />
+                  Back To List
+                </button>
+                <button
+                  class="el-button-size-small el-intent-primary el-button"
+                >
+                  <div
+                    class="mocked-styled-0 el-button-loader"
+                  />
+                  New Contact
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="mocked-styled-119 el-tabs-wrap"
+          >
+            <div
+              class="mocked-styled-120 el-tabs-options-wrap"
+              role="tablist"
+            >
+              <input
+                aria-selected="false"
+                class="mocked-styled-117 el-tabs"
+                id="overview"
+                name="app-edit-tabs"
+                type="radio"
+                value="overview"
+              />
+              <label
+                class="mocked-styled-118 el-tabs-label"
+                for="overview"
+                role="tab"
+                tabindex="0"
+              >
+                <span
+                  class="el-tabs-item"
+                >
+                  Overview
+                </span>
+              </label>
+              <input
+                aria-selected="false"
+                class="mocked-styled-117 el-tabs"
+                id="personal"
+                name="app-edit-tabs"
+                type="radio"
+                value="personal"
+              />
+              <label
+                class="mocked-styled-118 el-tabs-label"
+                for="personal"
+                role="tab"
+                tabindex="0"
+              >
+                <span
+                  class="el-tabs-item"
+                >
+                  Personal
+                </span>
+              </label>
+              <input
+                aria-selected="false"
+                class="mocked-styled-117 el-tabs"
+                id="communications"
+                name="app-edit-tabs"
+                type="radio"
+                value="communications"
+              />
+              <label
+                class="mocked-styled-118 el-tabs-label"
+                for="communications"
+                role="tab"
+                tabindex="0"
+              >
+                <span
+                  class="el-tabs-item"
+                >
+                  Communications
+                </span>
+              </label>
+              <input
+                aria-selected="false"
+                class="mocked-styled-117 el-tabs"
+                id="addresses"
+                name="app-edit-tabs"
+                type="radio"
+                value="addresses"
+              />
+              <label
+                class="mocked-styled-118 el-tabs-label"
+                for="addresses"
+                role="tab"
+                tabindex="0"
+              >
+                <span
+                  class="el-tabs-item"
+                >
+                  Addresses
+                </span>
+              </label>
+              <input
+                aria-selected="false"
+                class="mocked-styled-117 el-tabs"
+                id="office"
+                name="app-edit-tabs"
+                type="radio"
+                value="office"
+              />
+              <label
+                class="mocked-styled-118 el-tabs-label"
+                for="office"
+                role="tab"
+                tabindex="0"
+              >
+                <span
+                  class="el-tabs-item"
+                >
+                  Office Details
+                </span>
+              </label>
+            </div>
+            <div
+              class="el-tabs-has-no-border el-tabs-footer"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="el-flex-container el-flex-column el-has-max-width"
+      >
+        <div
+          class="mocked-styled-172 el-tile"
+        >
+          <form>
+            <div
+              class="el-mb7"
+            />
+            <div
+              class="mocked-styled-2 el-button-group"
+            >
+              <div
+                class="el-button-group-align-left el-button-group-inner"
+              >
+                <button
+                  class="el-intent-primary el-button"
+                  disabled=""
+                  type="button"
+                >
+                  <div
+                    class="mocked-styled-0 el-button-loader"
+                  />
+                  Update
+                </button>
+              </div>
+            </div>
+          </form>
+          <div
+            class="el-intent-primary el-is-active el-pn-is-full-width el-pn-is-inline el-persistent-notification"
+            role="status"
+          >
+            <div
+              class="el-pn-icon"
+              data-testid="close-icon"
+            >
+              <span
+                class="el-icon-new el-icon"
+                style="font-size: 1.25rem;"
+              >
+                <svg
+                  fill="none"
+                  height="1em"
+                  role="img"
+                  style="font-size: 1.25rem;"
+                  title="Icon image with name info"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10A10 10 0 0 0 12 2m1.143 15.714h-2.286v-6h2.286zm-1.143-8a1.714 1.714 0 1 1 0-3.428 1.714 1.714 0 0 1 0 3.428"
+                    fill="currentColor"
+                  />
+                </svg>
+              </span>
+            </div>
+            <div
+              aria-live="polite"
+              class="el-pn-content"
+            >
+              Contact not found
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ContactDetailPage > should match a snapshot with data 1`] = `
+<DocumentFragment>
+  <div
+    class="mocked-styled-93 el-snack-holder"
+  />
+  <div
+    class="el-flex-container el-flex-auto"
+  >
+    <section
+      class="el-page-container el-has-grey-background"
+    >
+      <div
+        class="mocked-styled-178 el-page-header-wrap"
+      >
+        <div
+          class="el-page-header-max-width el-page-header-wrap-inner"
+        >
+          <div
+            class="mocked-styled-175 el-page-header-container"
+          >
+            <div
+              class="mocked-styled-175 el-page-header-container"
+            >
+              <div
+                class="el-flex-container el-flex-column"
+              >
+                <div
+                  class="mocked-styled-176 el-page-header-title-container"
+                >
+                  <h1
+                    class="el-text-base el-text2xl el-has-bold-text el-mr3"
+                  >
+                    Mr Foo Bar
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div
+              class="mocked-styled-2 el-button-group"
+            >
+              <div
+                class="mocked-styled-3 el-button-group-inner"
+              >
+                <button
+                  class="el-button-size-small el-intent-neutral el-button"
+                >
+                  <div
+                    class="mocked-styled-0 el-button-loader"
+                  />
+                  Back To List
+                </button>
+                <button
+                  class="el-button-size-small el-intent-primary el-button"
+                >
+                  <div
+                    class="mocked-styled-0 el-button-loader"
+                  />
+                  New Contact
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="mocked-styled-119 el-tabs-wrap"
+          >
+            <div
+              class="mocked-styled-120 el-tabs-options-wrap"
+              role="tablist"
+            >
+              <input
+                aria-selected="false"
+                class="mocked-styled-117 el-tabs"
+                id="overview"
+                name="app-edit-tabs"
+                type="radio"
+                value="overview"
+              />
+              <label
+                class="mocked-styled-118 el-tabs-label"
+                for="overview"
+                role="tab"
+                tabindex="0"
+              >
+                <span
+                  class="el-tabs-item"
+                >
+                  Overview
+                </span>
+              </label>
+              <input
+                aria-selected="false"
+                class="mocked-styled-117 el-tabs"
+                id="personal"
+                name="app-edit-tabs"
+                type="radio"
+                value="personal"
+              />
+              <label
+                class="mocked-styled-118 el-tabs-label"
+                for="personal"
+                role="tab"
+                tabindex="0"
+              >
+                <span
+                  class="el-tabs-item"
+                >
+                  Personal
+                </span>
+              </label>
+              <input
+                aria-selected="false"
+                class="mocked-styled-117 el-tabs"
+                id="communications"
+                name="app-edit-tabs"
+                type="radio"
+                value="communications"
+              />
+              <label
+                class="mocked-styled-118 el-tabs-label"
+                for="communications"
+                role="tab"
+                tabindex="0"
+              >
+                <span
+                  class="el-tabs-item"
+                >
+                  Communications
+                </span>
+              </label>
+              <input
+                aria-selected="false"
+                class="mocked-styled-117 el-tabs"
+                id="addresses"
+                name="app-edit-tabs"
+                type="radio"
+                value="addresses"
+              />
+              <label
+                class="mocked-styled-118 el-tabs-label"
+                for="addresses"
+                role="tab"
+                tabindex="0"
+              >
+                <span
+                  class="el-tabs-item"
+                >
+                  Addresses
+                </span>
+              </label>
+              <input
+                aria-selected="false"
+                class="mocked-styled-117 el-tabs"
+                id="office"
+                name="app-edit-tabs"
+                type="radio"
+                value="office"
+              />
+              <label
+                class="mocked-styled-118 el-tabs-label"
+                for="office"
+                role="tab"
+                tabindex="0"
+              >
+                <span
+                  class="el-tabs-item"
+                >
+                  Office Details
+                </span>
+              </label>
+            </div>
+            <div
+              class="el-tabs-has-no-border el-tabs-footer"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="el-flex-container el-flex-column el-has-max-width"
+      >
+        <div
+          class="mocked-styled-172 el-tile"
+        >
+          <form>
+            <div
+              class="el-mb7"
+            />
+            <div
+              class="el-mb7 el-intent-danger el-is-active el-pn-is-full-width el-pn-is-inline el-persistent-notification"
+              role="status"
+            >
+              <div
+                class="el-pn-icon"
+                data-testid="close-icon"
+              >
+                <span
+                  class="el-icon-new el-icon"
+                  style="font-size: 1.25rem;"
+                >
+                  <svg
+                    fill="none"
+                    height="1em"
+                    role="img"
+                    style="font-size: 1.25rem;"
+                    title="Icon image with name info"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10A10 10 0 0 0 12 2m1.143 15.714h-2.286v-6h2.286zm-1.143-8a1.714 1.714 0 1 1 0-3.428 1.714 1.714 0 0 1 0 3.428"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <div
+                aria-live="polite"
+                class="el-pn-content"
+              >
+                There are one or more errors in the form that are preventing you from saving the contact. Please check each section to proceeed.
+              </div>
+            </div>
+            <div
+              class="mocked-styled-2 el-button-group"
+            >
+              <div
+                class="el-button-group-align-left el-button-group-inner"
+              >
+                <button
+                  class="el-intent-primary el-button"
+                  disabled=""
+                  type="button"
+                >
+                  <div
+                    class="mocked-styled-0 el-button-loader"
+                  />
+                  Update
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+</DocumentFragment>
+`;

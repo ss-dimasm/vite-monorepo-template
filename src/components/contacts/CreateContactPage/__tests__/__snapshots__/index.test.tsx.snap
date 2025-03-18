@@ -1,0 +1,237 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CreateContactPage > should match a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="mocked-styled-93 el-snack-holder"
+  />
+  <div
+    class="mocked-styled-178 el-page-header-wrap"
+  >
+    <div
+      class="el-page-header-max-width el-page-header-wrap-inner"
+    >
+      <div
+        class="mocked-styled-175 el-page-header-container"
+      >
+        <div
+          class="mocked-styled-175 el-page-header-container"
+        >
+          <div
+            class="el-flex-container el-flex-column"
+          >
+            <div
+              class="mocked-styled-176 el-page-header-title-container"
+            >
+              <h1
+                class="el-text-base el-text2xl el-has-bold-text el-mr3"
+              >
+                New Contact
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div
+          class="mocked-styled-2 el-button-group"
+        >
+          <div
+            class="mocked-styled-3 el-button-group-inner"
+          >
+            <button
+              class="el-mb5 el-button-size-small el-intent-neutral el-button"
+            >
+              <div
+                class="mocked-styled-0 el-button-loader"
+              />
+              Back To List
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="el-flex-container el-flex-column el-has-max-width"
+  >
+    <div
+      class="mocked-styled-172 el-tile"
+    >
+      <form>
+        <div
+          class="mocked-styled-97 el-steps-vertical"
+        >
+          <div
+            class="mocked-styled-98 el-step-vertical"
+          >
+            <div
+              class="mocked-styled-99 el-step-vertical-item"
+            >
+              <div
+                class="el-is-active el-step"
+                data-testid="step-0"
+                role="button"
+                tabindex="0"
+              >
+                1
+              </div>
+            </div>
+            <div
+              class="mocked-styled-100 el-step-vertical-content"
+            >
+              <p
+                class="el-text-base el-body-text el-has-bold-text el-has-section-margin"
+              >
+                Provide us with some basic personal information about your contact.
+              </p>
+              <div
+                class="el-fade-in el-form-layout"
+              >
+                <div
+                  class="mocked-styled-133 el-input-wrap"
+                >
+                  <div
+                    class="mocked-styled-40 el-input-group"
+                  >
+                    <select
+                      aria-label="Select an item from the dropdown list"
+                      class="mocked-styled-83 el-select"
+                      name="title"
+                    >
+                      <option
+                        value=""
+                      >
+                        None selected
+                      </option>
+                      <option
+                        value="Mr"
+                      >
+                        Mr
+                      </option>
+                      <option
+                        value="Mrs"
+                      >
+                        Mrs
+                      </option>
+                      <option
+                        value="Ms"
+                      >
+                        Ms
+                      </option>
+                      <option
+                        value="Miss"
+                      >
+                        Miss
+                      </option>
+                      <option
+                        value="Mx"
+                      >
+                        Mx
+                      </option>
+                      <option
+                        value="Dr"
+                      >
+                        Dr
+                      </option>
+                      <option
+                        value="Prof"
+                      >
+                        Prof
+                      </option>
+                    </select>
+                    <label
+                      class="mocked-styled-41 el-label"
+                    >
+                      Please select a title
+                    </label>
+                  </div>
+                </div>
+                <div
+                  class="mocked-styled-133 el-input-wrap"
+                >
+                  <div
+                    class="mocked-styled-40 el-input-group"
+                  >
+                    <input
+                      aria-label="Input type undefined"
+                      class="mocked-styled-38 el-input"
+                      id="test-static-id"
+                      name="forename"
+                      placeholder="Please enter a first name"
+                    />
+                    <label
+                      class="mocked-styled-41 el-label"
+                      for="test-static-id"
+                    >
+                      First Name
+                    </label>
+                  </div>
+                </div>
+                <div
+                  class="mocked-styled-133 el-input-wrap"
+                >
+                  <div
+                    class="mocked-styled-40 el-input-group"
+                  >
+                    <input
+                      aria-label="Input type undefined"
+                      class="mocked-styled-38 el-input"
+                      id="test-static-id"
+                      name="surname"
+                      placeholder="Please enter a surname"
+                    />
+                    <label
+                      class="mocked-styled-41 el-label"
+                      for="test-static-id"
+                    >
+                      Surname
+                    </label>
+                  </div>
+                </div>
+                <div
+                  class="mocked-styled-133 el-input-wrap"
+                >
+                  <div
+                    class="mocked-styled-40 el-input-group"
+                  >
+                    <input
+                      aria-label="Input type date format dd/mm/yyy max date of 2023-01-01"
+                      class="mocked-styled-38 el-input"
+                      id="test-static-id"
+                      max="2023-01-01"
+                      name="dateOfBirth"
+                      type="date"
+                    />
+                    <label
+                      class="mocked-styled-41 el-label"
+                      for="test-static-id"
+                    >
+                      Date of birth
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="el-mb8 el-ml8 el-button-group"
+        >
+          <div
+            class="el-button-group-align-left el-button-group-inner"
+          >
+            <button
+              class="el-intent-primary el-button"
+              type="button"
+            >
+              <div
+                class="mocked-styled-0 el-button-loader"
+              />
+              Next
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;

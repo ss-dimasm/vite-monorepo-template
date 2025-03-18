@@ -1,11 +1,11 @@
-import { FC, PropsWithChildren, Suspense } from 'react'
+import { Suspense } from 'react'
 import { useReapitConnect } from '@reapit/connect-session'
 import { Nav } from './nav'
 import { reapitConnectBrowserSession } from './connect-session'
-import { useLocation, redirect } from 'react-router'
+import { Outlet, useLocation, Navigate } from 'react-router-dom'
 import { Loader, MainContainer, PageContainer } from '@reapit/elements'
 
-export const PrivateRouteWrapper: FC<PropsWithChildren> = ({ children }) => {
+export const PrivateRouteWrapper = () => {
   const { connectSession, connectInternalRedirect } = useReapitConnect(reapitConnectBrowserSession)
   const location = useLocation()
 
@@ -20,13 +20,15 @@ export const PrivateRouteWrapper: FC<PropsWithChildren> = ({ children }) => {
   }
 
   if (connectInternalRedirect && location?.pathname !== connectInternalRedirect) {
-    redirect(connectInternalRedirect)
+    return <Navigate to={connectInternalRedirect} replace />
   }
 
   return (
     <MainContainer hasGreyBackground>
       <Nav />
-      <Suspense fallback={<Loader fullPage />}>{children}</Suspense>
+      <Suspense fallback={<Loader fullPage />}>
+        <Outlet />
+      </Suspense>
     </MainContainer>
   )
 }

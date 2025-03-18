@@ -1,8 +1,8 @@
-import { render } from '@testing-library/react'
+import { render, screen } from '@testing-library/react'
 import { useReapitConnect } from '@reapit/connect-session'
 import { MediaStateProvider, NavStateProvider, SnackProvider } from '@reapit/elements'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
-import { MemoryRouter, redirect, Route, Routes } from 'react-router'
+import { MemoryRouter, Route, Routes } from 'react-router'
 import { PrivateRouteWrapper } from '../private-route-wrapper'
 import { Mock } from 'vitest'
 
@@ -35,6 +35,7 @@ const createWrapper = (children) => {
             <MemoryRouter>
               <Routes>
                 <Route path="/" element={children} />
+                <Route path="/foo" element="Foo" />
               </Routes>
             </MemoryRouter>
           </NavStateProvider>
@@ -46,28 +47,12 @@ const createWrapper = (children) => {
 
 describe('PrivateRouteWrapper', () => {
   it('should match a snapshot', () => {
-    expect(
-      render(
-        createWrapper(
-          <PrivateRouteWrapper>
-            <div />
-          </PrivateRouteWrapper>,
-        ),
-      ),
-    ).toMatchSnapshot()
+    expect(render(createWrapper(<PrivateRouteWrapper />))).toMatchSnapshot()
   })
 
   it('should match a snapshot where there is no session', () => {
     mockUseReapitConnect.mockReturnValueOnce({})
-    expect(
-      render(
-        createWrapper(
-          <PrivateRouteWrapper>
-            <div />
-          </PrivateRouteWrapper>,
-        ),
-      ),
-    ).toMatchSnapshot()
+    expect(render(createWrapper(<PrivateRouteWrapper />))).toMatchSnapshot()
   })
 
   it('should redirect if required', () => {
@@ -78,14 +63,8 @@ describe('PrivateRouteWrapper', () => {
       },
     })
 
-    render(
-      createWrapper(
-        <PrivateRouteWrapper>
-          <div />
-        </PrivateRouteWrapper>,
-      ),
-    )
+    render(createWrapper(<PrivateRouteWrapper />))
 
-    expect(redirect).toHaveBeenCalledWith('/foo')
+    expect(screen.getByText('Foo')).toBeInTheDocument()
   })
 })

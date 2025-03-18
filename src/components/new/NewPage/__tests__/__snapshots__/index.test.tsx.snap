@@ -1,0 +1,64 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`NewPage > should match a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="mocked-styled-93 el-snack-holder"
+  />
+  <div
+    class="el-flex-container el-flex-auto"
+  >
+    <section
+      class="el-page-container el-has-grey-background"
+    >
+      <div
+        class="mocked-styled-178 el-page-header-wrap"
+      >
+        <div
+          class="el-page-header-max-width el-page-header-wrap-inner"
+        >
+          <div
+            class="mocked-styled-175 el-page-header-container"
+          >
+            <div
+              class="mocked-styled-175 el-page-header-container"
+            >
+              <div
+                class="el-flex-container el-flex-column"
+              >
+                <div
+                  class="mocked-styled-176 el-page-header-title-container"
+                >
+                  <h1
+                    class="el-text-base el-text2xl el-has-bold-text el-mr3"
+                  >
+                    New Page
+                  </h1>
+                </div>
+                <h2
+                  class="el-text-base el-text-l el-has-bold-text"
+                >
+                  This is a new page - add your content here
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="el-flex-container el-flex-column el-has-max-width"
+      >
+        <div
+          class="mocked-styled-172 el-tile"
+        >
+          <div
+            class="el-text-base"
+          >
+            Some body content here
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</DocumentFragment>
+`;

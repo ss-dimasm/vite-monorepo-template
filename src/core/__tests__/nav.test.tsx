@@ -1,5 +1,4 @@
 import { Nav, getDefaultNavIndex } from '../nav'
-import { Routes } from '../../constants/routes'
 import { render } from '../../scripts/tests'
 
 vi.mock('@reapit/connect-session', () => ({
@@ -25,7 +24,7 @@ describe('Nav', () => {
 describe('getDefaultNavIndex', () => {
   const routes = [
     {
-      route: Routes.CONTACTS,
+      route: '/contacts',
       index: 1,
     },
     {

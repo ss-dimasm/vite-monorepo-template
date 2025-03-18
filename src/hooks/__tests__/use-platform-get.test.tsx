@@ -1,5 +1,5 @@
 import { PropsWithChildren } from 'react'
-import { renderHook } from '@testing-library/react'
+import { renderHook, waitFor } from '@testing-library/react'
 import axios, { AxiosError } from 'axios'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { PlatformGet, handleError, handleSuccess, usePlatformGet } from '../use-platform-get'
@@ -137,9 +137,7 @@ describe('usePlatformGet', () => {
     expect(result.current[0]).toBeNull()
     expect(result.current[1]).toBe(true)
 
-    await new Promise((resolve) => setTimeout(resolve, 2))
-
-    expect(mockError).toHaveBeenCalled()
+    await waitFor(() => expect(mockError).toHaveBeenCalled())
 
     expect(result.current[0]).toBeNull()
     expect(result.current[1]).toEqual(false)

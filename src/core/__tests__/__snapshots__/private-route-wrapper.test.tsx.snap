@@ -263,7 +263,6 @@ exports[`PrivateRouteWrapper > should match a snapshot 1`] = `
             </span>
           </div>
         </nav>
-        <div />
       </main>
     </div>
   </body>,
@@ -526,7 +525,6 @@ exports[`PrivateRouteWrapper > should match a snapshot 1`] = `
           </span>
         </div>
       </nav>
-      <div />
     </main>
   </div>,
   "debug": [Function],

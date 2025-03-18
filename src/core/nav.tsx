@@ -2,18 +2,18 @@ import { FC } from 'react'
 import { useReapitConnect } from '@reapit/connect-session'
 import { reapitConnectBrowserSession } from './connect-session'
 import { Icon, NavResponsive, NavResponsiveOption } from '@reapit/elements'
-import { Routes } from '../constants/routes'
 import { useNavigate } from 'react-router'
 import { navigateRoute, openNewPage } from '../utils/navigate'
 import { getAvatarInitials } from '../utils/nav'
+import { buildContactListPageURL } from '../components/contacts/buildContactListPageURL'
+import { buildCreateContactPageURL } from '../components/contacts/buildCreateContactPageURL'
+import { buildNewPageURL } from '../components/new/buildNewPageURL'
 
 export const getDefaultNavIndex = (pathname: string) => {
   if (pathname.includes('contacts')) return 1
   if (pathname.includes('new-module')) return 2
   return 0
 }
-
-const { CONTACTS_LIST, CONTACTS_NEW } = Routes
 
 export const Nav: FC = () => {
   const { connectLogoutRedirect, connectIsDesktop, connectSession } = useReapitConnect(reapitConnectBrowserSession)
@@ -26,16 +26,16 @@ export const Nav: FC = () => {
     {
       itemIndex: 1,
       text: 'Contacts',
-      callback: navigateRoute(navigate, Routes.CONTACTS_LIST),
+      callback: navigateRoute(navigate, buildContactListPageURL()),
       subItems: [
         {
           itemIndex: 4,
-          callback: navigateRoute(navigate, CONTACTS_LIST),
+          callback: navigateRoute(navigate, buildContactListPageURL()),
           text: 'List',
         },
         {
           itemIndex: 5,
-          callback: navigateRoute(navigate, CONTACTS_NEW),
+          callback: navigateRoute(navigate, buildCreateContactPageURL()),
           text: 'New',
         },
       ],
@@ -43,7 +43,7 @@ export const Nav: FC = () => {
     {
       itemIndex: 2,
       text: 'New Page',
-      callback: navigateRoute(navigate, Routes.NEW_HOME),
+      callback: navigateRoute(navigate, buildNewPageURL()),
     },
   ]
 
