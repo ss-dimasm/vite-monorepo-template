@@ -18,7 +18,7 @@
     "inlineSources": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "types": ["vite/client", "vitest/globals", "vite-plugin-svgr/client"],
+    "types": ["vite/client", "vitest/globals", "vite-plugin-svgr/client",  "@testing-library/jest-dom"],
   },
   "exclude": ["**/public/**/*", "**/dist/**/*", ".yarn/**/*", "**/node_modules/**/*", "**/coverage/**/*"]
 }

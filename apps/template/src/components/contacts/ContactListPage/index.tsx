@@ -35,6 +35,8 @@ import { navigateRoute } from '../../../utils/navigate'
 import { ContactQuickView } from './contact-quick-view'
 import { buildCreateContactPageURL } from '../buildCreateContactPageURL'
 import { buildContactDetailPageURL } from '../buildContactDetailPageURL'
+import { SharedModuleBComponents } from '@shared/module-b'
+import { SharedModuleAComponents } from '@shared/module-a'
 
 export type ContactFilterValues = {
   name?: string
@@ -144,6 +146,8 @@ export const ContactListPage = () => {
           />
           <FlexContainer hasMaxWidth isFlexColumn>
             <Tile>
+              <SharedModuleAComponents.Foo />
+              <SharedModuleBComponents.Foo />
               <form>
                 <FormLayout className={elMb8}>
                   <InputWrap>

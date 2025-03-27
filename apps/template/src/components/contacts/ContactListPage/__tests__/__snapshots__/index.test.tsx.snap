@@ -62,6 +62,12 @@ exports[`ContactListPage > should match a snapshot when loading 1`] = `
         <div
           class="mocked-styled-172 el-tile"
         >
+          <div>
+            SharedModuleAComponentA
+          </div>
+          <div>
+            SharedModuleAComponentB
+          </div>
           <form>
             <div
               class="el-mb8 el-form-layout"
@@ -349,6 +355,12 @@ exports[`ContactListPage > should match a snapshot when not loading but no conta
         <div
           class="mocked-styled-172 el-tile"
         >
+          <div>
+            SharedModuleAComponentA
+          </div>
+          <div>
+            SharedModuleAComponentB
+          </div>
           <form>
             <div
               class="el-mb8 el-form-layout"
@@ -625,6 +637,12 @@ exports[`ContactListPage > should match a snapshot with data 1`] = `
         <div
           class="mocked-styled-172 el-tile"
         >
+          <div>
+            SharedModuleAComponentA
+          </div>
+          <div>
+            SharedModuleAComponentB
+          </div>
           <form>
             <div
               class="el-mb8 el-form-layout"

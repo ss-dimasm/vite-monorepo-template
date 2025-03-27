@@ -1,19 +1,17 @@
 {
-  "name": "foundations",
+  "name": "@shared/module-a",
   "version": "0.0.1",
   "type": "module",
   "private": true,
   "description": "Description",
-  "repository": {
-    "type": "git",
-    "url": "git+git@github.com:reapit/apps.git"
+  "main": "./src/index.tsx",
+  "scripts": {
+    "test": "vitest --watch --coverage=false",
+    "test:run": "vitest --silent --run --passWithNoTests",
+    "lint": "eslint --cache --ext=ts,tsx,js src",
+    "check": "tsc --noEmit --skipLibCheck",
+    "upgrade:deps": "yarn upgrade-interactive"
   },
-  "license": "MIT",
-  "author": "Author",
-  "workspaces": [
-    "apps/*",
-    "shareds/*"
-  ],
   "dependencies": {
     "@hookform/resolvers": "^4.1.0",
     "@linaria/core": "^6.2.0",
@@ -69,6 +67,5 @@
     "vite-plugin-svgr": "^4.3.0",
     "vite-tsconfig-paths": "^4.3.2",
     "vitest": "^3.0.5"
-  },
-  "packageManager": "yarn@4.6.0"
+  }
 }
