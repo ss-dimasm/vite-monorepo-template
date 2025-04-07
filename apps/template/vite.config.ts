@@ -63,7 +63,7 @@ export default defineConfig(({ mode }) => ({
     }),
     EnvironmentPlugin({
       APP_ENV: 'local',
-      CONNECT_CLIENT_ID: '',
+      CONNECT_CLIENT_ID: '3f8qkgtuv8eg0dvjpj1d4c7viq',
       CONNECT_USER_POOL_ID: 'eu-west-2_eQ7dreNzJ',
       CONNECT_OAUTH_URL: 'https://connect.reapit.cloud',
       PLATFORM_API_URL: 'https://platform.reapit.cloud',

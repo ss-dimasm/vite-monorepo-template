@@ -27,7 +27,7 @@
     "@reapit/connect-session": "^6.1.3",
     "@reapit/elements": "^4.3.2",
     "@reapit/foundations-ts-definitions": "^1.3.58",
-    "@shared/module-a": "workspace:shareds/module-a",
+    "@shared/foo-module-a": "workspace:shareds/foo-module",
     "@shared/module-b": "workspace:shareds/module-b",
     "@tanstack/react-query": "^5.66.3",
     "axios": "^1.7.9",

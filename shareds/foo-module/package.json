@@ -1,10 +1,10 @@
 {
-  "name": "@shared/module-a",
+  "name": "@shared/foo-module",
   "version": "0.0.1",
   "type": "module",
   "private": true,
   "description": "Description",
-  "main": "./src/index.tsx",
+  "main": "./src/index.ts",
   "scripts": {
     "test": "vitest --watch --coverage=false",
     "test:run": "vitest --silent --run --passWithNoTests",
